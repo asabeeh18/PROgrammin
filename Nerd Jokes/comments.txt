@@ -1,0 +1,1112 @@
+See also the related: "Who the fuck coded this shit?" refers to source control system to find the author "Oh, I did".
+permalink
+[–][deleted] 2 years ago
+[deleted]
+permalinkparent
+[–]inaneInTheMembrane 33 points 2 years ago
+To be fair, failing to return a value should be a type error in any reasonable language.
+permalinkparent
+[–][deleted] 2 years ago
+[deleted]
+permalinkparent
+[–][deleted] 10 points 2 years ago
+int getFfffUuuu()
+{
+int retVal=0;
+...
+...
+return trollALittleAndReturnValueOfFu(); //fffffffuuuuuuuuuuuu
+}
+Even better.
+permalinkparent
+[–]baflgraf 3 points 2 years ago
+you don't even need retVal lol
+permalinkparent
+[–][deleted] 2 years ago
+[deleted]
+permalinkparent
+[–][deleted] 3 points 2 years ago
+Ah. Never mind then :(.
+I want to code more, but I don't know where to begin because I can't code at a gov't job, and I have sooooooo much free time.
+permalinkparent
+[–]sgt_shizzles 7 points 2 years ago
+You know it's Java because the functions are 31 characters long. 
+permalinkparent
+[–]Benjaminrynti 1 point 2 years ago
+permalinkparent
+[–]klti 3 points 2 years ago
+One of my favorite PHP errors - write a getter, forget return, triggwer exception 10 class layers upwards.
+Also: "if ($foo = 'bar')" and wondering why it never enters the else...
+permalinkparent
+[–]tpa 8 points 2 years ago
+Several scripting languages (can you call them languages?) just return what ever is the default value. I think it was VBScript (the one used with e.g. excel) that required you to do the following:
+function foo
+begin
+    foo = 2
+end
+Instead of using return 2 you would assign the value to the name of the function.
+permalinkparent
+[–]goldfire 6 points 2 years ago
+In fact, I believe this is used in all versions of the Visual Basic language, not just the VBScript variant. It's even still present in VB.NET, though that language also has a proper return statement.
+permalinkparent
+[–]HuevoSplash 3 points 2 years ago
+He/she probably didn't remember coding the stuff in the first place or it was a test for you. We can hope at least.
+permalinkparent
+[–]bonestamp 8 points 2 years ago
+Or the manager was like, "Oh fuck, hopefully they don't look at the source control history and realize I have no idea what I'm doing."
+permalinkparent
+[–]TobiasMX 40 points 2 years ago
+permalinkparent
+[–]Kristler 8 points 2 years ago
+permalinkparent
+[–]CylonOven 19 points 2 years ago
+permalinkparent
+[–]PatAunces 9 points 2 years ago
+permalinkparent
+[–]Kristler 5 points 2 years ago
+permalinkparent
+[–]Lampjaw 3 points 2 years ago
+permalinkparent
+[–]Kristler 4 points 2 years ago
+permalinkparent
+[–]PatAunces 4 points 2 years ago
+permalinkparent
+[–][deleted] 2 years ago
+[deleted]
+permalinkparent
+[–]okmkz 0 points 2 years ago
+permalinkparent
+continue this thread
+[–]yuki-N 13 points 2 years ago
+Also relevant: source control comments such as 'fixed shit' and 'made things work'.
+permalinkparent
+[–]colinhect 25 points 2 years ago
+Also:
+i++; // Increment i by 1.
+permalinkparent
+[–]darkplumb90 4 points 2 years ago
+permalinkparent
+[–]imMute 2 points 2 years ago
+Looking at the git log for a project I'm working on solo a couple messages are: * Random crap (latest commit) * Reservation CRUD. bleh. * Simple changes. Read the diff. * Blarg.
+And now that I'm actually looking at them, my later commits actually have somewhat descriptive messages. The earliest ones, however:
+Yay, can finally add reservations now!
+Added skeleton Rental stuff.
+Whee CSS work. Forms look somewhat pretty.
+Stuff.
+permalinkparent
+[–][deleted] 1 point 2 years ago
+Looking through my svn commit logs at work now. I can't find much like that, usually I'm sensible when doing commits. I did find some stupid commit comments like
+-dun goofed
+-thought I fixed the bug before the last commit but I didn't test properly. Stupid me...
+-fixed speed issues in ?? module. I was too retarded to have written the ?? queries using left joins in the first place. DERRRR
+permalinkparent
+[–][deleted] 4 points 2 years ago
+http://www.bash.org/?6824
+permalinkparent
+[–]Sawta 1 point 2 years ago
+permalinkparent
+[–]bteeter 4 points 2 years ago
+As a lead I always find it best when one of my developers comes to me and rants about the shit code he just spent all day fixing, and then we look up who wrote it and it was said developer.
+I had this happen to the same guy 3 times one week and we both got a good laugh out of that.
+permalinkparent
+[–]lutzky 3 points 2 years ago
+git blame (or svn blame) ftw
+permalinkparent
+[–]klti 2 points 2 years ago
+I once made the mistake to write a mail to all team developers asking people not to do that kind of crap ever again before checking source control - since then I always svn blame first :D
+permalinkparent
+[–]Paul-ish 2 points 2 years ago
+This is why I try not to judge other people's code. I can't even meet my own standards all of the time. I shouldn't throw stones in a glass house.
+permalinkparent
+[–]okmkz 1 point 2 years ago
+You are a wise person and what are you doing on the internets?
+permalinkparent
+[–]bteeter 1 point 2 years ago
+As a lead I always find it best when one of my developers comes to me and rants about the shit code he just spent all day fixing, and then we look up who wrote it and it was said developer.
+I had this happen to the same guy 3 times one week and we both got a good laugh out of that.
+permalinkparent
+[–]bteeter 0 points 2 years ago
+As a lead I always find it best when one of my developers comes to me and rants about the shit code he just spent all day fixing, and then we look up who wrote it and it was said developer.
+I had this happen to the same guy 3 times one week and we both got a good laugh out of that.
+permalinkparent
+[–]bteeter 0 points 2 years ago
+As a lead I always find it best when one of my developers comes to me and rants about the shit code he just spent all day fixing, and then we look up who wrote it and it was said developer.
+I had this happen to the same guy 3 times one week and we both got a good laugh out of that.
+permalinkparent
+[–]devox 0 points 2 years ago
+Remember: "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live."
+permalinkparent
+[–]brownboy13 136 points 2 years ago
+I leave comments to my future self. Found this gem in a project I did a few years back.
+//x needs to be 1, if it isn't the code doesn't work. I'm too sleepy to figure it out. You do it.
+permalink
+[–]reroll4tw 32 points 2 years ago
+// This function fixes that stupid bug with that other thing that kept screwing up your shit! function goFuckYourself() { .. }
+permalinkparent
+[–][deleted] 15 points 2 years ago
+Found this in a past project of mine
+if .. in line and not 'Play Sample' in line:     #fucking play sample twat, go eat a dick
+    [...]
+permalinkparent
+[–]reroll4tw 6 points 2 years ago
+Function naming is a crucial part of stress management when coding.
+permalinkparent
+[–]DaMountainDwarf 2 points 2 years ago
+I swear one of my comments says "//this writes something to the Sil lol"
+permalinkparent
+[–]sir_talkalot 5 points 2 years ago
+I leave random lyrics from songs as comments.
+Found this line a while ago when I checked old code. :)
+//The chips are on fire.
+permalinkparent
+[–]apekillape 1 point 2 years ago
+I name all of my folders and filenames after whatever song and lyrics are currently playing. Job security like whoa.
+permalinkparent
+[–]ceolceol 1 point 2 years ago
+time to look at some code made by apekillape!
+in/
+navy/
+the/
+can.py
+sail.py
+seas.py
+seven.py
+the.py
+yes.py
+you.py
+...the fuck?
+wait a second
+permalinkparent
+[–]duphis 1 point 2 years ago
+permalinkparent
+[–]ceolceol 1 point 2 years ago
+permalinkparent
+[–]duphis 1 point 2 years ago
+permalinkparent
+[–]skootles 6 points 2 years ago
+I've done this in an After Effect project before. Very complicated project with a million layers, and one I commented "DO NOT DELETE THIS LAYER. You'll break the whole project. Do it, I dare you."
+Of course I had to delete it to see what would happen when I stumbled upon it months later.
+permalinkparent
+[–]duphis 3 points 2 years ago
+Well what happened?
+permalinkparent
+[–]skootles 6 points 2 years ago
+Oh it broke the project nice and good. I deleted it and everything appeared to be just fine at first, but probably 10 minutes later I started discovering random things weren't working anymore. And of course by that time I'd forgotten about deleting the layer.
+permalinkparent
+[–]doctorsound 10 points 2 years ago
+The beat part about leaving comments is shit like this.
+permalinkparent
+[–][deleted] 12 points 2 years ago
+And the beat goes boom, boom, boom...
+Let the beat build, bitch.
+permalinkparent
+[–]theghoul 4 points 2 years ago
+unke *unke *unke
+permalinkparent
+[–]Sawta 2 points 2 years ago
+UnkUnkUnk - Unk-wahalkwako UnkUnk-wahalkwako - Unk Unk Unk Unk UnkUnk-wahalkwako
+permalinkparent
+[–]reasonman 2 points 2 years ago
+//whatever "Show All Profiles" is in the menu, HideIllegalProfiles should be opposite.
+//I boned up my naming now it's fucking confusing.
+permalinkparent
+[–]rakkeh 2 points 2 years ago
+A while back I recall doing some work on a pretty hacky solution, went back to make a modification to it to find that I had left a warning to anyone opening the code file, the top of the code file read
+// GET OUT, GET OUT NOW .... // Fine, you were warned
+permalinkparent
+[–]colinhect 1 point 2 years ago
+I've done this a bit... but whenever I find them later I think "Oh whoever coded this thinks they are so funny and clever... if they put some more effort in actually coding then maybe.... oh I wrote it."
+permalinkparent
+[–]TallestSkil 167 points 2 years ago
+You mean relate.
+permalink
+[–]Faronel 3 points 2 years ago
+Now, he means coders pass reference to this rage comic instead of creating a new copy of this rage comic.
+permalinkparent
+[–]ProfitNowThinkLater 3 points 2 years ago
+No no, they can refer to this when discussing their problems with other coders.
+permalinkparent
+[–][deleted] 2 years ago
+[deleted]
+permalinkparent
+[–]RarneyBubble 181 points 2 years ago
+That's the attitude that got you in this fucking mess in the first place!
+permalinkparent
+[+]Sawta comment score below threshold  (2 children)
+[–]PersonOfInternets 20 points 2 years ago
+Let me relate you to www.dictionary.com
+permalinkparent
+[–][deleted] 2 years ago
+[deleted]
+permalinkparent
+[–]duphis 12 points 2 years ago
+permalinkparent
+[–]mucusplug 38 points 2 years ago
+/*
+ * Nope,
+ * I'm a commenting machine.
+*/
+permalink
+[–]tastychicken 13 points 2 years ago
+Me too, i comment my code like there's no tomorrow!
+/**
+ * Class: Whatever
+ * Version: 0.01
+ *
+ * Description:
+ * Short description
+*/
+Complement that with inline comments and I know everything my code does!
+permalinkparent
+[–][deleted] 34 points 2 years ago
+And 3 years later, after working on the same project with others, that comment isn't going to even remotely match up with what the code actually does.
+I hate that worse than anything. I'd frankly rather no comments and just do the digging every time than have the comments tell me it does X when, in reality, it does the exact opposite of X because some supercunt changed it without updating the comments.
+I'm not saying you shouldn't comment; do it up! But if you ever work with the guy who changes your originally documented code without updating the comments around it, slay him. Slay him and show no remorse, for the good of the empire was done this day.
+permalinkparent
+[–]tpa 8 points 2 years ago
+Instead of commenting what something does I try to comment more about why something is being done. Usually the why is more important because you can see the what part from the code itself. Unless the code itself cannot be read. Just a while ago I saw while loop which was used to replace strings inside another sting which was pretty hard to understand since I thought it must do something else than "foo".Replace().
+permalinkparent
+[–]Terr_ 1 point 2 years ago
+A big part for me is explaining that something is being done in a certain way because that's what the business/customer wanted. Sometimes they'll want behavior that appears "weird" or "broken" to a developer, but they want it for good reasons, so that it matches some behavior of an old system that they're already working around in terms of training or spreadsheet-fu.
+permalinkparent
+[–][deleted] 1 point 2 years ago
+Agreed; I don't comment much, though I use extremely verbose variable, class, and function/method names. But anything that does anything a bit zany - and has a reason to be doing something zany - then I write a comment about why it's doing the zaniness. As far as I'm concerned, if it requires a comment, it's because I'm being clever or the problem is hard, and that's worth writing down for posterity. If I'm not particularly clever and/or the problem isn't particularly hard, then you probably don't need the comment.
+permalinkparent
+[–]tastychicken 1 point 2 years ago
+Thank god I'm doing 99% solo projects then :).
+permalinkparent
+[–]bteeter 1 point 2 years ago
+One gigantic massive upvote for you.
+As a true believer in commenting the shit out of my code, I can't tell you how many times this has happened.
+permalinkparent
+[–]APiousCultist 9 points 2 years ago
+/*
+This works, I dont know what it does but it fucking works. So just leave it, kay?
+*/
+I'm a bad person.
+permalinkparent
+[–]Armend 1 point 2 years ago
+Lol, my comments are mostly //modified this from x to y.
+permalinkparent
+[–]Terr_ 1 point 2 years ago
+There is only one good reason to put "Version" into the source, and that's when whoever is going to read it isn't accessing it from your version control system. Otherwise it just becomes inaccurate cruft.
+permalinkparent
+[–]sigmaseven 1 point 2 years ago
+I rely mainly on self-descriptive classes/methods/variables and typically reserve comments for "gotchas" that I don't want to repeat in my project.
+permalinkparent
+[–]EatATaco 8 points 2 years ago
+The problem for me with commenting is when I get into the programming grove, I don't want to stop to explain what I am doing to myself six months from now, I just want to pump out code.
+That is why I just make sure my functions and variables actually accurately indicate what they are so that my lines of code often almost read like sentences. Put the comments in the code.
+permalinkparent
+[–]frownyface 4 points 2 years ago
+http://en.wikipedia.org/wiki/Self-documenting
+I think this is usually possible.
+permalinkparent
+[–]bonestamp 2 points 2 years ago
+This is the methodology that we use, but I feel like some comments are still helpful when there is a shit ton of logic. Unfortunately, we're not allowed to use any comments since it supposedly indicates that our code is not readable enough. So, now we have variable and method names that are nearly complete sentences instead of short but meaningful names with some doc comments to explain the api.
+permalinkparent
+[–]ceolceol 4 points 2 years ago
+Unfortunately, we're not allowed to use any comments since it supposedly indicates that our code is not readable enough.
+Leave your job.
+permalinkparent
+[–]imMute 1 point 2 years ago
+This would be taking that methodology to the opposite extreme, which is just as bad.
+permalinkparent
+[–]frownyface 1 point 2 years ago
+Hard rules like that are just plain stupid, I feel bad for you. Somebody should show the person who decided that this from the wiki definition:
+The designation of "self-documenting code" is often applied in a general sense, and not thoroughly defined according to a rigorous and exacting standard.
+It's not really a methodology so much as a general goal.
+permalinkparent
+[–]sagan555 2 points 2 years ago
+"the programming grove" - sounds pleasant!
+permalinkparent
+[–]EatATaco 4 points 2 years ago
+Just don't fall asleep there or you will be swept away by Segmentation Fault Fairies.
+permalinkparent
+[–]frownyface 1 point 2 years ago
+It is: Flow
+permalinkparent
+[–]gerundronaut 2 points 2 years ago
+I often write the comments first, especially comments describing each class method and variable. I try not to begin writing code until I have a good idea in my head and in comments about how all of the pieces will fit together. Sometimes, however, when I'm just doing a "quick modification" to someone else's code, I slip up.
+It's that "this'll only take a minute" attitude that leads to the greatest proportion of problems, IME and IMO.
+permalinkparent
+[–]EatATaco 2 points 2 years ago
+I think this is a good method too and I do this as well (when I think top-down approach is best). However, I still do it the same way, it will be a structure (not a struct) of empty functions, all of which indicate what they will do.
+My goal is to make it so that I could just write the function names, without a single comment, and people could write the code for each individual function with little to no input from me.
+permalinkparent
+[–]lingnoi 1 point 2 years ago
+The problem for me with commenting is when I get into the programming grove, I don't want to stop to explain what I am doing to myself six months from now, I just want to pump out code.
+What you said instantly reminded me of this.
+When a star footballer makes an winning play, he doesn't stop to explain it to the team beforehand. He makes the move. Scores the points. Gets on with the game. No time for talk.
+permalinkparent
+[–]lingnoi 1 point 2 years ago
+The problem for me with commenting is when I get into the programming grove, I don't want to stop to explain what I am doing to myself six months from now, I just want to pump out code.
+What you said instantly reminded me of this.
+When a star footballer makes an winning play, he doesn't stop to explain it to the team beforehand. He makes the move. Scores the points. Gets on with the game. No time for talk.
+permalinkparent
+[–]lingnoi 1 point 2 years ago
+The problem for me with commenting is when I get into the programming grove, I don't want to stop to explain what I am doing to myself six months from now, I just want to pump out code.
+What you said instantly reminded me of this.
+When a star footballer makes an winning play, he doesn't stop to explain it to the team beforehand. He makes the move. Scores the points. Gets on with the game. No time for talk.
+permalinkparent
+[–]lingnoi 1 point 2 years ago
+The problem for me with commenting is when I get into the programming grove, I don't want to stop to explain what I am doing to myself six months from now, I just want to pump out code.
+What you said instantly reminded me of this.
+When a star footballer makes an winning play, he doesn't stop to explain it to the team beforehand. He makes the move. Scores the points. Gets on with the game. No time for talk.
+permalinkparent
+[+]finsterdexter comment score below threshold  (0 children)
+[–]froderick 29 points 2 years ago
+Reminds me of the old (well, not all that old) addage: "Code that you wrote more than 3 months ago may as well have been written by someone else"
+permalink
+[–]netshroud 17 points 2 years ago
+Heck, with me it may as well have been written by a dog. Although it compiles...
+permalinkparent
+[–]pelrun 1 point 2 years ago
+I actually just got asked about a utility I wrote over ten years ago... dug up the source and found it was still easily understandable - it also only took 5 minutes to convert it from a VC5 project to building with gcc/make!
+Was pleased.
+permalinkparent
+[–]axe319 1 point 2 years ago
+No one likes a braggart.
+permalinkparent
+[–]filibustier 22 points 2 years ago
+// 
+permalink
+[–]tHeSiD 24 points 2 years ago
+I wish we can put rage faces everywhere we type.
+try = 
+exception raised = 
+catch = 
+permalinkparent
+[–]MrBester 17 points 2 years ago
+empty catch (silent fail) = 
+permalinkparent
+[–]Adwinistrator 1 point 2 years ago
+I work on code with so many of these, I made a RegEx search to find them in every project I get assigned...
+permalinkparent
+[–]jsantos17 2 points 2 years ago
+At least print the stack trace.
+permalinkparent
+[–]Adwinistrator 1 point 2 years ago*
+That's how I found out the first time... Compiled and ran the project, and witnessed the stack trace output window fill with dozens of "a system.exception has occurred", yet everything proceeded to work...
+Why would you check and see if you'll have an exception, when you can just throw it in an empty catch... (kill me please) 
+permalinkparent
+[–]Madd0g 2 points 2 years ago
+problem, maintainer? 
+permalinkparent
+[–][deleted] 1 point 2 years ago
+permalinkparent
+[–]JackpotDen 1 point 2 years ago
+Don't try. Writing code is the last bastion of decent, sane computer use.
+permalinkparent
+[–]wagesj45 178 points 2 years ago
+That's what you get for using VB.
+permalink
+[–][deleted] 96 points 2 years ago
+how can i track the killers ip if i don't use vb?
+permalinkparent
+[–]ThatsItGuysShowsOver 31 points 2 years ago
+Use a Hollywood movie script. 
+permalinkparent
+[–]FLarsen 50 points 2 years ago
+How else are you going to make a GUI interface?
+permalinkparent
+[–]rugtoad[??] 72 points 2 years ago
+I prefer graphical GUI interfaces myself.
+permalinkparent
+[–]avfc41 29 points 2 years ago
+The ones for users?
+permalinkparent
+[–][deleted] 2 years ago
+[deleted]
+permalinkparent
+[–]Richard_Jae 2 points 2 years ago
+Whoosh
+permalinkparent
+[–]Tetha 1 point 2 years ago
+Screenscraping graphical interfaces sounds fun.
+permalinkparent
+[–]tpa 7 points 2 years ago
+If it is too graphical it might be NSFW.
+permalinkparent
+[–]grae313 6 points 2 years ago
+A graphical user interface interface? Hey dawg, I heard you like interfaces so I coded an interface for your interface so now you can interface while you're interfacing...
+permalinkparent
+[–]FLarsen 13 points 2 years ago
+A graphical user interface interface?
+Of course. Those IPs don't track themselves.
+permalinkparent
+[–]reasonman 2 points 2 years ago
+God that shit bothers me so much. ATM machine, GUI interface, RAM memory, DNS system, etc.
+permalinkparent
+[–]MrBester 4 points 2 years ago
+PIN number
+permalinkparent
+[–]Phenomena0 6 points 2 years ago
+etc cetera
+permalinkparent
+[–]coyotic 1 point 2 years ago
+DNS system
+Wasn't the S for service?
+permalinkparent
+[–]reasonman 1 point 2 years ago
+I guess it depends on who you talk to, but RFC 1034 say 'System'. I'll go with the RFC on this one.
+permalinkparent
+[–]Odusei -3 points 2 years ago
+Whoosh.
+permalinkparent
+[–]heyoumotherf 1 point 2 years ago
+Java, C# many more
+permalinkparent
+[–]bonestamp 0 points 2 years ago
+Flex is pretty dope for GUIs
+permalinkparent
+[–]bonestamp 1 point 2 years ago
+Haters going to hate. In the meantime, the same flex gui code can be deployed to win/mac/linux/android/ios/tvs/consoles/browsers. jquery ui is looking really good too now and of course it will run in any modern browser.
+permalinkparent
+[–]avindra 0 points 2 years ago
+Qt + C++ = simple and fast.
+permalinkparent
+[–]dmadmin -4 points 2 years ago
+Java netbeans IDE allow you to drag and drop and position the artifacts as you like.
+permalinkparent
+[–]rebolek 2 points 2 years ago
+You mean, like, ALIEN ARTIFACTS???
+permalinkparent
+[–]Flippeh 1 point 2 years ago
+Holy fiddlesticks, that was exactly what I was going to comment. Word by freaking word.
+You're a wizard!
+permalinkparent
+[–]bazfoo 1 point 2 years ago
+Clearly we are not unique flowers. 
+permalinkparent
+[–]Madd0g 1 point 2 years ago
+thirded, fuck that shit, you have to literally crawl the 15th page to say something first. repetition just doesn't get the same karma.
+VB sucks though
+permalinkparent
+[–][deleted] 1 point 2 years ago
+class Employee { public string Name { get; set; } public decimal Salary { get; set; } public void Increase... 
+Soooo much cleaner. <3
+permalinkparent
+[–]ryantherobot 1 point 2 years ago
+That was my first thought, too. 
+permalinkparent
+[–]green_transistor 83 points 2 years ago
+VB .NET .... 
+permalink
+[–]ani625 51 points 2 years ago
+permalinkparent
+[–]Sawta 14 points 2 years ago
+permalinkparent
+[–]tpa 3 points 2 years ago
+I assumed that most VB houses would move to C# but I was wrong, again. They just port everything to VB.NET. As long as it compiles it is good to go.
+permalinkparent
+[–]green_transistor 1 point 2 years ago
+C# is the language of the Gods 
+permalinkparent
+[–]EatATaco 12 points 2 years ago
+Unless you are super diligent about comments, they are just as useless as not using them at all because they tend to go "stale" after a while if you don't update them all the time.
+What I do is make sure the names of my functions actually accurately represent what they do and my variable names accurately say what value they hold. They tend to go stale less because when I update a function/variable, I also update it's name.
+permalink
+[–]Caladain 5 points 2 years ago
+There be your problem. Comments are code. Anytime you update your code, you do a once-over of the comments for that function and update.
+And Comments should never be mechanical (I add X to Y) but rather the "Why" (I need to translate X matrix to the Y scheme now), unless the mechanical is something horribly ugly done for performance reasons (bitshift x 5, then xor it with Y, and blah with the blah Z, and it saves a bunch of time and makes this shit work. Here's the page long comment explaining why this works:"
+permalinkparent
+[–]EatATaco 5 points 2 years ago
+Comments may be part of good programming, but they are not code, which is why they so easily go stale.
+As I said in another post, when I get into a programming groove, the last thing I want to do is break that groove in order to write comments. If you can do that and not slow yourself down, more power to you. However, I have had little problem understanding old code of mine since I switched to this style and had tons of problems with outdated comments confusing me when I did it the other way.
+To each his own.
+permalinkparent
+[–]Caladain 4 points 2 years ago
+I solve the issue by setting aside a half hour at the end of the day to write comments in the code i wrote that day. Not commenting mechanical things, but the why's, which means a few paragraph length comments scattered about (short helper functions are trivial and named proper, so i only have to worry about the functions that call the trivial functions)
+permalinkparent
+[–]Kinbensha 10 points 2 years ago
+I still remember the day my Comp Sci professor said, "Well... your code works perfectly, but after looking at it... I have no idea what's going on. Let's just give it a 100 and forget about it, alright?"
+permalink
+[–][deleted] 2 years ago
+[deleted]
+permalink
+[–]SciK 33 points 2 years ago
+A good compiler would tell you.
+Oh, sorry, I forgot you used Microsoft’s Visual Basic .NET compiler. 
+permalinkparent
+[–]Will_Eat_For_Food 2 points 2 years ago
+What compiler do you use ? Seriously, I'm looking for a good one, best one right now is Visual Studio.
+permalinkparent
+[–]SciK 1 point 2 years ago
+There are not many VB.NET compilers available except for Microsoft’s and Mono’s, I guess.
+However, there are other languages! And Clang, for example, provides helpful error messages; and so does GNAT.
+GHC, on the other hand, does not always produce error messages that are easy to understand, but the language it implements (Haskell + some extensions) really rocks. GHC is currently considered as one of the most important Haskell implementations.
+permalinkparent
+[–]Will_Eat_For_Food 1 point 2 years ago
+What about C++ compilers+IDEs ? I tried using VS, NetBeans as well as CodeLite. Am I missing experience with any ? I'm trying to find the one that works for me.
+permalinkparent
+[–]SciK 1 point 2 years ago
+I like KDevelop and QtCreator.
+permalinkparent
+[–]Will_Eat_For_Food 1 point 2 years ago
+I'll give them a look, thanks.
+permalinkparent
+[–]rossisdead 1 point 2 years ago
+I've never had an issue with the VS VB.Net compiler not being descriptive enough.
+permalinkparent
+[–]Will_Eat_For_Food 1 point 2 years ago
+Compiler errors are never descriptive enough really.. half the time, they're a kilometer long (i.e. I suck at coding)
+permalinkparent
+[–]n3bu 7 points 2 years ago
+I've done this at least five times for the past six months... true story.
+permalink
+[–]jakedemian 8 points 2 years ago
+I always just have to restart whenever I do that. It takes less time to retype it than to re-figure out what the fuck is going on.
+permalink
+[–]cameronm 6 points 2 years ago
+I'm not a developer, I'm a tester, but I've written some automated scripts in Groovy for soapUI.
+I realised that there's a lot of confusing code and it should have some comments, here's what I came up with:
+/* I have no idea what this does. I copied it from [here](m "link to some forum") and it seems to do the job. When someone replaces me that knows how to code, can you like, make sure this isn't stupid? and add some proper comments? Cheers. */
+permalink
+[–]Jonate20 4 points 2 years ago
+I hate you.
+permalinkparent
+[–]andermetalsh 16 points 2 years ago
+ARRRRRRRRGH . Visual Basic ... I don't understand how people can read such language . Its syntax is a fucking nightmare. Even Python with its strict one its easier than that.
+For these reasons I love Python and C .
+permalink
+[–]Incepting_Your_Dream 6 points 2 years ago
+My personal progression has been VB6 > C++ > VB.NET > C# > Java. I can easily say that C# and Java are the best syntax that I have come across so far.
+permalinkparent
+[–]efeex 5 points 2 years ago
+C# and Java are basically identical.
+However, I did spend a good hour trying to figure out why System.Out() wasn't working. Spent some time adding all kinds of references, including different things. Google it... and it turns out I'm using Java syntax in C#. facepalm.jpg
+permalinkparent
+[–]Kristler 3 points 2 years ago
+System.out * is the proper Java syntax . It's a static PrintStream, not a method. :3
+permalinkparent
+[–]efeex 2 points 2 years ago
+System.out.println("Hello World!");
+You are right.
+Eclipse usually auto completes the syntax for me, so I don't pay much attention to it.
+permalinkparent
+[–]Kristler 1 point 2 years ago
+permalinkparent
+[–]darkplumb90 2 points 2 years ago
+I went backwards. Java > VB.NET...Despite what everyone says, I prefer VB.NET 
+permalinkparent
+[–]fsuk 1 point 2 years ago
+Defiantly agree, currently doing my dissertation in C#, actual I'm commenting it right now :)
+permalinkparent
+[–]erode 14 points 2 years ago
+I don't understand how you can defiantly agree with him.
+permalinkparent
+[–]rayne117 9 points 2 years ago
+He agrees, but he is real loud about it.
+permalinkparent
+[–]fsuk 1 point 2 years ago
+No, I'm just really really really sure that I agree that C# and Java are the languages with the best syntax :)
+permalinkparent
+[–]swytz 0 points 2 years ago
+Ruby is extremely idiomatic and easy to read no matter how long after I've written it. Its ability to easily utilize DSLs also makes it incredibly easy to read after the fact. For these reasons I love Ruby. (I've been a C/Python/PHP programmer for many years also.)
+permalinkparent
+[–]xmsxms 4 points 2 years ago
+Can't say that I can relate. Perhaps earlier in my career I was guilty of this. But these days I comment pretty heavily because the peer reviewer and future maintainers need to be able to understand my code, not just myself.
+permalink
+[–]TheAceOfHearts 5 points 2 years ago
+Stop commenting, acquire job security.
+permalinkparent
+[–]reshin 3 points 2 years ago
+Stop commenting, make your successors life much harder.
+Thanks a lot, assholes.
+permalinkparent
+[–]myniceaccount 5 points 2 years ago
+int i;main(){for(;i["]<i;++i){--i;}"];read('-'-'-',i+++"hell\
+o, world!\n",'/'/'/'));}read(j,i,p){write(j/p+p,i---j,i/i);}
+permalink
+[–]rogeris 1 point 2 years ago
+Oh god! Not...neat...
+permalinkparent
+[–]Xarnon 1 point 2 years ago*
+int i;
+main()
+{
+    for(; i["] < i; ++i)
+    {
+        --i;
+    }
+    "];
+    read('-'-'-',i+++"hello, world!\n", '/'/'/')
+    );
+}
+read(j,i,p)
+{
+    write(j / p + p,i---j,i / i);
+}
+What is this, I don't even!
+edit: Thank the programming gods for Notepad++:
+int i;
+main()
+{
+    for(;i["]<i;++i){--i;}"]; read('-'-'-',i+++"hello, world!\n",'/'/'/'));
+}
+read(j,i,p)
+{
+    write(j/p+p,i---j,i/i);
+}
+I don't think there's a color coding for this, is there?
+edit2: Try this
+permalinkparent
+[–][deleted] 2 years ago
+[deleted]
+permalinkparent
+[–]myniceaccount 1 point 2 years ago
+It is C but you need to switch a couple of compiler warnings off. It's actually quite satisfying to figure out how it works. Does a really neat trick with placing a string in a memory location, knowing where its going to be placed, and looping through it until it reaches the NULL character.
+It's from a tattoo, but I can't find the original source just now.
+permalinkparent
+[–]dik-dik 6 points 2 years ago
+refer? I think you mean relate
+permalink
+[–]GunNNife 8 points 2 years ago
+If another coder asks why you did not put enough comments in, tell him/her: "I'm terse." Then expect to get hit.
+permalink
+[–]DiggerW 6 points 2 years ago*
+better response:
+"laconicism."
+permalinkparent
+[–]goldfire 6 points 2 years ago
+"laconicism"
+10 characters, 5 syllables
+"I'm terse"
+9 characters, 2 syllables
+permalinkparent
+[–]DiggerW 2 points 2 years ago*
+Based on how the human brain processes words (not syllables, not characters)... I still win :)
+permalinkparent
+[–][deleted] 9 points 2 years ago
+To most of the world coding looks like heiroglyphics already.
+permalink
+[–]KingOfSwords 1 point 2 years ago
+Job security through obscurity. Yes sir, I'll take it.
+permalinkparent
+[–]whitmell 7 points 2 years ago
+Hahah yes, this is so true. But yeah, VB... 
+permalink
+[–]tsvk 7 points 2 years ago
+The filesystem got corrupted and your source file got replaced with an image from your egyptology deciphring homework?
+permalink
+[–]goldfire 1 point 2 years ago
+permalinkparent
+[–]sp4mfilter 3 points 2 years ago
+In a comment, say why, not how.
+permalink
+[–]colinhect 1 point 2 years ago
+This is a Dos Equis meme waiting to happen.
+permalinkparent
+[–]hoodoo-operator 3 points 2 years ago
+when it comes to writing code my motto is "If it was hard to write, it should be hard to understand."
+permalink
+[–][deleted] 2 years ago*
+[deleted]
+permalink
+[–]Xarnon 2 points 2 years ago
+/**
+* For the brave souls who get this far: You are the chosen ones,
+* the valiant knights of programming who toil away, without rest,
+* fixing our most awful code. To you, true saviors, kings of men,
+* I say this: never gonna give you up, never gonna let you down,
+* never gonna run around and desert you. Never gonna make you cry,
+* never gonna say goodbye. Never gonna tell a lie and hurt you.
+*/
+FTFY :)
+permalinkparent
+[–]dreadditor 1 point 2 years ago
+thank you, i'm formatarded. :(
+permalinkparent
+[–]duck_butter 3 points 2 years ago
+FORTRAN or COBAL, skip to last frame in comic.
+Yep, I had to learn that crap to pass. Still have nightmares over it. Should be on meds..
+Off to drop a MUMPS in the COBOL and wipe my FORTRAN when done.
+permalink
+[–][deleted] 5 points 2 years ago
+Probably every coder can refer to this...
+Probably every coder can relate to this...
+FTFY
+permalink
+[–]MrNecktie 2 points 2 years ago
+Probably every coder can point to this...
+permalinkparent
+[–]Zahel 4 points 2 years ago
+VB .NET....eewwww
+permalink
+[–]sumsarus 2 points 2 years ago
+I like talking with my past self in my code comments. Future me can be a real jackass if I write stupid comments.
+permalink
+[–]enroxorz 2 points 2 years ago
+I've had to trudge through others retarded ass code before with no comments. Now I force myself to comment so I dont become that retard for someone else.
+permalink
+[–]iissqrtneg1 2 points 2 years ago
+Make This your bible and you'll never think about writing another comment. And you'll never have that problem again.
+permalink
+[–]Xarnon 1 point 2 years ago
+I think I've heard this man give some sort of a lecture on clean code. It was quite enlightening!
+The video is here, methinks
+permalinkparent
+[–]Xarnon 1 point 2 years ago
+I think I've heard this man give some sort of a lecture on clean code. It was quite enlightening!
+The video is here, methinks
+permalinkparent
+[–]erode 2 points 2 years ago
+VB is easy as hell to follow. It's practically a verbose sentence.
+permalink
+[–]IHaveALargePenis 2 points 2 years ago
+I learned my lesson fairly early on when I did this with something like 300 lines of assembly. It was easier to recode than it was to try and make sense of that fucking mess.
+permalink
+[–]ThatOkie 2 points 2 years ago
+I'm currently learning how to code C# and I REALLY need to comment more. Shit sucks now.
+permalink
+[–]o0DrWurm0o 2 points 2 years ago
+I'm starting my internship today. It's C++ drivers and GUIs. I'll keep this comic in mind.
+permalink
+[–]goldfire 1 point 2 years ago
+Hey, good luck, hope that goes well for you.
+permalinkparent
+[–]o0DrWurm0o 2 points 2 years ago
+Got to internship
+We're going to program the GUIs using this block module graphical language
+Awwwwwwwwww yeaaaaaaaaaah!
+permalinkparent
+[–]goldfire 1 point 2 years ago
+permalinkparent
+[–]taktik 2 points 2 years ago
+Probably every coder can refer to this...
+Visual Basic?
+permalink
+[–]DeliveryNinja 2 points 2 years ago
+You should have self documenting code, your code is probably shit if you can't understand it.
+I think you must practice Mortgage Driven Development. Make the code so cryptic that only you are able to do the job.
+permalink
+[–]OriginalSyn 1 point 2 years ago
+Agreed. My comment system involves Doc blocks at the top of the functions explaining what goes in, what it does and what comes out. If I require inline comments to explain what something is doing then I consider refactoring it into it's own function. Sometimes you do some really tricky shit that requires an inline comment but I try to keep them to a minimum.
+Since I started doing that I've had no problem picking up 6 month old code and working with it.
+permalinkparent
+[–]llahlahkje 2 points 2 years ago
+The key to making documentation in your code tolerable is make it fun. I enjoy going through my old programs once in awhile to see the goofy crap I came up with 5 years ago on some random Dew filled 5am all nighter...
+permalink
+[–]FakeTits_McGee 2 points 2 years ago
+I'm not a coder and I can refer to this.
+permalink
+[–][deleted] 5 points 2 years ago
+ Stop writing shit code that needs comments. Single responsibility principle! Method name says what it does on the tin!
+permalink
+[–]darkplumb90 3 points 2 years ago
+...are you stupid? All code needs comments, it should be a fucking law.
+permalinkparent
+[–]Caladain 6 points 2 years ago
+Stop being an asshat. Comments tell the "why", not the "X adds 2 to Y". The Why comments are needed on anything non-trivial..I can see that you bitshifted the variable, but i want to know "Why the fuck" did you bitshift that variable.
+permalinkparent
+[–][deleted] 4 points 2 years ago*
+Sorry I thought the method name was clear. Would you like me to comment what it DOES?
+public static byte GetHighByte(this uint input)
+{
+         return (byte)(input >> 24);
+}
+Don't take my word for it, here's Martin Fowlers opinion... at the bottom
+permalinkparent
+[–]Caladain 1 point 2 years ago
+Trivial Function. Show me a non-trivial function (one that does more than a dozen operations (a math filter for instance, or a DMA interface), OR, one that has to call more than one trivial function). Where the function has one responsibility (establish connection to an embedded controller for instance), but isn't one line of code ;-)
+permalinkparent
+[–][deleted] 3 points 2 years ago
+Whoaa... are you writing non-trivial methods without unit tests? How about we compromise and have a comment in the code like this.
+// If you don't understand this code, please back away from the computer slowly.
+I get your point about maths functions. They're a classic for complexity. Been there, bought the t-shirt. But decent variable naming, clean code should always be able to cover this. I will concede that a link to stackoverflow.com is an acceptable comment :)
+permalinkparent
+[–]Caladain 1 point 2 years ago
+Some code can't actually have unit tests due to lack of hardware/other limitations. But comments->Unit tests is a non-argument..two seperate beasts. :-(
+Take my example of connecting to an embedded controller..limit on the amount of hardware = no nightly unit test (can't dedicate a hardware chunk to the nightly test).
+permalinkparent
+[–]riddle_duck 1 point 2 years ago
+Unit tests are only concerned with testing 'units' of your code (for example, a single class if you are doing OOP) and testing them in isolation. If there is an external dependency (like hardware, DB, file system etc...) then you can use fakes/stubs/mocks to help isolate the unit that you are testing.
+These tests should pretty much explain the functionality without the need for comments. Techniques like BDD and ATDD are event better for transferring intent.
+permalinkparent
+[–]Caladain 1 point 2 years ago
+Textbook definition (not a bad thing!). Usually, we try and write "Unit tests" that test not only chunks of code (verify that math function X does Y, etc), but also tests as much of the system and business logic as possible, including actual hardware connections, etc. We view stubs as evil, and to be destroyed whenever possible. (They still exist! And sometimes it's the proper thing, but we'd like to run as close to "production" as possible) Abuse of the word Unit Test? Probably.
+Maybe a better term would be Periodic Automatic Test?
+permalinkparent
+[–]colinhect 1 point 2 years ago
+One example does not prove that it is always the case. Sure method names are important and can replace a comment like:
+// Returns the high bit of the given input.
+... But in large scale software methods are generally not that simple.
+permalinkparent
+[–][deleted] 3 points 2 years ago
+Then they should be broken down into smaller methods.
+See: Single responsibility principle and Cyclomatic complexity
+permalinkparent
+[–]colinhect 0 points 2 years ago
+Agreed, and I wish some of my co-workers did too. But even if a method is performing a single task it does not imply that it is trivial enough to explain only in the name of the method.
+permalinkparent
+[–]riddle_duck 1 point 2 years ago
+I concur. I could count on my toes the amount of comments I've added to my code in the last few years, excluding //TODO comments which I never commit to source control.
+In fact my company's coding standards says we should omit comments, and instead stick to SOLID principals and common sense.
+permalinkparent
+[–]riddle_duck 2 points 2 years ago*
+Oops, wrong SOLID! This instead... SOLID.
+permalinkparent
+[–][deleted] 1 point 2 years ago
+Totally agree. Thanks for supporting the "no comment" argument. I have a few "todo" place holders checked in, but they are just that, place holders.
+permalinkparent
+[–][deleted] 2 points 2 years ago*
+Truly great code comments itself.
+A few principal things to remember: firstly, the person reading your code should know how to program, and should be able to follow a piece of code's logical steps, so you don't have to make comments that would be obvious to another programmer, such as "//initialize x" or "//assign the value of 4 to x". If the syntax is obvious, there's no need to comment. Secondly, if you have to explain yourself in your code, consider rewriting it such that it's syntactically obvious. Comments can lie about a code's behavior, so letting the code speak for itself is the most reliable way for code to speak to the reader.
+"The proper use of comments is to compensate for our failures to express ourself in code." -- Robert C. Martin
+permalink
+[–]Caladain 1 point 2 years ago
+For trivial tasks.
+permalinkparent
+[–][deleted] 2 points 2 years ago
+Every task should be broken down to the trivial. Each piece of code should do exactly one thing, and one thing alone.
+permalinkparent
+[–]Caladain 1 point 2 years ago
+Good to say, hard to do in a non-trivial, math intensive application. And at some point you have a function calling a bunch of those trivial functions...and in that function I want to know why you're calling those trivial functions in the order you are.
+permalinkparent
+[–][deleted] 1 point 2 years ago
+hard to do in a non-trivial, math intensive application
+No one said programming was easy.
+And at some point you have a function calling a bunch of those trivial functions...
+There's nothing wrong with that.
+and in that function I want to know why you're calling those trivial functions in the order you are.
+Name the functions sanely and the why should be obvious. Comments are for when you fail as a programmer, remember that.
+permalinkparent
+[–]Caladain 1 point 2 years ago
+Gotta agree to disagree. Example:
+BitShift(X, Y); Xor(Y,Z); MultiplyByTheInverseMatrix(X,Y); MultiplyByTheInverseMatrix(Y,Z); BitShift(X,23); MultiplyByTheIdentityMatrix(X); MultiplyByTheIdentityMatrix(Y); MultiplyByTheIdentityMatrix(Z);
+In this, each function is clearly named...they do one task easily. Nowhere is the why the steps are being taken in the order they are taken communicated. (the names don't mean anything in this context, it's purely to illustrate a point).
+Maintaining my own code a year later solved me right quick of my desire to not write the "Why" comments.
+permalinkparent
+[–][deleted] 2 points 2 years ago*
+Gotta agree to disagree.
+I'm sorry, but no. You're absolutely uneducated on this point. Allow me to explain:
+You're isolating one rule and taking it to absurdity. Clearly naming your functions properly is only one part of clean code, and if that's the only step you take, you'll run into the very problems you're experiencing here.
+I am quite certain if you weren't simply trying to prove me wrong, you could figure out things to do with this code that would make it easier to understand. For example, the steps you've taken here likely have a purpose, and that purpose could be the name of the function in which these steps are called.
+Secondly, how isn't this explanatory? You know exactly which mathematical steps you've taken, they're in a clear order, and if you grouped them logically, I don't see how the why would be lost.
+No one is perfect, no language is perfect, and no algorithm is perfect, so comments are a necessary evil. But they aren't shortcuts to writing good code, nor are they a way to get out of work - they should be used only after you've admitted defeat at the hands of a challenge. Slapping a comment at the top of the code you've given that says, "the zorenzo calculation" isn't going to help a year later, espeically when the function itself is called "ZorenzoCalculation". And who knows if you even did the calculation correctly! Your comment may be entirely misleading, and even worse than unhelpful.
+"The only truly good comment is the comment you found a way not to write." -- Robert C. Martin
+permalinkparent
+[–]Caladain 2 points 2 years ago
+When you have to start your explanation by indirect insult, you've shown that you lost the argument and are grasping at straws.
+It's not explanatory to the next guy that comes along who isn't as skilled as I am at mathematics, in this case. To him it looks like a bunch of voodoo hoodoo. A simple blurb stating the principles behind it, or even directing to a simple math tutorial saves worlds of hurt later.
+The semi-directed attacks insinuating that i write shoddy code only make you look petty. Being as how we don't know each other, and don't know the quality of code, you'll have to take my word that I'm rockin out and writing kick ass code, doing complex, blow your mind code daily. I'm assuming you're doing the same, have similar experience, and exist at a similar skill level.
+Comments are a sanity check, a way of reminding and pointing out things not just for yourself, but for the poor smuck after you who isn't as skilled as you, who doesn't have the entirety of the codebase loaded into the BrainRAM, who is called in 9 months down the road to do a new feature/bug fix. The "Why" comments help in this. They help me a year down the road when "reloading" the code into the BrainRAM.
+permalinkparent
+[–][deleted] 0 points 2 years ago*
+Why so defensive? Is it inconceivable that you might not know something about programming? Is it impossible that I might be capable of teaching you something fundamental about well-constructed code?
+Your mind has thusfar been so completely closed off to the very notion that comments could be anything but helpful, but I'm telling you you've got a long way to go to reach "mind blowing" status if you still think comments are a "sanity check", even in a math-heavy environment.
+I'm guessing you're still a student, and I'm guessing your teachers force you to add comments everywhere, the more the merrier, right? They're wrong, quite frankly, and you don't have to take my word for it. There are plenty of other resources for you to draw upon that will better explain how harmful comments can be to code (and those were what I found after a single minute of Googling, combined with a few books I've got with me here).
+Is there a place for comments in code? Yes, but only because no one is perfect. I don't care if you think you have to be some kind of rockstar programmer who never makes a mistake, but the fact is, if you're commenting liberally, you're not a rockstar coder. Period.
+And don't worry, you don't have to admit you're wrong here, all I want from you is to look into the links I've provided (specifically the Clean Code book, it's really great), and the next time you're about to slap a comment on something, I just want you to think, "can I do better?" You can, you almost always can.
+permalinkparent
+[–]Caladain 2 points 2 years ago*
+Actually, I've been in the industry for a few years now, and have gained a very positive reputation as a problem solver and one who writes code that doesn't need a doctorate to understand/modify. But, I'm not the one being defensive here, and resorting to personal attacks to attempt to prove my point. Take a step back, look over what you've written. You seem to be under the assumption that anyone who disagrees with you is automatically wrong (and stupid?), a fair position to take going into a debate, but one that must be set aside in the debate itself. Go into it supporting your side, but be ready to admit that your side might be flawed. Thus far, your points have not swayed me an inch, as much of what we have said overlaps each other, and the points of contention have been glossed over.
+Thus far we've been having a philosophic debate. I say this, because we don't know each other, and we're not talking over specific code, but rather stylistic philosophy. To that end, I direct your attention to another resource: http://www.codinghorror.com/blog/2007/10/id-consider-that-harmful-too.html
+There are two camps to this subject. Those that say Comments are Always Evil and Should Be Avoided, and those who say Comments are Evil unless They Explain what you were Attempting to Do - OR if you are doing something hackish for a specific reason. I can find many World-Class developers who agree with either camp. If/when you wish to continue in a reasonable manner, I'd be more than happy to do so.
+Knock off the attacks (they degrade the purpose of the debate), focus on the subject, and i'll debate with you, or anyone else (i like debate).
+permalinkparent
+continue this thread
+[–][deleted] 1 point 2 years ago
+If you look at the comic you'll notice the author is only writing getters and setters. Shouldn't be a need for comments on those.
+permalinkparent
+[–]carcer 1 point 2 years ago
+I have yet to find a comment that could not be better expressed by better naming
+permalink
+[–]dilithium 11 points 2 years ago
+Except for those comments describing why you're doing it this way.
+permalinkparent
+[–]shrodikan 3 points 2 years ago
+Exactly. Commenting isn't about what you did it's about what you intended to do.
+permalinkparent
+[–]carcer 1 point 2 years ago
+That's what tests are for, and they never go out of date :) unless you don't keep them green...
+permalinkparent
+[–]dilithium 1 point 2 years ago
+Tests don't tell you why. They just tell you the code passes or not. You'd still have to comment the test.
+permalinkparent
+[–]Caladain 2 points 2 years ago
+Or non-trivial hacks for performance reasons in a non-trivial program. Then i want to know how blitting that by that, and multiplying by random world matrix suddenly makes it aligned in the proper worldspace. Otherwise i want to know why you're doing something. Better naming doesn't tell me that.
+permalinkparent
+[–]carcer 1 point 2 years ago
+Then use a comment. My statement still stands, comments should be your last choice
+permalinkparent
+[–]Caladain 1 point 2 years ago
+Not what you said in your original post: "I have yet to find" and "Then use a comment" do not equal each other ;-)
+permalinkparent
+[–]leshiy 2 points 2 years ago
+I take it you've never written assembly...
+permalinkparent
+[–]carcer 2 points 2 years ago
+Cries for help are also an exception
+permalinkparent
+[–]DrDildos 1 point 2 years ago
+Every. Single. Time.
+permalink
+[–][deleted] 1 point 2 years ago
+Write code like how you would write a tutorial, also favor longer implement than shorter-and-smart one but do not sacrifice performance.
+permalink
+[–]bicbmx 1 point 2 years ago
+I always try and do this but end up fighting the urge to refactor, refactor, refactor.
+permalinkparent
+[–][deleted] 1 point 2 years ago
+I always comment because of this.
+permalink
+[–]Kinbensha 1 point 2 years ago
+I still look back at my coding for my vocabulary tester and go, "WTF is this? How does this even work?"
+permalink
+[–]efeex 1 point 2 years ago
+I usually add in comments at the end, once I get everything (mostly) working.
+It sucks when you comment something, then have to do a massive change to make it work correctly, and your comment is outdated.
+permalink
+[–]Aethelstan 1 point 2 years ago
+I put de-bugging messages into the code so that when something fucks up - a message comes on screen saying what's gone wrong - saves me a lot of time.
+permalink
+[–]marcusabq56 1 point 2 years ago
+write code
+disregard grammar in comments
+permalink
+[–][deleted] 1 point 2 years ago
+Nope. This is why I comment everything obsessively and explain as if I were talking to an idiot. The idiot, of course, being myself in 6 months.
+permalink
+[–]Vinura 1 point 2 years ago
+I like commenting, it makes code look so much better, and visually it makes heaps of sense.
+permalink
+[–][deleted] 1 point 2 years ago
+Nope, because my code doesn't suck 
+permalink
+[–]CraftyWalrus 1 point 2 years ago
+One of my professors here at college when first learning would take off points on our projects if we didn't put enough comments. So I even did things like:
+'#'include <iostream> //allows for input and output
+int lineCounter = 0; //counts the lines in the file
+String tempLine; //temporarily holds a line
+I had comments on every single line of code. Barely have any comments now. Maybe on some key stuff like //This for loop does this.
+permalink
+[–][deleted] 1 point 2 years ago
+Haha, I know exactly how this feels!
+permalink
+[–]rook07 1 point 2 years ago
+haha so true
+permalink
+[–]justAnotherGhost 1 point 2 years ago
+I spent two weeks writing this page: http://www.catatheart.com/skillbuilder.htm
+Rules changes. Needed to update it... a month later, still no idea how it works. Checkout the source.
+(Disclaimer: I wrote this and it makes /me/ cry.)
+permalink
+[–]OverlordQ 1 point 2 years ago
+Y U NO USE PERL
+(Also y is no y u no face)
+permalink
+[–]kn33ch41_ 1 point 2 years ago
+I don't relate.
+permalink
+[–]lazyAgnostic 1 point 2 years ago
+I just had a professor tell my class that we should never comment code because otherwise we'll get lazy about understanding it.
+permalink
+[–]OriginalSyn 1 point 2 years ago
+You should aspire to include as few comments as necessary, but no fewer.
+permalinkparent
+[–]biddily 1 point 2 years ago
+This and svn message logs. Hundred and hundreds of line of 'tweeking' and 'i did something not sure what.'
+permalink
+[–]Shadow703793 1 point 2 years ago
+A lot of hate on VB eh? Have many of you seen the messes that Perl can create?
+permalink
+[–]TehInterwebs 1 point 2 years ago
+So stop coding in perl...
+permalink
+[–][deleted] 1 point 2 years ago
+I'll try to do a better job with the scripts in https://github.com/f7u12/rage-faces.
+permalink
+[–][deleted] 1 point 2 years ago
+If you don't write shitty code the necessary comments will be minimal.
+I'd put in a Melvin, but you're just fucking stupid.
+permalink
+[–]theZagnut 1 point 2 years ago
+It doesn't stop there. Who has tried "improving" or "fixing" old code just to realize that there was a reason it was coded like that..
+permalink
+[–]MC_Buntu 1 point 2 years ago
+fuh that, I comment my shit errday !!
+permalink
+[–]VictorTheSunfish 1 point 2 years ago
+//more comments than code //copy over assignment details... /* code here */
+permalink
+[–]DoctaWorm 1 point 2 years ago
+I hate myself for doing this, but I always fucking do it.
+permalink
+[–]mach0 1 point 2 years ago
+this joke is circlejerked around here probably the hardest.
+permalink
+[–]closernough 1 point 2 years ago
+I would upboat this a million times if they let me.
+permalink
+[–][deleted] 1 point 2 years ago
+I'm pretty notorious for this when I'm coding drunk or stoned. It's funny though, the code will work just fine, but I'll be like "how the hell..."
+permalink
+[–]insomniafox 1 point 2 years ago
+1000th upvote, woo and well deserved it is too.
+permalink
+[–]NoOneOfConsequence 1 point 2 years ago
+...and it's that much worse when the code is someone else's.
+permalink
+[–]steven1350 1 point 2 years ago
+VB? Enough said
+permalink
+[–]green_bald 1 point 2 years ago
+switch to c# my friend.
+permalink
+[–]alewar 1 point 2 years ago
+Good code barely needs comments.
+permalink
+[–]Poker_Boobs 1 point 2 years ago
+Not really...
+permalink
+[–]taybul 1 point 2 years ago
+Decide to re-write whole thing,
+come back to the exact same code as before.
+permalink
+[–]In7el3ct 1 point 2 years ago
+In the words of my friend, who was probably quoting someone else, "When I started, only God and I knew what was going on. Now, only God knows."
+permalink
+[–]dland95 1 point 2 years ago
+I'm learning Ruby right now, if I go a few days without practicing, I have to start all over. :/
+permalink
+[–]vonkwink 1 point 2 years ago*
+Everyone can refer to it. But the coders can relate to it. 
+permalink
+[–]zesomething 1 point 2 years ago
+this is great. i just started programming and did that. though i went to open it only a couple days later and still.... was like wtff
+permalink
+[–]c0bra51 1 point 2 years ago
+permalink
+[–]Spo8 1 point 2 years ago
+Finally figure out what I was thinking:
+permalink
+[–]cotoadvance 1 point 2 years ago
+Yeah, I can relate
+permalink
+[–]e001mek 1 point 2 years ago
+totally....hate it when that happens. but i so lazy
+permalink
+[–]Jokaa 1 point 2 years ago
+This never happens to me ...
+that often...
+anymore
+permalink
+[–]jsantos17 1 point 2 years ago
+That happens when you write Visual Basic.
+permalink
+[–]sickb 0 points 2 years ago
+I can see your main problem there, you started coding in Visual Basic.
+permalink
+[–]donri -2 points 2 years ago
+I almost never comment and it's almost never an issue (that's when I do comment). What I do instead is code in Python (readable, to-the-point source code) and write good docstrings, which is perhaps the kind of "comment" you meant. It is much easier to have too many comments than too few:
+# add one
+x += 1
+This only hurts readability.
+permalink
+[–]TWith2Sugars 24 points 2 years ago
+Good code tells you how, good comments tell you why.
+permalinkparent
+[–]LagWagon -2 points 2 years ago
+It's because you're using visual basic.

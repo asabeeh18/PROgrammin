@@ -1,0 +1,790 @@
+Brace yourselves, programming jokes are coming. Even Eddard Stark says so!
+
+Anecdotes
+
+The following are short jokes about programming, all taken from reddit (because I freaking love that place). I’ve chosen the best jokes for you, if you want to read more just follow the link!
+
+An engineer, a manager, and a programmer are riding in a car. They come to a hill and their brakes fail. After careening down the hill and finally coming to a stop they get out to decide what to do. The manager says “We need to have a meeting to form a committee to see what we should do next!” The engineer says, “Screw that! Give me a pocket knife and some duck tape and I’ll have us going in no time!” The programmer looks at them both and says, “Lets push it back to the top and see if it does it again.”
+
+An int, a char and a string walk into a bar and order some drinks. A short while later, the int and char start hitting on the waitress who gets very uncomfortable and walks away. The string walks up to the waitress and says “You’ll have to forgive them, they’re primitive types.”
+
+A programmer’s wife sends him to the grocery store with the instructions, “get a loaf of bread, and if they have eggs, get a dozen.” He comes home with a dozen loaf of bread and tells her, “they had eggs.”
+
+God summons the devil and jesus, and he challenges them to a programming contest. God gives them the spec and they begin. Jesus and the devil write their code furiously. As the contest reaches the end, the power suddenly goes out for a moment, both of their monitors go blank, and reboot when the power comes back on. God asks to see the two programs. The Devil says that he had a good program, but he lost it when the power was out. Jesus had no such problem, and won the contest, because Jesus saves.
+
+A man was crossing a road one day when a frog called out to him and said, “If you kiss me, I’ll turn into a beautiful princess.” He bent over, picked up the frog, and put it in his pocket.
+
+The frog spoke up again and said, “If you kiss me and turn me back into a beautiful princess, I will tell everyone how smart and brave you are and how you are my hero.” The man took the frog out of his pocket, smiled at it, and returned it to his pocket.
+
+The frog spoke up again and said, “If you kiss me and turn me back into a beautiful princess, I will be your loving companion for an entire week.” The man took the frog out of his pocket, smiled at it, and returned it to his pocket.
+
+The frog then cried out, “If you kiss me and turn me back into a princess, I’ll stay with you for a year and do ANYTHING you want.” Again the man took the frog out, smiled at it, and put it back into his pocket.
+
+Finally, the frog asked, “What is the matter? I’ve told you I’m a beautiful princess, that I’ll stay with you for a year and do anything you want. Why won’t you kiss me?”
+
+The man said, “Look, I’m a computer programmer. I don’t have time for a girlfriend, but a talking frog is cool.”
+
+A SQL query walks up to two tables in a restaurant and asks: “Mind if I join you?”
+Eight bytes walk into a bar and say to the bartender: “Make us a double.”
+Two strings walk into a bar. One says to the bartender: “I’ll have a beer*7jd@jh.” The other says: “Excuse my friend, he’s not null terminated.”
+
+A man walks into a pet shop containing various different types of animals, and notices that they’re very expensive. He points at a monkey, and asks the pet shop owner “This monkey costs £40,000! Why is it so expensive?” The pet shop owner replies, “Ah, that’s a special monkey, that – it can program in Java – good for enterprise programming and web stuff.” The man looks around a bit more, and notices another more expensive monkey. He asks the pet shop owner “This one costs £50,000 – what does this one do?” The pet shop owner says “That’s a C++ monkey. More advanced, low-level and faster code.” The man accepts this and looks around the pet shop a bit more. He then sees another even more expensive monkey. “Good god – this monkey costs £70,000 – what on earth does it do?” he asks. “Well, I’ve never actually seen that monkey do anything,” said the pet shop owner, “but the other monkeys call it the project manager.”
+
+A programmer goes out with a chick. Next day he tells his friend how the date went: “It was raining, we were soaked. We went to her place where she started to undress before me… Then she threw the wet clothes on the computer” – “Wow… what kind of computer?” – the other says.
+
+
+
+10 Excuses of Programmers to a Non-technical Boss
+
+“That’s weird.”
+“But it worked yesterday!”
+“It must be a hardware problem.”
+“It works on my machine.”
+“Your computer might be infected with a virus.”
+“Someone must have changed my code..”
+“It really does that.”
+“Oh my God you broke it!” –  very effective for warding off the boss.
+“Almost done.”
+“Compiling!”
+5 Things Programmers Wonder About Their Own Code
+
+“Why are you not working?!”
+“Why are you working?!”
+“Where’s the missing semi-colon?!”
+“What just happened?!”
+“Who coded this sh@t?!”
+Top 5 Words Commonly Uttered by Programmers
+
+(removed by editor due to excessive profanity)
+(removed by editor due to excessive profanity)
+(removed by editor due to excessive profanity)
+(removed by editor due to excessive profanity)
+(removed by editor due to excessive profanity)
+Question and Answer
+
+Q: How many programmers does it take to change a lightbulb?
+A: None. They won’t touch it because it’s a hardware problem.
+Q: What do cats and programmers have in common?
+A: When either one is unusually happy and excited, an appropriate question would be, “did you find a bug?”
+Q: What is the most used language in programming?
+A: Profanity.
+Q: Why do programmers confuse Halloween and Christmas?
+A: Because Oct 31 == Dec 25
+Q: How did the programmer die in the shower?
+A: He read the shampoo bottle instructions: Lather. Rinse. Repeat.
+Q: Why did the programmer quit his job?
+A:Because he didn’t get arrays.
+Q: How do developers create shaman spells?
+A: Using a hex editor.
+
+
+
+
+
+Computer Programming Humor
+
+Star wars costumes
+
+Interviewer: "Is studying computer science the best way to prepare to be a programmer?"
+
+Bill Gates: "No, the best way to prepare is to write programs, and to study great        
+programs that other people have written. In my case, I went to 
+the garbage cans at the Computer Science Center and I fished
+out listings of their operating system."                                      
+
+
+There are 10 types of people in this world.
+Those who understand binary, and those who don't.
+
+
+
+DEBUGGING : Removing the needles from the haystack.
+
+
+
+Endless Loop: n., see Loop, Endless.
+Loop, Endless: n., see Endless Loop.
+- Random Shack Data Processing Dictionary
+
+
+
+Why do programmers always get Christmas and Halloween mixed up? 
+Because DEC 25 = OCT 31
+
+
+
+"It is practically impossible to teach good programming style to students that have had prior exposure
+to BASIC; as potential programmers they are mentally mutilated beyond hope of regeneration."
+-Dijkstra
+
+
+
+"The three most dangerous things in the world are a programmer with a
+soldering iron, a hardware type with a program patch and a user with an idea."
+- _The Wizardry Compiled_ by Rick Cook
+
+
+
+"The primary purpose of the DATA statement is to give names to constants; instead of
+referring to pi as 3.141592653589793 at every appearance, the variable PI can be given
+that value with a DATA statement and used instead of the longer form of the constant.
+This also simplifies modifying the program, should the value of pi change."
+- FORTRAN manual for Xerox computers
+
+
+
+"C makes it easy to shoot yourself in the foot. C++ makes it
+harder, but when you do, it blows away your whole leg."
+- Bjarne Stroustrup
+
+
+
+"Programming graphics in X is like finding sqrt(pi) using Roman numerals."
+- Henry Spencer
+
+
+
+"Never put off until run time what you can do at compile time."
+- David Gries, in "Compiler Construction for Digital Computers", circa 1969.
+
+
+
+BASIC programmers never die, they GOSUB and don't RETURN.
+
+
+
+Real programmers are surprised when the odometers in their cars don't turn from 99,999 to 99,99A.
+
+
+
+FORTRAN is not a language. It's a way of turning a multi-million
+dollar mainframe into a $50 programmable scientific calculator.
+
+
+
+C is almost a real language. Even the name sounds like it's gone through
+an optimizing compiler. Get rid of all of those stupid brackets and we'll talk.
+
+
+
+Any sufficiently advanced bug is indistinguishable from a feature.
+
+
+
+Programming is 10% science, 25% ingenuity and 65% getting the ingenuity to work with the science.
+
+
+
+Science is to computer science as hydrodynamics is to plumbing.
+
+
+
+We don't really understand it, so we'll give it to the programmers.
+
+
+
+COBOL programmers understand why women hate periods.
+
+
+
+Computer interfaces and user interfaces are as different as night and 1.
+
+
+
+The human mind ordinarily operates at only ten 10% of its
+capacity, the rest is overhead for the operating system.
+
+
+
+A computer scientist is someone who fixes things that aren't broken.
+
+
+
+The computer is mightier than the pen, the sword, and usually the programmer.
+
+
+
+Programming is an art form that fights back.
+
+
+
+After a number of decimal places, who cares?
+
+
+
+"Virtual" means never knowing where your next byte is coming from.
+
+
+
+If at first you don't succeed, you must be a programmer.
+
+
+
+"It's 5:50 a.m., Do you know where your stack pointer is?"
+
+
+
+If God had intended humans to program, we would be born with serial I/O ports.
+
+
+
+There are two ways to write error-free programs; only the third one works.
+
+
+
+You never finish a program, you just stop working on it.
+
+
+
+Deliver yesterday, code today, think tomorrow.
+
+
+
+PL/1, "the fatal disease", belongs more to the problem set than to the solution set.
+
+
+
+Yea, though I walk through the valley of the shadow of APL, I shall fear
+no evil, for I can string six primitive monadic and dyadic operators together.
+
+
+
+Programming is a lot like sex. One mistake and you're providing support for a lifetime.
+
+
+
+Another Glitch in the Call
+(Sung to the tune of a Pink Floyd song)
+-
+We don't need no indirection    
+We don't need no flow control  
+No data typing or declarations 
+Did you leave the lists alone?   
+-
+Hey! Hacker! Leave those lists alone!
+-
+Chorus:
+All in all, it was, just a pure-LISP function call.
+All in all, it was, just a pure-LISP function call.
+
+
+
+
+A group of 4 Microsoft .NET programmers and a group of 4 Java programmers are going on a train to an expo. The MS programmers buy a ticket each, and then watch the Java programmers proceed to buy one ticket between them.
+
+The MS programmers are intrigued and when they get on the train, they watch the Java programmers to see what they do when the guard comes to check the tickets. It turns out that, before the guard comes, they all cram into the toilet. The guard knocks on the door, and asks for the ticket. The guard takes it from under the door, and slides it back.
+
+The MS programmers are all impressed, so on the way back, they buy only one ticket. Only to watch the Java folks get on the train without buying a ticket at all.
+
+When they get on the train, the MS people cram into the toilet, as they saw the Java folks on the earlier journey. The Java programmers then knock on the door, and say “Ticket please”. The MS programmers slide the ticket under the door, as they saw the Java programmers do earlier.
+
+“Thank you”, they say. “You steal our methods, but you don’t understand them.”
+
+A young Java developer and his project manager board a train headed through the mountains on its way to Wichita. They can find no place to sit except for two seats right across the aisle from a young woman and her grandmother. After a while, it is obvious that the young woman and the young programmer are interested in each other, because they are giving each other looks. Soon the train passes into a tunnel and it is pitch black. There is a sound of a kiss followed by the sound of a slap.
+When the train emerges from the tunnel, the four sit there without saying a word. The grandmother is thinking to herself, “It was very brash for that young man to kiss my granddaughter, but I’m glad she slapped him.”
+
+The project manager is sitting there thinking, “I didn’t know the young tech was brave enough to kiss the girl, but I sure wish she hadn’t missed him when she slapped me!”
+
+The young woman was sitting and thinking, “I’m glad the guy kissed me, but I wish my grandmother had not slapped him!”
+
+The young programmer sat there with a satisfied smile on his face. He thought to himself, “Life is good. How often does a guy have the chance to kiss a beautiful girl and slap his Project manager all at the same time!”
+------------------------------------------
+Two ints and a Float walk into a bar. They spot an attractive Double on her own.
+
+The first int walks up to her and say: “Hey baby, my VM or yours?”. She slaps him and he walks back dejected.
+
+The second int walks over. “Hey cute-stuff, can I cook you ‘Beans’ for breakfast?” After a quick slapping, he too walks back.
+
+Then the Float ambles over casually: “Where those two primitive types bothering you?”, he remarks.
+
+“Yes, I’m so glad you’re here”, she says. “They just had no Class!”
+----------------
+A bunch of 17 year olds – ClassCast, IllegalArgument and ArrayIndexOutOfBounds – decide to take their chances, and try to get served at the bar.
+
+The Bartender takes one look at them, and asks them for ID.
+
+ClassCast hands over his fake ID, IllegalArgument hands over his brother Throwable’s ID, but ArrayIndexOutOfBounds doesn’t have any fake ID.
+
+The Bartender says “Sorry guys, you’ll have to leave unless I can see some ID”.
+
+ClassCast pleads with the barman “Can’t you just bend the rules for us?” and the barman says “Sorry, no Exceptions“.
+
+Two session beans in love are sitting cuddled close together:
+
+“Oh Jarling, my Singleton!”, the female session bean exclaims.
+“Let’s go Home and Make love.”, the male session bean replies.
+“But we can’t”, the female session bean says. “I don’t want to create() new() instances.”
+“Don’t worry” the male session bean replies with a smile. “My constructor is protected.”
+
+Why did the Integer drown?
+‘Coz he couldn’t Float!
+
+Yo mama’s so fat… she get an ArrayIndexOutOfBoundException!
+Yo mama’s so po… she does garbage collection for a living!
+Yo mama’s so ugly… her java.lang.reflect took down the mirror site!
+
+A bonus one
+Your mama’s so fat… that not even Dijkstra is able to find a shortest path around her.
+
+When your hammer is C++, everything begins to look like a thumb.
+
+A Cobol programmer made so much money doing Y2K remediation that he was able to have himself cryogenically frozen when he died. One day in the future, he was unexpectedly resurrected.
+
+When he asked why he was unfrozen, he was told:
+
+“It’s the year 9999 – and you know Cobol”
+
+A geologist and a Java programmer are sitting next to each other on a long flight from LA to NY. The geologist leans over to the programmer and asks if he would like to play a fun game. The programmer just wants to take a nap, so he politely declines and rolls over to the window to catch a few winks. The geologist persists and explains that the game is real easy and a lotta fun. He explains, “I ask you a question, and if you don’t know the answer, you pay me $5. Then you ask me a question, and if I don’t know the answer, I’ll pay you $5.” Again, the programmer politely declines and tries to get to sleep. The geologist now somewhat agitated, says, “OK, if you don’t know the answer you pay me $5, and if I don’t know the answer, I’ll pay you $50!”
+
+This catches the programmer’s attention, and he sees no end to this torment unless he plays, so he agrees to the game. The geologist asks the first question. “What’s the distance from the Earth to the moon?”
+
+The programmer doesn’t say a word, but reaches into his wallet, pulls out a five dollar bill and hands it to the geologist.
+
+Now, it’s the programmer’s turn. He asks the Geologist, “What goes up a hill with three legs, and comes down on four?” The geologist looks up at him with a puzzled look. He takes out his laptop computer and searches all of his references. He taps into the Airphone with his modem and searches the net and the Library of Congress. Frustrated, he sends e-mail to his co-workers — all to no avail.
+
+After about an hour, he wakes the programmer and hands him $50. The programmer politely takes the $50 and turns away to try to get back to sleep.
+
+The Geologist is more than a little miffed, shakes the programmer and asks, “Well, so what’s the answer?”
+
+Without a word, the programmer reaches into his wallet, hands the geologist $5, and turns away to get back to sleep.
+
+Once upon a time there was a shepherd looking after his sheep on the side of a deserted road. Suddenly a brand new Porsche screeches to a halt. The driver, a man dressed in an Armani suit, Cerutti shoes, Ray-Ban sunglasses, TAG-Heuer wrist-watch, and a Versace tie, gets out and asks the Shepherd:
+
+Man: “If I can tell you how many sheep you have, will you give me one of them?”
+The shepherd looks at the young man, and then looks at the large flock of grazing sheep and replies:
+
+Shepherd: “Okay.”
+
+The young man parks the car, connects his laptop to the mobile-fax, enters a NASA Webster, scans the ground using his GPS, opens a database and 60 Excel tables filled with logarithms and pivot tables, then prints out a 150 page report on his high-tech mini-printer. He turns to the shepherd and says,
+
+Man: “You have exactly 1,586 sheep here.”
+The shepherd cheers,
+
+Shepherd: “That’s correct, you can have your sheep.”
+
+The young man makes his pick and puts it in the back of his Porsche. The shepherd looks at him and asks,
+
+Shepherd: “If I guess your profession, will you return my animal to me?”
+
+The young man answers;
+Man: “Yes, why not?”
+
+Shepherd: “You are an IT consultant.”
+
+Man: “How did you know?”
+
+Shepherd: “Very simple. First, you came here without being called. Second, you charged me a fee to tell me something I already knew, and third, you don’t understand anything about my business. Now can I have my DOG back?”
+
+Richard Stallman, Linus Torvalds, and Donald Knuth engage in a discussion on whose impact on computer science was the greatest.
+Stallman: “God told me I have programmed the best editor in the world!”
+Torvalds: “Well, God told me that I have programmed the best operating system in the world!”
+Knuth: “Wait, wait, I never said that.” Joke: A novice programmer was explained the meaning of RTFM. He showed up the next day saying: “So I went out and bought the Kama Sutra. Now what?”
+Meta-joke: If you tell the joke above to a non-programmer, he will ask: “What’s RTFM?” A programmer will ask: “What’s Kama Sutra?”
+
+Meta-meta-joke: If instead of laughing in response in the meta-joke above you have asked “I knew both, now who am I”, then you are probably a programmer over the age of 30, who has realized the value of social skills, and who may even be married, but who is still an uber-geek who takes things way too literally.
+
+If you have asked “I googled both, now who am I”, then you are probably a high-school kid who reads stackoverflow and takes things way too literally, but who had not yet known about RTFM or Kama Sutra. Congratulations, you are well on your way to becoming an uber-geek. Please try to acquire some social skills along the way. You may not think so now, but they do come in handy.
+
+Don’t anthropomorphize computers. They hate that!
+I was in the airport VIP lounge in route to Seattle a couple of weeks ago. While in there, I noticed Bill Gates sitting comfortably in the corner, enjoying a drink. I was meeting a very important client who was also flying to Seattle, but she was running a little bit late.
+
+Well, being a straightforward kind of guy, I approached the Microsoft chairman, introduced myself, and said, “Mr. Gates, I wonder if you would do me a favor.”
+
+“Yes?”
+
+“I’m sitting right over there,” pointing to my seat at the bar, “and I’m waiting on a very important client. Would you be so kind when she arrives as to come walk by and just say, ‘Hi, Ray,’?”
+
+“Sure.”
+
+I shook his hand and thanked him and went back to my seat.
+
+About ten minutes later, my client showed up. We ordered a drink and started to talk business.
+
+A couple of minutes later, I felt a tap on my shoulder. It was Bill Gates.
+
+“Hi, Ray,” he said.
+
+I replied, “Get lost Gates, I’m in a meeting.”
+
+
+
+
+
+
+
+
+Two bytes meet.  The first byte asks, “Are you ill?”  
+The second byte replies, “No, just feeling a bit off.”
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Eight bytes walk into a bar.  The bartender asks, “Can I get you anything?”
+
+“Yeah,” reply the bytes.  “Make us a double.”
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Q. How did the programmer die in the shower?
+A. He read the shampoo bottle instructions: Lather. Rinse. Repeat.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+How many programmers does it take to change a light bulb?
+None – It’s a hardware problem
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Why do programmers always mix up Halloween and Christmas? 
+Because Oct 31 equals Dec 25.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are only 10 kinds of people in this world: those who know binary and those who don’t.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A programmer walks to the butcher shop and buys a kilo of meat.  An hour later he comes back upset that the butcher shortchanged him by 24 grams.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+“Knock, knock.”
+“Who’s there?”
+very long pause….
+“Java.”
+
+~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+Programming is 10% science, 20% ingenuity, and 70% getting the ingenuity to work with the science.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+Programming is like sex:
+One mistake and you have to support it for the rest of your life.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A man is smoking a cigarette and blowing smoke rings into the air.  His girlfriend becomes irritated with the smoke and says, “Can’t you see the warning on the cigarette pack?  Smoking is hazardous to your health!” 
+
+To which the man replies, “I am a programmer.  We don’t worry about warnings; we only worry about errors.”
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are three kinds of lies: Lies, damned lies, and benchmarks.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A programmer is walking along a beach and finds a lamp.  He rubs the lamp, and a genie appears.  “I am the most powerful genie in the world.  I can grant you any wish, but only one wish.” 
+
+The programmer pulls out a map, points to it and says, “I’d want peace in the Middle East.” 
+
+The genie responds, “Gee, I don’t know.  Those people have been fighting for millennia.  I can do just about anything, but this is likely beyond my limits.” 
+
+The programmer then says, “Well, I am a programmer, and my programs have lots of users.  Please make all my users satisfied with my software and let them ask for sensible changes.”
+
+At which point the genie responds, “Um, let me see that map again.”
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All programmers are playwrights, and all computers are lousy actors.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Have you heard about the new Cray super computer?  It’s so fast, it executes an infinite loop in 6 seconds.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The generation of random numbers is too important to be left to chance.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+“I just saw my life flash before my eyes and all I could see was a close tag…”
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The computer is mightier than the pen, the sword, and usually, the programmer.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Debugging: Removing the needles from the haystack.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Two strings walk into a bar and sit down. The bartender says, “So what’ll it be?”
+
+The first string says, “I think I’ll have a beer quag fulk boorg jdk^CjfdLk jk3s d#f67howe%^U r89nvy~~owmc63^Dz x.xvcu”
+
+“Please excuse my friend,” the second string says, “He isn’t null-terminated.”
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+From the Random Shack Data Processing Dictionary:
+
+Endless Loop: n., see Loop, Endless.
+Loop, Endless: n., see Endless Loop.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The three most dangerous things in the world are a programmer with a soldering iron, a hardware engineer with a software patch, and a user with an idea.  – The Wizardry Compiled by Rick Cook
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+One hundred little bugs in the code
+One hundred little bugs.
+Fix a bug, link the fix in,
+One hundred little bugs in the code.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A computer science student is studying under a tree and another pulls up on a flashy new bike.  The first student asks, “Where’d you get that?”
+
+
+ 
+
+The student on the bike replies, “While I was studying outside, a beautiful girl pulled up on her bike.  She took off all her clothes and said, ‘You can have anything you want’.”
+
+The first student responds, “Good choice!  Her clothes probably wouldn’t have fit you.”
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Comic 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+CIA – Computer Industry Acronyms
+
+CD-ROM: Consumer Device, Rendered Obsolete in Months
+PCMCIA: People Can’t Memorize Computer Industry Acronyms
+ISDN: It Still Does Nothing
+SCSI: System Can’t See It
+MIPS: Meaningless Indication of Processor Speed
+DOS: Defunct Operating System
+WINDOWS: Will Install Needless Data On Whole System
+OS/2: Obsolete Soon, Too
+PnP: Plug and Pray
+APPLE: Arrogance Produces Profit-Losing Entity
+IBM: I Blame Microsoft
+MICROSOFT: Most Intelligent Customers Realize Our Software Only Fools Teenagers
+COBOL: Completely Obsolete Business Oriented Language
+LISP: Lots of Insipid and Stupid Parentheses
+MACINTOSH: Most Applications Crash; If Not, The Operating System Hangs
+AAAAA: American Association Against Acronym Abuse.
+WYSIWYMGIYRRLAAGW: What You See Is What You Might Get If You’re Really Really Lucky And All Goes Well.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Funny Error Messages
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+God as a Programmer
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Computer Stupidities
+
+~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+Comedy Code is syntactically correct programming code written just for fun.  The code doesn’t actually have to do anything if it’s executed, but it should look like regular code.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Why computers are like men:
+
+In order to get their attention, you have to turn them on.
+They have a lot of data, but are still clueless.
+They are supposed to help you solve problems, but half the time they are the problem.
+As soon as you commit to one, you realize that if you had waited a little longer, you could have had a better model.
+Why computers are like women:
+
+No one but the Creator understands their internal logic.
+The native language they use to communicate with other computers is incomprehensible to everyone else.
+Even your smallest mistakes are stored in long-term memory for later retrieval.
+As soon as you make a commitment to one, you find yourself spending half your paycheck on accessories for it.
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Laws of Computer Programming
+
+Any given program, when running, is obsolete.
+Any given program costs more and takes longer.
+If a program is useful, it will have to be changed.
+If a program is useless, it will have to be documented.
+Any program will expand to fill available memory.
+The value of a program is proportional to the weight of its output.
+Program complexity grows until it exceeds the capabilities of the programmer who must maintain it.
+Any non-trivial program contains at least one bug.
+Undetectable errors are infinite in variety, in contrast to detectable errors, which by definition are limited.
+Adding manpower to a late software project makes it later.
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Lubarsky’s Law of Cybernetic Entomology: There’s always one more bug.
+Shaw’s Principle: Build a system that even a fool can use, and only a fool will want to use it.
+Woltman’s Law: Never program and drink beer at the same time.
+Gallois’ Revelation: If you put tomfoolery into a computer, nothing comes out but tomfoolery. But this tomfoolery, having passed through a very expensive machine, is somehow enobled, and no one dares to criticize it.
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A programmer finds himself in front of a committee that decides whether he should go to Heaven or Hell.  The committee tells the programmer he has a say in the matter and asks him if he wants to see either Heaven or Hell before stating his preference.
+
+“Sure,” the programmer replies.  “I have a pretty good idea what Heaven is like, so let’s see Hell.”  So an angel takes the programmer to a sunny beach, full of beautiful women in skimpy bikinis playing volleyball, listening to music and having a great time.  “Wow!” he exclaims, “Hell looks great!  I’ll take Hell!”
+
+Instantly the programmer finds himself in red-hot lava with demons tearing at his flesh.  “Where’s the beach?  The music?  The women?” he screams frantically to the angel.
+
+“That was the demo,” the angel replies as she vanishes.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Jesus and Satan have an argument as to who is the better programmer.  This goes on for a few hours until they come to an agreement to hold a contest with God as the judge.  They set themselves before their computers and begin.  They type furiously, lines of code streaming up the screen, for several hours straight.
+
+Seconds before the end of the competition, a bolt of lightning strikes, taking out the electricity.  Moments later, the power is restored, and God announces that the contest is over.  He asks Satan to show his work.  Visibly upset, Satan cries and says, “I have nothing.  I lost it all when the power went out.”
+
+“Very well,” says God, “let us see if Jesus has fared any better.”
+
+Jesus presses a key, and the screen comes to life in vivid display, the voices of an angelic choir pour forth from the speakers. 
+
+Satan is astonished.  He stutters, “B-b-but how?!  I lost everything, yet Jesus’ program is intact!  How did he do it?”
+
+God chuckles, “Everybody knows… Jesus saves.”
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Redneck Computer Terms
+
+LOG ON: Makin’ a woodstove hot.
+LOG OFF: Don’t add no more wood.
+MONITOR: Keepin’ an eye on the wood stove.
+DOWNLOAD: Gittin’ the farwood off the truck.
+MEGA HERTZ: When you’re not keerfull gittin’ the farwood.
+FLOPPY DISC: Whutcha git from trying to tote too much farwood.
+RAM: That thar thing whut splits the farwood.
+HARD DRIVE: Gittin’ home in the winter time.
+WINDOWS: Whut to shut when it’s cold outside.
+SCREEN: Whut to shut when it’s black fly season.
+BYTE: Whut them dang flys do.
+CHIP: Munchies fer the TV.
+MICRO CHIP: Whut’s in the bottom of the munchie bag.
+MODEM: Whutcha do to the hay fields.
+DOT MATRIX: Old Dan Matrix’s wife.
+LAP TOP: Whar the kitty sleeps.
+KEYBOARD: Whar you hang the dang truck keys.
+SOFTWARE: Them dang plastic forks and knifes.
+MOUSE: Whut eats the grain in the barn.
+MOUSE PAD: That’s hippie talk fer the mouse hole.
+MAINFRAME: Holds up the barn roof.
+PORT: Fancy Flatlander wine.
+ENTER: Northerner talk fer, “C’mon in, y’all.”
+CLICK: Whut you hear when you cock your gun.
+DOUBLE CLICK: When the dang gun don’t far when you pull the trigger.
+REBOOT: Whut you have to do at bedtime when you forgot the kitty’s still outside.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Software Development Cycles
+
+Programmer produces code he believes is bug-free.
+Product is tested. 20 bugs are found.
+Programmer fixes 10 of the bugs and explains to the testing department that the other 10 aren’t really bugs.
+Testing department finds that five of the fixes didn’t work and discovers 15 new bugs.
+Repeat three times steps 3 and 4.
+Due to marketing pressure and an extremely premature product announcement based on overly-optimistic programming schedule, the product is released.
+Users find 137 new bugs.
+Original programmer, having cashed his royalty check, is nowhere to be found.
+Newly-assembled programming team fixes almost all of the 137 bugs, but introduce 456 new ones.
+Original programmer sends underpaid testing department a postcard from Fiji. Entire testing department quits.
+Company is bought in a hostile takeover by competitor using profits from their latest release, which had 783 bugs.
+New CEO is brought in by board of directors. He hires a programmer to redo program from scratch.
+Programmer produces code he believes is bug-free…
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Top 10 phrases spoken by a Klingon Programmer
+
+A TRUE Klingon Warrior does not comment his code!
+By filing this bug report you have challenged the honor of my family.  Prepare to die!
+You question the worthiness of my code?  I should kill you where you stand!
+Our competitors are without honor!
+Specifications are for the weak and timid!
+This machine is GAGH!  I need dual Pentium processors if I am to do battle with this code!
+Perhaps it IS a good day to die!  I say we ship it!
+Our users will know fear and cower before our software!  Ship it!  Ship it and let them flee like the dogs they are!
+My program has just dumped Stova Core!
+Behold, the keyboard of Kalis!  The greatest Klingon code warrior that ever lived!
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The programmer compiled an array of reasons as to why he can’t find a girlfriend with a good <HEAD> on her <BODY>, reason 0 being that he has limited cache.  So he searches his memory to recall connecting to the TCP/IP tunnel of his last girlfriend — sometimes even without a secure socket.  His last girlfriend always complained about his lack of comments. He fumed, “I hate commenting!”  Realizing it was a program requirement, he told her she had nice bits.  This resulted in a Syntax Error.  Now she demanded a massage, but this was rejected as “Feature Creep.”  He smacked her back-end and shouted, “Who’s your parent node?!”  He scanned for open ports.  He attempted to install a backdoor worm but her response was 403.  While his data uploaded into her input device, she considered terminating the process.  But instead she initiated a Do While loop where she recalled a previous boyfriend with a larger pointer.  To expedite the routine routine, she screamed, “Hack into my system! Hack deep into my system! You’re 1337, baby!”  This caused his stack to overflow, and he shot his GUI on her interface.  (Source)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What’s the difference between drug dealers and computer programmers?
+
+Drug Dealers	Computer Programmers
+Refer to their clients as “users”.	Refer to their clients as “users”.
+“The first one’s free!”	“Download a free trial version…”
+Have important South-East Asian connections (to help move the stuff).	Have important South-East Asian connections (to help debug the code).
+Strange jargon: “Stick,” “Rock,” “Dime bag,” “E”.	Strange jargon: “SCSI,” “RTFM,” “Java,” “ISDN”.
+Realize that there’s tons of cash in the 14- to 25-year-old market.	Realize that there’s tons of cash in the 14- to 25-year-old market.
+Job is assisted by the industry’s producing newer, more potent mixes.	Job is assisted by industry’s producing newer, faster machines.
+Often seen in the company of pimps and hustlers.	Often seen in the company of marketing people and venture capitalists.
+Their product causes unhealthy addictions.	DOOM. Quake. SimCity. Duke Nukem 3D. ‘Nuff said.
+Do your job well, and you can sleep with sexy movie stars who depend on you.	Damn! Damn! DAMN!!!
+
+
+
+
+
+For computer geeks
+A computer lets you make more mistakes faster than any invention in human history – with the possible exceptions of handguns and tequila.
+
+If it weren’t for C, we’d all be programming in BASI and OBOL.
+
+There are 10 types of people in the world: those who understand binary, and those who don’t.
+
+In a world without fences and walls, who needs Gates and Windows?
+
+Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.
+
+Computers make very fast, very accurate mistakes.
+
+Never underestimate the bandwidth of a station wagon full of tapes hurling down the highway.
+
+An SQL statement walks into a bar and sees two tables. It approaches, and asks “may I join you?”
+
+Q: Why is it that programmers always confuse Halloween with Christmas?
+A: Because 31 OCT = 25 DEC.
+
+Man is the best computer we can put aboard a spacecraft… and the only one that can be mass produced with unskilled labor
+
+Q: How many programmers does it take to change a light bulb?
+A: None. It’s a hardware problem.
+
+Two strings walk into a bar and sit down. The bartender says, “So what’ll it be?”
+The first string says, “I think I’ll have a beer quag fulk boorg jdk^CjfdLk jk3s d#f67howe%^U r89nvy~~owmc63^Dz x.xvcu”
+“Please excuse my friend,” the second string says. “He isn’t null-terminated.”
+
+“I’m not interrupting you, I’m putting our conversation in full-duplex mode.”
+- Antone Roundy
+
+A doctor, a civil engineer and a programmer are discussing whose profession is the oldest.
+“Surely medicine is the oldest profession,” says the doctor. “God took a rib from Adam and created Eve and if this isn’t medicine I’ll be…”
+The civil engineer breaks in:
+“But before that He created the heavens and the earth from chaos. Now that’s civil engineering to me.”
+The programmer thinks a bit and then says:
+“And who do you think created chaos?”
+
+And a few not quite computer-related bonus jokes
+We liked these ones too much to throw them away, so here you are. :)
+
+A logician tells a colleague his wife just had a baby.
+- Is it a boy or a girl?
+- Yes.
+
+A cop pulls over Werner Heisenberg and says, “Sir, do you know how fast you were going?”
+Heisenberg responds, “NO, but I know EXACTLY where I am.”
+
+And finally, this little zinger:
+
+Lotteries are a tax on people who suck at math.
+
+We’ve been chuckling here at the Pingdom office while putting this together, so we hope you enjoyed this post as much as we did.
+
+
+
+

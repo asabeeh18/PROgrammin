@@ -1,0 +1,29 @@
+=========================
+strokeWeight(12);
+strokeJoin(ROUND); // Round the stroke corners
+rect(40, 25, 70, 70);
+strokeJoin(BEVEL); // Bevel the stroke corners
+rect(140, 25, 70, 70);
+strokeCap(SQUARE); // Square the line endings
+line(270, 25, 340, 95);
+strokeCap(ROUND);	//Round line endings
+=========================
+background(x), fill(x), and stroke(x),nofill(),nostroke()
+255-white to 0 black --255 shades of gray
+
+background(r,g,b), fill(r,g,b), and stroke(r,g,b)
+
+optional 4th parameter transparency 0 to 255(opaque)
+
+=========================
+beginShape();
+vertex(180, 82);
+vertex(207, 36);
+vertex(214, 63);
+vertex(407, 11);
+vertex(412, 30);
+vertex(219, 82);
+vertex(226, 109);
+endShape();
+
+draws  a shape joining the vertices

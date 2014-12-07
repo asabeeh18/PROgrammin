@@ -1,0 +1,68 @@
+File 1 Ques 1
+D)<!--update-->
+update Course
+set Credits=
+	(Case
+		when Credits>4 then Credits+2
+		else Credits+1
+		END);
+		
+E)<!--update-->
+Select sum(credits),sid
+from (	Select *
+		From Reg_for,Course
+		where Course.cid=Reg_for.cid
+	)
+group by Sid;
+					
+H)select Cid,count(sid)
+from Reg_for
+Group by cid
+
+FILE 2 
+13)<!--update -_- >
+Select count(*),Name
+from employee e,department
+where department_id=e.department_id
+group by e.Department_id;
+
+14)<!--update>
+Select distinct Function
+from Job
+where JOB_ID IN( 
+	select JOB_ID 
+	from Employee
+	where Department_ID IN(Select Department_ID
+							From Department
+							where Name='Accounting' OR Name='Sales'));
+file 2 ques 1
+10)
+select Employee.*
+from Employee,Department
+where Name='Sales' and Employee.Department_ID=Department_ID;
+
+
+11)
+select *
+from Employee
+where salary=(Select max(salary) from Employee);
+
+
+12)<!--update>
+select *
+from Employee
+where salary=(select max(salary) from epmloyee where department_id=30;
+
+
+File 2 3rd ques							
+ 8)<!--update>
+ select * 
+ from salesperson
+ where ID IN(40000,44000,52000);
+				
+10)<!--update-->
+select * 
+ from orders
+ where salesperson_ID IN(2,7)
+order by salesperson_id,amount desc;						
+					

@@ -1,0 +1,17 @@
+//indexed sequentual search
+#include<stdio.h>
+#include<conio.h>
+void genkey(int a[],int n)
+{
+	
+void main()
+{
+	int a[M],n,s,i;
+	printf("Enter the number of elements");
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
+		scanf("%d",%a[i]);
+	genkey(a,n)
+	printf("Enter the elemnt to search for");
+	scanf("%d",&s);
+	search(a,n,s);

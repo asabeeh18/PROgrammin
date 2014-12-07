@@ -1,0 +1,910 @@
+Some people, when confronted with a problem, think, 'I know, I'll use threads' - and then two they hav erpoblesms.
+
+Knock knock.
+Race condition.
+Who's there?
+
+A programmer is told to "go to hell", he finds the worst part of that statement is the "go to"
+
+"go to heaven" is even worse because heaven is up and you NEVER NEVER use a GOTO to a upper line of code.
+permalinkparent
+
+Not the funniest, but this one came to mind:
+"It should be noted that no ethically-trained software engineer would ever consent to write a DestroyBaghdad procedure. Basic professional ethics would instead require him to write a DestroyCity procedure, to which Baghdad could be given as a parameter." - Nathaniel Borenstein
+permalink
+[ñ]Jacques_R_Estard 438 points 1 month ago
+I like it because it's completely true.
+permalinkparent
+[ñ]CommanderDerpington 415 points 1 month ago
+Indeed, I would totally write DestroyBaghdad() but only because I would then be asked later to write DestroyParis() and on and on... job security is great.
+permalinkparent
+[ñ]handfootmouth 272 points 1 month ago
+You should still write a DestroyCity() because you can then destroy Paris in two seconds and nap the rest of the time...
+permalinkparent
+[ñ]auxiliary-character 281 points 1 month ago
+def DestroyBaghdad():
+  DestroyCity("Baghdad")
+
+def DestroyParis():
+  DestroyCity("Paris")
+
+#We need to talk about this leading capital camel case standard.
+permalinkparent
+[ñ]ArmchairHacker 206 points 1 month ago
+for city in cities:
+    DestroyCity(city)
+permalinkparent
+load more comments (23 replies)
+load more comments (25 replies)
+load more comments (9 replies)
+[ñ]MibZ 90 points 1 month ago
+If you really wanted to you could hide DestroyCity() and the function declarations for each public function in a separate dll, so each function was merely a call of DestroyCity(Baghdad). You could go on to write a script that looks up Wikipedia pages for each city function, take a tally of the most frequently used non-filler words filtered through a list of the most common English words, and generate some convincing looking code based off of words picked out that are filtered as keywords, just to make the function look incredibly robust while it is actually quite simple.
+All the while you're gaining the experience of making a fudge code generator whilst fooling your inferior superior into giving you job security. And only then can you slack off, being given a success to revel in that makes everything else easy.
+permalinkparent
+[ñ]Jacques_R_Estard 19 points 1 month ago
+I may or may not have done a similar thing in the past.
+permalinkparent
+load more comments (2 replies)
+load more comments (4 replies)
+load more comments (7 replies)
+load more comments (6 replies)
+load more comments (24 replies)
+[ñ]advicevice 1544 points 1 month ago
+A manager, a mechanical engineer, and software analyst are driving back from convention through the mountains. Suddenly, as they crest a hill, the brakes on the car go out and they fly careening down the mountain. After scraping against numerous guardrails, they come to a stop in the ditch. Everyone gets out of the car to assess the damage.
+The manager says, "Let's form a group to collaborate ideas on how we can solve this issue."
+The mechanical engineer suggests, "We should disassemble the car and analyze each part for failure."
+The software analyst says, "Let's push it back up the hill and see if it does it again."
+permalink
+[ñ]fizzyliftingdrank 827 points 1 month ago
+The IT guy says, "First we should all try getting out of the car, shutting all the doors, then getting back in again."
+permalinkparent
+[ñ]FizzyPaddleboatMcgee 672 points 1 month ago*
+No no no. The IT guy Googles "Car brake failure downhill crash fix".
+Edit: brake not break. Oops.
+permalinkparent
+[ñ]KronktheKronk 332 points 1 month ago
+and when he doesn't find an answer he says "fuck it" and just gives the manager a new car.
+permalinkparent
+[ñ]pytechd 82 points 1 month ago
+... And gives the old car to the new intern.
+permalinkparent
+load more comments (1 reply)
+load more comments (18 replies)
+load more comments (11 replies)
+[ñ]shutz2 158 points 1 month ago
+I would rewrite this as:
+IT guy says, "Close all the windows, then shut down the engine. Now start the engine again and see if that helps."
+permalinkparent
+load more comments (2 replies)
+load more comments (15 replies)
+load more comments (21 replies)
+[ñ]null_terminator 1275 points 1 month ago
+What's the best thing thing about UDP jokes?
+I don't care if you get them
+permalink
+[ñ]stakoverflo 313 points 1 month ago
+I prefer, "I've got a really good UDP joke to tell you, but I don't know if you'll get it"
+permalinkparent
+[ñ]undearius 50 points 1 month ago
+If they respond, like "I do/don't get it", then you say "Now it's a TCP joke"
+permalinkparent
+load more comments (2 replies)
+[ñ]Red_AtNight 908 points 1 month ago
+What's the best part about TCP jokes?
+I get to keep telling them until you get them.
+permalinkparent
+[ñ]jovdmeer 199 points 1 month ago
+Huh?
+permalinkparent
+[ñ]Red_AtNight 825 points 1 month ago
+What's the best part about TCP jokes? I get to keep telling them until you get them.
+permalinkparent
+[ñ]knostic 519 points 1 month ago
+ACK
+permalinkparent
+load more comments (9 replies)
+[ñ]ddipaolo 97 points 1 month ago
+RST
+permalinkparent
+load more comments (2 replies)
+load more comments (8 replies)
+[ñ]dredding 156 points 1 month ago
+I'm pretty sure you were just manually ddos'ed
+permalinkparent
+load more comments (3 replies)
+load more comments (11 replies)
+load more comments (3 replies)
+[ñ]eastcoastelijah 79 points 1 month ago
+A UDP packet walks into a bar, no one acknowledges him
+EDIT: Alternate version: A UDP packet walks into...
+permalinkparent
+[ñ]Elite6809 78 points 1 month ago
+ACK, this one's awful.
+permalinkparent
+load more comments (6 replies)
+load more comments (16 replies)
+[ñ]wbmcl 1090 points 1 month ago
+Topical version of a classic:
+Q: How many programmers does it take to screw in a light bulb?
+A: None. It's a hardware problem.
+permalink
+[ñ]The1RGood[S] 483 points 1 month ago
+"Lightbulb appears to run on Windows, as it stops functioning after a seemingly random period of time and the only known fix is to install fresh copy."
+permalinkparent
+[ñ]Quenty 21 points 1 month ago
+Don't worry about the lightbulb. Just install more Windows, and get function half of the day!
+Edit: 'Time' to 'Day' for clarification.
+permalinkparent
+load more comments (14 replies)
+load more comments (11 replies)
+[ñ]ttchoubs 781 points 1 month ago
+A guy walks into a bar and asks for 1.4 root beers. The bartender says "I'll have to charge you extra, that's a root beer float". The guy says "In that case, better make it a double."
+permalink
+[ñ]sixteenlettername 36 points 1 month ago
+He's only going to end up with about 1.18 beers anyway.
+Love your joke btw! Never heard it before and its one of my favourites in this thread.
+permalinkparent
+[ñ]ttchoubs 24 points 1 month ago*
+I stole it from a previous programming joke thread.
+permalinkparent
+[ñ]NedryOS 48 points 1 month ago*
+That's not theft, that's creative re-appropriation without proper citation. All programmers do it.
+permalinkparent
+load more comments (2 replies)
+load more comments (1 reply)
+load more comments (1 reply)
+load more comments (31 replies)
+[ñ]IAmNotABanana1 891 points 1 month ago*
+A testing engineer walks into a bar. Runs into a bar. Crawls into a bar. Dances into a bar. Tiptoes into a bar. Rams into a bar. Jumps into a bar. Slides into a bar. Stumbles into a bar. Looks at a bar. ...
+permalink
+[ñ]Thandius 418 points 1 month ago
+and still doesn't notice that the bar is missing its top....
+permalinkparent
+[ñ]Kowzorz 75 points 1 month ago
+CNR
+permalinkparent
+load more comments (2 replies)
+load more comments (7 replies)
+[ñ]silloyd 298 points 1 month ago
+An SEO expert walks into a bar, pub, public house, inn, restaurant, club.
+permalinkparent
+[ñ]tjsr 181 points 1 month ago
+How many SEO engineers does it take to change a light bulb, lightbulb, globe, lamp, sex, xxx
+permalinkparent
+load more comments (2 replies)
+load more comments (9 replies)
+load more comments (5 replies)
+[ñ]valarauca 546 points 1 month ago
+A typical question on stack overflow
+Why being a programmer is confusing
+where the buck stops
+When a programmer wants you to shut up
+What programmers really do all day
+What a programming manager does all day
+permalink
+[ñ]FrankieBones 201 points 1 month ago
+I always liked this one about the design process.
+permalinkparent
+[ñ]evil_penguin_17 23 points 1 month ago
+This one is good too.
+permalinkparent
+load more comments (3 replies)
+[ñ]Phlebas99 49 points 1 month ago
+I love that last one!
+permalinkparent
+load more comments (4 replies)
+load more comments (14 replies)
+[ñ]The1RGood[S] 1310 points 1 month ago
+Java and C were telling jokes. It was C's turn, so he writes something on the wall, points to it and says "Do you get the reference?" But Java didn't.
+permalink
+[ñ]welicious 1246 points 1 month ago
+Why C gets all the chicks and Java doesn't? Because C doesn't treat them like objects.
+permalinkparent
+[ñ]LolCamAlpha 842 points 1 month ago
+That's not very nice.
+C could at least give Java some pointers.
+permalinkparent
+[ñ]aXenoWhat 102 points 1 month ago
+Def.
+permalinkparent
+load more comments (6 replies)
+load more comments (15 replies)
+[ñ]zapolon2 60 points 1 month ago
+[Serious] Sorry, can you explain?
+permalinkparent
+load more comments (81 replies)
+[ñ]SQLSequel 362 points 1 month ago
+Knock knock
+Who's there?
+...
+...
+...
+Java
+permalinkparent
+[ñ]tu_ne_cede_malis 787 points 1 month ago
+Knock knock
+Branch prediction.
+Who's there?
+permalinkparent
+[ñ]James20k 73 points 1 month ago
+This is the easily the best joke here so far
+permalinkparent
+load more comments (3 replies)
+load more comments (11 replies)
+load more comments (16 replies)
+load more comments (8 replies)
+[ñ]wolfups 2205 points 1 month ago
+A programmer puts two glasses on his bedside table before going to sleep. A full one, in case he gets thirsty, and an empty one, in case he doesnít.
+permalink
+[ñ]the_sam_ryan 265 points 1 month ago
+That is my favorite so far.
+permalinkparent
+load more comments (3 replies)
+[ñ]PragmaticOne 164 points 1 month ago*
+Mind explaining this one? I can't figure it out...
+Edit: Thanks to all the explanations! I get it now.
+permalinkparent
+[ñ]emlgsh 542 points 1 month ago
+Because if he wakes up, isn't thirsty, and finds no cup, the universe will throw an exception, all of reality will be undone, and everything and everyone he's ever known will be instantly and irrevocably destroyed.
+Just like in real life.
+permalinkparent
+[ñ]tehlemmings 30 points 1 month ago
+Couldnt we just use a try/catch to exit out of the attempt and pretend he just never woke up?
+permalinkparent
+[ñ]TesticleTophat 44 points 1 month ago
+Ah, would he stay asleep or will he become awake with no memory of falling asleep, making him sleep deprived?
+Be careful, this code could be dangerous.
+permalinkparent
+load more comments (5 replies)
+load more comments (2 replies)
+load more comments (5 replies)
+[ñ]peterrebbit 257 points 1 month ago*
+He prepares a cup for either case, because if he had a full cup if he gets thirsty and no cup at all if he doesn't, then the two outcomes would have different types.
+Edit: I should mention that this joke really applies only to statically typed languages. In a dynamically typed language (like JavaScript), there would be no problem with returning a full cup in one case and nothing at all for the other case.
+Edit2: As the guy who is not a banana pointed out, "no problem" only means the code will run, not that it's ever good style!
+permalinkparent
+[ñ][deleted] 1 month ago*
+[deleted]
+permalinkparent
+[ñ]cookrw1989 63 points 1 month ago
+Could you not simply create a "cup" object, with "liquid" as a class variable and make a quick this.hasLiquid() call?
+permalinkparent
+load more comments (11 replies)
+[ñ]FrontLoadedAnvils 311 points 1 month ago
+jesus christ fuck java
+permalinkparent
+[ñ]lifeformed 51 points 1 month ago
+com.sun.java.swing.plaf.nimbus.InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState
+permalinkparent
+load more comments (3 replies)
+load more comments (14 replies)
+load more comments (15 replies)
+load more comments (9 replies)
+load more comments (7 replies)
+load more comments (9 replies)
+[ñ]Shurikane 2729 points 1 month ago
+99 little bugs in the code
+99 bugs in the code
+patch one down, compile it around
+117 bugs in the code
+permalink
+[ñ]rekam 589 points 1 month ago
+1 little bug in the code
+1 little bug
+patch one down, compile it around
+0 bugs in the code
+0 little bugs in the code
+0 little bugs
+patch one downSEGMENTATION FAULT
+permalinkparent
+load more comments (9 replies)
+[ñ]ArmchairHacker 1329 points 1 month ago
+It's actually possible to reach zero bugs in this song -- just repeat until you reach 4294967296 bugs. Integer overflow will bring you to zero (assuming you're working in 32 unsigned bits).
+permalinkparent
+load more comments (56 replies)
+[ñ]Switchsquatch 140 points 1 month ago
+0 little bugs in the code
+0 bugs in the code
+WHY THE FUCK ARENT YOU FUCKING WORkING YOU PIECE OF SHIT?! WORK FUCKER WORK!
+0 bugs in the code
+permalinkparent
+load more comments (2 replies)
+[ñ]The1RGood[S] 160 points 1 month ago
+Haha, so perfect
+permalinkparent
+load more comments (6 replies)
+load more comments (28 replies)
+[ñ]Ymbirtt 284 points 1 month ago
+If you like jokes about infinite loops, this comment's really good.
+permalink
+[ñ]xternal7 100 points 1 month ago
+break;
+permalinkparent
+load more comments (15 replies)
+[ñ]throwawayrand123 1755 points 1 month ago
+A group of computer science geeks were listening to a lecture about Java programming at a university.
+After the lecture, one of the men leaned over and grabbed a womanís breast.
+Woman: Hey! Thatís private OK ?
+The man hesitated for a second looking confused.
+Man: But I thought we were in the same class.
+permalink
+[ñ]Dirtbiker201 611 points 1 month ago
+public slap getBreast()
+permalinkparent
+[ñ]SergeantBBQ 533 points 1 month ago*
+if(this.charisma >= lady.getSelfEsteem()) {
+    return breast;
+}
+//Fixed typo from carisma to charisma, it now compiles
+permalinkparent
+[ñ]mortiphago 120 points 1 month ago
+a single one?!
+permalinkparent
+[ñ]Zugbug 128 points 1 month ago
+Coding an action for both hands at the exact same time is hard. What are you expecting, multitasking? Ask a woman for that!
+permalinkparent
+[ñ]LE4d 93 points 1 month ago
+something something threadsafe
+permalinkparent
+load more comments (4 replies)
+load more comments (5 replies)
+load more comments (10 replies)
+load more comments (20 replies)
+load more comments (8 replies)
+[ñ]Fishinabowl11 148 points 1 month ago
+He just needs to become her friend!
+permalinkparent
+[ñ]sirspidermonkey 353 points 1 month ago
+For those not getting this reference:
+In C++ friends can touch each other's privates.
+permalinkparent
+[ñ]Muniosi 48 points 1 month ago
+...where do I sign up for C++?
+permalinkparent
+load more comments (1 reply)
+load more comments (9 replies)
+load more comments (52 replies)
+[ñ]dhorton91 547 points 1 month ago
+In order to understand recursion you must first understand recursion.
+permalink
+[ñ]geekworking 125 points 1 month ago
+Google used to have an Easter egg where if you searched for recursion the top result was "see recursion".
+permalinkparent
+[ñ][deleted] 1 month ago*
+[deleted]
+permalinkparent
+[ñ]NO_TOUCHING__lol 44 points 1 month ago
+Don't forget about "do a barrel roll" "tilt" and "zerg rush"
+permalinkparent
+load more comments (7 replies)
+load more comments (1 reply)
+load more comments (11 replies)
+load more comments (8 replies)
+[ñ]Ihavenocomments 2504 points 1 month ago
+A man flying in a hot air balloon suddenly realizes heís lost. He reduces height and spots a man down below. He lowers the balloon further and shouts to get directions, "Excuse me, can you tell me where I am?"
+The man below says: "Yes. You're in a hot air balloon, hovering 30 feet above this field."
+"You must work in Information Technology," says the balloonist.
+"I do" replies the man. "How did you know?"
+"Well," says the balloonist, "everything you have told me is technically correct, but It's of no use to anyone."
+The man below replies, "You must work in management."
+"I do," replies the balloonist, "But how'd you know?"*
+"Well", says the man, "you donít know where you are or where youíre going, but you expect me to be able to help. Youíre in the same position you were before we met, but now itís my fault."
+permalink
+[ñ]Matthias720 614 points 1 month ago
+True, true. People ask IT questions all the time, but they always ask the questions in the wrong way, and for the wrong information.
+Source: I work in IT
+permalinkparent
+[ñ]ZannX 292 points 1 month ago
+"It's broken"
+permalinkparent
+[ñ]tmax8908 152 points 1 month ago
+Am I wrong?
+permalinkparent
+load more comments (5 replies)
+load more comments (20 replies)
+[ñ][deleted] 269 points 1 month ago
+I got a good one, happened last week to a client that is halfway across town.
+"My computer bluescreens every time it starts up then it's slow"
+I get over there to find out the bluescreen is the blank blue desktop that windows xp loads before the login screen, and the OS loads so slow because every app the user installed on their own, they threw a shortcut in the "startup" folder in the start menu, so they know which programs to load when they log in.
+Clients have asked before "do you drink?" I reply "no, because if I start I'll never stop"
+permalinkparent
+[ñ]rileycakes5 33 points 1 month ago
+"I don't know why my Internet is slow" ...says the person with 9 toolbar add ons.
+permalinkparent
+load more comments (2 replies)
+load more comments (10 replies)
+load more comments (13 replies)
+[ñ]selflessGene 78 points 1 month ago
+I expected the punch line to have 'being full of hot air' in there somewhere.
+permalinkparent
+[ñ]Wlah 63 points 1 month ago
+Another version has "you've gotten to where you are using nothing but hot air" added to the reply
+permalinkparent
+load more comments (1 reply)
+[ñ]_illionaire[??] 74 points 1 month ago
+Subtext.
+permalinkparent
+[ñ]SirDigbyChknCaesar 21 points 1 month ago
+My browser doesn't support subtext. Why are they always changing these standards?
+permalinkparent
+load more comments (1 reply)
+load more comments (3 replies)
+load more comments (2 replies)
+load more comments (29 replies)
+[ñ]gramie 584 points 1 month ago
+A man came into work, and one of his co-workers had a parrot on his shoulder. All though the morning, the bird would squawk and say, "pieces of seven, pieces of seven".
+Finally he could stand it no longer and went to the co-worker's cubicle. "Shouldn't it be 'pieces of eight'?", he asked.
+"Oh, that's a parroty error".
+permalink
+[ñ]rexxfiend 129 points 1 month ago
+As much as I hate to be pedantic (ahem)..
+It should be nine, not seven. Seven (0111) and eight (1000) both have an odd number of bits so there wouldn't be a parity discrepancy. Nine (1001) has an even number of bits so there would actually be a parity error.
+Having said that, that is one of my favourites, even if it's always told wrongly ;-)
+permalinkparent
+load more comments (10 replies)
+load more comments (5 replies)
+[ñ]IAMA_dragon-AMA 1788 points 1 month ago
+There are 10 kinds of people in this world: Those who understand binary, those who don't, and those who weren't expecting a base 3 joke.
+A programmer is heading out to the grocery store, so his wife tells him "get a gallon of milk, and if they have eggs, get a dozen." He returns with 13 gallons of milk.
+What do programmers do before sex?
+Initialize for-play.
+permalink
+[ñ]a2aaron 357 points 1 month ago
+There are 10 kinds of people in this world, those who think this is joke is in binary, those who think this is joke is in trianry, those who think this is joke is in base 4, those who... ...those who think this joke is in base n-2, those who think this joke is in base n-1, those who think this joke is in base n, and those who don't understand this joke.
+permalinkparent
+[ñ]HullGuy 234 points 1 month ago
+There are two types of people in this world, those who can extrapolate from incomplete data sets.
+permalinkparent
+load more comments (5 replies)
+[ñ]BaseballNerd 186 points 1 month ago
+This is the mathematician's version.
+permalinkparent
+load more comments (3 replies)
+[ñ]highvoltage81 69 points 1 month ago
+Ternary
+permalinkparent
+load more comments (9 replies)
+load more comments (22 replies)
+[ñ]The1RGood[S] 441 points 1 month ago
+The 2nd one is my favorite out of those.
+permalinkparent
+[ñ]endymion32 769 points 1 month ago
+Along the same lines as the 2nd (but I like this one much more):
+A programmer heads out to the store. His wife says "while you're out, get some milk."
+He never came home.
+permalinkparent
+[ñ]highphive 161 points 1 month ago
+That poor guy is stuck causing serious problems at a grocery store somewhere.
+permalinkparent
+[ñ]Bainsyboy 294 points 1 month ago
+BREAKING NEWS: Man stuck in 'while' loop crashes global milk market. Will authorities resort to ctrl-x? This story, and more, at 7:00.
+permalinkparent
+[ñ]Garek 40 points 1 month ago
+UPDATE: keyboard interrupts proving ineffective, authorities discussing resorting to kill -9
+permalinkparent
+load more comments (4 replies)
+load more comments (5 replies)
+load more comments (1 reply)
+[ñ]rotorcowboy 193 points 1 month ago
+Aaaand he's broke.
+permalinkparent
+[ñ]SirDigbyChknCaesar 187 points 1 month ago
+And he has ALL the milk.
+permalinkparent
+load more comments (4 replies)
+load more comments (5 replies)
+[ñ]hexguns 57 points 1 month ago
+Should read as "return home"
+permalinkparent
+[ñ]Pottery_Smasher 70 points 1 month ago
+Unfortunately, she gave no instructions for terminating the loop.
+permalinkparent
+load more comments (4 replies)
+load more comments (10 replies)
+load more comments (8 replies)
+[ñ]stoicsmile 295 points 1 month ago
+There is a Spanish version of this joke about toothpaste. In Spanish "Colgate" can be interpretted as meaning "Hang yourself" (Colga + te). Not exactly grammatically correct, but close enough that it kind of sounds like "Hang Yourself Toothpaste".
+Anyway, a woman tell her husband to go to the store to get some toothpaste. She says, get Crest, but if they don't have it, Colgate. So he hung himself.
+JAJAJAJAJAJAJAJAJAJAJA!
+permalinkparent
+[ñ]Jacques_R_Estard 175 points 1 month ago
+In Dutch, "jajaja" is "yesyesyes." I was confused for a bit.
+permalinkparent
+[ñ]shouldnt_post_this 188 points 1 month ago
+huehuehue
+permalinkparent
+load more comments (19 replies)
+load more comments (6 replies)
+load more comments (9 replies)
+load more comments (112 replies)
+[ñ]IndustriaPulsantem 201 points 1 month ago
+http://www.devtopics.com/wp-content/uploads/2008/05/comic.jpg
+permalink
+[ñ]crushmastac 123 points 1 month ago
+Starting a loop at 1? cringe
+permalinkparent
+[ñ]LordofCheeseFondue 168 points 1 month ago
+Different tasks call for different conventions. To quote Stanford algorithms expert Donald Knuth, "Who are you? How did you get in my house?"
+permalinkparent
+[ñ]qkwozz 23 points 1 month ago
+I'm a locksmith... and I'm a locksmith
+permalinkparent
+load more comments (1 reply)
+load more comments (20 replies)
+load more comments (10 replies)
+[ñ]larkham 515 points 1 month ago
+A SQL statement walks into a bar and sees two tables. It approaches, and asks ìmay I join you?î
+permalink
+[ñ]muffinheart 369 points 1 month ago
+A web developer walks into a restaurant. He immediately leaves in disgust as the restaurant was laid out in tables.
+permalinkparent
+load more comments (40 replies)
+[ñ]Vodka_Cereal 220 points 1 month ago
+But the bartender says "Not before I get your keys!"
+permalinkparent
+load more comments (2 replies)
+load more comments (6 replies)
+[ñ]gryffinp 125 points 1 month ago
+"A novice was trying to fix a broken Lisp machine by turning the power off and on.
+Knight, seeing what the student was doing, spoke sternly: ìYou cannot fix a machine by just power-cycling it with no understanding of what is going wrong.î
+Knight turned the machine off and on.
+The machine worked."
+permalink
+[ñ]skynetsatellite013 29 points 1 month ago
+Reminds me of the magical "more magic" switch.
+permalinkparent
+[ñ]brakelatabasaasta 20 points 1 month ago
+That's because it comes from the Jargon File's page of AI koans.
+permalinkparent
+load more comments (2 replies)
+load more comments (16 replies)
+[ñ]SubnormalMeat 508 points 1 month ago
+Why don't programmers tell jokes in octal?
+Because 7 10 11!
+permalink
+[ñ]reticulated_python 263 points 1 month ago
+Why is 6 afraid of 7 in hexadecimal Canada? Because 7 8 9 A?
+permalinkparent
+load more comments (8 replies)
+load more comments (10 replies)
+[ñ]batquux 263 points 1 month ago
+Programming is like sex. Make one mistake and you end up supporting it for the rest of your life.
+permalink
+load more comments (9 replies)
+[ñ]pumahog 629 points 1 month ago
+I'm not sure what I expected...it's a thread full of programmers picking apart programming jokes...
+permalink
+[ñ]ibillu 149 points 1 month ago
+This was the best joke in this thread
+permalinkparent
+load more comments (4 replies)
+load more comments (14 replies)
+[ñ]billy_tables 204 points 1 month ago
+An SEO expert walks into a bar, pub, liquor store, brewery, alcohol, beer, whiskey, vodka
+permalink
+load more comments (3 replies)
+[ñ]Teknofobe 494 points 1 month ago
+There are 2 hard problems in computer science: caching, naming, and off-by-1 errors.
+Some people, when confronted with a problem, think "I know, I'll use regular expressions." Now they have two problems.
+permalink
+[ñ]1800k001 83 points 1 month ago
+http://xkcd.com/1171/
+permalinkparent
+[ñ]KronktheKronk 17 points 1 month ago
+aha!
+permalinkparent
+load more comments (3 replies)
+[ñ]FaceDownInThePillow 67 points 1 month ago
+For the computer illiterate out there. The first actually references a famous quote in the field:
+There are only two hard things in Computer Science: cache invalidation and naming things.
+Phil Karlton
+permalinkparent
+load more comments (6 replies)
+load more comments (10 replies)
+[ñ]ShpadoinkleBeefoven 719 points 1 month ago*
+Your mama's so FAT she can't save files bigger than 4GB.
+Edit: Thank you for the gold! I'm truly flattered! My first gilded comment.
+permalink
+[ñ]SohnoJam 32 points 1 month ago
+Oh, my. This is actually pretty good. Haha.
+permalinkparent
+load more comments (20 replies)
+[ñ]cs_major 682 points 1 month ago
+Saying that Java is nice because it works on every OS is like saying that anal sex is nice because it works on every gender.
+source
+permalink
+[ñ]SohnoJam 251 points 1 month ago
+Both are valid points, though...
+permalinkparent
+[ñ]Ketrel 394 points 1 month ago
+Both are shitty.
+permalinkparent
+load more comments (7 replies)
+load more comments (2 replies)
+[ñ]AnotherReally 20 points 1 month ago
+As a bisexual Java programmer, you doing anything later?
+permalinkparent
+load more comments (15 replies)
+[ñ]edlolington 176 points 1 month ago
+Hey, wanna hear a joke?
+Parsing HTML with regex.
+permalink
+[ñ]GuyWithLag 106 points 1 month ago
+Parsing HTML with regex
+Obligatory ZALGO reference.
+permalinkparent
+load more comments (8 replies)
+load more comments (19 replies)
+[ñ]UncleNatty 92 points 1 month ago
+Q: What did the Project Manager say to the Programmer?
+A: You start coding, I'll go find out what they want.
+I guess it's more of a PM joke, but I'm still gonna run with it.
+permalink
+load more comments (4 replies)
+[ñ]kmy89 417 points 1 month ago
+A biologist, a statistician, a mathematician and a computer scientist are on a photo-safari in Africa. They drive out into the savannah in their jeep, stop and scour the horizon with their binoculars.
+The biologist: "Look! There's a herd of zebras! And there, in the middle: a white zebra! It's fantastic! There are white zebras! We'll be famous!"
+The statistician: "It's not significant. We only know there's one white zebra"
+The mathematician: "Actually, we know there exists a zebra which is white on one side"
+The computer scientist: "Oh no! A special case!"
+permalink
+[ñ]cbattlegear 37 points 1 month ago
+Maybe I am being totally bogus, but isn't that just a horse?
+permalinkparent
+[ñ]sixteenlettername 271 points 1 month ago
+Sure, if you cast it.
+permalinkparent
+load more comments (3 replies)
+load more comments (1 reply)
+load more comments (9 replies)
+[ñ]NutSlapper69 551 points 1 month ago
+Why do Java programmers wear glasses?
+Because they don't C#!
+permalink
+load more comments (31 replies)
+[ñ]datruesurfer 284 points 1 month ago
+Some people see a problem and think "I know, I'll use Java!". Now they have a ProblemFactory.
+permalink
+load more comments (7 replies)
+[ñ]massnerder 760 points 1 month ago
+Why do programmers confuse halloween and christmas? Because Oct 31 = Dec 25.
+permalink
+load more comments (47 replies)
+[ñ]Funk2929 273 points 1 month ago
+Two programmers walk into a foo.
+permalink
+load more comments (8 replies)
+[ñ]kurosevic 210 points 1 month ago
+Mt favorite is the XKCD random number generator method
+permalink
+[ñ]BlackRomney 116 points 1 month ago
+Dilbert's one is also funny.
+permalinkparent
+load more comments (1 reply)
+load more comments (16 replies)
+[ñ]Pistolcrab 79 points 1 month ago
+Knock knock.
+Who's there?
+Broken state machine.
+Broken state machine, who?
+Knock knock.
+permalink
+load more comments (1 reply)
+[ñ]yakusokuN8 289 points 1 month ago
+Why do programmers take so long in the shower?
+They read the directions on the shampoo bottle and follow them to the letter:
+Lather, rinse, and repeat.
+permalink
+[ñ]The1RGood[S] 118 points 1 month ago
+If only shampoo used for-loops in their instructions...
+permalinkparent
+[ñ]deathbutton1 111 points 1 month ago
+while(hair.isDirty){
+hair.wash();
+hair.rinse ();
+}
+permalinkparent
+[ñ]realblublu 155 points 1 month ago
+while(hair.isDirty() && !shampoo.isEmpty()){
+    hair.wash();
+    hair.rinse();
+}
+Come on man, we should still stop if we run out of shampoo even if the hair isn't 100% clean yet.
+permalinkparent
+[ñ]gc3 74 points 1 month ago*
+while(hair.isDirty() && !shampoo.isEmpty() && tap.waterStillHot()){
+    hair.wash();
+    hair.rinse();
+}
+This could go on forever, I mean the adding of special cases.
+try {
+while(hair.isDirty() && !shampoo.isEmpty() && tap.waterStillHot()){
+    hair.wash();
+    hair.rinse();
+}}
+catch(sexException) { self.f___(spouse); } // spouse showed in in mid-rinse
+catch(deathException) { spouse.arrangeForBurial(self); } // user died while showering
+permalinkparent
+[ñ]Troublechuter 30 points 1 month ago
+More importantly, you also need to catch a hairNotFoundException in the event that the user is bald. Or more properly, wrap the whole thing in "if(hair != null)". You don't want bald users throwing an exception every time they shower.
+permalinkparent
+load more comments (8 replies)
+load more comments (2 replies)
+load more comments (9 replies)
+load more comments (7 replies)
+load more comments (5 replies)
+load more comments (8 replies)
+[ñ]tommcdo 188 points 1 month ago
+I write all my numbers in base 10.
+permalink
+load more comments (22 replies)
+[ñ]dar512 338 points 1 month ago
+A physician, a civil engineer, and a computer scientist were arguing about what was the oldest profession in the world. The physician remarked, "Well, in the Bible, it says that God created Eve from a rib taken out of Adam. This clearly required surgery, and so I can rightly claim that mine is the oldest profession in the world."
+The civil engineer interrupted, and said, "But even earlier in the book of Genesis, it states that God created the order of the heavens and the earth from out of the chaos. This was the first and certainly the most spectacular application of civil engineering. Therefore, fair doctor, you are wrong: mine is the oldest profession in the world."
+The computer scientist leaned back in her chair, smiled, and then said confidently, "Ah, but who do you think created the chaos?"
+permalink
+[ñ]Selachian 50 points 1 month ago
+Ten points for an arbitrarily female Computer Scientist.
+permalinkparent
+load more comments (1 reply)
+[ñ]TheOmnomnomagon 20 points 1 month ago
+I heard this the other day with lawyer instead of computer scientist.
+permalinkparent
+load more comments (1 reply)
+load more comments (6 replies)
+[ñ]Teknofobe 338 points 1 month ago
+A young Programmer and his Project Manager board a train headed through the mountains on its way to Wichita. They can find no place to sit except for two seats right across the aisle from a young woman and her grandmother. After a while, it is obvious that the young woman and the young programmer are interested in each other, because they are giving each other looks. Soon the train passes into a tunnel and it is pitch black. There is a sound of a kiss followed by the sound of a slap.
+When the train emerges from the tunnel, the four sit there without saying a word. The grandmother is thinking to herself, ìIt was very brash for that young man to kiss my granddaughter, but Iím glad she slapped him.î
+The Project manager is sitting there thinking, ìI didnít know the young tech was brave enough to kiss the girl, but I sure wish she hadnít missed him when she slapped me!î
+The young woman was sitting and thinking, ìIím glad the guy kissed me, but I wish my grandmother had not slapped him!î
+The young programmer sat there with a satisfied smile on his face. He thought to himself, ìLife is good. How often does a guy have the chance to kiss a beautiful girl and slap his Project manager all at the same time!î
+permalink
+[ñ]BigSwedenMan 45 points 1 month ago
+Good joke, but it seems like it could be reused for more than programmers
+permalinkparent
+load more comments (4 replies)
+load more comments (3 replies)
+[ñ]fotcorn 27 points 1 month ago
+If you put a million monkeys at a million keyboards, one of them will eventually write a Java program.
+The rest of them will write Perl programs.
+permalink
+load more comments (2 replies)
+[ñ]BustedSynapse 26 points 1 month ago
+At a recent computer software engineering management course, the participants were given an awkward question to answer:
+"If you had just boarded an airliner and discovered that your team of programmers had been responsible for the flight control software, how many of you would disembark immediately?"
+Among the ensuing forest of raised hands only one man sat motionless. When asked what he would do, he replied that he would be quite content to stay aboard. With his team's software, he said, the plane was unlikely to even taxi as far as the runway, let alone take off.
+permalink
+[ñ]Iamnotateenagethug 146 points 1 month ago
+An engineer, a physicist and a programmer are flying around in a Cessna when suddenly the engine fails. The plane struggles to maintain altitude. They think they will die in a fiery crash when they notice an open field. They glide and make an emergency landing.
+The engineer says, "I'll go check the engine and see what's wrong"
+The physicist gets up and says, "There is no need for that. We can look at thrust, drag, lift, acceleration, wind speed, friction, heat and a couple of other parameters and figure out why the engine failed."
+At this point, the programmer gets up, looks at the other two like they're morons and says, " Guys, it might not even be a real issue. Why don't we fly it again and see if it's reproduceable?
+permalink
+load more comments (13 replies)
+[ñ]IndustriaPulsantem 354 points 1 month ago
+Jesus and Satan have an argument as to who is the better programmer. This goes on for a few hours until they come to an agreement to hold a contest with God as the judge. They set themselves before their computers and begin. They type furiously, lines of code streaming up the screen, for several hours straight.
+Seconds before the end of the competition, a bolt of lightning strikes, taking out the electricity. Moments later, the power is restored, and God announces that the contest is over. He asks Satan to show his work. Visibly upset, Satan cries and says, ìI have nothing. I lost it all when the power went out.î
+ìVery well,îù says God, ìlet us see if Jesus has fared any better.î
+Jesus presses a key, and the screen comes to life in vivid display, the voices of an angelic choir pour forth from the speakers.
+Satan is astonished. He stutters, ìB-b-but how?! I lost everything, yet Jesusí program is intact! How did he do it?î
+God chuckles, ìEverybody knows Jesus saves.î
+permalink
+[ñ]cavalierau 296 points 1 month ago
+Moses wanted to compete too, but everyone just laughed at him cause he's just a shitty tablet user.
+permalinkparent
+load more comments (3 replies)
+load more comments (2 replies)
+[ñ]Hash_Slingin_Slasha 79 points 1 month ago
+Knock knock
+Who's there?
+UDP
+permalink
+load more comments (31 replies)
+[ñ]Thandius 152 points 1 month ago*
+If at first your don't succeed, stop Trying and attempt to Catch what the problem is. then Finally give up.
+permalink
+[ñ]ohhhhhhfuck 132 points 1 month ago
+Then just recompile it without making any changes just in case the error has gone.
+permalinkparent
+[ñ]The1RGood[S] 178 points 1 month ago
+The scary part is that actually works 10% of the time...
+permalinkparent
+load more comments (13 replies)
+load more comments (2 replies)
+load more comments (3 replies)
+[ñ]madonnac 316 points 1 month ago
+not a joke, but a poem...
+< > ! * ' ' #
+^ " ` $ $ -
+! * = @ $ _
+% * < > ~ # 4
+& [ ] . . /
+| { , , SYSTEM HALTED
+translation
+permalink
+[ñ]jiveabillion 37 points 1 month ago
+I call that vertical bar a Pipe. It ruined the poem for me.
+permalinkparent
+load more comments (6 replies)
+[ñ]coinmonkey 32 points 1 month ago
+good god, you don't distinguish between open-waka and close-waka?! :-D
+permalinkparent
+load more comments (2 replies)
+load more comments (24 replies)
+[ñ]fishsauce_123 37 points 1 month ago
+A man walks into a pet shop and sees 3 monkeys, each in a cage, each with a computer. The man is curious and walks up to the clerk and asks - what is the story with the moneys?
+"They are programming monkeys - for example this one here can complete 100 lines of C++ in an hour - only 100$"
+The first monkey was busy typing away, and sure enough it was flawless code.
+They moved onto the second monkey who was typing even faster.
+"This monkey knows Java, C++ and helped develop Julia - 1000$ for this one".
+"What about that last monkey in the biggest cage?" the man asked.
+"well he is 10000$'s...."
+"That's must be an amazing monkey! What does he do?", the man asked.
+"Well, when he was brought in all he did was sit there while the other monkeys worked, so we figured he must be executive management."
+permalink
+load more comments (3 replies)
+[ñ]Ymbirtt 128 points 1 month ago
+There's a really great joke about infinite loops here.
+permalink
+load more comments (4 replies)
+[ñ]TheGreatRavenOfOden 103 points 1 month ago
+Java: OK guys. Any idea how to make women more interested in us?
+C++: More exceptions?
+Python: Define our methods?
+ANSI-C: Stop treating them like objects?
+permalink
+load more comments (1 reply)
+[ñ]Thiazole 74 points 1 month ago*
+The following jokes probably have a very high "79 104 44 32 121 111 117 33 0" effect, but anyway:
+Why do most C++ programmers stop after one child?
+Because multiple inheritance is a headache.
+Why did the Lisp programmer get a new car?
+He ran out of storage space
+Why do Haskel programmers avoid most medicines?
+Because they have side-effects
+Why do the stories written by C programmers drag on forever?
+Because they can't write closures.
+When is a door not a door?
+When it's a GenericStaticFurnitureBase
+Why did the Python programmer not respond to the foreign mails he got?
+Because his interpreter was busy collecting garbage.
+permalink
+load more comments (9 replies)
+[ñ]phambam 37 points 1 month ago
+What do you call a developer that doesn't comment code?
+A developer.
+permalink
+load more comments (1 reply)
+[ñ]extwo2 17 points 1 month ago
+["hip", "hip"]
+permalink
+load more comments (3 replies)
+[ñ]Krumpett 15 points 1 month ago
+//This line doesn't actually do anything, but the code stops working when I delete it.
+permalink
+[ñ]T3chn0phile 70 points 1 month ago
+Another relevant XKCD
+permalink
+[ñ]Blakdragon39 45 points 1 month ago
+This is my favourite XKCD :D
+permalinkparent
+[ñ]T3chn0phile 37 points 1 month ago
+We could go on and on
+permalinkparent
+load more comments (12 replies)
+load more comments (2 replies)
+[ñ]kaihatsusha 45 points 1 month ago
+Heard about the object-oriented extensions for COBOL?
+It's called ADD ONE TO COBOL GIVING COBOL.
+permalink
+load more comments (1 reply)
+[ñ]AndrewOnPC 17 points 1 month ago
+Why does no one like SQLrillex?
+He keeps dropping the database.
+permalink
+load more comments (1 reply)
+[ñ]phantomNemasis 194 points 1 month ago
+your mother is so fat, the recursive function computing her mass causes a stack overflow snap!
+permalink
+[ñ]The1RGood[S] 135 points 1 month ago
+She's not that fat. What, are you using python or something?

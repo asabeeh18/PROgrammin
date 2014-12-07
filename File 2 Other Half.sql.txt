@@ -1,0 +1,209 @@
+Create table Salesperson
+{
+	ID INTEGER, 
+	Name varchar2(20),
+	Age NUmber,
+	Salary Number
+};
+	
+create Table Customer
+{
+	ID INTEGER,
+	Name varchar2(20),
+	City varchar2(20), 
+	IndustryType varchar2(1)
+};	
+
+create table Order
+{
+	Order_Number INTEGER, 
+	Order_Date DATE, 
+	Cust_ID INTEGER Foreign key references Customer(ID),
+	SalesPerson_ID INTEGER Foreign key references Salesperson(ID),
+	Amount Number
+};	
+
+1)
+Alter table Salesperson column Age INT;
+
+2)<!-- easy hai >
+
+3)<!-- easy hai >
+
+4)
+ Select ID||'-'||UCASE(Name) as 'Id and Name',age
+ from Salesperson
+ 
+ 
+5)<!--Update>
+Insert into salesperson
+values(13,'Ahmed',20,null);
+
+6)
+Select *
+from salesperson
+where  salary!=NULL
+
+7)
+Select *
+from salesperson
+where name like '__r%';
+
+8)
+Select *
+from salesperson
+where salary between 90000 and 150000
+
+9)
+ Select *
+ from Salesperson
+ where  city='jackson' 
+ 
+ 10)  
+ select *
+ from orders
+ where salesperson_id=7 and cust_id=6 and amount>650
+ 
+ 11)
+ Select *
+ from Orders
+ order by Month(order_date)
+ where Year(order_date)=1998;
+ 
+ 12)
+ select *
+ from salesperson,Orders
+ where id=salesperson_id
+ order by id,Amount desc;
+ 
+ 13)
+Select count(*)
+from salesperson
+where salary between 40000 and 100000
+ 
+14)
+select Industry_type,count(ID)
+from Customer
+group by  Industry_type;
+
+15)
+select sum(Amount),salesperson_id
+from orders
+having sum(Amount)>1500
+order by sum(Amount)
+group by salesperson_id;
+
+16)
+select *
+from salesperson
+where salary=max(salary);
+
+<!--====>
+Q2)
+Create table Salesperson
+{
+	ID INTEGER, 
+	Name varchar2(20),
+	Age NUmber,
+	Salary Number
+};
+	
+create Table Customer
+{
+	ID INTEGER,
+	Name varchar2(20),
+	City varchar2(20), 
+	IndustryType varchar2(1)
+};	
+
+create table Order
+{
+	Order_Number INTEGER, 
+	Order_Date DATE, 
+	Cust_ID INTEGER Foreign key references Customer(ID),
+	SalesPerson_ID INTEGER Foreign key references Salesperson(ID),
+	Amount Number
+};	
+
+1)
+Alter table Salesperson column Age INT;
+
+2)<!-- easy hai >
+
+3)
+Select ID,UCASE(Name),age
+ from Salesperson
+ salary>=50000
+ 
+4)
+ Select ID||'-'||UCASE(Name) as 'Id and Name',age
+ from Salesperson
+
+ 5)<!--Update>
+ insert into customer
+ values(123,'MyName','Mumbai',null);
+ 
+ 6)
+ select *
+ from costumer
+ where Industry_type=NULL;
+ 
+ 7)
+ select *
+ from salesperson
+ where name like '%n';
+ 
+ 8)<!--update>
+ select * 
+ from salesperson
+ where ID IN(40000,44000,52000);
+					
+9)
+seles=ct *
+from  customer
+where id<6 AND Industry_type !='b';
+
+10)<!--update-->
+select * 
+ from orders
+ where salesperson_ID IN(2,7)
+order by salesperson_id,amount desc;						
+
+11)<!--needs me>
+select *
+from orders
+where Year(order_date) between '1995' and '1996'
+order by Year(order_date);
+
+12)
+Select *
+from costumers,orders
+where id=costumer_id
+order by costumer_id,amount desc;
+
+13)
+select count(*)
+from costumer
+where industry_type=NULL;
+
+14)
+select salesperson_id,sum(amount)
+from Orders
+group by salesperson id;
+
+15)
+select costumer_id,sum(amount)
+fromm Orders
+group by costumer_id
+order by sum(amount) desc;
+
+16)
+Select *
+from salesperson
+where age<40 and salary=min(salary);
+
+
+
+						
+
+ 

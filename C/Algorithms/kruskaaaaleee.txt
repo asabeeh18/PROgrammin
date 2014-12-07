@@ -1,0 +1,53 @@
+#include<stdio.h>
+
+int p[10];
+
+void kruskal(int w[500][500],int n)
+{
+    int min,sum=0,ne=0,i,j,u,v,a,b;
+    for(i=1;i<=n;i++)
+        p[i]=0;
+    while(ne<n-1)
+    {
+        min=999;
+        for(i=1;i<=n;i++)
+        	for(j=1;j<=n;j++)
+			{
+				if(w[i][j]<min)
+				{
+                    min=w[i][j];
+                u=a=i;
+                v=b=j;
+            }
+        }
+        while(p[u])
+            u=p[u];
+        while(p[v])
+            v=p[v];
+	if(u!=v)
+	{
+	    ne++;
+	    sum+=min;
+	    printf("\nedge %d-->%d is %d ",a,b,min);
+	    p[v]=u;
+	}
+	w[a][b]=w[b][a]=999;
+    }
+    printf("\nmin cost spanning tree=%d ",sum);
+}
+
+void main()
+{
+    int a[500][500],n,i,e,e1,e2,c,v;
+   // clrscr();
+   scanf("%d%d",&v,&e);
+   printf("JJ");
+	for(i=0;i<e;i++)
+	{
+        scanf("%d%d%d",&e1,&e2,c);
+		a[e1][e2]=c;
+       
+	}
+    printf("KK");
+    kruskal(a,n);
+}                                       

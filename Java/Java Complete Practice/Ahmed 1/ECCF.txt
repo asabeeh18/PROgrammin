@@ -1,0 +1,140 @@
+define bandwidth
+ 
+
+ the time till when the output remains constant
+ 
+
+ Difference between usb n lsb
+
+ no the time till which the output response of the system remians constant before degrading
+ 
+
+ usb and lsb of AM both contains similar information in audio transmission..
+ 
+ explain ideal parameters of op-amp
+ 
+
+ what are different types of AM transmission?
+ 
+
+ difference between analog and digital communication?
+ 
+
+ out of analog and digital which is best and why?
+ 
+
+ explain different parameters which affect communication
+
+ what the basic problem with ideal integrator and ideal differentaiator?
+ 
+
+ error in transmitter and receiver
+ 
+
+ error which error?
+ 
+
+ which parameters in signal gets affected by noise
+ 
+
+ amplitude frequency and phase
+ 
+
+ explain why amplitude?
+ 
+
+ what is oscillatros?
+ 
+ 
+
+ classification of fets
+
+ different parameters of amplifier
+ 
+
+ what another name for integrator and differentiator?
+ 
+
+ oscillators uses which type of feedback?
+ 
+
+ whats is problem with zero crossing detector?
+ 
+
+ what is problem with ideal integrator and differentiator and how it is overcome?
+ 
+
+ what is window detector?
+ 
+
+ what is the biggest dis-advantage of am
+ 
+
+ how fm and pm interrelated
+ 
+
+ define pll
+ 
+
+ what is schmitt trigger
+ 
+
+ define quantixation and sapmling
+ 
+
+ what is companding explain slope over load distortion how it is over come?
+ 
+
+ which have beeter noise immunity fm or pm and why
+
+ what is baseband signal
+ 
+
+ why can not we use base band signal for long distance communication
+ 
+
+ explain advantages of modulation
+ 
+
+ what is radio receiver and different types of it
+ 
+
+ explain agc and afc block in super hetrodyne
+ 
+
+ what is intermediate frequency IF
+ 
+
+ what is image frequency rejection
+ 
+
+ what it tranconductance
+ 
+
+ radio frequencies converted to a fix lower frequency is known as IF
+ 
+
+ how that cconversion is achieved?
+ 
+
+ agc is used to maintain a constant o/p voltage level
+ 
+
+ explain nbfm and wbfm
+ 
+ draw frequency spectrum? 
+
+ drain and transfer chr of fet
+ 
+
+ what is Q point
+ 
+
+ what is modulation index
+ 
+
+ what is Q point in layman language ?????
+
+
+ operatinng point which gives operating voltage and current of device
+ 

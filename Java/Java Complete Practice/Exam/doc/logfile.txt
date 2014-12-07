@@ -1,0 +1,27 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.5.0\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-source
+1.5
+-noindex
+-notree
+-nohelp
+-nonavbar
+-d
+E:\BlueJ\Exam\doc
+-classpath
+E:\BlueJ\BlueJ\lib\bluejcore.jar;E:\BlueJ\BlueJ\lib\junit.jar;E:\BlueJ\Exam
+E:\BlueJ\Exam\ss.java
+<---- end of javadoc command ---->
+Loading source file E:\BlueJ\Exam\ss.java...
+E:\BlueJ\Exam\ss.java:13: not a statement
+        re
+        ^
+E:\BlueJ\Exam\ss.java:13: ';' expected
+        re
+          ^
+2 errors

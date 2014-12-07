@@ -1,0 +1,80 @@
+Indexing is a technique for determining how quickly specific data can be found.
+Types:
+? Binary search style indexing
+? B-Tree indexing
+? Inverted list indexing
+? Memory resident table
+? Table indexing
+
+. What are database files, control files and log files? How many of these files should a database have at least? Why?
+Database Files
+The database files hold the actual data and are typically the largest in size. Depending on their sizes, the tables (and other objects) for all the user accounts can go in one database file? But that's not an ideal situation because it does not make the database structure very flexible for controlling access to storage for different users, putting the database on different disk drives, or backing up and restoring just part of the database.
+You must have at least one database file but usually, more than one file are used. In terms of accessing and using the data in the tables and other objects, the number (or location) of the files is immaterial.
+The database files are fixed in size and never grow bigger than the size at which they were created
+Control Files
+The control files and redo logs support the rest of the architecture. Any database must have at least one control file, although you typically have more than one to guard against loss. The control file records the name of the database, the date and time it was created, the location of the database and redoes logs, and the synchronization information to ensure that all three sets of files are always in step. Every time you add a new database or redo log file to the database, the information is recorded in the control files.
+Redo Logs
+Any database must have at least two redo logs. These are the journals for the database; the redo logs record all changes to the user objects or system objects. If any type of failure occurs, the changes recorded in the redo logs can be used to bring the database to a consistent state without losing any committed transactions. In the case of non-data loss failure, Oracle can apply the information in the redo logs automatically without intervention from the DBA.
+The redo log files are fixed in size and never grow dynamically from the size at which they were created.
+
+
+What is ROWID?
+The ROWID is a unique database-wide physical address for every row on every table. Once assigned (when the row is first inserted into the database), it never changes until the row is deleted or the table is dropped.
+The ROWID consists of the following three components, the combination of which uniquely identifies the physical storage location of the row.
+? Oracle database file number, which contains the block with the rows
+? Oracle block address, which contains the row
+? The row within the block (because each block can hold many rows)
+The ROWID is used internally in indexes as a quick means of retrieving rows with a particular key value. Application developers also use it in SQL statements as a quick way to access a row once they know the ROWID
+83. What is Oracle Block? Can two Oracle Blocks have the same address?
+Oracle "formats" the database files into a number of Oracle blocks when they are first created? Making it easier for the RDBMS software to manage the files and easier to read data into the memory areas.
+The block size should be a multiple of the operating system block size. Regardless of the block size, the entire block is not available for holding data; Oracle takes up some space to manage the contents of the block. This block header has a minimum size, but it can grow.
+These Oracle blocks are the smallest unit of storage. Increasing the Oracle block size can improve performance, but it should be done only when the database is first created.
+
+
+
+What is SQL ?
+Answers :
+2
+SQL stands for Structured Query Language.SQL is an ANSI (American National Standards
+Institute) standard computer language for accessing and manipulating database systems. SQL
+statements are used to retrieve and update data in a database
+
+
+What is Data Warehousing ?
+Answers :
+34
+Data Warehousing is a process in which the data is stored and accessed from central location
+and is meant to support some strategic decisions. Data Warehousing is not a requirement for
+Data mining. But just makes your Data mining process more efficient.
+Data  warehouse  is  a collection of integrated, subject-oriented databases designed to support the
+decision-support functions (DSF), where each unit of data is relevant to some moment in time.
+
+
+
+What are indexes? What are B-Trees?
+Answers :
+41
+Index makes your search faster. So defining indexes to your database will make your search
+faster.Most of the indexing fundamentals use “B-Tree” or “Balanced-Tree” principle. It’s not a
+principle that is something is created by SQL Server or ORACLE but is a mathematical derived
+fundamental.In order that “B-tree” fundamental work properly both of the sides should be
+balanced.
+Questions
+: 42
+I have a table which has lot of inserts, is it a good database design to create indexes
+on that table?
+Insert’s are slower on tables which have indexes, justify it?or Why do page splitting
+happen?
+Answers :
+42
+All indexing fundamentals in database use “B-tree” fundamental. Now whenever there is new
+data inserted or deleted the tree tries to become unbalance.
+Creates a new page to balance the tree. 
+Shuffle and move the data to pages.
+So  if  your  table  is  having  heavy inserts that means it’s transactional, then you can visualize the
+amount of splits it will be doing. This will not only increase insert time but will also upset the
+end-user who is sitting on the screen. So when you forecast that a table has lot of inserts it’s
+not a good idea to create indexes.
+Questions
+: 43
+What are the two types of indexes and expla

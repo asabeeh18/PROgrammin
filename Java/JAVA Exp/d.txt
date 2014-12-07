@@ -1,0 +1,26 @@
+doubts
+how java makes up for multiple inheritances
+difference in application and applet
+tochararay
+
+
+Dynamic Method Dispatch
+A class ‘Shape’ contains two dimensions as dim 1 and dim2, function read which reads the dimensions and function area which returns ‘dim1*dim2’ as default area. Derive class Circle, Rectangle and Triangle from Shape, use the derived functions wherever necessary and override otherwise. Use dynamic method dispatch to find area of each.
+Wrapper Class
+Crate your own wrapper class ‘MyInt’ which wraps an integer variable. Provide necessary constructors,
+ unboxing function and override toString function. Write a program to create two objects of MyInt, adds
+ their value, store result in third object and display all.
+
+
+Multi-threading 2
+Create one thread which displays months of the year and second thread which displays days of week. 
+Make the program to switch between main and two threads appropriately. Function main has to display 
+
+“Inside main” 10 times. Make sure that the main function finishes only after the two threads finish the task.
+Basic Applet
+Create an applet to show 5 concentric circles each with varying diameter and filled with different colors.
+ Also print the name of color of that circle within its area with some different color.
+Passing Parameters to Applet
+Create an applet which reads the students information as student name, branch, roll no, date of birth and
+ displays the same in vertical columnar position. Create a separate HTML file to keep the applet code and
+ values for above data field. Show the execution of the applet with three different HTML files with varying data.

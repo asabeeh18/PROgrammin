@@ -1,0 +1,150 @@
+This is the simplest form of these queires i cudnt make them any more easy to understand
+so samjke karo rato mat
+bahut easy hai 
+its done widout using any join or any hard to understand operator!
+<!--practical EXAM.docx>
+
+Q1. 
+A)
+SELECT *
+FROM Student s
+WHERE Sid IN(SELECT Sid
+			  FROM Reg_for
+				WHERE Cid IN(SELECT Cid
+								FROM Course
+									WHERE Cname="DBMS"));
+B)
+select *
+from Student
+where Sid IN( Select sid 
+				from Reg_for
+				group by Sid
+				having count(cid)>=2);
+C)
+select *
+from Course
+where Cid IN( Select Cid 
+				from Reg_for
+				group by Cid
+				having count(Sid)>=2);
+D)<!--update-->
+update Course
+set Credits=
+	(Case
+		when Credits>4 then Credits+2
+		else Credits+1
+		END);
+		
+
+E)<!--update-->
+Select sum(credits),sid
+from (	Select *
+		From Reg_for,Course
+		where Course.cid=Reg_for.cid
+	)
+group by Sid;
+					
+					
+F)
+Select *
+from course
+where cid IN(Select cid
+				from Reg_for
+					where sid IN(Select sid 
+									from Student
+									where gender='F'));
+G)
+select count(*)
+from Student
+where gender="F";
+		
+H)<!--NOT SURE IF CORRECT>
+select Cid,count(sid)
+from Reg_for
+Group by cid
+
+I)<!--Tell me if u find a simpler version of this>
+select sid
+from student s,Reg_for
+where s.sid=Reg_for.sid AND cid=12 AND EXIST (Select *
+												from Reg_for
+													where s.sid=Reg_for.sid AND cid!=12);
+
+J)
+select *
+from Course
+where cid in(select cid 
+				from reg_for
+					where sid IN(select sid 
+									from student
+									where scity="Mumbai"));
+
+<!--====Q2==>
+Q2.
+A)	
+select *
+from Emp
+where eid IN(select eid 
+				from Works_on 
+				where pid IN(select pid
+							from Project
+								where pleaderid=12));
+
+B)
+select *
+from emp
+where eid NOT IN(select eid
+					from Works_on);
+		
+C)
+select *
+from Project
+where pid IN(select pid
+				from works_on
+				where eid IN(select eid 
+							from emp
+							where ecity="Mumbai"));
+			
+D)
+Update Emp
+Set esal=esal+esal*0.2
+where eid IN(select eid
+				from works_on
+				where pid IN(select pid 
+							from Project
+							where pname="BIGDATA"));
+
+E)							
+select *
+from project
+where pid NOT IN(select pid
+				from Works_on);
+
+F)<!--NOT sure if right--but ithink its right>
+select *
+from emp
+where eid IN(select eid 
+				form Works_on
+				where pid=ALL(select pid
+							from Project 
+							where pleaderid=3)	
+							
+G)
+select *
+from emp
+order by salaray desc,name;
+
+H)							
+select *
+from (select * from Emp order by salary desc)
+where rownum<=5;
+
+I)
+select *
+from emp
+where ecity like 'm___A_';
+
+J)
+select eid,ename
+from Emp
+where esal>avg(esal);

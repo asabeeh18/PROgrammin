@@ -1,0 +1,71 @@
+Problem : Luminous Jewels - Polishing Necklace
+
+Byteland county is very famous for luminous jewels. Luminous jewels are used in making beautiful necklaces. A necklace consists of various luminous jewels of particular colour. Necklaces require polishing the jewels. 
+
+Operationally, all jewels of the same colour can be polished in one sitting. Cost of polishing increases with every sitting. Your task is to minimize the cost of polishing the necklace, given following conditions
+Jewels can only be removed for polishing from either end of the necklace (i.e. head or tail)
+Cost of polishing = Sitting Number * Colour Value of the Luminous Jewel
+The necklace is represented as a String and each character of the string is a Luminous Jewel
+Similar character is the same Luminous Jewel which has same Colour Value
+Colour Value for different Jewels named from a to z are 1 to 26 respectively. For e.g. a = 1, b = 2, ... z = 26.
+Input Format: 
+
+First line starts with T, number of test cases. Each test case T contains a necklace (N).
+
+Output Format: 
+
+Print the minimum cost of polishing the necklace.
+
+Constraints:
+1<=T<=100
+
+1<=|N|<=500, N will only contain lower case alphabets ('a'-'z').
+
+
+
+Sample Input and Output
+
+SNo.	Input	Output
+1	
+2
+aba
+abaacde
+
+
+5
+36
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

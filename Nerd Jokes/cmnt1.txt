@@ -1,0 +1,83 @@
+So an int and a float get into an argument (lol). After awhile of back-and-forth bickering the float finally exclaims "Why don't you just give up! You don't even have a point!"
+permalink
+[–]Castillion 4 points 1 month ago
+Best poem ever, from bash.org:
+A programmer started to cuss
+Because getting to sleep was a fuss
+As he lay there in bed
+Looping 'round in his head
+was: while(!asleep()) sheep++;
+source
+permalink
+[–]Contramono 4 points 1 month ago
+A web designer walks into a bar, and walks out because he doesn't like the table layout.
+permalink
+[–]Ebion 5 points 1 month ago
+A pessimistic programmer sees the array as half empty.
+An optimistic programmer sees the array as half full.
+A Real Programmer sees the array as twice as big as it needs to be and calls realloc().
+permalink
+[–]ve2za 4 points 1 month ago
+Why can't programmers tell the difference between Christmas and Halloween?
+Because 25dec == 31oct
+permalink
+[–]buddy-bubble 4 points 1 month ago
+Why do Java developeres need glasses?
+Because they don't c-sharp.
+Wahahahaahahahahahah!
+permalink
+[–]CheekyLlama 25 points 1 month ago
+Internet Explorer
+permalink
+load more comments (2 replies)
+[–]likely_an_impostor 11 points 1 month ago
+Three programmers walk into a bar. The bartender asks them if they all would like a beer.
+I don't know, the first programmer replies.
+I don't know, chimes the second programmer.
+Yes, says the third programmer.
+C was trying to cheer Java up after his split with his girlfriend, but it was no use. Java never released memory.
+C, C++ and C# walk into a bar. The bartender goes "r u tryin to take the piss m8 i see where this is going you arses r tryin to ave a giggle ill box you in the jabber if you don't get out sharpish swear on me mum"
+permalink
+[–]darksounds 4 points 1 month ago
+I think the first works better with mathematicians.
+permalinkparent
+load more comments (1 reply)
+[–]bigboss2014 6 points 1 month ago
+A programmer, an engineer and an accountant all go for the same job interview the programmer enters first and is asked "what is 2 times 2" to which he replies 4 and is thanked an leaves the engineer enters next and is asked the same "well its 4, but i suppose we'll say 5 to be safe" again the man is thanked and leaves the accountant comes in last and is asked, he locks the door, walks over to the blinds and closes the, and says "how much do you want it to be?"
+permalink
+[–]SadDragon00 8 points 1 month ago
+How many Prolog programmers does it take to change a light bulb?
+Yes
+permalink
+[–]PaintedCeiling 7 points 1 month ago
+Windows Vista.
+permalink
+[–]pospastos 7 points 1 month ago
+What do you call Al Gore playing drums?
+Algorithm.
+permalink
+load more comments (2 replies)
+[–]vold3 22 points 1 month ago
+Kinda Poor Joke:
+Boy and girl of same class. Boy opens a girl's purse in front of her without permission. Girl : 'WTF you are doing, guys don't open girl's purse without her permission.'. Boy: 'Members of same class can access the private variables of others.'
+permalink
+[–]FirstReactionFocus 8 points 1 month ago
+This is towards the top of the thread, so not that poor! However, change reaching into purse with grabbing her boob. Karma profit.
+permalinkparent
+load more comments (1 reply)
+[–]cholula_is_good 7 points 1 month ago
+I don't know why I read all of these knowing I would understand none of them.
+permalink
+[–]highvoltage81 12 points 1 month ago
+A C programmer and a python programmer are roommates and go out to a bar. By some stroke of fate, they manage to bring girls back. Things get heated in the bedrooms, but, being programmers, neither knew how to take a bra off. Their respective girls, being understanding, showed them how to do it. The python programmer interpreted her actions interactively, then kept going. The C programmer sat motionless for a few minutes. When his girl asked him whats wrong, he simply said 'compiling'.
+permalink
+[–]cobra10101010 3 points 1 month ago
+An SQL query walks in a bar, goes to two tables and say "may I join you"
+permalink
+[–]edudkym 3 points 1 month ago*
+Yo mamma so fat that the recursive algorithm used to calculate her weight causes stack overflow
+permalink
+[–]Sichaye 3 poin ts 1 month ago*
+Why did the java programmer wear glasses?
+Because he didn't C#!
+Edit: Damn it, was allready posted
