@@ -1,0 +1,54 @@
+#include<stdio.h>
+
+int p[10];
+
+void kruskal(int w[10][10],int n)
+{
+    int min,sum=0,ne=0,i,j,u,v,a,b;
+    for(i=1;i<=n;i++)
+        p[i]=0;
+    while(ne<n-1)
+    {
+        min=999;
+        for(i=1;i<=n;i++)
+			for(j=1;j<=n;j++)
+			{
+				if(w[i][j]<min)
+				{
+                    min=w[i][j];
+                u=a=i;
+                v=b=j;
+            }
+        }
+        while(p[u])
+            u=p[u];
+        while(p[v])
+            v=p[v];
+	if(u!=v)
+	{
+	    ne++;
+	    sum+=min;
+	    printf("\nedge %d-->%d is %d ",a,b,min);
+	    p[v]=u;
+	}
+	w[a][b]=w[b][a]=999;
+    }
+    printf("\nmin cost spanning tree=%d ",sum);
+}
+
+void main()
+{
+    int w[10][10],n,i,j;
+   // clrscr();
+    printf("enter no.of vertices\n");
+    scanf("%d",&n);
+    printf("enter weight matrix\n");
+    for(i=1;i<=n;i++)
+	for(j=1;j<=n;j++)
+	    scanf("%d",&w[i][j]);
+    for(i=1;i<=n;i++)
+        for(j=1;j<=n;j++)
+            if(w[i][j]==0)
+                w[i][j]=999;
+    kruskal(w,n);
+}                                       
