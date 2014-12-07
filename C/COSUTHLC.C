@@ -1,0 +1,232 @@
+#include <stdio.h>
+#include <conio.h>
+#include <graphics.h>
+
+int xMin, yMin, xMax, yMax, x1, y1, x2, y2;
+int areaCode1[4], areaCode2[4], andArr[4];
+
+void setAreaCode()
+{
+   int i;
+
+   for(i=0; i<4; i++)
+   {
+      areaCode1[i]=0;
+      areaCode2[i]=0;
+   }
+
+   if(x1<xMin)
+   {
+      areaCode1[3]=1;
+   }
+   else if(x1>xMax)
+   {
+      areaCode1[2]=1;
+   }
+
+   if(y1<yMin)
+   {
+      areaCode1[1]=1;
+   }
+   else if(y1>yMax)
+   {
+      areaCode1[0]=1;
+   }
+
+   if(x2<xMin)
+   {
+      areaCode2[3]=1;
+   }
+   else if(x2>xMax)
+   {
+      areaCode2[2]=1;
+   }
+
+   if(y2<yMin)
+   {
+      areaCode2[1]=1;
+   }
+   else if(y2>yMax)
+   {
+      areaCode2[0]=1;
+   }
+}
+
+void logicalAnd()
+{
+   int i;
+
+   for(i=0; i<4; i++)
+      andArr[i]=0;
+
+   for(i=0; i<4; i++)
+      if(areaCode1[i]==1 && areaCode2[i]==1)
+	 andArr[i]=1;
+}
+
+void clipPt1()
+{
+   int nx, ny;
+
+   if(areaCode1[3]==1)
+   {
+      nx=xMin;
+      ny=y1+((y2-y1)/(x2-x1))*(nx-x1);
+
+      x1=nx;
+      y1=ny;
+   }
+   else if(areaCode1[2]==1)
+   {
+      nx=xMax;
+      ny=y1+((y2-y1)/(x2-x1))*(nx-x1);
+
+      x1=nx;
+      y1=ny;
+   }
+   else if(areaCode1[1]==1)
+   {
+      ny=yMin;
+      nx=x1+((x2-x1)/(y2-y1))*(ny-y1);
+
+      x1=nx;
+      y1=ny;
+   }
+   else if(areaCode1[1]==1)
+   {
+      ny=yMax;
+      nx=x1+((x2-x1)/(y2-y1))*(ny-y1);
+
+      x1=nx;
+      y1=ny;
+   }
+}
+
+void clipPt2()
+{
+   int nx, ny;
+
+   if(areaCode2[3]==1)
+   {
+      nx=xMin;
+      ny=y2+((y2-y1)/(x2-x1))*(nx-x2);
+
+      x2=nx;
+      y2=ny;
+   }
+   else if(areaCode2[2]==1)
+   {
+      nx=xMax;
+      ny=y2+((y2-y1)/(x2-x1))*(nx-x2);
+
+      x2=nx;
+      y2=ny;
+   }
+   else if(areaCode2[1]==1)
+   {
+      ny=yMin;
+      nx=x2+((x2-x1)/(y2-y1))*(ny-y2);
+
+      x2=nx;
+      y2=ny;
+   }
+   else if(areaCode2[1]==1)
+   {
+      ny=yMax;
+      nx=x2+((x2-x1)/(y2-y1))*(ny-y2);
+
+      x2=nx;
+      y2=ny;
+   }
+}
+
+void cohenSutherland()
+{
+   int i, flag=0, flagPt1=0, flagPt2=0;
+
+   setAreaCode();
+   logicalAnd();
+
+   for(i=0; i<4; i++)
+      if(areaCode1[i]==0 && areaCode2[i]==0)
+	 flag++;
+
+   if(flag==4)
+   {
+      line(x1, y1, x2, y2);
+   }
+   else
+   {
+      flag=0;
+
+      for(i=0; i<4; i++)
+	 if(andArr[i]==1)
+	    flag++;
+
+      if(flag>0)
+      {
+	 printf("\nThe line is completely outside the window!");
+      }
+      else
+      {
+	 for(i=0; i<4; i++)
+	 {
+	    if(areaCode1[i]==1)
+	       flagPt1++;
+
+	    if(areaCode2[i]==1)
+	       flagPt2++;
+	 }
+
+	 if(flagPt1>0)
+	    clipPt1();
+	 else if(flagPt2>0)
+	    clipPt2();
+
+	 cohenSutherland();
+      }
+   }
+}
+
+void main()
+{
+   int gd, gm, i;
+
+   int x1,y1,x2,y2,w[10],gm,gd,i,ca=1;
+   float p[4],q[4],r[4],u1=0,u2=1,x11,x22,y11,y22;
+   printf("Enter line co ordinates x1 y1 x2 y2");
+   scanf("%d %d %d %d",&x1,&y1,&x2,&y2);
+   printf("Enter window co ordinates xw1,yw1,xw2,yw2");
+   scanf("%d %d %d %d",&w[0],&w[1],&w[4],&w[5]);
+   detectgraph(&gd,&gm);
+   initgraph(&gd,&gm,"C:\\TURBOC3\\bgi");
+   w[2]=w[4];
+   w[3]=w[1];
+   w[6]=w[0];
+   w[7]=w[5];
+   w[8]=w[0];
+   w[9]=w[1];
+   line(x1,y1,x2,y2);
+   drawpoly(5,w);
+
+   //detectgraph(&gd, &gm);
+  // initgraph(&gd, &gm, "C:\\TC\\BGI");
+
+  // printf("\n\n\n\n\n\n\n\n\n\n");
+
+   //printf("Enter minimum end pt. coordinates of window: ");
+   //scanf("%d %d", &xMin, &yMin);
+   //printf("Enter maximum end pt. coordinates of window: ");
+   //scanf("%d %d", &xMax, &yMax);
+
+  // polygon();
+
+  /* printf("\nEnter starting coordinates of line: ");
+   scanf("%d %d", &x1, &y1);
+   printf("Enter ending coordinates of line: ");
+   scanf("%d %d", &x2, &y2);
+    */
+   cohenSutherland();
+
+   getch();
+}

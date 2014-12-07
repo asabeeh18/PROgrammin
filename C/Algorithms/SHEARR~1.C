@@ -1,0 +1,97 @@
+//Non-Persistant
+#include<stdio.h>
+#include<graphics.h>
+#include<math.h>
+void shearing(int v,float x[],float y[])
+{
+	float sh;
+	int i,ch;
+	printf("Shearing wrt 1.x or 2.y\n");
+	scanf("%d",&ch);
+	printf("Enter Shear Co-eff:");
+	scanf("%f",&sh);
+	if(ch==1)
+	{
+		for(i=0;i<v-1;i++)
+			line(x[i]+sh*y[i],y[i],x[i+1]+sh*y[i+1],y[i+1]);
+		line(x[v-1]+sh*y[v-1],y[v-1],x[0]+sh*y[0],y[0]);
+	}
+	else
+	{
+		for(i=0;i<v-1;i++)
+			line(x[i],y[i]+sh*x[i],x[i+1],y[i+1]+sh*x[i+1]);
+		line(x[v-1],y[v-1]+sh*x[v-1],x[0],y[0]+sh*x[0]);
+	}
+	getch();
+}
+void reflection(int v,float x[],float y[])
+{
+	float tx,ty;
+	int i,c,j,a[20],b[20];
+	printf("enter 1:reflection along x axis,2:reflection along y axis\n");
+	scanf("%d",&c);
+
+	 switch(c)
+	 {
+	 case 1:for(i=0;i<v;i++)
+		{
+		 a[i]=x[i];
+		 b[i]=-y[i];
+		}
+		break;
+	 case 2:for(i=0;i<v;i++)
+		{
+		 a[i]=-x[i];
+		 b[i]=y[i];
+		}
+		break;
+	 }
+
+	 line(320,0,320,480);
+	 line(0,240,640,240);
+
+	 for(j=0;j<v-1;j++)
+	 {
+		line(x[j]+320,y[j]+240,x[j+1]+320,y[j+1]+240);
+		line(a[j]+320,b[j]+240,a[j+1]+320,b[j+1]+240);
+	 }
+		line(x[0]+320,y[0]+240,x[v-1]+320,y[v-1]+240);
+		line(a[0]+320,b[0]+240,a[v-1]+320,b[v-1]+240);
+
+	 getch();
+
+}
+void main()
+{
+	int gd,gm,ch,v,i;
+	float thetha,x[10],y[10];
+	//clrscr();
+	while(ch!=3)
+	{
+		closegraph();
+		detectgraph(&gd,&gm);
+		initgraph(&gd,&gm,"C://TURBOC3//BGI");
+
+		printf("Enter the no. of vertices\n");
+		scanf("%d",&v);
+		printf("Enter the co ordinates");
+		for(i=0;i<v;i++)
+			scanf("%f %f",&x[i],&y[i]);
+		for(i=0;i<v-1;i++)
+			line(x[i],y[i],x[i+1],y[i+1]);
+		line(x[0],y[0],x[v-1],y[v-1]);
+		printf("Enter Choice\n1.Shear \n2.Reflection \n3.Exit");\
+		scanf("%d",&ch);
+
+		switch(ch)
+		{
+			case 1: shearing(v,x,y);
+					break;
+			case 2: reflection(v,x,y);
+					break;
+			case 3: break;
+			default:printf("\nWRONG CHOICE!!\n");
+		}
+
+	}
+}

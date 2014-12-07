@@ -1,0 +1,64 @@
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+#include<math.h>
+void main()
+{
+int gd,gm,ax,ay,bx,by,cx,cy,a1x,a1y,b1x,b1y,c1x,c1y,sx,sy,i,j,k,sum=0;
+int s[10][10],a[10][10],b[10][10];
+detectgraph(&gd,&gm);
+initgraph(&gd,&gm,"C:\\TurboC3\\BGI");
+printf("enter d cordinates of triangle\n");
+scanf("%d%d%d%d%d%d",&ax,&ay,&bx,&by,&cx,&cy);
+printf("enter sx and sy\n");
+scanf("%d%d",&sx,&sy);
+s[0][0]=sx;
+s[1][1]=sy;
+s[0][1]=s[0][2]=s[1][0]=s[1][2]=s[2][0]=s[2][1]=0;
+s[2][2]=1;
+a[0][0]=ax;
+a[1][0]=ay;
+a[0][1]=bx;
+a[1][1]=by;
+a[0][2]=cx;
+a[1][2]=cy;
+a[2][0]=a[2][1]=a[2][2]=0;
+for(i=0;i;i++)
+{
+for(j=0;j;j++)
+{
+for(k=0;k;k++)
+{
+sum=sum+s[i][k]*a[k][j];
+}
+b[i][j]=sum;
+sum=0;
+}
+}
+printf("multiplied matrix\n");
+for(i=0;i;i++)
+{
+for(j=0;j;j++)
+printf("%d\t",b[i][j]);
+printf("\n");
+}
+line(ax,ay,bx,by);
+line(bx,by,cx,cy);
+line(cx,cy,ax,ay);
+a1x=b[0][0];
+a1y=b[1][0];
+b1x=b[0][1];
+b1y=b[1][1];
+c1x=b[0][2];
+c1y=b[1][2];
+getch();
+closegraph();
+detectgraph(&gd,&gm);
+initgraph(&gd,&gm,"C:\\TurboC3\\BGI");
+
+line(a1x,a1y,b1x,b1y);
+line(b1x,b1y,c1x,c1y);
+line(c1x,c1y,a1x,a1y);
+getch();
+//closegraph();
+}

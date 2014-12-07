@@ -1,0 +1,171 @@
+//Binary Search Tree
+#include<stdio.h>
+#include<conio.h>
+struct node
+{
+	struct node *left,*right;
+	int n;
+};
+struct node *p,*q,*newrec,*root;
+void insertNode(int a)
+{
+	newrec=(struct node*)malloc(sizeof(struct node));
+	newrec->right=NULL;
+	newrec->left=NULL;
+	newrec->n=a;
+	if(root==NULL)
+	{
+		root=newrec;
+	}
+	else
+	{
+		q=p=root;
+		while(p!=NULL)
+		{
+			q=p;
+			if(a<=p->n)
+				p=p->left;
+			else
+				p=p->right;
+		}
+		if(a<=q->n)
+			q->left=newrec;
+		else
+			q->right=newrec;
+	}
+}
+void deleteNode(int a)
+{
+	p=q=root;
+	while(p!=NULL && p->n!=a)
+	{
+		q=p;
+		if(a<=p->n)
+			p=p->left;
+		else
+			p=p->right;
+	}
+	if(p==NULL)
+		printf("\nELEMENT NOT FOUND");
+	else
+	{
+		if(p->right==NULL && p->left!=NULL)
+		{
+			if(p==root)
+				root=p->left;
+			else
+			{
+				if(p==q->right)
+					q->right=p->left;
+				else
+					q->left=p->left;
+			}
+		}
+		else if(p->right!=NULL && p->left==NULL)
+		{
+			if(p==root)
+				root=p->right;
+			else
+			{
+				if(p==q->right)
+					q->right=p->right;
+				else
+					q->right=p->left;
+			}
+		}
+		else if(p->right==NULL && q->left==NULL)
+		{
+			if(p==root)
+			{
+				p=NULL;
+				root=NULL;
+			}
+			else
+			{
+				if(p==q->right)
+					q->right=NULL;
+				else
+					q->left=NULL;
+			}
+		}
+		else
+		{
+			struct node *c=p;
+			c=c->left;
+			while(c->right!=NULL)
+				c=c->right;
+			p->n=c->n;
+			deleteNode(c->n);
+		}
+		if(p==root)
+			root=NULL;
+		free(p);
+	}
+}
+void inorder(struct node *t)
+{
+	if(t!=NULL)
+	{
+		inorder(t->left);
+		printf("%d ",t->n);
+		inorder(t->right);
+	}
+}
+void preorder(struct node *t)
+{
+	if(t!=NULL)
+	{
+		printf("%d ",t->n);
+		preorder(t->left);
+		preorder(t->right);
+	}
+}
+void postorder(struct node *t)
+{
+	if(t!=NULL)
+	{
+		postorder(t->left);
+		postorder(t->right);
+		printf("%d ",t->n);
+	}
+}	
+void destroy(struct node *t)
+{
+	destroy(t->right);
+	destroy(t->left);
+	free(t);
+}
+void main()
+{
+	int x,ch;
+	root=NULL;
+	clrscr();
+	do
+	{
+		printf("\n1:Insert node\n2:Inorder\n3:Preoder\n4:Postorder\n5:Deletenode\n6:Destroy\n8:Exit\n");
+		printf("\nEnter your choice");
+		scanf("%d",&ch);
+		switch(ch)
+		{
+			case 1:	printf("\nEnter an element\n");
+					scanf("%d",&x);
+					insertNode(x);
+					break;
+			case 2:	inorder(root);	
+					break;	
+			case 3:	preorder(root);	
+					break;	
+			case 4:	postorder(root);	
+					break;	
+			case 5:	printf("\nEnter  element to be deleted\n");
+					scanf("%d",&x);
+				       deleteNode(x);
+					break;
+			case 6:destroy(root);
+					root=NULL;
+					break;
+			case 8:	break;
+			default:printf("\nWrong Choice Try Again\n");
+		}
+	}while(ch!=8);
+}
