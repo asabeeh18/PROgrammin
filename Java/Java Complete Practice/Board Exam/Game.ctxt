@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=s
+comment0.target=void\ stick(int)
+comment1.params=args
+comment1.target=void\ main([)
+comment10.target=void\ delay2()
+comment11.target=int\ rand()
+comment12.target=int\ randEve()
+comment13.target=int\ randOdd()
+comment2.target=void\ game()
+comment3.target=void\ demo()
+comment4.params=s
+comment4.target=void\ twoPlayers(int)
+comment5.params=s
+comment5.target=void\ onePlayerEasy(int)
+comment6.params=s
+comment6.target=void\ onePlayerDiff(int)
+comment7.target=void\ exit()
+comment8.target=void\ delay()
+comment9.target=void\ delay1()
+numComments=14

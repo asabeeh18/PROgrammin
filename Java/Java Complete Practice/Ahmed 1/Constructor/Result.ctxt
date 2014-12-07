@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=m1\ m2
+comment0.target=Result(int,\ int)
+comment1.target=Result()
+comment2.target=void\ ave()
+comment3.target=void\ display()
+numComments=4

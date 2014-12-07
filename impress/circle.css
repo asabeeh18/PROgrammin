@@ -1,0 +1,47 @@
+#overview
+ {
+ display: none;
+ }
+.impress-on-overview .step 
+{
+    opacity: 1;
+    cursor: pointer;
+}
+.impress-on-step-1
+{
+	/*display:none;*/
+}
+
+body
+{
+	background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+	background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+	background: -ms-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+	
+	font-family: 'PT Serif', georgia, serif;
+	font-size:300%;
+	
+	text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+	text-align: center;
+}
+.step {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+
+    font-family: 'PT Serif', georgia, serif;
+    font-size: 48px;
+    line-height: 1.5;
+}
+.present
+{
+	color:YELLOW;
+}

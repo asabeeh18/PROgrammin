@@ -1,0 +1,80 @@
+#include<conio.h>
+#include<stdio.h>
+#include<string.h>
+#include<math.h>
+#define SIZE 100
+
+struct stack
+{
+   int a[SIZE]; //char a[SIZE]; v hav 2 store numbers!!
+  int top //char top;  top is of int type!!
+};
+struct stack s;
+
+void push(int x)
+{
+ s.a[++s.top]=x;
+}
+
+int pop()
+{
+ return(s.a[s.top--]);
+}
+
+void main()
+{
+ char post[SIZE],ch;
+ int result,len,i,b,c,ch,t;//made most of char type int
+ char r;
+ clrscr();
+  s.a[s.top]=-1;
+  push('~');
+
+  printf("\nenter the given postfix expression\n");
+  gets(post);
+  len=strlen(post);
+  for(i=0;i<len;i++)
+  {
+   ch=post[i];
+
+  /* if(ch!='*' || ch!='^' || ch!='/' || ch!='+' || ch!='-')
+    the 'or'ing chain causes d program to return true even if it is an operand
+   '+' returns false for ch!='+= which is understandable but similarly it
+   returns true for other expressions which causes the if to true*/
+   if(ch>=48 && ch<=57)
+	 push(ch);
+
+
+   else
+   {
+    b=pop()-48;
+    c=pop()-48;
+
+
+    switch(ch)
+    {
+    case '*':t=c*b;
+    break;
+
+    case '^':t=pow(c,b);
+    break;
+
+    case '/':t=c/b;
+    break;
+
+    case '+':t=c+b;
+    break;
+
+    case '-':t=c-b;
+    break;
+
+    default:printf("invalid expression");
+
+    }
+    push(t);
+   }
+  }
+r=pop();
+printf("\nanswer is %d",r);
+getch();
+}

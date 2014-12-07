@@ -1,0 +1,41 @@
+‪#‎include‬<stdio.h>
+#include<conio.h>
+#include<math.h>
+#include<graphics.h>
+void main()
+{
+int gd,gm,xc,yc,x,y,xo,yo,r,pk;
+detectgraph(&gd,&gm);
+initgraph(&gd,&gm,"c:\\tc\\bgi");
+printf("centre and radius");
+scanf("%d%d%d",&xc,&yc,&r);
+xo=0;
+yo=r;
+putpixel(xo+xc,yo+yc,15);
+pk=1-r;
+while(x>=y)
+{
+if(pk<0)
+{
+x=x+1;
+y=y;
+pk=pk+(2*x)+3;
+}
+else
+{
+x=x+1;
+y=y-1;
+pk=pk+2*(x-y)+5;
+}
+putpixel(x+xc,y+yc,15);
+putpixel(y+yc,x+xc,15);
+putpixel(-y-yc,x+xc,15);
+putpixel(-x-xc,y+yc,15);
+putpixel(-x-xc,-y-yc,15);
+putpixel(-y-yc,-x-xc,15);
+putpixel(y+yc,-x-xc,15);
+putpixel(x+xc,-y-yc,15);
+}
+getch();
+closegraph();
+}

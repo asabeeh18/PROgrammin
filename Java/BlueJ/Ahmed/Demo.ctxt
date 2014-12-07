@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=math
+comment0.target=void\ setmark(int)
+comment1.target=int\ getmark()
+comment2.params=d1
+comment2.target=void\ compare(Demo)
+comment3.params=d1
+comment3.target=int\ calc(Demo)
+numComments=4

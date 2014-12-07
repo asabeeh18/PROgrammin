@@ -1,0 +1,51 @@
+H2
+{
+	font-family: 'PT Serif', georgia, serif;
+	font-size:400%;
+	line-height:2;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+	text-align: center;
+	margin-top:150px;
+}	
+ul
+{
+	width: 900px;
+    height: 700px;
+	
+	font-size:170%;
+	color:rgb(66,185,251);
+	line-height:2;
+	font-family: 'PT Serif', georgia, serif;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+	
+	text-align: center;
+	margin-top:200px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0 0.1em;
+    background: rgba(255,255,255,0.5);
+    text-shadow: -1px -1px 2px rgba(000,000,000,0.9);
+}
+#image
+ {
+	margin-top:100px;
+   background-image:url(asd.png); 
+   background-size:contain;
+   background-repeat:no-repeat;
+   width:1000px;
+   height:1000px;
+}
+.image_text
+{
+	font-family: 'PT Serif', georgia, serif;
+	text-shadow: 0 2px 2px #E8800C;
+	color:Black;
+	text-align:right; 
+	margin:0; 
+	padding:25px 0 0 0;
+	margin-top:500px;
+	font-family:inherit;
+	font-size:300%;
+}

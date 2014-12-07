@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=pr\ t\ bal
+comment0.target=Ticket(int,\ int,\ int)
+comment1.params=pr
+comment1.target=Ticket(int)
+comment2.params=t\ pr
+comment2.target=Ticket(int,\ int)
+comment3.target=Ticket()
+comment4.target=void\ disp()
+numComments=5

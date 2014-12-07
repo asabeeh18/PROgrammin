@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=float\ getMoney()
+comment1.params=amt
+comment1.target=void\ setMoney(float)
+numComments=2

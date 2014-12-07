@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=void\ readinfo()
+comment1.target=void\ displayinfo()
+comment2.params=s\ st\ m
+comment2.target=int\ getavg(int,\ int,\ int)
+comment3.params=cvg
+comment3.target=void\ compareavg(double)
+numComments=4

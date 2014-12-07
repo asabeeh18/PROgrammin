@@ -1,0 +1,38 @@
+<!--FIRST WORKING html of impress-->
+<!-- y-axis is inverted dumb ppl!! -_- -->
+<!--CO-ORDINATES
+			  -y
+			   | 
+	-x<--------|------------|+x
+			   |
+			   +y
+	data-rotate :Rotations are clock-wise		   
+-->			   
+<!doctype html>
+<html lang='en'>
+	<head>
+		<title>impress.js</title>
+		<link href="demo.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<script src="impress.js"></script>	<!--IS MUST-->
+		<div id="impress">					<!--IS MUST-->
+			<div class="step" data-x="-1000" data-y="-1000" data-scale="1">	<!--every slide must have step class tag-->
+				<div><H1>DEMO-4</H1>
+					<H2>ON THE SHOE FLOOR</H2>
+				</div>
+			</div>
+			<div class="step" data-x="-1000" data-y="1000" data-z="4000">
+				<div><H1>DEMO-4</H1>
+					<H2>ON THE CONCRETE FLOOR</H2>
+				</div>
+			</div>
+			<div class="step" data-x="10000" data-y="10000" data-z="-30000" >
+				<div><H1>DEMO-4</H1>
+					<H2>ON THE HEAVEN FLOOR</H2>
+				</div>
+			</div>
+		</div>	
+		<script>impress().init();</script>		<!-- SUPER MUST!! B@KA -->
+	</body>
+</html>

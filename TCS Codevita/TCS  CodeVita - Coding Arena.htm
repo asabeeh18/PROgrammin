@@ -1,0 +1,933 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0055)https://www.tcscodevita.com/CodevitaV3/problemstart.jsp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		
+		<title>TCS: CodeVita - Coding Arena </title>	
+		<link rel="stylesheet" href="./TCS  CodeVita - Coding Arena_files/structure.css" type="text/css">
+		<link rel="stylesheet" href="./TCS  CodeVita - Coding Arena_files/style.css" type="text/css">
+		<script async="" src="./TCS  CodeVita - Coding Arena_files/analytics.js"></script><script src="./TCS  CodeVita - Coding Arena_files/jquery.min.js"></script>
+	<!-- 	<link rel="stylesheet" href="css/notification.css" type="text/css"/> -->
+		<link rel="stylesheet" href="https://www.tcscodevita.com/CodevitaV3/css/theme/jquery-ui-1.10.3.custom.css">		
+		<script>
+			$(function() {
+			var radio_val = '6';
+			if  (radio_val =='') {
+				radio_val = 0;
+			}
+			$( "#tabs" ).tabs({ active: radio_val });
+			});
+			window.history.forward(); 
+			function noBack() {
+				window.history.forward();
+			}
+		</script><style type="text/css"></style>
+<script language="JavaScript">
+
+			var eventdate=new Date("December 25, 2013 23:59:59");
+			var d=new Date("December 25, 2013 23:59:59");
+			function toSt(n) {
+			 s=""
+			 if(n<10) s+="0"
+			 return s+n.toString();
+			}
+			
+			function countdown1(s,d1) {
+			var e=document.getElementById("refreshed");
+					if(e.value=="no")
+						e.value="yes";
+					else{
+						e.value="no";
+						location.reload();
+					}	
+
+			eventdate = new Date(s);
+			d=new Date(d1);
+			count=Math.floor((eventdate.getTime()-d.getTime())/1000);
+			 if(count<=0)
+			   {
+				 $('#sec').html("00");
+				 $('#min').html("00");
+				 $('#hr').html("00");
+			    return;
+			  }
+		    $('#sec').html(toSt(count%60));
+			count=Math.floor(count/60);
+			$('#min').html(toSt(count%60));
+			count=Math.floor(count/60);
+			$('#hr').html(toSt(count%24));
+			setTimeout("countdown(d)",999);
+			}
+
+			function countdown(d) {
+			 d.setSeconds(d.getSeconds() + 1);
+			 count=Math.floor((eventdate.getTime()-d.getTime())/1000);
+			 if(count<=0)
+			   {
+				 $('#sec').html("00");
+				 $('#min').html("00");
+				 $('#hr').html("00");
+			    return;
+			  }
+			 $('#sec').html(toSt(count%60));
+			 count=Math.floor(count/60);
+			 $('#min').html(toSt(count%60));
+			 count=Math.floor(count/60);
+			 $('#hr').html(toSt(count%24));
+			 setTimeout("countdown(d)",999);
+			}
+			// end hiding script-->
+</script>
+
+	</head>
+	<body onload="countdown1(&#39;August 14, 2014 12:4:39&#39;,&#39;August 14, 2014 11:52:15&#39;)">
+		<table border="0" align="center">
+			<tbody><tr>
+				<td>
+					<div>
+						<div class="links">	
+							<table class="innerlinks" border="0">
+								<tbody><tr>		
+									<td>
+										<!-- <a class="upperlinks" href="/CodevitaV3/redirectToNextStep.jsp" target="_blank" >TCS NextStep</a>&nbsp&nbsp&nbsp
+		<a class="upperlinks" href="/CodevitaV3/redirectToTCSCareers.jsp" target="_blank" >TCS Careers</a>&nbsp&nbsp&nbsp
+		<a class="upperlinks" href="/CodevitaV3/redirectToTCS.jsp" target="_blank" >www.tcs.com</a>&nbsp&nbsp&nbsp<br> -->
+		<a class="upperlinks" href="https://nextstep.tcs.com/" target="_blank">TCS NextStep</a>&nbsp;&nbsp;&nbsp;
+		<a class="upperlinks" href="http://www.careers.tcs.com/" target="_blank">TCS Careers</a>&nbsp;&nbsp;&nbsp;
+		<a class="upperlinks" href="http://www.tcs.com/Pages/default.aspx" target="_blank">www.tcs.com</a>&nbsp;&nbsp;&nbsp;<br>
+									</td>
+									<td style="text-align:right"><a style="font-family:Verdana;font-size:11px;font-weight:bold;color:black;" href="https://www.tcscodevita.com/CodevitaV3/logout.jsp">Logout</a></td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div class="tcsclip">
+							<img border="0" src="./TCS  CodeVita - Coding Arena_files/header.jpg" width="978px" height="115px">
+						</div> 
+						<div class="tags">
+
+		<table class="all" border="0" width="100%">
+			<tbody><tr>
+				<td class="first">
+				<table class="welcome" border="0">
+					<tbody><tr>
+					<td width="23px"></td>
+					<td width="75%" align="left"><a class="navigationlink">Welcome AHMED QUADRI</a></td>
+					<td width="20%" align="right"><a class="navigationlink" href="https://www.tcscodevita.com/CodevitaV3/guidelines.jsp">Home</a></td>
+					</tr>
+				</tbody></table>
+				</td>
+				<td class="fourth" align="center"><a class="navigationlink" href="https://www.tcscodevita.com/CodevitaV3/StartCoding" style="color:#FCDD41;font-weight:bold;">Coding Arena</a></td>
+				<td class="seventh" align="center"><a class="navigationlink" href="https://www.tcscodevita.com/CodevitaV3/ChkSubmissionServlet">My Submissions</a></td>
+				
+					 <td class="fifth" align="center"><a class="navigationlink" href="https://www.tcscodevita.com/CodevitaV3/feedback.jsp">Feedback</a></td> 
+			</tr>
+		</tbody></table>
+
+	</div> 
+						<table class="main" border="0">
+							<tbody><tr>
+								<td width="23px"></td>
+							
+							
+								<td valign="top">
+									<div class="leftupper">						
+										<table border="0" style="border-collapse:collapse;">
+											<tbody><tr>
+												<td height="10px"></td>
+											</tr>
+											<tr>
+												<td width="200px"><a class="title"><b>Coding Arena </b></a></td>
+											</tr>
+											<tr>
+												<td height="10px"></td>
+											</tr>
+										</tbody></table>
+																		
+											<div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">	
+	<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
+		<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-1" aria-labelledby="ui-id-1" aria-selected="false"><a href="https://www.tcscodevita.com/CodevitaV3/problemstart.jsp#tabs-1" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">A</a></li>
+		<li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="-1" aria-controls="tabs-2" aria-labelledby="ui-id-2" aria-selected="false"><a href="https://www.tcscodevita.com/CodevitaV3/problemstart.jsp#tabs-2" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">B</a></li>
+		<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-3" aria-labelledby="ui-id-3" aria-selected="false"><a href="https://www.tcscodevita.com/CodevitaV3/problemstart.jsp#tabs-3" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-3">C</a></li>
+		<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-4" aria-labelledby="ui-id-4" aria-selected="false"><a href="https://www.tcscodevita.com/CodevitaV3/problemstart.jsp#tabs-4" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-4">D</a></li>
+		<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-5" aria-labelledby="ui-id-5" aria-selected="false"><a href="https://www.tcscodevita.com/CodevitaV3/problemstart.jsp#tabs-5" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-5">E</a></li>
+		<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-6" aria-labelledby="ui-id-6" aria-selected="false"><a href="https://www.tcscodevita.com/CodevitaV3/problemstart.jsp#tabs-6" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-6">F</a></li>
+		<li class="ui-state-default ui-corner-top" role="tab" tabindex="0" aria-controls="tabs-7" aria-labelledby="ui-id-7" aria-selected="true"><a href="https://www.tcscodevita.com/CodevitaV3/problemstart.jsp#tabs-7" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-7">G</a></li>
+	</ul>	
+	
+	<div id="tabs-1" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+		<div class="border">
+			<div class="Section1">	
+				<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+				normal"><span class="problem">Problem : Luminous Jewels - Polishing Necklace<o:p></o:p></span></b></p>
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				Byteland county is very famous for luminous jewels. 
+				Luminous jewels are used in making beautiful necklaces. A necklace consists of various luminous jewels of particular colour. 
+				Necklaces require polishing the jewels. <br>
+				<br>Operationally, all jewels of the same colour can be polished in one sitting. Cost of polishing increases with every sitting. Your task is to minimize the cost of polishing the necklace, given following conditions
+				</p><ol>
+					<li>	Jewels can only be removed for polishing from either end of the necklace (i.e. head or tail)</li>
+					<li>	Cost of polishing = <b>Sitting Number * Colour Value of the Luminous Jewel</b></li>
+					<li>	The necklace is represented as a String and each character of the string is a Luminous Jewel</li>
+					<li>	Similar character is the same Luminous Jewel which has same Colour Value</li>
+				</ol><p></p>
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				Colour Value for different Jewels named from a to z are 1 to 26 respectively. For e.g. a = 1, b = 2, ... z = 26.
+				
+				</p>
+				<p style="line-height:140%;"><b>Input Format:</b>
+				<br><br>First line starts with <b>T</b>, number of test cases. Each test case <b>T</b> contains a necklace <b>(N).</b><br><br>
+				</p>
+				<p style="line-height:140%;"><b>Output Format:</b>
+				<br><br>Print the minimum cost of polishing the necklace.<br><br>
+				</p>
+				
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+				</p><p style="line-height:140%;"><b>1&lt;=T&lt;=100</b><br></p>
+				<p style="line-height:140%;"><b>1&lt;=|N|&lt;=500, N will only contain lower case alphabets ('a'-'z').</b><br></p>
+				<p></p>
+				<br><br>
+				
+				<a><b>Sample Input and Output</b></a><a><br><br>
+				<table width="650px" border="1" cellspacing="0" cellpadding="2">
+					<tbody><tr>
+						<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+					</tr>
+					<tr>
+						<td style="width:10px;">1</td><td style="width:300px;"><br>2<br>aba<br>abaacde<br><br></td>
+						<td style="width:200px"><br>5<br>36<br><br></td>
+						
+					</tr>
+										
+				</tbody></table>
+				<br><br>
+				
+			</a></div><a>
+			<div class="note">
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+				not  use package and namespace in your code. For object oriented
+				languages your code should be written in one class.</i></p>
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+				submitting solutions in C language should not use functions from
+				&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+				gcc</i></p>
+				
+				<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+				</p>
+			</div>
+		</a></div><a>
+		<br><br>
+		</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+		<div class="submitsolution">
+			<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+			<div class="fileinputs">
+				<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_A" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+				<div class="fakefile">				
+					<input size="38" name="fake_file_input">
+					<input type="button" value="Browse..." name="Browse">
+				</div>
+			</div>	
+			<div class="filesubmit">	
+				<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+				<input type="image" value="Submit" name="Submit" id="upload" src="./TCS  CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+				<span></span>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="tabs-2" aria-labelledby="ui-id-2" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: block;">
+		<div class="border">
+			<div class="Section1">	
+				<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+				normal"><span class="problem">Problem : Special Array<o:p></o:p></span></b></p>
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				An array <b>A</b> is said to be special if all its elements are same. 
+				Given an array, your task is to convert the array to special array by performing some operations. 
+				The allowed operations are increment or decrement an element by 1. 
+				Your task is to find out the minimum number of operations needed to convert the given array to special
+				 with the constraint that the element of the special array is present in the original array.<br>
+				</p>
+				
+				
+				<p style="line-height:140%;"><b>Input Format:</b>
+				<br><br>First line starts with <b>T</b>, which is the number of test cases.<br>Each test case contains:
+				<br></p><ul><li>Length of the array <b>(N)</b></li>
+				<li>Next line contains <b>N</b> spaced integers.</li></ul>
+				<p></p>
+				<p style="line-height:140%;"><b>Output Format:</b>
+				<br><br>For each test case print the minimum number of operations needed to convert the array to special array. Take modulus of the result with 1000007.<br><br>
+				</p>
+				
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+				</p><p style="line-height:140%;"><b>1&lt;=T&lt;=10</b><br></p>
+				<p style="line-height:140%;"><b>1&lt;=N&lt;=10000</b><br></p>
+				<p style="line-height:140%;"><b>1&lt;=Ai&lt;=10000, where Ai represents the i<sup>th</sup> element in the array.</b><br><br></p>
+				
+				<p></p>
+				
+				<a><b>Sample Input and Output</b></a><a><br><br>
+				<table width="650px" border="1" cellspacing="0" cellpadding="2">
+					<tbody><tr>
+						<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+					</tr>
+					<tr>
+						<td style="width:10px;">1</td><td style="width:300px;"><br>1<br>3<br>1 6 2<br><br></td>
+						<td style="width:200px"><br>5<br><br></td>
+						
+					</tr>
+										
+				</tbody></table>
+				<br><br>
+			
+				<p style="line-height:140%;"><b>Explanation:</b>
+				<br><br>If we choose 1st element total 6 steps(0 steps for 1<sup>st</sup> element, 5 steps for 2<sup>nd</sup> element, 1 step for 3<sup>rd</sup> element) will be taken to convert the array to [1,1,1]. 
+				<br><br>If we choose 2nd element total 9 steps(5 steps for 1<sup>st</sup> element, 0 steps for 2<sup>nd</sup> element, 4 steps for 3<sup>rd</sup> element) will be taken to convert the array to [6,6,6].
+				<br><br>If we choose 3rd element total 5 steps(1 steps for 1<sup>st</sup> element, 4 steps for 2<sup>nd</sup> element, 0 steps for 3<sup>rd</sup> element) will be taken to convert the array to [2,2,2]. <br><br>
+				</p>
+				
+			</a></div><a>
+			<div class="note">
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+				not  use package and namespace in your code. For object oriented
+				languages your code should be written in one class.</i></p>
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+				submitting solutions in C language should not use functions from
+				&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+				gcc</i></p>
+				
+				<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+				</p>
+			</div>
+		</a></div><a>
+		<br><br>
+		</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+		<div class="submitsolution">
+			<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+			<div class="fileinputs">
+				<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_B" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+				<div class="fakefile">				
+					<input size="38" name="fake_file_input">
+					<input type="button" value="Browse..." name="Browse">
+				</div>
+			</div>	
+			<div class="filesubmit">	
+				<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+				<input type="image" value="Submit" name="Submit" id="upload" src="./TCS  CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+				<span></span>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="tabs-3" aria-labelledby="ui-id-3" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+		<div class="border">
+			<div class="Section1">	
+				<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+				normal"><span class="problem">Problem : Stone Game - Remove Last <o:p></o:p></span></b></p>
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				Alice and Bob are playing a game called "Stone Game". Stone game is a two-player game. 
+				Let <b>N</b> be the total number of stones. In each turn, a player can remove 1, 2 or 3 stones. 
+				The player who picks the last stone, loses. They follow the "Ladies First" norm. Hence Alice is always the one to make the first move. Your task is to find out whether Alice can win, if both play the game optimally.<br>
+				</p>
+				
+				
+				<p style="line-height:140%;"><b>Input Format:</b>
+				<br><br>First line starts with <b>T</b>, which is the number of test cases. Each test case will contain <b>N</b> number of stones.<br><br>
+				</p>
+				<p style="line-height:140%;"><b>Output Format:</b>
+				<br><br>Print "Yes" in the case Alice can win, else prints "No".<br><br>
+				</p>
+				
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+				</p><p style="line-height:140%;"><b>1&lt;=T&lt;=10</b><br></p>
+				<p style="line-height:140%;"><b>1&lt;=N&lt;=10000</b><br><br></p>
+				
+				<p></p>
+				
+				<a><b>Sample Input and Output</b></a><a><br><br>
+				<table width="650px" border="1" cellspacing="0" cellpadding="2">
+					<tbody><tr>
+						<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+					</tr>
+					<tr>
+						<td style="width:10px;">1</td><td style="width:300px;"><br>2<br>1<br>3<br><br></td>
+						<td style="width:200px"><br>No<br>Yes<br><br></td>
+						
+					</tr>
+										
+				</tbody></table>
+				<br><br>
+				
+			</a></div><a>
+			<div class="note">
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+				not  use package and namespace in your code. For object oriented
+				languages your code should be written in one class.</i></p>
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+				submitting solutions in C language should not use functions from
+				&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+				gcc</i></p>
+				
+				<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+				</p>
+			</div>
+		</a></div><a>
+		<br><br>
+		</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+		<div class="submitsolution">
+			<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+			<div class="fileinputs">
+				<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_C" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+				<div class="fakefile">				
+					<input size="38" name="fake_file_input">
+					<input type="button" value="Browse..." name="Browse">
+				</div>
+			</div>	
+			<div class="filesubmit">	
+				<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+				<input type="image" value="Submit" name="Submit" id="upload" src="./TCS  CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+				<span></span>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="tabs-4" aria-labelledby="ui-id-4" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+		<div class="border">
+			<div class="Section1">	
+				<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+				normal"><span class="problem">Problem : Rat Survival Probability<o:p></o:p></span></b></p>
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">Given a square maze <b>(A)</b> of dimension <b>N</b>, every entry (<b>A<sub>ij</sub></b>) in the maze is either an open cell '<b>O</b>' or a wall '<b>X</b>'. A rat can travel to its adjacent locations (left, right, top and bottom), but to reach a cell, it must be open. Every cell in the maze will contain a survival probability <b>P</b>.
+				<br><br>Your task is to find the number of ways to place maximum number of rats, such that they are not able to reach other and at the same time their minimum survival probability is at least <b>P<sub>S</sub></b>.
+				 As the result can be long, take modulus of the result with 1000000007<br>
+				</p>
+				
+				
+				<p style="line-height:140%;"><b>Input Format:</b>
+				<br><br>Input consists of four parts, viz.<br></p><ol>
+				<li>Size of the maze <b>(N)</b></li>
+				<li>The maze itself <b>(A = N * N)</b></li>
+				<li><b>P<sub>s</sub></b> i.e. minimum survival probability expressed as a number between 0 and 1</li>
+				<li>Maze with probability of survival in each cell where maze is <b>(A = N * N)</b> and <b>A<sub>ij</sub> = P</b>, where i is the row and j is the column index</li></ol>
+				<p></p>
+				<p style="line-height:140%;"><b>Output Format:</b>
+				<br><br>Print the number of ways to place maximum number of rats, 
+				such that they can't reach other and their survival probability is at least <b>P<sub>s</sub></b>.
+				 Take modulus of the number of ways, computed above, with 1000000007<br><br>
+				</p>
+				
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+				</p><p style="line-height:140%;"><b>1&lt;=N&lt;=350</b><br></p>
+				<p style="line-height:140%;"><b>A<sub>ij</sub> = {'O','X'}</b><br></p>
+				<p style="line-height:140%;"><b>0&lt;=P&lt;=1</b><br></p>
+				<p style="line-height:140%;"><b>0&lt;=P<sub>s</sub>&lt;=1</b><br><br></p>
+				<p></p>
+				
+				<a><b>Sample Input and Output</b></a><a><br><br>
+				<table width="650px" border="1" cellspacing="0" cellpadding="2">
+					<tbody><tr>
+						<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+					</tr>
+					<tr>
+						<td style="width:10px;">1</td><td style="width:300px;"><br>3<br>O O X<br>O X O<br>O O X<br>0.3<br>0.4 0.1 0.1<br>0.4 0.2 0.3<br>0.1 0.4 0.1<br><br></td>
+						<td style="width:200px"><br>3<br><br></td>
+						
+					</tr>
+										
+				</tbody></table>
+				<br><br>
+				<p style="line-height:140%;"><b>Explanation:</b>
+				<br><br>We can place 1<sup>st</sup> rat in any of the {(1,1),(1,2),(2,1),(3,1),(3,2)} cells.<br>And we can place 2<sup>nd</sup> rat in {(2, 3)}.
+				<br><br>But the probability of survival for (1, 2) and (3,1) are less than P<sub>s</sub>. Hence we can't use these cells to place the 1<sup>st</sup> rat, but we can use the remaining cells (1, 1),(2,1), and (3,2) to place the 1<sup>st</sup> rat.
+				<br><br>Now we can place the rats in any one of the following ways:
+				<br>{(1,1),(2,3)},{(2,1),(2,3)},{(3,2),(2,3)}, where first entry in the set represents the location of 1<sup>st</sup> rat and the second entry represents the location of the 2<sup>nd</sup> rat.
+				<br><br>
+				</p>
+				
+			</a></div><a>
+			<div class="note">
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+				not  use package and namespace in your code. For object oriented
+				languages your code should be written in one class.</i></p>
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+				submitting solutions in C language should not use functions from
+				&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+				gcc</i></p>
+				
+				<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+				</p>
+			</div>
+		</a></div><a>
+		<br><br>
+		</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+		<div class="submitsolution">
+			<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+			<div class="fileinputs">
+				<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_D" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+				<div class="fakefile">				
+					<input size="38" name="fake_file_input">
+					<input type="button" value="Browse..." name="Browse">
+				</div>
+			</div>	
+			<div class="filesubmit">	
+				<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+				<input type="image" value="Submit" name="Submit" id="upload" src="./TCS  CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+				<span></span>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="tabs-5" aria-labelledby="ui-id-5" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+		<div class="border">
+			<div class="Section1">	
+				<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+				normal"><span class="problem">Problem : Online Communities - Connectivity <o:p></o:p></span></b></p>
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				In a social network, online communities refer to the group of people with an interest towards the same topic.<br>
+				<br>People connect with each other in a social network. A connection between Person <b>I</b> and Person <b>J</b> is represented as <b>C I J</b>. When two persons belonging to different communities connect, the net effect is merger of both communities which <b>I</b> and <b>J</b> belonged to.<br>
+				<br>Your task is to find out whether two persons are in a same group or not.<br>
+				</p>
+				<p style="line-height:140%;"><b>Input Format:</b>
+				<br><br>Input will consist of three parts, viz.<br></p><ol type="1"><li>The total number of people on the social network <b>(N)</b></li>
+				<li>Queries<br><ol type="a"><li><b>C I J</b>, connect <b>I</b> and <b>J</b></li>
+									<li><b>Q K L</b>,  query the community to find out if <b>K</b> and <b>L</b> belong to the same group</li></ol></li></ol><b>-1</b> will represents the end of input.<br><br>
+				<p></p>
+				<p style="line-height:140%;"><b>Output Format:</b>
+				<br><br>For each query <b>Q</b>, print "<b>Yes</b>" if <b>K</b> and <b>L</b> are in a same group else print "<b>No</b>".<br><br>
+				</p>
+				
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+				</p><p style="line-height:140%;"><b>1&lt;=N&lt;=10^6</b><br></p>
+				<p style="line-height:140%;"><b>1&lt;=K, L&lt;=N</b><br></p>
+				<p style="line-height:140%;"><b>1&lt;=I, J&lt;=N</b><br><br></p>
+				<p></p>
+				
+				<a><b>Sample Input and Output</b></a><a><br><br>
+				<table width="650px" border="1" cellspacing="0" cellpadding="2">
+					<tbody><tr>
+						<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+					</tr>
+					<tr>
+						 <td style="width:10px;">1</td><td style="width:300px;"><br>5<br>C 1 2<br>Q 1 2<br>C 2 3<br>C 3 4<br>Q 1 2<br>Q 1 3<br>Q 3 2<br>Q 1 5<br>-1<br><br></td>
+						<td style="width:200px"><br>Yes<br>Yes<br>Yes<br>Yes<br>No<br><br></td>
+						
+					</tr>
+										
+				</tbody></table>
+				<br><br>
+				<p style="line-height:140%;"><b>Explanation:</b>
+				<br><br>Step-i defines the i-th request to join the group. Now, in the given example, at first, user 2 will make a request to connect with user 1. Next, user 3 will connect with user 2 followed by user 4 with user 3. After all these steps, the modified network is illustrated by figure Fig 1. <br><br></p><p><img src="./TCS  CodeVita - Coding Arena_files/R1P1.png" alt="" width="630" height="500"><br></p><br>
+				<br>So after step 1, user 1 and user 2 are in a same group. <br>
+				<br>After step 2, user 2, user 3 and user 1 are in a same group.<br>And finally after step 3 user 1, 2, 3, 4 are in a same group.<br>
+				<br>In the given example there are 5 queries:<br>
+				<br>1st query was asked after step 1: At this point 1 and 2 are connected and are in a same group.<br>Remaining queries were asked step 3: At this point 1 and 2 are in a same group, 1 and 3 are in a same group, 3 and 2 are in a same group but 5 not in a same group as of 1.<br><br>
+				<p></p>
+				
+			</a></div><a>
+			<div class="note">
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+				not  use package and namespace in your code. For object oriented
+				languages your code should be written in one class.</i></p>
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+				submitting solutions in C language should not use functions from
+				&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+				gcc</i></p>
+				
+				<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+				</p>
+			</div>
+		</a></div><a>
+		<br><br>
+		</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+		<div class="submitsolution">
+			<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+			<div class="fileinputs">
+				<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_E" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+				<div class="fakefile">				
+					<input size="38" name="fake_file_input">
+					<input type="button" value="Browse..." name="Browse">
+				</div>
+			</div>	
+			<div class="filesubmit">	
+				<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+				<input type="image" value="Submit" name="Submit" id="upload" src="./TCS  CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+				<span></span>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="tabs-6" aria-labelledby="ui-id-6" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+		<div class="border">
+			<div class="Section1">	
+				<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+				normal"><span class="problem">Problem : Last Fibonacci Standing <o:p></o:p></span></b></p>
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">Given a Fibonacci sequence <a href="http://en.wikipedia.org/wiki/Fibonacci_number" target="_blank" style="color:blue;">(http://en.wikipedia.org/wiki/Fibonacci_number)</a>, start cancelling every Lth element. Wrap around and continue the cancellation until only one element remains. As the Fibonacci number will overflow in a traditional data type, take modulus of the number with 1000000007.
+				<br><br>The Fibonacci sequence to be considered depends on the inputs a and b, where a is the lower bound and b is the upper bound of the sequence.<br>
+				</p>
+				
+				
+				<p style="line-height:140%;"><b>Input Specification:</b>
+				<br><br>First line starts with <b>T</b>, number of test cases, and then <b>T</b> lines follow each with <b>a, b, L</b>.<br><br>
+				</p>
+				
+				<p style="line-height:140%;"><b>Output Format:</b>
+				<br><br>Print the Fibonacci number which will be left after crossing out all the numbers at <b>L</b>-th location of the sequence.<br><br>
+				</p>
+				
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+				</p><p style="line-height:140%;"><b>1&lt;=T&lt;=10</b><br></p>
+				<p style="line-height:140%;"><b>1&lt;=a&lt;=1000</b><br></p>
+				<p style="line-height:140%;"><b>a&lt;=b&lt;=1000</b><br></p>
+				<p style="line-height:140%;"><b>1&lt;=L&lt;=10000</b><br></p>
+				<p></p>
+				<br>
+				<a><b>Sample Input and Output</b></a><a><br><br>
+				<table width="650px" border="1" cellspacing="0" cellpadding="2">
+					<tbody><tr>
+						<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+					</tr>
+					<tr>
+						<td style="width:10px;">1</td><td style="width:300px;"><br>2<br>2 4 1<br>2 5 2<br><br></td>
+						<td style="width:200px"><br><br>3<br>1<br><br></td>
+						
+					</tr>
+										
+				</tbody></table>
+				<br><br>
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				<font face="Verdana, sans-serif"><b>Explanation</b></font><br>
+					[F1, F2, F3, F4, F5, F6 ... ] = [1, 1, 2, 3, 5, 8 ... ]
+					<br><br><b>T1: 2 4 1</b>
+					<br>a = 2, b = 4, L = 1
+					<br>[F2, F3, F4] = [1, 2, 3]
+					<br>L = 1, remove first element at each step
+					<br>[1, 2, 3] start with 1 remove first element i.e. 1
+					<br>[2, 3] start with 2 remove first element i.e. 2
+					<br>[3] &lt;- Ans
+					
+					
+					<br><br><b>T1: 2 5 2</b>
+					<br>a = 2, b = 5, L = 2
+					<br>[F2, F3, F4, F5] = [1, 2, 3, 5]
+					<br>L = 2, remove second element at each step
+					<br>[1, 2, 3, 5] start with 1 remove second element i.e. 2
+					<br>[1, 3, 5] start with 3 remove second element i.e. 5
+					<br>[1, 3] wrap around and start with 1 remove second element i.e. 3
+					<br>[1] &lt;- Ans
+				</p>
+				
+				
+			</a></div><a>
+			<div class="note">
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+				not  use package and namespace in your code. For object oriented
+				languages your code should be written in one class.</i></p>
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+				submitting solutions in C language should not use functions from
+				&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+				gcc</i></p>
+				
+				<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+				</p>
+			</div>
+		</a></div><a>
+		<br><br>
+		</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+		<div class="submitsolution">
+			<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+			<div class="fileinputs">
+				<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_F" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+				<div class="fakefile">				
+					<input size="38" name="fake_file_input">
+					<input type="button" value="Browse..." name="Browse">
+				</div>
+			</div>	
+			<div class="filesubmit">	
+				<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+				<input type="image" value="Submit" name="Submit" id="upload" src="./TCS  CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+				<span></span>
+			</div>
+		</div>
+	</div>
+		
+	
+	<div id="tabs-7" aria-labelledby="ui-id-7" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="true" aria-hidden="false" style="display: none;">
+		<div class="border">
+			<div class="Section1">	
+				<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+				normal"><span class="problem">Problem : Compiler Design - Limit  the instructions <o:p></o:p></span></b></p>
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">Ravi is a newbie to the programming and while learning the programming language he came to know the following rules:<br>
+				</p>
+				<p class="MsoListParagraph" style="margin-left:.75in;text-indent:-.25in;
+mso-list:l1 level1 lfo1"><!--[if !supportLists]--><span style="font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]-->Each program <b>must</b> start with '{' and end with '}'.</p>
+
+<p class="MsoListParagraph" style="margin-left:.75in;text-indent:-.25in;
+mso-list:l1 level1 lfo1"><!--[if !supportLists]--><span style="font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]-->Each program <b>must</b> contain only one main function. Main function <b>must</b> start with '&lt;' and end with '&gt;'.</p>
+	
+<p class="MsoListParagraph" style="margin-left:.75in;text-indent:-.25in;
+mso-list:l1 level1 lfo1"><!--[if !supportLists]--><span style="font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]-->A program may or may not contain user defined function(s). There is no limitation on the number of user defined functions in the program. User defined function <b>must</b> start with '(' and end with ')'.</p>	
+				
+<p class="MsoListParagraph" style="margin-left:.75in;text-indent:-.25in;
+mso-list:l1 level1 lfo1"><!--[if !supportLists]--><span style="font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]-->Loops are allowed only inside the functions (this function can be either main function or user defined function(s)). Every loop must start with '{' and end with '}'.</p>
+
+<p class="MsoListParagraph" style="margin-left:.75in;text-indent:-.25in;
+mso-list:l1 level1 lfo1"><!--[if !supportLists]--><span style="font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]-->User defined function(s) are not allowed to be defined inside main function or other user defined function(s).</p>
+
+<p class="MsoListParagraph" style="margin-left:.75in;text-indent:-.25in;
+mso-list:l1 level1 lfo1"><!--[if !supportLists]--><span style="font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]-->Nested loops are allowed.</p>
+
+<p class="MsoListParagraph" style="margin-left:.75in;text-indent:-.25in;
+mso-list:l1 level1 lfo1"><!--[if !supportLists]--><span style="font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]-->Instructions can be any where inside the program.</p>
+
+<p class="MsoListParagraph" style="margin-left:.75in;text-indent:-.25in;
+mso-list:l1 level1 lfo1"><!--[if !supportLists]--><span style="font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style="mso-list:Ignore">Â·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><!--[endif]-->Number of Instructions in any program should not be more than 100.</p>
+
+<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">If any of the above conditions does not met, then the program will generate compilation errors. Today Ravi has written his first program "Hello World", but he is not sure about the correctness of the program now your task is to help him to find out whether his program will compile without any errors or not.<br>
+				</p>
+
+				<p style="line-height:140%;"><b>Input Format:</b>
+				<br><br>First line starts with T, number of test cases. Each test case will contain a single line L, where L is a program written by Ravi.<br><br>
+				</p>
+				
+				<p style="line-height:140%;"><b>Output Format:</b>
+				<br><br>Print "No Compilation Errors" if there won't exist any compilation errors else print "Compilation Errors".<br><br>
+				</p>
+				
+				
+				<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+				<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+				</p><p style="line-height:140%;"><b>1&lt;=T&lt;=100</b><br></p>
+				<p style="line-height:140%;"><b>L is a text and can  be composed of any of the characters {, }, (, ) , &lt;, &gt;and P, where P will represent the instruction.</b><br></p>
+				<p style="line-height:140%;"><b>L will contain single spaced characters where each character will represent the each line of the program.</b><br></p>
+				<p style="line-height:140%;"><b>Number of characters in the text &lt; = 10000</b><br></p>
+				
+				<p></p>
+				
+				<a><b>Sample Input and Output</b></a><a><br><br>
+				<table width="650px" border="1" cellspacing="0" cellpadding="2">
+					<tbody><tr>
+						<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+					</tr>
+					<tr>
+						<td style="width:10px;">1</td><td style="width:300px;"><br>3<br>{ &lt; &gt; ( P ) }<br>{ &lt; { } &gt; ( { } ) )<br>{ ( { } ) }<br><br></td>
+						<td style="width:200px"><br>No Compilation Error<br>Compilation Errors<br>Compilation Errors<br><br></td>
+						
+					</tr>
+										
+				</tbody></table>
+				<br><br>
+				
+				
+			</a></div><a>
+			<div class="note">
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+				not  use package and namespace in your code. For object oriented
+				languages your code should be written in one class.</i></p>
+				<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+				<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+				submitting solutions in C language should not use functions from
+				&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+				gcc</i></p>
+				
+				<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+				</p>
+			</div>
+		</a></div><a>
+		<br><br>
+		</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+		<div class="submitsolution">
+			<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+			<div class="fileinputs">
+				<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_G" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+				<div class="fakefile">				
+					<input size="38" name="fake_file_input">
+					<input type="button" value="Browse..." name="Browse">
+				</div>
+			</div>	
+			<div class="filesubmit">	
+				<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+				<input type="image" value="Submit" name="Submit" id="upload" src="./TCS  CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+				<span></span>
+			</div>
+		</div>
+	</div>
+	
+</div>
+</div>
+								
+										
+									<!--end of leftupper div-->
+								</td>
+								<td width="15px"></td>
+								<td valign="top">
+									<div class="rightmain">
+										<table width="100%" height="10%" border="0" style="border-collapse:collapse;">
+											<tbody><tr>
+												<td height="5px"></td>
+											</tr>
+											<tr>
+												<td><img border="0" src="./TCS  CodeVita - Coding Arena_files/Codevita-logo-small.jpg" width="172px" height="45px"></td>
+											</tr>
+											<tr>
+												<td height="23px" width="172px"></td><td>
+											</td></tr>
+											<tr>
+												<td height="22px" style="background-color:gray ">
+														<a class="timenotif"><b>Time Left</b></a>
+												</td>
+											</tr>
+											<tr>
+												<td height="60px" width="172px" style="background-color:#EFEFEF;">
+														<table border="0" cellspacing="0" width="172px">
+														<tbody><tr>
+															<td width="20px"></td>
+															<td width="10%" style="background-color:white;"><a style="font-size:24px;color:#950000;font-weight:bold;" id="hr">00</a></td>
+															<td width="20px"></td>
+															<td width="10%" style="background-color:white;"><a style="font-size:24px;color:#950000;font-weight:bold;" id="min">11</a></td>
+															<td width="20px"></td>
+															<td width="10%" style="background-color:white;"><a style="font-size:24px;color:#950000;font-weight:bold;" id="sec">50</a></td>	
+															<td width="20px"></td>
+														</tr>
+														<tr>
+															<td width="20px"></td>
+															<td align="center"> hr </td>
+															<td width="20px"></td>
+															<td align="center"> min </td>
+															<td width="20px"></td>
+															<td align="center"> sec </td>
+															<td width="20px"></td>
+														</tr>
+													</tbody></table>					
+												</td>																								
+											</tr>
+											<tr>
+												<td height="15px" width="172px"></td><td>
+											</td></tr>
+											<tr>
+											<td style="background-color:#D3D3D3;height:22px">
+												<a href="https://www.tcscodevita.com/CodevitaV3/guidelines.jsp" style="color:#950000;font-weight:bold;margin-left:8px;text-decoration: none;font-size:12px;">Rules &amp; Regulations</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<div style="height:100px;position: relative;"></div>	
+												</td>
+											</tr>
+										</tbody></table>	
+									</div>
+								</td>
+								<td width="23px">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div style="height: 90px;"></div>
+								</td>
+							</tr>								
+						</tbody></table>
+						<div class="lower">
+							<table border="0" style="position:relative;border-collapse:collapse;" align="center" width="932px">
+								<tbody><tr>
+									<td height="20px"></td>
+								</tr>
+								<tr>
+									<td><a class="footer">� 2014 Tata Consultancy Services Limited. All Rights Reserved.&nbsp;&nbsp;&nbsp;</a></td>
+									<td><a class="footer">In Association with</a></td>
+									<td><img border="0" src="./TCS  CodeVita - Coding Arena_files/Campus-Commune-Logo.jpg"></td>
+									<!-- <td ><a class="footer">|</a><a class="footer">&nbsp;Privacy Policy &nbsp;&nbsp;</a></td> -->
+									<td><a class="footer">|</a><a href="https://www.tcscodevita.com/CodevitaV3/privacypolicy.jsp" target="_blank style=" text-decoration:none;="" color:white;"="">&nbsp;Privacy Policy &nbsp;&nbsp;</a></td>
+									<td>
+										<!-- <a href="/CodevitaV3/redirectToTwitter.jsp" target="_blank"><img border="0" src="/CodevitaV3/images/twitter-icn.jpg"></a>
+				<a href="/CodevitaV3/redirectToLinkedIN.jsp" target="_blank"><img border="0" src="/CodevitaV3/images/linked-in-icn.jpg"></a>
+				<a href="/CodevitaV3/redirectToFacebook.jsp" target="_blank"><img border="0" src="/CodevitaV3/images/Facebook-icn.jpg"></a> -->
+				<a href="https://twitter.com/TCS_News" target="_blank"><img border="0" src="./TCS  CodeVita - Coding Arena_files/twitter-icn.jpg"></a>
+				<a href="http://www.linkedin.com/company/tata-consultancy-services/careers?trk=top_nav_careers" target="_blank"><img border="0" src="./TCS  CodeVita - Coding Arena_files/linked-in-icn.jpg"></a>
+				<a href="http://www.facebook.com/TataConsultancyServices" target="_blank"><img border="0" src="./TCS  CodeVita - Coding Arena_files/Facebook-icn.jpg"></a>
+									</td>
+									<td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img border="0" src="./TCS  CodeVita - Coding Arena_files/TATA-logo.jpg"></td>
+								</tr>
+							</tbody></table>
+						</div> 
+						<img style=" margin-top:-230px;margin-right:23px;" align="right" border="0" src="./TCS  CodeVita - Coding Arena_files/Mascot-Small.jpg">
+					</div>
+				</td>
+			</tr>
+		</tbody></table>
+		<!--
+		Notification Popup
+		-->
+		<div id="notification_popup_box" class="ui-dialog-content ui-widget-content" style="vertical-align: middle;display:none;">
+			<div style="text-align:right;">
+				<span id="close_icon" onclick="closeNotification()" style="margin-top:-15px;position: absolute;right: 0px;">&nbsp;&nbsp;&nbsp;</span>
+			</div>
+			<div id="notification_popup_text"></div>
+		</div>
+		<input type="hidden" name="selected_problem" value="B">
+		<input type="hidden" id="refreshed" value="yes">
+	
+	<script src="./TCS  CodeVita - Coding Arena_files/gen_validatorv4.js"></script>
+<script src="./TCS  CodeVita - Coding Arena_files/ajaxfileupload.js"></script>
+<script src="./TCS  CodeVita - Coding Arena_files/jquery-ui.min.js"></script>
+<script src="./TCS  CodeVita - Coding Arena_files/problemstartjs.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52806117-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body></html>

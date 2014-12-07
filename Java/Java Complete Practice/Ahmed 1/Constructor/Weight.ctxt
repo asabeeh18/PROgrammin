@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Weight()
+comment1.params=we1\ we2\ we3\ we4\ we5\ we6
+comment1.target=Weight(int,\ int,\ int,\ int,\ int,\ int)
+comment2.target=void\ cal_avg()
+comment3.target=void\ show()
+numComments=4

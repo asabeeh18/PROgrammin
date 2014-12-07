@@ -1,0 +1,75 @@
+#include<stdio.h>
+#include<conio.h>
+#include<graphics.h>
+void main()
+{
+	int x1,y1,x2,y2,xw[10],gm,gd,i;
+	float p[4],q[4],r[4],u1,u2,pk,x11,x22,y11,y22;
+	printf("Enter line co ordinates x1 y1 x2 y2");
+	scanf("%d %d %d %d",&x1,&y1,&x2,&y2);
+	printf("Enter window co ordinates xw1,yw1,xw2,yw2");
+	scanf("%d %d %d %d",&xw[0],&xw[1],&xw[4],&xw[5]);
+//	printf("Enter window co ordinates xv1,yv1,xv1,yv2");
+	//scanf("%d %d %d %d",&xv1,&yv1,&xv2,&yv2);
+	 detectgraph(&gd,&gm);
+    initgraph(&gd,&gm,"C:\\TURBOC3\\bgi");
+
+	xw[2]=xw[0];
+	xw[3]=xw[5];
+	xw[6]=xw[1];
+	xw[7]=xw[4];
+	xw[8]=xw[0];
+	xw[9]=xw[1];
+	line(x1,y1,x2,y2);
+	drawpoly(5,xw);
+	p[0]=-(float)(x2-x1);
+	p[1]=-p[0];
+	p[2]=-(float)(y2-y1);
+	p[3]=-p[2];
+	q[0]=(float)(x1-xw[0]);
+	q[1]=(float)(xw[4]-x1);
+	q[2]=(float)(y1-xw[1]);
+	q[3]=xw[5]-y1;
+	line(x1,y1,x2,y2);
+	drawpoly(4,xw);
+	for(i=0;i<4;i++)
+	{
+
+		r[i]=q[i]/p[i];
+		printf("\nr %d is %f\n p is %f\nq is %f\n ",i,r[i],p[i],q[i]);
+		if(p[i]==0)
+		{
+			printf("Parallel to %d boundary",i);
+			if(q[i]<0)
+				printf("Outside");
+		}
+	}
+	u1=0;
+	u2=1;
+	for(i=0;i<4;i++)
+	{
+		if(p[i]<0)
+			if(r[i]>u1)
+				u1=r[i];
+		if(pk>0)
+			if(r[i]<u2)
+				u2=r[i];
+	}
+	printf(" U1:%d U2: %d ",u1,u2);
+	if(u1>u2)
+		printf("outside");
+	x11=x1+y1*(x2-x1);
+	y11=y1+y1*(y2-y1);
+	x22=x1+u2*(x2-x1);
+	y22=y1+u2*(y2-y1);
+	getch();
+	clrscr();
+	closegraph();
+	getch();
+	detectgraph(&gd,&gm);
+	initgraph(&gd,&gm,"C:\\TURBOC3\\bgi");
+
+	line(x11,y11,x22,y22);
+	drawpoly(5,xw);
+
+}
