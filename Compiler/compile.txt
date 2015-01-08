@@ -1,0 +1,8 @@
+Ahmed@Yin /cygdrive/f/PROgrammin/Compiler
+$ bison -d txt.y
+
+Ahmed@Yin /cygdrive/f/PROgrammin/Compiler
+$ flex tct.l
+
+Ahmed@Yin /cygdrive/f/PROgrammin/Compiler
+$ g++ txt.tab.c lex.yy.c -lfl -o snz
