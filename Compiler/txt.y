@@ -6,8 +6,7 @@ using namespace std;
 
 extern "C" int yylex();
 extern "C" int yyparse();
-extern "C" FILE *yyin;
- 
+extern "C" FILE *yyin; 
 void yyerror(const char *s);
 %}
 
@@ -19,15 +18,15 @@ void yyerror(const char *s);
 
 %token <ival> prnt
 %token <nval> LI
-%token TEXT
+%token Hatt
 
 %%
 yo:
-	yo TEXT prnt	{ cout << "bison found an int: " << $3 << endl; }
+	yo Hatt prnt	{ cout <<$3<< endl; }
 	|
-	TEXT prnt 	{ cout << "bison found an int: " << $2 << endl; }
+	Hatt prnt 	{ cout << $2 << endl; }
 	|
-	yo LI	{ cout << "bison found an int: " << $2 << endl; }
+	yo LI	{ cout << $2 << endl; }
 	;
 %%
 

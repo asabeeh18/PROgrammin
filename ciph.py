@@ -18,11 +18,16 @@ def strxor(a, b):     # xor two strings of different lengths
         return "".join([chr(ord(x) ^ ord(y)) for (x, y) in zip(a, b[:len(a)])])
 
 def encrypt(key, msg):
-    c = strxor(key, msg)
-    print c
-    print "\n++++++++++++\n"
+	c="AA"
+	c = strxor(key, msg)
+	print c.encode("hex")
+	print "\n++++++++++++\n"
+	return c
 def main():
-    key = MSGS[1]
+	key = MSGS[0]
     #print key.decode(key,'hex')
-    [encrypt(key, msg) for msg in MSGS]
+	j=encrypt(key,MSGS[1])
+	k=encrypt(key,MSGS[2])
+	encrypt(j.encode('hex'),k.encode('hex'))
+	encrypt(MSGS[0],encrypt(MSGS[2],encrypt(MSGS[0],MSGS[1]).encode('hex')).encode('hex'))
 main()

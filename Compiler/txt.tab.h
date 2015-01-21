@@ -47,7 +47,7 @@ extern int yydebug;
   {
     prnt = 258,
     LI = 259,
-    TEXT = 260
+    Hatt = 260
   };
 #endif
 
@@ -56,7 +56,7 @@ extern int yydebug;
 typedef union YYSTYPE YYSTYPE;
 union YYSTYPE
 {
-#line 15 "txt.y" /* yacc.c:1909  */
+#line 14 "txt.y" /* yacc.c:1909  */
 
 	char* ival;
 	int nval;

@@ -9,8 +9,8 @@ int linenum=0;
 %%
 [ \t]           ;
 [ \n]		 linenum++;
-TEXT	{
-	return TEXT;
+Hatt\ ,	{
+	return Hatt;
 }
 LINE	{
 	yylval.nval=linenum;

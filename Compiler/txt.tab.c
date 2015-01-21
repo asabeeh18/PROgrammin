@@ -71,11 +71,10 @@ using namespace std;
 
 extern "C" int yylex();
 extern "C" int yyparse();
-extern "C" FILE *yyin;
- 
+extern "C" FILE *yyin; 
 void yyerror(const char *s);
 
-#line 79 "txt.tab.c" /* yacc.c:339  */
+#line 78 "txt.tab.c" /* yacc.c:339  */
 
 # ifndef YY_NULLPTR
 #  if defined __cplusplus && 201103L <= __cplusplus
@@ -112,7 +111,7 @@ extern int yydebug;
   {
     prnt = 258,
     LI = 259,
-    TEXT = 260
+    Hatt = 260
   };
 #endif
 
@@ -121,12 +120,12 @@ extern int yydebug;
 typedef union YYSTYPE YYSTYPE;
 union YYSTYPE
 {
-#line 15 "txt.y" /* yacc.c:355  */
+#line 14 "txt.y" /* yacc.c:355  */
 
 	char* ival;
 	int nval;
 
-#line 130 "txt.tab.c" /* yacc.c:355  */
+#line 129 "txt.tab.c" /* yacc.c:355  */
 };
 # define YYSTYPE_IS_TRIVIAL 1
 # define YYSTYPE_IS_DECLARED 1
@@ -141,7 +140,7 @@ int yyparse (void);
 
 /* Copy the second part of user declarations.  */
 
-#line 145 "txt.tab.c" /* yacc.c:358  */
+#line 144 "txt.tab.c" /* yacc.c:358  */
 
 #ifdef short
 # undef short
@@ -439,7 +438,7 @@ static const yytype_uint8 yytranslate[] =
   /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,    26,    26,    28,    30
+       0,    25,    25,    27,    29
 };
 #endif
 
@@ -448,7 +447,7 @@ static const yytype_uint8 yyrline[] =
    First, the terminals, then, starting at YYNTOKENS, nonterminals.  */
 static const char *const yytname[] =
 {
-  "$end", "error", "$undefined", "prnt", "LI", "TEXT", "$accept", "yo", YY_NULLPTR
+  "$end", "error", "$undefined", "prnt", "LI", "Hatt", "$accept", "yo", YY_NULLPTR
 };
 #endif
 
@@ -1204,25 +1203,25 @@ yyreduce:
   switch (yyn)
     {
         case 2:
-#line 26 "txt.y" /* yacc.c:1646  */
-    { cout << "bison found an int: " << (yyvsp[0].ival) << endl; }
-#line 1210 "txt.tab.c" /* yacc.c:1646  */
+#line 25 "txt.y" /* yacc.c:1646  */
+    { cout <<(yyvsp[0].ival)<< endl; }
+#line 1209 "txt.tab.c" /* yacc.c:1646  */
     break;
 
   case 3:
-#line 28 "txt.y" /* yacc.c:1646  */
-    { cout << "bison found an int: " << (yyvsp[0].ival) << endl; }
-#line 1216 "txt.tab.c" /* yacc.c:1646  */
+#line 27 "txt.y" /* yacc.c:1646  */
+    { cout << (yyvsp[0].ival) << endl; }
+#line 1215 "txt.tab.c" /* yacc.c:1646  */
     break;
 
   case 4:
-#line 30 "txt.y" /* yacc.c:1646  */
-    { cout << "bison found an int: " << (yyvsp[0].nval) << endl; }
-#line 1222 "txt.tab.c" /* yacc.c:1646  */
+#line 29 "txt.y" /* yacc.c:1646  */
+    { cout << (yyvsp[0].nval) << endl; }
+#line 1221 "txt.tab.c" /* yacc.c:1646  */
     break;
 
 
-#line 1226 "txt.tab.c" /* yacc.c:1646  */
+#line 1225 "txt.tab.c" /* yacc.c:1646  */
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires
@@ -1450,7 +1449,7 @@ yyreturn:
 #endif
   return yyresult;
 }
-#line 32 "txt.y" /* yacc.c:1906  */
+#line 31 "txt.y" /* yacc.c:1906  */
 
 
 main(int argc, char *argv[]) {
