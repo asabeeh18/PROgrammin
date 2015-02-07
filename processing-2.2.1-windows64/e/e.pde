@@ -1,33 +1,33 @@
-color pallete[]={color(255, 0, 0),color(0, 255, 0),color(0, 0, 255),color(0, 0, 0)};//rgb black
+color pallete[]={color(255, 0, 0),color(0, 255, 0),color(0, 0, 255),color(0, 0, 0),color(255,255,255)};//rgb black
 int nxTerm;
 int poz[][]={{0,0},{300,0},{0,300},{300,300}};
 int spoz[][]={{0,150},{400,150}};
-char swap[]= {
+int swap[]= {
   0, 0
 };
-char visited[]= {
+int visited[]= {
   0, 0, 0, 0
 };
-char term[][]=new char[4][2];
-char indi[]= {
-  0, 0, 0, 0
+int term[][]={{0,0},{2,3},{3,2},{1,1}};
+int indi[]= {
+  0, 2, 3, 1
 };  //index is color value is terminal
-//char schD[]=new schD;  //values: 0 1 or 2, access by CT%2
-//char schP[2];
-char threshold=10000;
-char RED=0, GREEN=1, BLUE=2, BLACK=3, EMPTY=4;
-char CT=0;
-char adjCount=0, farCount=0,i;
+//int schD[]=new schD;  //values: 0 1 or 2, access by CT%2
+//int schP[2];
+int threshold=10000;
+int RED=0, GREEN=1, BLUE=2, BLACK=3, EMPTY=4;
+int CT=0;
+int adjCount=0, farCount=0,i;
 int arm[]={0,0};
 
 void make(int CT,int side,int col)
 {
   fill(pallete[col]);
-  rect(poz[CT-1][0]+side*20,poz[CT-1][1],30,30);
+  rect(poz[CT-1][0]+side*40,poz[CT-1][1],30,30);
 }
 void smake(int CT,int col)
 {
-   fill(pallete[col]);
+  fill(pallete[col]);
   rect(spoz[CT-1][0],spoz[CT-1][1],30,30);
 }
 void setup()
@@ -35,50 +35,94 @@ void setup()
   size(displayWidth,displayHeight);
   for(i=1;i<5;i++)
   {
-    make(i,0,color(255));
-    make(i,1,color(255));
+    make(i,0,term[i-1][0]);
+    make(i,1,term[i-1][1]);
   }
-  for(i=1;i<3;i++)
-  {
-    smake(i,color(255));
-    smake(i,color(255));
-  }
+  smake(1,4);
+  smake(2,4);
+  bot();
+   noLoop();
   //fill()
   //fill colors
 }
 void draw()
 {
+  background(160);
+  if(CT==0)
+  {
+    CT=1;
+    sortNoSwap();
+  }
+  if (arm[0]==0 && arm[1]==0)
+  {
+    travel(CT,nxTerm);
+    sortNoSwap();
+  } else
+  {
+    travel(CT, nxTerm);
+    sortMan();
+  }
+  for(i=1;i<5;i++)
+  {
+    make(i,0,term[i-1][0]);
+    make(i,0,term[i-1][0]);
+  }
+  smake(1,swap[1]);
+  smake(2,swap[0]);
+  bot();
+  print(CT+" :"+nxTerm+" :"+arm[0]+" :"+arm[1]+" :");
 }
+void mousePressed()
+{
+  print("yo");
+ redraw();
+}
+void keyPressed()
+{
+  print("--");
+ redraw();
+}
+void bot()
+{
+  fill(pallete[arm[0]]);
+  rect(poz[CT][0]+30,poz[CT][1]+50,10,10);
+  fill(pallete[arm[1]]);
+  rect(poz[CT][0]+50,poz[CT][1]+50,10,10);
 //CODE------------------------
 //=======================
-
-char adjC()
+}
+boolean checkForCompletion()
+{
+  return true;
+}
+int adjC()
 {
 
   if (CT==1)
-    return 2;
+  return 3;
   if (CT==2)
-    return 1;
+  return 4;
   if (CT==3)
-    return 4;
+  return 1;
   if (CT==4)
-    return 3;
+  return 2;
   else return 0;
 }
 void travel(int CT, int nxTerm)
 {
-
-//  forwardJaa();
+  print("Travel-"+CT+" "+nxTerm);
+  
+  //  forwardJaa();
   //dist+=1
-  //swapEncounterdAction
+  //swapEncounterdActiona
   
   if ((CT==1 && (nxTerm == 3 || nxTerm== 4)) || (CT==4 && (nxTerm == 1 || nxTerm== 2)))
   {
-  //  forwardJaa();
-   // forwardJaa();
+    //  forwardJaa();
+    // forwardJaa();
     //swap
     
-   } else if ((CT==2 && (nxTerm == 3 || nxTerm== 4)) || (CT==3 && (nxTerm == 1 || nxTerm== 2)))
+  } else if ((CT==2 && (nxTerm == 3 || nxTerm== 4)) || (CT==3 && (nxTerm == 1 || nxTerm== 2)))
   {
     
     //forwardJaa();
@@ -88,8 +132,9 @@ void travel(int CT, int nxTerm)
   {
   }
   //forwardJaa();
+  CT=nxTerm;
 }
-void pick_color( char node)  //0 or 1
+void pick_color( int node)  //0 or 1
 {
   //read_color();
   visited[CT]=1;
@@ -99,7 +144,7 @@ void counter()
   //solveNode //v r inside d term wid one box of its color and an empty arm and MAYBE 1 box at sort
   adjCount=0;
   farCount=0;
-  char adj=adjC();
+  int adj=adjC();
   //belongs to near
   if (indi[CT]==term[adj][0])
     adjCount++;
@@ -117,67 +162,39 @@ void counter()
 int unvisited()
 {
   for (i=1; i<=4; i++)
-    if (visited[i]==0)
-      return i;
+  if (visited[i]==0)
+  return i;
   return 0;
-}
-void place(char term,int side,int col)
-{
-  make(term,side,col);
 }
 void grip(int side,int col)
 {
   arm[side]=col;
 }
-void drop(int side)
+int drop(int side,int mode)
 {
-  
-}
-void swapMan(char here)
-{
-  
-  if(swap[here]==indi[nxTerm])  
+  if(mode==1)  //swap space
   {
-    
-    if(CT%2==nxTerm%2) /*same side*/
+    smake(CT,);
+    if(arm[side]==0)
     {
-      if(((arm[1]==0 && arm[0]==0) || (term[nxTerm][0]==0 || term[nxTerm][1]==0))) //empty arm or empty block
-        pickup(0,1);
+      make(CT,side,4);  //place color at that poz
+      grip(side,4);
+      return 1;
     }
-    else if(((arm[1]==0 && arm[0]==0) || (term[nxTerm][0]==0 || term[nxTerm][1]==0)) || swap[nxTerm]==0)  //or even an empty space
-      pickup(0,1);
+    else if(arm[(side+1)%2]==0)
+    {
+      make(CT,side,4); //place color at that poz
+      grip((side+1)%2,4);
+      return 1;
+    }
   }
-  else if(CT%2!=nxTerm%2)
-  {
-    if(((arm[1]==0 && arm[0]==0) || (term[nxTerm][0]==0 || term[nxTerm][1]==0)) || swap[nxTerm]==0)
-      pickup(0,1);
-  }
-}
-int pickup(int side,int mode)
-{  
-  if(mode==1)
-   {
-     smake(CT,4);
-     if(arm[side]==0)
-     {
-       place(CT,side,0);  //place color at that poz
-       grip(side,4);
-       return 1;
-     }
-     else if(arm[(side+1)%2]==0)
-     {
-       place(CT,side,0);  //place color at that poz
-       grip((side+1)%2,4);
-       return 1;
-     }
-   }
-   //swap
-    
+  //swap
+  
   if(arm[side]==0)
   {
     if(term[CT][side]!=indi[CT])
     {
-      place(CT,side,0);  //place color at that poz
+      make(CT,side,4);  //place color at that poz
       grip(side,term[CT][side]);  //plae color at arm
       return 1;
     }
@@ -187,7 +204,67 @@ int pickup(int side,int mode)
     if(term[CT][side]!=indi[CT])
     {
       //rotate 90deg;
-      place(CT,(side+1)%2,0);
+      make(CT,(side+1)%2,4);
+      grip(side,term[CT][(side+1)%2]);
+      return 1;
+    }
+  }
+}
+void swapMan(int here)
+{
+  
+  if(swap[here%2]==indi[nxTerm])
+  {
+    
+    if(CT%2==nxTerm%2) /*same side*/
+    {
+      if(((arm[1]==0 && arm[0]==0) || (term[nxTerm][0]==0 || term[nxTerm][1]==0))) //empty arm or empty block
+      pickup(0,1);
+    }
+    else if(((arm[1]==0 && arm[0]==0) || (term[nxTerm][0]==0 || term[nxTerm][1]==0)) || swap[nxTerm%2]==0)  //or even an empty space
+    pickup(0,1);
+  }
+  else if(CT%2!=nxTerm%2)
+  {
+    if(((arm[1]==0 && arm[0]==0) || (term[nxTerm][0]==0 || term[nxTerm][1]==0)) || swap[nxTerm%2]==0)
+    pickup(0,1);
+  }
+}
+int pickup(int side,int mode)
+{
+  if(mode==1)  //swap space
+  {
+    smake(CT,4);
+    if(arm[side]==0)
+    {
+      make(CT,side,4);  //place color at that poz
+      grip(side,4);
+      return 1;
+    }
+    else if(arm[(side+1)%2]==0)
+    {
+      make(CT,side,4); //place color at that poz
+      grip((side+1)%2,4);
+      return 1;
+    }
+  }
+  //swap
+  
+  if(arm[side]==0)
+  {
+    if(term[CT][side]!=indi[CT])
+    {
+      make(CT,side,4);  //place color at that poz
+      grip(side,term[CT][side]);  //plae color at arm
+      return 1;
+    }
+  }
+  else if(arm[(side+1)%2]==0)
+  {
+    if(term[CT][side]!=indi[CT])
+    {
+      //rotate 90deg;
+      make(CT,(side+1)%2,4);
       grip(side,term[CT][(side+1)%2]);
       return 1;
     }
@@ -198,14 +275,14 @@ void placeBot(int x,int y)
 {
   ellipse(x+50,y,20,20);
 }
-void gotoSort( char CT)
+void gotoSort( int CT)
 {
   placeBot(spoz[CT%2][0],spoz[CT%2][1]);
 }
 
-void goBack( char CT)
+void goBack( int CT)
 {
-  assert(!"The method or operation is not implemented.");
+
 }
 
 
@@ -214,25 +291,25 @@ void goBack( char CT)
 //R-0 L-1
 void sortMan()
 {
-  char nxTerm;
-
+  int nxTerm=0;
+  int adj=adjC();
   int pSwap=((CT==2||CT==3)?1:0);
-  int pFar=(term[CT][0]==indi[adj]);    //wont work for empty node
-  if (Sort[CT]==indi[CT])
+  int pFar=(term[CT][0]==indi[adj])?1:0;    //wont work for empty node
+  if(swap[CT%2]==indi[CT])
   {
     if (farCount==2)
     {
       if (term[CT][0]==term[CT][1])
-        nxTerm=indi[term[CT][0]]; //the common terminal
+      nxTerm=indi[term[CT][0]]; //the common terminal
       else  //both diff of far
       nxTerm=indi[term[CT][0]];
-      pickup(0);
+      pickup(0,0);
       drop(0);
       gotoSort(CT);
-      pickup(pSwap);
+      pickup(pSwap,1);
       drop(pSwap);
       goBack(CT);
-      pickup(1);
+      pickup(1,0);
       drop(1);
       //SchPickupAtSort  //CT
       //SchDropAtSort    //far
@@ -241,28 +318,28 @@ void sortMan()
       if (adjCount==1)
       {
         nxTerm=adj;
-        pickup(pFar);
+        pickup(pFar,1);
         drop(pFar);
         gotoSort(CT);
-        pickup(pSwap);
+        pickup(pSwap,0);
         drop(pSwap);
         goBack(CT);
-        pickup((pFar+1)%2);
+        pickup((pFar+1)%2,1);
         drop((pFar+1)%2);
         //nothing to schedule
       } else
       {  //empty node
         //:O :O
-        if (vis[adj]==0)
-          nxTerm=adj;
+        if (visited[adj]==0)
+        nxTerm=adj;
 
         else  //seq also usable for both empty
         {
-          nxTerm=far;
-          pickup(pFar);
+          nxTerm=term[CT][pFar];
+          pickup(pFar,0);
           drop(pFar);
           gotoSort(CT);
-          pickup(pSwap);
+          pickup(pSwap,1);
           goBack(CT);
           drop((pFar+1)%2);
         }
@@ -272,48 +349,40 @@ void sortMan()
       if (farCount==1)
       {
         nxTerm=adj;
-        pickup(pFar);
+        pickup(pFar,0);
         drop(pFar);
         gotoSort(CT);
-        pickup(pSwap);
+        pickup(pSwap,1);
         drop(pSwap);
         goBack(CT);
-        pickup((pFar+1)%2);
+        pickup((pFar+1)%2,0);
         drop((pFar+1)%2);
         //nothing to schedule
       } else
       {
         //empty node
         drop(pFar);
-        gotoSOrt(CT);
-        pickup(pSwap);
+        gotoSort(CT);
+        pickup(pSwap,1);
         goBack(CT);
-        pickup((pFar+1)%2);
+        pickup((pFar+1)%2,0);
         drop((pFar+1)%2);
         nxTerm=adj;
       }
     } else if (adjCount==2)
     {
       nxTerm=adj;
-      pickup(0);
+      pickup(0,0);
       drop(0);
       gotoSort(CT);
-      pickup(pSwap);
+      pickup(pSwap,1);
       drop(pSwap);
       goBack(CT);
-      pickup(1);
+      pickup(1,0);
       drop(1);
     }
-    if (arm[0]==0 && arm[1]==0)
-    {
-      travel(CT, nxTerm);
-      sortNoSwap();
-    } else
-    {
-      travel(CT, nxTerm);
-      sortMan();
-    }
-  } else if (Sort[CT]!=indi[CT])  //Sort can be empty
+    
+  } else if (swap[CT%2]!=indi[CT])  //Sort can be empty
   {
     if (farCount==2)
     {
@@ -322,18 +391,18 @@ void sortMan()
         nxTerm=indi[term[CT][0]]; //the common terminal
         //SchPickupAtSort
         //SchDropAtSort
-        pickup(0);
+        pickup(0,0);
         drop(0);
-        pickup(1);
+        pickup(1,0);
         drop(1);
-      } else if (Sort[CT]==term[CT][0])
+      } else if (swap[CT%2]==term[CT][0])
       {
-        pickup(0);
+        pickup(0,0);
         drop(0);
         nxTerm=indi[arm[0]];
-      } else if (Sort[CT]==term[CT][1])
+      } else if (swap[CT%2]==term[CT][1])
       {
-        pickup(1);
+        pickup(1,0);
         drop(1);
         nxTerm=indi[arm[1]];
       }
@@ -341,24 +410,24 @@ void sortMan()
     {
       if (adjCount==1)
       {
-        if (Sort[CT]==0)
+        if (swap[CT%2]==0)
         {
-          pickup((pFar+1)%2); //adjwala
+          pickup((pFar+1)%2,0); //adjwala
           drop((pFar+1)%2);
-          pickup(pFar);
+          pickup(pFar,0);
           nxTerm=adj;
           //SchDropAtSort
         } else
         {
           //Sort of far and CT has 1 far a adj
-          pickup((pFar+1)%2);
+          pickup((pFar+1)%2,0);
           drop((pFar+1)%2);
           nxTerm=adj;
         }
       } else  //====
       {  //one node is empty
         nxTerm=indi[term[CT][pFar]];
-        pickup(pFar);
+        pickup(pFar,0);
         drop(pFar);
         //SchDropAtSort
       }
@@ -366,37 +435,37 @@ void sortMan()
     {
       if (farCount==1)
       {
-        if (Sort[CT]==0)
+        if (swap[CT%2]==0)
         {
-          pickup((pFar+1)%2); //adjwala
+          pickup((pFar+1)%2,0); //adjwala
           drop((pFar+1)%2);
-          pickup(pFar);
+          pickup(pFar,0);
           nxTerm=adj;
           //SchDropAtSort
         } else
         {
           //Sort of far and CT has 1 far a adj
-          pickup((pFar+1)%2);
+          pickup((pFar+1)%2,0);
           drop((pFar+1)%2);
           nxTerm=adj;
         }
       } else  //1 empty 1 adj
       {
-        pickup
-          drop
-          nxTerm=adj;
+        pickup((pFar+1)%2,0);
+        drop((pFar+1)%2);
+        nxTerm=adj;
       }
     } else if (adjCount==2)
     {
-      if (Sort[CT]>0) //smthin is at Sort
+      if (swap[CT%2]>0) //smthin is at Sort
       {
-        pickup(0);
+        pickup(0,0);
         drop(0);
       } else
       {
-        pickup(0);
+        pickup(0,0);
         drop(0);
-        pickup(1);
+        pickup(1,0);
       }
       nxTerm=adj;
     } else    //empty
@@ -413,32 +482,30 @@ void sortMan()
       }
     }
   }
-  if (arm[0]==0 && arm[1]==0)
-  {
-    travel(CT, nxTerm);
-    sortNoSwap();
-  } else
-  {
-    travel(CT, nxTerm);
-    sortMan();
-  }
+
 }
 void sortNoSwap()
 {
+  int adj=adjC();
+  print(" :"+pickup(0,0));
+  print(" :"+pickup(1,0));
+  
   counter();
+  print("\n T1:"+adj+" A:"+adjCount+" :"+farCount);
+ // noLoop();
   if (farCount==2)
   {
     nxTerm=indi[arm[0]];
-    SchDropAtSort(nxTerm);
+    //SchDropAtSort(nxTerm);
   } else if (adjCount==1)
   {
     if (farCount==1)
     {
       nxTerm=adj;
-      SchDropAtSort(nxTerm);
+      // SchDropAtSort(nxTerm);
     } else  //1 empty block
     {
-      pickup;
+      //pickup;
       nxTerm=adj;
     }
   } else if (farCount==1)
@@ -446,13 +513,13 @@ void sortNoSwap()
     if (adjCount==1)
     {
       nxTerm=adj;
-      SchDropAtSort(nxTerm);
+      // SchDropAtSort(nxTerm);
     } else  //1 empty block
     {
       if (visited[adj]==0)
       {
         nxTerm=adj;
-        SchDropAtSort(nxTerm);
+        //   SchDropAtSort(nxTerm);
       } else
       {
         nxTerm=arm[0];
@@ -461,7 +528,7 @@ void sortNoSwap()
   } else if (adjCount==2)
   {
     nxTerm=adj;
-    SchDropAtSort(nxTerm);
+    // SchDropAtSort(nxTerm);
   } else  //empty term
   {
     if (visited[adj]==0)
@@ -469,21 +536,13 @@ void sortNoSwap()
     else
       unvisited();
   }
-  if (arm[0]==0 && arm[1]==0)
-  {
-    travel(CT, nxTerm);
-    sortNoSwap();
-  } else
-  {
-    travel(CT, nxTerm);
-    sortMan();
-  }
+  print("---"+nxTerm);
 }
 
 void sorter()
 {
-  pickUp(0);
-  pickUp(1);
+  pickup(0,0);
+  pickup(1,0);
   sortNoSwap();
 }
 
