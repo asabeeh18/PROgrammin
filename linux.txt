@@ -1,0 +1,17 @@
+var locks of applications
+bin commands
+lib applications
+etc configs of files
+opt customised installation[yum,rpm,source code]
+
+---Commands---
+
+useradd
+pwd display current working dir
+scp copy to another pc in n/w
+ssh login to pc connecte din n/w
+kill -q pid
+w lists users
+users list users
+netstat list ports i use
+uptime
