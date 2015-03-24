@@ -1,5 +1,5 @@
 PG2 Start
-  USING * BASE
+  USING * 15
   L 2 D1
   A 2 D2
   A 2 D3
