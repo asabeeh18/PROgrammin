@@ -1,3 +1,4 @@
+//For some reason works only on VS
 #include<stdio.h>
 #include<malloc.h>
 #include<string.h>
