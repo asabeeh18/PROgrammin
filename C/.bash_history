@@ -159,3 +159,63 @@ gcc macro.c -o m.e
 ./m.e
 gcc macro.c -o m.e
 ./m.e
+cd ../Compiler
+./m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+./m.e
+./m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+./m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+./m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+./m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+gcc macro.c -o m.e
+./m.e
+gcc macro.c -o m.e

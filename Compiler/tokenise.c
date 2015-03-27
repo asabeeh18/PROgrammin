@@ -3,19 +3,18 @@
 
 int main()
 {
-   const char str[80] = "This is - www.tutorialspoint.com - website";
-   const char s[2] = "-";
+   const char str[80] = "This is www\ntutoria lspoint com website";
+   const char s[] = "[\n ]";
    char *token;
-   
+   char *tok;
    /* get the first token */
-   token = strtok(str, s);
-   
+  token=strtok(str,s);
    /* walk through other tokens */
    while( token != NULL ) 
    {
-      printf( " %s\n", token );
+      printf( "%s-", token);
     
-      token = strtok(NULL, s);
+      token =strtok(NULL, s);
    }
    
    return(0);

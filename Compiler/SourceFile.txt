@@ -1,6 +1,15 @@
 MACRO
-AYE $arg1 $arg2 %arg3
-ADD L1
-KILLUA dafk dsk
-asd
+ABC $A1 $A2
+A 1 $A1
+MUL $A1 $A2
+L 1 $A2
 MEND
+MACRO
+XYZ $A3
+A 1 $A3
+ADD A $A3
+MEND
+PG1 START
+ABC D1 D2
+XYZ D3
+END

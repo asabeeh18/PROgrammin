@@ -47,7 +47,7 @@ void expandMacro(FILE *fp, int index, struct MDT mdt,struct ALA ala)
 	arg = (char *)malloc(40 * sizeof(char));
 	arg[0] = '\0';
 	strcpy(cat,mdt.def[index]);
-	//for (i = index; i<(index + len - 1); i++)
+	
 	for (i = 0; i <= argsCtr; i++)
 	{
 		sprintf(arg, "$%d", ala.index[i]);
@@ -59,17 +59,12 @@ void expandMacro(FILE *fp, int index, struct MDT mdt,struct ALA ala)
 				continue;
 			cat[strlen(cat) - strlen(dog)] = '\0';
 			dog = &dog[strlen(ala.name[i])];
-			//strncpy(cat, cat, strlen(cat) - strlen(dog));
-			//printf("%s.", cat);
-			//printf("%s %s %d", cat, ala.name[i], strlen(dog));
-			//sprintf(cat, "%s %s", cat, ala.name[i]);
 			sprintf(cat, "%s%s%s", cat, ala.name[i], dog);
 			
 			sprintf(arg, "$%d", ala.index[i]);
 			rat = strstr(cat, arg);
 		}
 	}
-	//printf("md:%s", cat);
 	fputs(cat, fp);
 }
 
@@ -86,21 +81,10 @@ void main()
 	fpSrc = fopen("SourceFile.txt", "r");
 	fpInt = fopen("Interm.txt", "w");
 	fpDes = fopen("Destination.txt", "w");
-	//printf("0");
+	
 	arg = "dsfdsfdsfd";
 
-	//fgets(buff, 50, fpSrc);
-	/*
-	token = strtok(str, s);
-
-
-	while (token != NULL)
-	{
-	printf(" %s\n", token);
-
-	token = strtok(NULL, s);
-	}
-	*/
+	
 	while (!feof(fpSrc))
 	{
 		fgets(buff, 50, fpSrc);
@@ -125,7 +109,7 @@ void main()
 				if (dog != NULL)
 					dog[0] = '\0';
 				strcpy(ala.name[argsCtr], arg);
-				//printf("%s\n", ala.name[argsCtr]);
+	
 			}
 
 
@@ -144,9 +128,6 @@ void main()
 				fgets(buff, 50, fpSrc);
 				//printf("+%s", mdt.def[macroCtr]);
 			} 
-			//printf("%s", cat);
-
-			//arg substitution
 			l = 0;
 			dog = (char *)malloc(40 * sizeof(char));
 			dog[0] = '\0';
@@ -160,14 +141,12 @@ void main()
 						continue;
 					cat[strlen(cat) - strlen(dog)] = '\0';
 					dog = &dog[strlen(ala.name[i])];
-					//strncpy(cat, cat, strlen(cat) - strlen(dog));
-					//printf("%s.", cat);
 					sprintf(cat, "%s$%d%s", cat, ala.index[i], dog);
 					dog = strstr(cat, ala.name[i]);
 				}
 			}
 			strcpy(mdt.def[macroCtr], cat);
-			//printf("=%s=", mdt.def[macroCtr]);
+	
 
 		}
 		else
@@ -188,7 +167,7 @@ void main()
 
 	fclose(fpSrc);
 	fclose(fpInt);
-	//printf("MACROs STORED NOW EXPAND\n");
+	
 	fpInt = fopen("Interm.txt", "r");
 
 	//-============MACRO STORED NOW EXPAND
@@ -214,11 +193,8 @@ void main()
 			}
 
 			cat[strlen(cat) - strlen(dog)] = '\0';
-			//fputs(cat, fpDes);
-			//fputs("-cat-", fpDes);
-		//	fputs("-break-", fpDes);
 			expandMacro(fpDes, mnt.index[i], mdt,ala);
-			//dog = strstr(dog, mnt.def[i]);
+	
 			break;
 		}
 		if (i > macroCtr)
