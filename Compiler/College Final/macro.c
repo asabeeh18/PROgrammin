@@ -2,9 +2,6 @@
 #include<malloc.h>
 #include<string.h>
 #include<stdlib.h>
-//#include<stdafx.h>
-//#define _CRT_SECURE_NO_DEPRECATE
-#pragma warning (disable : 4996)
 #define LN 50
 
 typedef struct Macro
@@ -19,6 +16,7 @@ struct ALA
 	int index[LN];
 };
 
+//used for both MNT and MDT use Union next tym (Y)
 struct MDT
 {
 	char def[LN][LN];
@@ -58,13 +56,16 @@ void expandMacro(FILE *fp, int index, struct MDT mdt,struct ALA ala)
 			if (dog == NULL)
 				continue;
 			cat[strlen(cat) - strlen(dog)] = '\0';
-			dog = &dog[strlen(ala.name[i])];
+			dog = &dog[strlen(ala.name[i])];	//elminates argument
+			
+			//store everything back in cat
 			sprintf(cat, "%s%s%s", cat, ala.name[i], dog);
 			
 			sprintf(arg, "$%d", ala.index[i]);
 			rat = strstr(cat, arg);
 		}
 	}
+	
 	fputs(cat, fp);
 }
 
@@ -82,15 +83,13 @@ void main()
 	fpInt = fopen("Interm.txt", "w");
 	fpDes = fopen("Destination.txt", "w");
 	
-	arg = "dsfdsfdsfd";
+	arg = "A";	//for some reason god knows maybe to give a size :/
 
-	
 	while (!feof(fpSrc))
 	{
 		fgets(buff, 50, fpSrc);
 		if (strncmp(buff, "MACRO", 5) == 0)
 		{
-			l = 0;
 			macroCtr++;
 			token = strtok(buff, " ");
 			//found MACRO onto next line
@@ -100,7 +99,8 @@ void main()
 			nameBuff = strtok(buff, " ");
 			strcpy(mnt.def[macroCtr], token);
 			mnt.index[macroCtr] = macroCtr;
-			//Args
+
+			//Store Args
 			while ((arg = strtok(NULL, " ")) != NULL)
 			{
 				++argsCtr;
@@ -113,25 +113,26 @@ void main()
 			}
 
 
-			//mdt
+			//Store mdt
 			mdt.index[macroCtr] = macroCtr;
 
 			cat = (char *)malloc(40 * sizeof(char));
 
 			cat[0] = '\0';
-			l = 0;
 			fgets(buff, 50, fpSrc);
 			while (strncmp(buff, "MEND", 4) != 0)
 			{
-				
 				sprintf(cat, "%s%s", cat, buff);
 				fgets(buff, 50, fpSrc);
-				//printf("+%s", mdt.def[macroCtr]);
+	
 			} 
-			l = 0;
+	
+
+			//arg substitution
 			dog = (char *)malloc(40 * sizeof(char));
 			dog[0] = '\0';
 
+			//search for all args in dis macro 
 			for (i = 0; i <= argsCtr; i++)
 			{
 				dog = strstr(cat, ala.name[i]);
@@ -139,19 +140,28 @@ void main()
 				{
 					if (dog == NULL)
 						continue;
+					
+					//SUBSTITUTE
+					//remove everything beyond and including 'arg found'
 					cat[strlen(cat) - strlen(dog)] = '\0';
+					//remove argument
 					dog = &dog[strlen(ala.name[i])];
+	
+					//add everything back in cat
 					sprintf(cat, "%s$%d%s", cat, ala.index[i], dog);
 					dog = strstr(cat, ala.name[i]);
 				}
 			}
 			strcpy(mdt.def[macroCtr], cat);
-	
+			
 
 		}
+		//no-process strings go here
 		else
 			fputs(buff, fpInt);
 	}
+	
+	//PRINT to console
 	printf("\nMNT:\n");
 	for (i = 0; i <= macroCtr; i++)
 		printf("%d-%s\n", mnt.index[i], mnt.def[i]);
@@ -168,15 +178,17 @@ void main()
 	fclose(fpSrc);
 	fclose(fpInt);
 	
-	fpInt = fopen("Interm.txt", "r");
+	
 
-	//-============MACRO STORED NOW EXPAND
+	//============MACRO STORED NOW EXPAND==========
+	fpInt = fopen("Interm.txt", "r");
 	j = 0;
 	while (!feof(fpInt))
 	{
 		fgets(buff, 50, fpInt);
 		strcpy(cat, buff);
-
+		
+		//search for all macro match at this line 
 		for (i = 0; i <= macroCtr; i++)
 		{
 			dog = strstr(buff, mnt.def[i]);
@@ -184,19 +196,21 @@ void main()
 				continue;
 			arg=strtok(dog, "[\n ]");
 			arg = strtok(NULL, "[\n ]");
-			//update ALA
+			
+			//update ALA with actual params
 			while (arg != NULL)
 			{
 				strcpy(ala.name[j],arg);
 				arg = strtok(NULL, "[\n ]");
 				j++;
 			}
-
-			cat[strlen(cat) - strlen(dog)] = '\0';
+			
 			expandMacro(fpDes, mnt.index[i], mdt,ala);
 	
 			break;
 		}
+	
+		//no-process strings
 		if (i > macroCtr)
 		{
 			fputs(buff, fpDes);
