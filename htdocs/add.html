@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>REGISTER</title>
+		
+		<style>
+		  #header 
+		 {
+			background-color:black;
+			color:white;
+			text-align:center;
+			padding:5px;
+		}
+
+			body {
+ 
+ background-image:url('reg.jpg');
+ -webkit-background-size: cover;
+}
+
+
+		
+		.container {
+				
+				width: 15%;
+				margin: 2em auto;
+				box-shadow: 0 0 5px #000;
+				padding: 1em;
+				text
+				text-align: center;
+				border-style: solid;
+				border-width: medium;
+			}
+		
+		</style>
+	</head>
+	
+	<body>
+
+	
+			<div id="header">
+				<h1> REGISTER</h1>
+			</div>
+		<div class="container">
+			<form action=add.php method='POST' enctype="multipart/form-data">
+				Name<input name='name' type='text' required='required'><br><br>
+				Roll No<input name='roll_no' type='text' required='required'><br><br>
+				Password<input name='password' type='password' required='required' placeholder='PASSWORD'><br><br>
+				Email Id<input name='email' type='email' required='required' placeholder='Email'><br><br>
+		
+				Pic<input type='file' name='img' value=''><br><br>
+				<input type='submit'><br><br>
+			</form>
+		</div>	
+		
+	</body>
+</html>

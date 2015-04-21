@@ -1,154 +1,3 @@
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro1.c -o m.e
-gcc macro1.c -o m.e
-./m.e
-gcc macro1.c -o m.e
-gcc macro1.c -o m.e
-./m.e
-gcc macro1.c -o m.e
-gcc macro1.c -o m.e
-./m.e
-gcc macro1.c -o m.e
-./m.e
-gcc macro1.c -o m.e
-./m.e
-gcc macro1.c -o m.e
-./m.e
-gcc macro1.c -o m.e
-./m.e
-gcc macro1.c -o m.e
-./m.e
-gcc macro1.c -o m.e
-gcc macro1.c -o m.e
-./m.e
-gcc macro1.c -o m.e
-./m.e
-gcc macro1.c -o m.e
-./m.e
-cd ..
-cd Compiler
-gcc macro1.c -o m.e
-cd Compiler
-cd Compiler
-cd Compiler
-cd ..
-cd Compiler
-./m.e
-m.e
-cd ..
-cd Compiler
-gcc macro.c -o m.e
-./m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-./m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-cd ../Compiler
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-./m.e
-./m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-./m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-./m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-./m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-cd ../Compiler
-./m.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
 ./t.e
 gcc tokenise.c -o t.e
 ./t.e
@@ -498,3 +347,154 @@ gcc fir.c -o f.e
 ./f.e
 ./f.e
 ./f.e
+gcc first.c -o f.e
+cd ..
+cd Compiler/
+gcc first.c =o ./f.e
+gcc first.c o ./f.e
+gcc first.c -o ./f.e
+gcc first.c -o ./f.e
+gcc first.c -o ./f.e
+gcc first.c -o ./f.e
+gcc first.c -o ./f.e
+gcc first.c -o ./f.e
+gcc first.c -o ./f.e
+./f.e
+./f.e
+gcc first.c -o ./f.e
+./f.e
+gcc foll.c -o ./f.e
+gcc foll.c -o ./f.e
+gcc foll.c -o ./f.e
+gcc foll.c -o ./f.e
+./f.e
+gcc foll.c -o ./f.e
+./f.e
+gcc foll.c -o ./f.e
+./f.e
+gcc foll.c -o ./f.e
+gcc foll.c -o ./f.e
+./f.e
+gcc foll.c -o ./f.e
+./f.e
+./f.e
+gcc foll.c -o ./f.e
+./f.e
+./f.e
+gcc foll.c -o ./f.e
+./f.e
+gcc foll.c -o ./f.e
+./f.e
+gcc oper.c -o ./o.e
+gcc oper.c -o ./o.e
+gcc oper.c -o ./o.e
+./o.e
+gcc dj.c -o ./d.e
+gcc dj.c -o ./d.e
+gcc dj.c -o ./d.e
+./d.e
+./d.e
+./d.e
+./d.e
+gcc shiftrp.c -o s.e
+gcc shiftrp.c -o s.e
+gcc shiftrp.c -o s.e
+gcc shiftrp.c -o s.e
+gcc shiftrp.c -o s.e
+gcc shiftrp.c -o s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+./s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc oper.c -o o.e
+./o.e
+gcc operp.c -o o.e
+./o.e
+gcc operp.c -o o.e
+./o.e
+gcc operp.c -o o.e
+./o.e
+gcc operp.c -o o.e
+./o.e
+./o.e
+gcc operp.c -o o.e
+./o.e
+gcc operp.c -o o.e
+./o.e
+./o.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftp.c -o s.e
+gcc shiftp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc operp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc shiftrp.c -o s.e
+./s.e
+gcc -version
+gcc --help
+gcc --version
+sudo
+apt-get
+gcc shiftrp.c -o s.e
+gcc st.c -o s.e
+./s.e
+gcc st.c -o s.e
+gcc st.c -o s.e
+./s.e
+gcc mnt.c -o m.e
+./m.e
+gcc mnt.c -o m.e
+./m.e
+gcc mnt.c -o m.e
+./m.e
+gcc mnt.c -o m.e
+./m.e
+gcc mnt.c -o m.e
+gcc mnt.c -o m.e
+./m.e
+./m.e
+./m.e
+gcc mnt.c -o m.e
+./m.e
+gcc mnt.c -o m.e
+./m.e

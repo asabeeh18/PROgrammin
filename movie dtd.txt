@@ -1,0 +1,7 @@
+<!ELEMENT movie (Name,Rating,ReleaseDate,Collection,Director,Cast)>
+<!ELEMENT Cast (AName,Fees,Sex)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Rating (#PCDATA)>
+<!ELEMENT ReleaseDate (TIME,TITLE,DESCRIPTION?)>
+<!ELEMENT Collection (#PCDATA)>
+<!ELEMENT Director (#PCDATA)>

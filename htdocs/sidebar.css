@@ -1,0 +1,13 @@
+.box{
+padding:2em;
+background-color: RED;
+border: 5px;
+margin:10px;
+}
+#sidebar{
+padding:0em;
+position:fixed;
+left:0em;
+list-style-type:none;
+border-color: Yellow;
+}
