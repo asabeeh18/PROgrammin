@@ -51,9 +51,9 @@ int main()
 			{
 				token = strtok(NULL, " ");
 				token = strtok(NULL, " ");
-				printf("base %s ", token);
+				//printf("base %s ", token);
 				begin = atoi(token);
-				printf("begin:%d\n", begin);
+				//printf("begin:%d\n", begin);
 				col++;
 			}
 			else if (col == 0)	

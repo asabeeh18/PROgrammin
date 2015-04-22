@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+#include <conio.h>
+
+int global;
+int f ()
+{
+  int i;
+  i = 1;          /* dead store */
+  global = 1;     /* dead store */
+  global = 2;
+  return global;
+  global = 3;     /* unreachable */
+}

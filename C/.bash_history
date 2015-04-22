@@ -1,81 +1,3 @@
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc tokenise.c -o t.e
-./t.e
-gcc macro.c -o m.e
-./m.e
-./m.e
-./m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-cd College\ Final/
-gcc macro.c -o m.e
-cd College\ Final/
-./m.e
-cd ..
-gcc macro.c -o m.e
-cd ..
-cd Compiler/
-./m.e
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-cd College\ Final/
-gcc macro.c -o m.e
-./m.e
-gcc macro.c -o m.e
-./m.e
-cd ..
-gcc Assemb2.c -o a.e
-./a.e
-./a.e
-gcc Assemb2.c -o a.e
-./a.e
-gcc Assemb2.c -o a.e
-./a.e
-gcc Assemb2.c -o a.e
-./a.e
-gcc Assemb2.c -o a.e
-gcc Assemb2.c -o a.e
-./a.e
-gcc Assemb2.c -o a.e
-./a.e
-gcc Assemb2.c -o a.e
-./a.e
-cd c:\Users\Ahmed\Desktop
-cd c/\Users/Ahmed/Desktop
-cd c:/Users/Ahmed/Desktop
-gcc ConsoleApplication1.cpp -c c.e
-gcc ConsoleApplication1.cpp -o c.e
-./c.e
-gcc Assemb2.c -o c.e
-./c.e
-gcc Assemb2.c -o c.e
-cd f:/PROgrammin/Compiler
-gcc Assemb2.c -o c.e
-./c.e
-gcc Assemb2.c -o c.e
-./c.e
-gcc Assemb2.c -o a.e
-./a.e
-gcc Assemb2.c -o a.e
-./a.e
-gcc Paradigm.c -o p.e
-gcc Paradigm.c -o p.e
 gcc Paradigm.c -o p.e
 ./p.e
 gcc Paradigm.c -o p.e
@@ -498,3 +420,81 @@ gcc mnt.c -o m.e
 ./m.e
 gcc mnt.c -o m.e
 ./m.e
+cd ..
+cd Compiler/
+cd lex.c -o l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+./l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+gcc lex.c -o l.e
+./l.e
+./l.e
+gcc lex.c -o l.e
+./l.e
+cd Compiler
+cd ..
+cd Compiler
+gcc st.c -o ./s.e
+gcc st.c -o s.e
+./s.e
+gcc st.c -o s.e
+./s.e
+cd..
+cd ..
+cd Comp
+cd Compiler/iler
+cd Compiler
+gcc foll.c -o f.e
+./f.e
+./f.e
+./f.e
+gcc dead.c -o d.e
+gcc dead.c -o d.e
+gcc dead.c -o d.e
+gcc dead.c -o d.e
+gcc dead.c -o d.e
+
+./d.e
+gcc dead.c -o d.e
+./d.e
+./d.e
