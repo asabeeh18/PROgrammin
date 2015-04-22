@@ -1,0 +1,8 @@
+ok lil int a;
+for(i=0;i<n;i++)
+{
+a=b+c;
+c=i*i;
+x=abz
+c=i+i;
+}
