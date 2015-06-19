@@ -1,0 +1,16 @@
+--2015-04-23 23:55:15--  http://www.google.com/
+Resolving www.google.com (www.google.com)... 216.58.220.4, 2404:6800:4009:804::2004
+Connecting to www.google.com (www.google.com)|216.58.220.4|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://www.google.co.in/?gfe_rd=cr&ei=Fzk5VeC3Osr08wfinYHwCQ [following]
+--2015-04-23 23:55:26--  http://www.google.co.in/?gfe_rd=cr&ei=Fzk5VeC3Osr08wfinYHwCQ
+Resolving www.google.co.in (www.google.co.in)... 216.58.220.3, 2404:6800:4009:804::2003
+Connecting to www.google.co.in (www.google.co.in)|216.58.220.3|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html’
+
+     0K .......... .........                                   27.0K=0.7s
+
+2015-04-23 23:55:30 (27.0 KB/s) - ‘index.html’ saved [19644]
+

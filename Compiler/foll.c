@@ -36,8 +36,12 @@ void follow(int i,int j)
 		first(findRow(s[i][j+1]));
 	}
 	else
-		printf("%c %d %d\n",s[i][j+1],i,j+1);
+		printf("%c",s[i][j+1]);
 }
+/*A->BC
+	B->d
+	C->a
+*/
 int main()
 {
 	
