@@ -1,30 +1,3 @@
-./o.e
-gcc ovation.c -o o.e
-./o.e
-1
-1
-1
-1
-1
-1
-1
-1
-gcc ovation.c -o o.e
-./o.e
-gcc ovation.c -o o.e
-./o.e
-gcc ovation.c -o o.e
-./o.e
-./o.e <A1.in <A2.out
-./o.e <A1.in <A2.out
-./o.e <A1.in >A2.out
-./o.e <A2.in >A2.out
-./o.e <A2.in >A2.txt
-./o.e <A2.in >A2.txt
-gcc ovation.c -o o.e
-./o.e <A2.in >A2.txt
-./o.e <A2.in >A2.txt
-gcc ovation.c -o o.e
 ./o.e <A2.in >A2.txt
 ./o.e <A2.in >A2.txt
 ./o.e
@@ -498,3 +471,30 @@ git -c gc.reflogExpire=0 -c gc.reflogExpireUnreachable=0 -c gc.rerereresolved=0 
 git gc --prune=now
 git reflog expire --expire-unreachable=now --all
 git gc --prune=now
+cd ..
+git add -A
+$?
+git commit -m "YO"
+pyhotn -V
+python -V
+uname -a
+exit
+python3
+python get-pip.py 
+python3 get-pip.py 
+pip3 install hovercraft
+$?
+echo $?
+apt-cyg install gcc-g++
+lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+install apt-cyg /bin
+apt-cyg install gcc-g++
+apt-cyg install libxml2-dev
+gem
+pip install lxml
+pip3 install lxml
+pip3 install lxmlip install --global-option build_ext --global-option --compiler=mingw32 hovercraft
+gcc coins.c -o c.e
+gcc coins.c -o c.e
+./c.e
