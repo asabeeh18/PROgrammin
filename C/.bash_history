@@ -1,119 +1,3 @@
-./o.e <A2.in >A2.txt
-./o.e <A2.in >A2.txt
-./o.e
-./o.e <A2.in >A2.txt
-./o.e <A2.in >A2.txt
-./o.e <A2.in >A2.txt
-gcc ovation.c -o o.e
-gcc ovation.c -o o.e
-./o.e
-gcc ovation.c -o o.e
-./o.e
-gcc ovation.c -o o.e
-./o.e
-gcc ovation.c -o o.e
-./o.e
-./o.e
-./o.e
-gcc ovation.c -o o.e
-./o.e
-./o.e <A2.in >A2.txt
-./o.e
-gcc ovation.c -o o.e
-./o.e
-./o.e
-./o.e <A2.in >A2.txt
-./o.e <A2.in >A2.txt
-./o.e
-./o.e <A2.in >A2.txt
-./o.e <A2.in >A2.txt
-gcc Djik.c -o d.e
-gcc Dijk.c -o d.e
-gcc Dijk.c -o d.e
-./d.e
-gcc Dijk.c -o d.e
-./d.e
-gcc Dijk.c -o d.e
-gcc Dijk.c -o d.e
-gcc Dijk.c -o d.e
-./d.e
-gcc Dijk.c -o d.e
-./d.e
-gcc Dijk.c -o d.e
-./d.e
-gcc Dijk.c -o d.e
-./d.e
-gcc Dijk.c -o d.e
-gcc Dijk.c -o d.e
-gcc Dijk.c -o d.e
-./d.e
-ijk
-./d.e
-gcc Dijk.c -o d.e
-./d.e
-gcc Dijk.c -o d.e
-./d.e
-gcc diner.c -o d.e
-gcc diner.c -o d.e
-gcc diner.c -o d.e
-gcc diner.c -o d.e
-./d.e
-1
-gcc diner.c -o d.e
-gcc diner.c -o d.e
-./d.e
-gcc diner.c -o d.e
-./d.e
-gcc diner.c -o d.e
-./d.e
-gcc diner.c -o d.e
-./d.e
-./d.e
-gcc diner.c -o d.e
-./d.e
-gcc diner.c -o d.e
-./d.e
-./d.e <D1.in >D1.txt
-./d.e <D1.in >D1.txt
-./d.e
-./d.e
-grep **
-grep
-grep --help
-gcc first.c -o f.e
-gcc first.c -o f.e
-gcc first.c -o f.e
-gcc first.c -o f.e
-gcc first.c -o f.e
-./f.e
-A
-gcc fir.c -o f.e
-./f.e
-./f.e
-./f.e
-./f.e
-./f.e
-gcc first.c -o f.e
-cd ..
-cd Compiler/
-gcc first.c =o ./f.e
-gcc first.c o ./f.e
-gcc first.c -o ./f.e
-gcc first.c -o ./f.e
-gcc first.c -o ./f.e
-gcc first.c -o ./f.e
-gcc first.c -o ./f.e
-gcc first.c -o ./f.e
-gcc first.c -o ./f.e
-./f.e
-./f.e
-gcc first.c -o ./f.e
-./f.e
-gcc foll.c -o ./f.e
-gcc foll.c -o ./f.e
-gcc foll.c -o ./f.e
-gcc foll.c -o ./f.e
-./f.e
 gcc foll.c -o ./f.e
 ./f.e
 gcc foll.c -o ./f.e
@@ -497,4 +381,120 @@ pip3 install lxml
 pip3 install lxmlip install --global-option build_ext --global-option --compiler=mingw32 hovercraft
 gcc coins.c -o c.e
 gcc coins.c -o c.e
+./c.e
+gcc devjerry.c -o d.e
+gcc devjerry.c -o d.e
+gcc devjerry.c -o d.e
+./d.e
+gcc devjerry.c -o d.e
+./d.e
+gcc devjerry.c -o d.e
+./d.e
+gcc devjerry.c -o d.e
+./d.e
+gcc devjerry.c -o d.e
+./d.e
+./d.e
+gcc devjerry.c -o d.e
+./d.e
+gcc devjerry.c -o d.e
+./d.e
+./d.e
+./d.e
+gcc devjerry.c -o d.e
+./d.e
+gcc devjerry.c -o d.e -02
+gcc -o2 devjerry.c -o d.e
+gcc -O2 devjerry.c -o d.e
+man gcc
+gcc -O2 timer.c -o t.e
+./t.e
+gcc MST1.c -o m.e
+gcc MST1.c -o m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+3
+./m.e
+3
+gcc MST1.c -o m.e
+gcc MST1.c -o m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+./m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+gcc --V
+gcc -V
+gcc -v
+gcc MST1.c -o m.e
+./m.e
+gcc MST1.c -o m.e
+./m.e
+3
+gcc MST1.c -o m.e
+3
+./m.e
+gcc -O2 MST1.c -o m.e
+./m.e
+2
+2
+./m.e
+gcc coins.c -o c.e
+./c.e
+gcc coins.c -o c.e
+gcc coins.c -o c.e
+./c.e
+gcc coins.c -o c.e
+./c.e
+./c.e
 ./c.e

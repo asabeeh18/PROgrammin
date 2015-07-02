@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5E959CCA-708F-4C7A-A24E-356CD4FBA7F7}") = "JAvaTest", "JAvaTest.isproj", "{798FF29A-D1EE-48A6-87EA-A84FA5A6A7D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Java = Debug|Java
+		Release|Java = Release|Java
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{798FF29A-D1EE-48A6-87EA-A84FA5A6A7D9}.Debug|Java.ActiveCfg = Debug|Java
+		{798FF29A-D1EE-48A6-87EA-A84FA5A6A7D9}.Debug|Java.Build.0 = Debug|Java
+		{798FF29A-D1EE-48A6-87EA-A84FA5A6A7D9}.Debug|Java.Deploy.0 = Debug|Java
+		{798FF29A-D1EE-48A6-87EA-A84FA5A6A7D9}.Release|Java.ActiveCfg = Release|Java
+		{798FF29A-D1EE-48A6-87EA-A84FA5A6A7D9}.Release|Java.Build.0 = Release|Java
+		{798FF29A-D1EE-48A6-87EA-A84FA5A6A7D9}.Release|Java.Deploy.0 = Release|Java
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
