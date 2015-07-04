@@ -1,6 +1,3 @@
-gcc foll.c -o ./f.e
-./f.e
-gcc foll.c -o ./f.e
 ./f.e
 gcc foll.c -o ./f.e
 gcc foll.c -o ./f.e
@@ -498,3 +495,6 @@ gcc coins.c -o c.e
 ./c.e
 ./c.e
 ./c.e
+gcc noerr.c -o n.e
+gcc noerr.c -o n.e
+exit
