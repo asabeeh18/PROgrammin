@@ -404,3 +404,40 @@ java.net.SocketException: Permission denied: connect
 	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.doRun(CheckForProjectNewsJob.java:92)
 	at org.eclipse.recommenders.internal.rcp.news.CheckForProjectNewsJob.run(CheckForProjectNewsJob.java:65)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-07-07 11:49:28.135 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.launching 4 120 2015-07-07 12:32:30.572
+!MESSAGE Cannot connect to VM
+!STACK 0
+com.sun.jdi.connect.TransportTimeoutException
+	at org.eclipse.jdi.internal.connect.SocketTransportService.accept(SocketTransportService.java:105)
+	at org.eclipse.jdi.internal.connect.SocketTransportImpl.accept(SocketTransportImpl.java:59)
+	at org.eclipse.jdi.internal.connect.SocketListeningConnectorImpl.accept(SocketListeningConnectorImpl.java:153)
+	at org.eclipse.jdt.internal.launching.StandardVMDebugger$ConnectRunnable.run(StandardVMDebugger.java:110)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.launching 4 120 2015-07-07 12:32:44.802
+!MESSAGE Cannot connect to VM
+!STACK 0
+com.sun.jdi.connect.TransportTimeoutException
+	at org.eclipse.jdi.internal.connect.SocketTransportService.accept(SocketTransportService.java:105)
+	at org.eclipse.jdi.internal.connect.SocketTransportImpl.accept(SocketTransportImpl.java:59)
+	at org.eclipse.jdi.internal.connect.SocketListeningConnectorImpl.accept(SocketListeningConnectorImpl.java:153)
+	at org.eclipse.jdt.internal.launching.StandardVMDebugger$ConnectRunnable.run(StandardVMDebugger.java:110)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.launching 4 120 2015-07-07 12:33:30.106
+!MESSAGE Cannot connect to VM
+!STACK 0
+com.sun.jdi.connect.TransportTimeoutException
+	at org.eclipse.jdi.internal.connect.SocketTransportService.accept(SocketTransportService.java:105)
+	at org.eclipse.jdi.internal.connect.SocketTransportImpl.accept(SocketTransportImpl.java:59)
+	at org.eclipse.jdi.internal.connect.SocketListeningConnectorImpl.accept(SocketListeningConnectorImpl.java:153)
+	at org.eclipse.jdt.internal.launching.StandardVMDebugger$ConnectRunnable.run(StandardVMDebugger.java:110)
+	at java.lang.Thread.run(Unknown Source)

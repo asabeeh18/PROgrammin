@@ -1,14 +1,5 @@
 ./f.e
 gcc foll.c -o ./f.e
-gcc foll.c -o ./f.e
-./f.e
-gcc foll.c -o ./f.e
-./f.e
-./f.e
-gcc foll.c -o ./f.e
-./f.e
-./f.e
-gcc foll.c -o ./f.e
 ./f.e
 gcc foll.c -o ./f.e
 ./f.e
@@ -498,3 +489,12 @@ gcc coins.c -o c.e
 gcc noerr.c -o n.e
 gcc noerr.c -o n.e
 exit
+cat <
+cat /
+cat /
+cat 
+echo $?
+exit
+gcc issue.c -o f.e
+gcc issue.c -o f.e
+./f.e

@@ -1,15 +1,26 @@
 //http://www.spoj.com/problems/BACKPACK/
-class Baackpack
+/*
+	Probably attained the max efficiency possible anymore will only be just to save face but wont help any 
+	how.....commenting the code ... to probably solve in the future( but knowing my self i'll probably
+	start from scratch)
+	stats on my pc--for 60 items using `Measure-Command{java Main}` in powershell
+	Milliseconds      : 320
+	Ticks             : 3200727
+*/
+class Main
 {
-	public static int minjnotdone=9999999;
+	public static int minjnotdone=0;	//min weight of attach not satisfied my current remaining weight
 	//vol array,size left,attach array[],nombr of attachments
 	public static int bestMatch(int[] vol,int[] c ,int j,int attach[],int n,int bag[])
 	{
-		if(j==0) return 0;
+		if(j<=0) return 0;
 		if(n==0) return bag[j];
-		if(minjnotdone<j) return bag[j];
-		
+		if(minjnotdone>j) return bag[j]; //j is still less try later
+			
 		int sack[][]=new int[5][j+1];
+		if(n==0) return bag[j];
+		
+		//knapsack for attachments
 		for(int i=1;i<=n+1;i++)
 		{
 			for(int k=0;k<=j;k++)
@@ -19,20 +30,26 @@ class Baackpack
 					sack[i][j]=0;
 					continue;
 				}
-				if(i<=n)
-				{if(j>=vol[attach[i-1]] && i<4)
+				if(i<=n)	//attach items
 				{
-					sack[i][j]=max(sack[i-1][j],vol[attach[i-1]]*c[attach[i-1]]);
-				}}
+					if(j>=vol[attach[i-1]])
+					{
+						sack[i][j]=max(sack[i-1][j],vol[attach[i-1]]*c[attach[i-1]]);
+					
+					}
+					else if(vol[attach[i-1]]>j)
+					{
+						//j is less update minjnotdone
+ 						if(minjnotdone<vol[attach[i-1]])
+							minjnotdone=vol[attach[i-1]];
+					}
+				}
+				//last item is actually NOT taking the attachments(taking the previous item instead
 				else if(j>=bag[j] && i==n+1)
 				{
 					sack[i][j]=max(sack[i-1][j],bag[j]);
 				}
-				else if(vol[attach[i-1]]>j)
-				{
-					if(minjnotdone>vol[attach[i-1]])
-						minjnotdone=vol[attach[i-1]];
-				}
+				
 			}
 			
 		}
@@ -53,7 +70,7 @@ class Baackpack
 			int n=Integer.parseInt(split[1]);
 			
 			int[] c=new int[n+1],v=new int[n+1],mainItem=new int[n+1],anotherFlist=new int[n+1];
-			int[][] bag=new int[n+1][vm+1],attach=new int[n+1][3];
+			int[][] attach=new int[n+1][3];
 			int mItems=1,aItems=0,u;
 			for(int i=1;i<=n;i++)
 			{
@@ -72,30 +89,23 @@ class Baackpack
 					anotherFlist[u]++;
 				}
 			}
+			int[][] bag=new int[mItems][vm+1];
 			int k=1;
-			for(int i=1;i<=n;i++)
+			//Main knapsack iterates only over Main Items
+			for(int i=1;i<mItems;i++)
 			{
-				minjnotdone=9999999;
-				if(i!=mainItem[k])		
-				{
-				for(int j=1;j<=vm;j++)
-					bag[i][j]=bag[i-1][j];
-				}
-				else
-				{
+				minjnotdone=0;
 					for(int j=1;j<=vm;j++)
 					{
 						if(j>=v[i])
 						{
-							bag[i][j]=max(bag[i-1][j],v[i]*c[i]+bestMatch(v,c,j-v[i],attach[i],anotherFlist[i],bag[i-1]));	
+							bag[i][j]=max(bag[i-1][j],v[mainItem[i]]*c[mainItem[i]]+bestMatch(v,c,j-v[mainItem[i]],attach[mainItem[i]],anotherFlist[mainItem[i]],bag[i-1]));	
 						}
 						else
 							bag[i][j]=bag[i-1][j];
 					}
-					k++;
-				}
 			}
-			System.out.println(bag[n][vm]);
+			System.out.println(bag[mItems-1][vm]*10);
 			/*
 		seperate attachmentsand main items 
 		chk if the main item with the attachmnts has any advtg (not the other way around)

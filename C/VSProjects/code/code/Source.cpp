@@ -1,48 +1,56 @@
-#pragma warning (disable : 4996)
-//http://www.spoj.com/problems/MST1/
-//1 2 3 5 7 11
-//http://www.codechef.com/problems/COINS/
-#include<stdio.h>
-#include<malloc.h>
-unsigned long int *store;
-unsigned long int max = 0;
-unsigned long int dividor(unsigned long int n)
+# include <stdio.h>
+# include <limits.h>
+
+// A utility function to get maximum of two integers
+int max(int a, int b) { return (a > b) ? a : b; }
+
+/* Function to get minimum number of trails needed in worst
+case with n eggs and k floors */
+int eggDrop(int n, int k)
 {
-	unsigned long int x;
-	if (max >= n)
-		if (store[n] != 0)
-			return store[n];
-	if (n == 1LL || n == 2LL || n == 3LL || n == 5LL || n == 7LL || n == 11LL)
-		return n;
-	x = dividor(n / 2) + dividor(n / 3) + dividor(n / 4);
-	if (max >= n)
-		store[n] = x;
-	return x;
+	/* A 2D table where entery eggFloor[i][j] will represent minimum
+	number of trials needed for i eggs and j floors. */
+	int eggFloor[2 + 1][100 + 1];
+	int res;
+	int i, j, x;
+
+	// We need one trial for one floor and0 trials for 0 floors
+	for (i = 1; i <= n; i++)
+	{
+		eggFloor[i][1] = 1;
+		eggFloor[i][0] = 0;
+	}
+
+	// We always need j trials for one egg and j floors.
+	for (j = 1; j <= k; j++)
+		eggFloor[1][j] = j;
+
+	// Fill rest of the entries in table using optimal substructure
+	// property
+	for (i = 2; i <= n; i++)
+	{
+		
+		for (j = 2; j <= k; j++)
+		{
+			eggFloor[i][j] = INT_MAX;
+			for (x = 1; x <= j; x++)
+			{
+				res = 1 + max(eggFloor[i - 1][x - 1], eggFloor[i][j - x]);
+				if (res < eggFloor[i][j])
+					eggFloor[i][j] = res;
+			}
+		}
+	}
+	
+	// eggFloor[n][k] holds the result
+	return eggFloor[n][k];
 }
+
+/* Driver program to test to pront printDups*/
 int main()
 {
-	unsigned long int a[10];
-	int i = 0;
-	int j = 0;
-	while (scanf("%lu", &a[i]) != EOF)
-	{
-		i++;
-		if (a[i]>max)
-			max = a[i];
-	}
-	while (1)
-	{
-		store = (unsigned long int*)calloc(max, sizeof(unsigned long int));
-		if (store == 0)
-			max /= 2;
-		else
-			break;
-	}
-	store[1] = 1;
-	for (j = 0; j < i; j++)
-	{
-		printf("%lu\n", dividor(a[j]));
-	}
-	while (1);
+	int n = 2, k = 100;
+	printf("\nMinimum number of trials in worst case with %d eggs and "
+		"%d floors is %d \n", n, k, eggDrop(n, k));
 	return 0;
 }
