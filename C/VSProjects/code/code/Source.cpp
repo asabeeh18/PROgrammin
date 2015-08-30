@@ -1,56 +1,56 @@
-# include <stdio.h>
-# include <limits.h>
 
-// A utility function to get maximum of two integers
-int max(int a, int b) { return (a > b) ? a : b; }
-
-/* Function to get minimum number of trails needed in worst
-case with n eggs and k floors */
-int eggDrop(int n, int k)
+#pragma warning (disable : 4996)
+#include<stdio.h>
+#include<malloc.h>
+#include<stdlib.h>
+/* Function to get no of set bits in binary
+representation of passed binary no. */
+int comp(const void * elem1, const void * elem2)
 {
-	/* A 2D table where entery eggFloor[i][j] will represent minimum
-	number of trials needed for i eggs and j floors. */
-	int eggFloor[2 + 1][100 + 1];
-	int res;
-	int i, j, x;
-
-	// We need one trial for one floor and0 trials for 0 floors
-	for (i = 1; i <= n; i++)
+	int f = *((int*)elem1);
+	int s = *((int*)elem2);
+	if (f > s) return  -1;
+	if (f < s) return 1;
+	return 0;
+}
+int countSetBits(int n)
+{
+	unsigned int count = 0;
+	while (n)
 	{
-		eggFloor[i][1] = 1;
-		eggFloor[i][0] = 0;
+		n &= (n - 1);
+		count++;
 	}
-
-	// We always need j trials for one egg and j floors.
-	for (j = 1; j <= k; j++)
-		eggFloor[1][j] = j;
-
-	// Fill rest of the entries in table using optimal substructure
-	// property
-	for (i = 2; i <= n; i++)
-	{
-		
-		for (j = 2; j <= k; j++)
-		{
-			eggFloor[i][j] = INT_MAX;
-			for (x = 1; x <= j; x++)
-			{
-				res = 1 + max(eggFloor[i - 1][x - 1], eggFloor[i][j - x]);
-				if (res < eggFloor[i][j])
-					eggFloor[i][j] = res;
-			}
-		}
-	}
-	
-	// eggFloor[n][k] holds the result
-	return eggFloor[n][k];
+	return count;
 }
 
-/* Driver program to test to pront printDups*/
+/* Program to test function countSetBits */
 int main()
 {
-	int n = 2, k = 100;
-	printf("\nMinimum number of trials in worst case with %d eggs and "
-		"%d floors is %d \n", n, k, eggDrop(n, k));
+	//int i = 9;
+	//  printf("%d", countSetBits(i));
+	int i, n, k, t, *b;
+	long *a, sum = 0;
+	scanf("%d", &t);
+	while (t--)
+	{
+		sum = 0;
+		scanf("%d%d", &n, &k);
+		a = (long*)malloc(n*sizeof(long));
+		b = (int*)malloc(n*sizeof(int));
+		for (i = 0; i<n; i++)
+		{
+			scanf("%li", &a[i]);
+			b[i] = countSetBits(a[i]);
+		}
+		qsort(b, n, sizeof(int), comp);
+		sum = 0;
+		for (i = 0; i<k; i++)
+		{
+			sum += b[i];
+			//printf("%d\n", b[i]);
+		}
+		printf("%li\n", sum);
+	}
 	return 0;
 }

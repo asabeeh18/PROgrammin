@@ -1,0 +1,982 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0055)https://www.tcscodevita.com/CodevitaV4/problemstart.jsp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		
+		<title>TCS: CodeVita - Coding Arena </title>	
+		<link rel="stylesheet" href="./TCS_ CodeVita - Coding Arena_files/structure.css" type="text/css">
+		<link rel="stylesheet" href="./TCS_ CodeVita - Coding Arena_files/style.css" type="text/css">
+		 <script async="" src="./TCS_ CodeVita - Coding Arena_files/analytics.js"></script><script src="./TCS_ CodeVita - Coding Arena_files/jquery.min.js"></script><style type="text/css"></style>
+		<!--<script src="/CodevitaV4/JS/jquery1.9.js"></script> -->
+	<!-- 	<link rel="stylesheet" href="css/notification.css" type="text/css"/> -->
+		<link rel="stylesheet" href="https://www.tcscodevita.com/CodevitaV4/css/theme/jquery-ui-1.10.3.custom.css">		
+		<script>
+			$(function() {
+			var radio_val = '4';
+			if  (radio_val =='') {
+				radio_val = 0;
+			}
+			$( "#tabs" ).tabs({ active: radio_val });
+			});
+			window.history.forward(); 
+			function noBack() {
+				window.history.forward();
+			}
+		</script>
+<script language="JavaScript">
+
+			var eventdate=new Date("December 25, 2013 23:59:59");
+			var d=new Date("December 25, 2013 23:59:59");
+			function toSt(n) {
+			 s=""
+			 if(n<10) s+="0"
+			 return s+n.toString();
+			}
+			
+			function countdown1(s,d1) {
+			var e=document.getElementById("refreshed");
+					if(e.value=="no")
+						e.value="yes";
+					else{
+						e.value="no";
+						location.reload();
+					}	
+
+			eventdate = new Date(s);
+			d=new Date(d1);
+			count=Math.floor((eventdate.getTime()-d.getTime())/1000);
+			 if(count<=0)
+			   {
+				 $('#sec').html("00");
+				 $('#min').html("00");
+				 $('#hr').html("00");
+			    return;
+			  }
+		    $('#sec').html(toSt(count%60));
+			count=Math.floor(count/60);
+			$('#min').html(toSt(count%60));
+			count=Math.floor(count/60);
+			$('#hr').html(toSt(count%24));
+			setTimeout("countdown(d)",999);
+			}
+
+			function countdown(d) {
+			 d.setSeconds(d.getSeconds() + 1);
+			 count=Math.floor((eventdate.getTime()-d.getTime())/1000);
+			 if(count<=0)
+			   {
+				 $('#sec').html("00");
+				 $('#min').html("00");
+				 $('#hr').html("00");
+			    return;
+			  }
+			 $('#sec').html(toSt(count%60));
+			 count=Math.floor(count/60);
+			 $('#min').html(toSt(count%60));
+			 count=Math.floor(count/60);
+			 $('#hr').html(toSt(count%24));
+			 setTimeout("countdown(d)",999);
+			}
+			// end hiding script-->
+</script>
+
+	</head>
+	<body onload="countdown1(&#39;August 27, 2015 16:8:39&#39;,&#39;August 27, 2015 14:3:33&#39;)">
+		<table border="0" align="center">
+			<tbody><tr>
+				<td>
+					<div>
+						<div class="links">	
+							<table class="innerlinks" border="0">
+								<tbody><tr>		
+									<td>
+										<!-- <a class="upperlinks" href="/CodevitaV4/redirectToNextStep.jsp" target="_blank" >TCS NextStep</a>&nbsp&nbsp&nbsp
+		<a class="upperlinks" href="/CodevitaV4/redirectToTCSCareers.jsp" target="_blank" >TCS Careers</a>&nbsp&nbsp&nbsp
+		<a class="upperlinks" href="/CodevitaV4/redirectToTCS.jsp" target="_blank" >www.tcs.com</a>&nbsp&nbsp&nbsp<br> -->
+		<a class="upperlinks" href="https://nextstep.tcs.com/" target="_blank">TCS NextStep</a>&nbsp;&nbsp;&nbsp;
+		<a class="upperlinks" href="http://www.careers.tcs.com/" target="_blank">TCS Careers</a>&nbsp;&nbsp;&nbsp;
+		<a class="upperlinks" href="http://www.tcs.com/Pages/default.aspx" target="_blank">www.tcs.com</a>&nbsp;&nbsp;&nbsp;<br>
+									</td>
+									<td style="text-align:right"><a style="font-family:Verdana;font-size:11px;font-weight:bold;color:black;" href="https://www.tcscodevita.com/CodevitaV4/logout.jsp">Logout</a></td>
+								</tr>
+							</tbody></table>
+						</div>
+						<div class="tcsclip">
+							<img border="0" src="./TCS_ CodeVita - Coding Arena_files/header.jpg" width="978px" height="115px">
+						</div> 
+						
+						<!--  <div style="width:978px;">
+	<marquee bgcolor="#000000"><font color="white" size="2">  <span style="background:url(images/tickerbg.jpg) no-repeat;"> 
+	 Problems are deliberately simple. You should submit solutions in all languages that you intend to code in, in the actual contest. Use these simple problems to check your compilers are compatible with the CodeVita compilers.
+		</font>
+	</marquee> 
+</div> 		-->
+												
+						<div class="tags">
+
+		<table class="all" border="0" width="100%">
+			<tbody><tr>
+				<td class="first">
+				<table class="welcome" border="0">
+					<tbody><tr>
+					<td width="23px"></td>
+					<td width="75%" align="left"><a class="navigationlink">Welcome AHMED QUADRI</a></td>
+					<td width="20%" align="right"><a class="navigationlink" href="https://www.tcscodevita.com/CodevitaV4/guidelines.jsp">Home</a></td>
+					</tr>
+				</tbody></table>
+				</td>
+				<td class="fourth" align="center"><a class="navigationlink" href="https://www.tcscodevita.com/CodevitaV4/StartCoding" style="color:#FCDD41;font-weight:bold;">Coding Arena</a></td>
+				<td class="seventh" align="center"><a class="navigationlink" href="https://www.tcscodevita.com/CodevitaV4/ChkSubmissionServlet">My Submissions</a></td>
+				
+					 <td class="fifth" align="center"><a class="navigationlink" href="https://www.tcscodevita.com/CodevitaV4/feedback.jsp">Feedback</a></td> 
+			</tr>
+		</tbody></table>
+
+	</div> 
+						<table class="main" border="0">
+							<tbody><tr>
+								<td width="23px"></td>
+							
+							
+								<td valign="top">
+									<div class="leftupper">						
+										<table border="0" style="border-collapse:collapse;">
+											<tbody><tr>
+												<td height="10px"></td>
+											</tr>
+											<tr>
+												<td width="200px"><a class="title"><b>Coding Arena </b></a></td>
+											</tr>
+											<tr>
+												<td height="10px"></td>
+											</tr>
+										</tbody></table>
+										
+											<div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">	
+		<ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
+			<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-1" aria-labelledby="ui-id-1" aria-selected="false"><a href="https://www.tcscodevita.com/CodevitaV4/problemstart.jsp#tabs-1" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">A</a></li>
+			<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-2" aria-labelledby="ui-id-2" aria-selected="false"><a href="https://www.tcscodevita.com/CodevitaV4/problemstart.jsp#tabs-2" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">B</a></li>
+			<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-3" aria-labelledby="ui-id-3" aria-selected="false"><a href="https://www.tcscodevita.com/CodevitaV4/problemstart.jsp#tabs-3" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-3">C</a></li>
+			<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-4" aria-labelledby="ui-id-4" aria-selected="false"><a href="https://www.tcscodevita.com/CodevitaV4/problemstart.jsp#tabs-4" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-4">D</a></li>
+			<li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="tabs-5" aria-labelledby="ui-id-5" aria-selected="true"><a href="https://www.tcscodevita.com/CodevitaV4/problemstart.jsp#tabs-5" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-5">E</a></li>
+			<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-6" aria-labelledby="ui-id-6" aria-selected="false"><a href="https://www.tcscodevita.com/CodevitaV4/problemstart.jsp#tabs-6" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-6">F</a></li>
+			
+		</ul>	
+		
+		<div id="tabs-1" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+			<div class="border">
+				<div class="Section1">	
+					<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+					normal"><span class="problem">Problem : Occurrences in a Range<o:p></o:p></span></b></p>
+					
+					<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">Given a range of numbers, find specific patterns in them and print the count of numbers that match the pattern. Patterns are of 3 type viz. Alternate, Consecutive and Wildcard. Each pattern is described as below
+					<br><br>
+					<i>Alternate</i>: - The verb denoting <i>Alternate</i> is A. As the name suggests, alternate pattern requires detection of numbers which have specified digit in alternate place.
+					<br><br>
+					<i>Consecutive</i>: - The verb denoting <i>Consecutive</i> is C. As the name suggests, consecutive pattern requires detection of numbers which has specified digit in required frequency appearing in consecutive manner.
+					<br><br>
+					<i>Wildcard</i>: - The verb denoting <i>Wildcard</i> is W. As the name suggests, wildcard pattern requires detection of numbers in which 'W' character can be replaced by any digit.
+					<br><br>
+					</p>
+					
+					
+					<p style="line-height:140%;"><b>Input Format:</b>
+					<br><br>
+					</p><ol>
+					<li>First line contains total number of test cases, denoted by N</li>
+					<li>Second line contains a range within which to detect the patterns. Range is provided in form of 2 numbers, viz. lower bound and upper bound, both inclusive, delimited by space.</li>
+					<li>Next N lines contain pattern queries where patterns are as described above. Input format of each pattern is described as below
+					<ol type="a">
+					<li>A1 - denotes, find all numbers in the range which have digit 1 in alternate places</li>
+					<li>C21 - denotes, find all numbers in the range where digit 1 appears consecutively at least twice. Formally, this pattern follows grammar &lt;C&gt;&lt;frequency&gt;&lt;digit&gt;</li>
+					<li>1W - denotes, find all numbers in the range where 1 precedes any other digit. Read constraints section carefully before implementing this pattern.</li>
+					</ol>
+					</li>
+					</ol>
+					<br>
+					<p></p>
+					
+					<p style="line-height:140%;"><b>Output Format:</b>
+					<br><br>
+					For each test case, print count of numbers in the range matching the corresponding pattern. Print each count on a separate line.
+					<br><br>
+					</p>
+					
+					
+					<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+					<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+					</p><p style="line-height:140%;"><b>1. When solving Wildcard query, the pattern always starts with a digit</b><br></p>
+					<p style="line-height:140%;"><b>2. W character in wildcard query can be substituted by exactly one digit</b><br></p>
+					<br>
+					<p></p>
+				
+					<a><b>Sample Input and Output</b></a><a><br><br>
+					<table width="550px" border="1" cellspacing="0" cellpadding="2">
+						<tbody><tr>
+							<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+						</tr>
+						<tr>
+							<td style="width:10px;">1</td>
+							<td style="width:300px;"><br>5<br>2 200<br>A1<br>C22<br>9W<br>1W2<br>1WW<br><br></td>
+							<td style="width:200px"><br>10<br>2<br>10<br>10<br>100
+							<br><br></td>							
+						</tr>
+																	
+					</tbody></table>
+					<br><br>
+					
+				</a></div><a>
+				<div class="note">
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+					not  use package and namespace in your code. For object oriented
+					languages your code should be written in one class.</i></p>
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+					submitting solutions in C language should not use functions from
+					&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+					gcc</i></p>
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>For C and C++, return type of main() function should be int.</i></p>
+					<br><br><font color="blue"><b>© 2015 Tata Consultancy Services Limited. All Rights Reserved. </b></font>
+					<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+					</p>
+				</div>
+			</a></div><a>
+			<br><br>
+			</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+			<div class="submitsolution">
+				<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+				<div class="fileinputs">
+					<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_A" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+					<div class="fakefile">				
+						<input size="38" name="fake_file_input">
+						<input type="button" value="Browse..." name="Browse">
+					</div>
+				</div>	
+				<div class="filesubmit">	
+					<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+					<input type="image" value="Submit" name="Submit" id="upload" src="./TCS_ CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+					<span></span>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="tabs-2" aria-labelledby="ui-id-2" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+			<div class="border">
+				<div class="Section1">
+					<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+					normal"><span class="problem">Problem : Sorting Machine<o:p></o:p></span></b></p>
+					
+					<p class="MsoNormal"><span style="font-family:Verdana"><o:p> </o:p></span></p>
+					
+					
+					
+					<p class="MsoNormal"><o:p> </o:p></p>
+					
+					<p class="MsoNormal"><span style="font-family:Verdana">A special purpose sorting machine takes text comprising of words and numbers, as input and sorts them both in ascending order and prints them in a manner that a word is followed by a number. Words can be in upper or lower case. The machine converts them into lowercase and then sorts and prints them.<o:p></o:p></span></p>
+				</div>
+				<table>
+					<tbody><tr>
+						<td>
+							<form action="https://www.tcscodevita.com/CodevitaV4/StartProblem" method="post">
+							<input type="hidden" name="radio" value="B">
+							<a href="https://www.tcscodevita.com/CodevitaV4/problemstart.jsp#tabs-2"><input type="image" src="./TCS_ CodeVita - Coding Arena_files/View-prblm-bttn.jpg" name="View"></a>
+							</form>
+						</td>
+						<td width="200px"></td>
+					</tr>
+				</tbody></table>
+			</div>
+		</div>
+		
+		
+		<div id="tabs-3" aria-labelledby="ui-id-3" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+			<div class="border">
+				<div class="Section1">	
+					<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+					normal"><span class="problem">Problem : Image Segmentation<o:p></o:p></span></b></p>
+					
+					<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">Consider an image represented using grid of height <b>H</b> and width <b>W</b>. This image consists of blobs. A blob is a collection of contiguous lit pixels. A non-lit pixel is represented using '.' and a lit pixel is represented using '#'.
+					<br><br>
+					In 2D, pixels are said to be contiguous if they are 8-way connected. Refer [<a href="http://en.wikipedia.org/wiki/Pixel_connectivity#8-connected" target="_blank" style="color:#0000ff; background-color:transparent; text-decoration:none">wiki</a>] for more details on how connections are represented mathematically.
+					<br><br>
+					Your task is to find the number of blobs in given grid. Also, state the number of lit pixels in each blob.
+					<br><br>
+					</p>
+					
+					
+					<p style="line-height:140%;"><b>Input Format:</b>
+					<br><br>First line contains <b>T</b>, number of test cases.
+					<br><br>
+					Each test case consists of:
+					</p><ol type="1">
+					<li>Grid dimensions : - Two integers <b>H</b> (height) and <b>W</b> (width)
+					</li>
+					<li>The Grid : - Next H lines each comprising of W characters {'.' | '#'}</li>				
+					</ol>
+					<br>
+					<p></p>
+					
+					<p style="line-height:140%;"><b>Output Format:</b>
+					<br><br>For each test case print two lines.
+					<br><br>
+					First line should contain the number of blobs.
+					<br><br>
+					Second line should contain number of lit pixels in those blobs in sorted order (smallest first) delimited by space.
+					<br><br>
+					</p>
+					
+					<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+					<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+					</p><p style="line-height:140%;"><b>1. 1 &lt;= T &lt;= 10</b><br></p>
+					<p style="line-height:140%;"><b>2. 1 &lt;= H &lt;= 1000</b><br></p>				
+					<p style="line-height:140%;"><b>3. 1 &lt;= W &lt;= 1000</b><br></p>
+					<br>
+					<p></p>
+					
+					<a><b>Sample Input and Output</b></a><a><br><br>
+					<table width="650px" border="1" cellspacing="0" cellpadding="2">
+						<tbody><tr>
+							<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+						</tr>
+						<tr>
+							<td>1</td><td><br>1<br>6 6<br>#...#.<br>.#.#.#<br>##..#.<br>......<br>.#.#.#<br>#...#.<br></td>
+							<td><br>4<br>2 3 4 4<br></td>
+							
+						</tr>
+										
+					</tbody></table>
+					<br><br>
+					
+				</a></div><a>
+				<div class="note">
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+					not  use package and namespace in your code. For object oriented
+					languages your code should be written in one class.</i></p>
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+					submitting solutions in C language should not use functions from
+					&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+					gcc</i></p>
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>For C and C++, return type of main() function should be int.</i></p>
+					<br><br><font color="blue"><b>© 2015 Tata Consultancy Services Limited. All Rights Reserved. </b></font>
+					<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+					</p>
+				</div>
+			</a></div><a>
+			<br><br>
+			</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+			<div class="submitsolution">
+				<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+				<div class="fileinputs">
+					<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_C" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+					<div class="fakefile">				
+						<input size="38" name="fake_file_input">
+						<input type="button" value="Browse..." name="Browse">
+					</div>
+				</div>	
+				<div class="filesubmit">	
+					<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+					<input type="image" value="Submit" name="Submit" id="upload" src="./TCS_ CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+					<span></span>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="tabs-4" aria-labelledby="ui-id-4" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+			<div class="border">
+				<div class="Section1">	
+					<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+					normal"><span class="problem">Problem : Insect War<o:p></o:p></span></b></p>
+					
+					<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">Earth is now infested by Predators. These predators are of Insect species. These insects are trying to overcome human beings on earth. However since they are very small in size, they are failing to overpower humans. But now, one kind of insect is getting bigger in size in a very strange way.
+					<br><br>
+					Initially there are 2 categories of insects. In first category each insect has size 'x' and second 'y'.
+					<br><br>
+					Initially there are infinite numbers of insect of each category.
+					<br><br>
+					An insect with size 's' can eat any other insect of size less than 's' in one minute. After eating, it's size will increase and it will mutate into an insect of another category of another size. E.g.  If there is an insect of size 's' and it eats an insect of size 'w', where w &lt; s. Then the new category insect will be of size s+w.
+					<br><br>
+					Irrespective of its category, any bigger sized insect can eat at most 1 other insect of smaller size, in 1 minute.
+					<br><br>
+					But there is one exception. Categories of insect with largest size can eat at most 2 insect in 1 minute. As noted previously, all others can eat only 1 insect in that minute.
+					<br><br>
+					Refer example for more details.
+					<br><br>
+					Humans are ready for the war. But they need just one help from you. They need to know the maximum size the insect can grow to, within t minutes.
+					<br><br>
+					</p>
+					
+					
+					<p style="line-height:140%;"><b>Input Format:</b>
+					<br><br>
+					First line contains total number of test cases, denoted by N
+					<br>Next N lines, contain a tuple &lt;x, y, t&gt; containing 3 values delimited by space, where 
+					</p><ol>
+					<li>x denotes the size of each insect in first category.</li>
+					<li>y denotes the size of each insect in second category.</li>
+					<li>t denotes the time in minutes.</li>					
+					</ol>
+					<br>
+					<p></p>
+					
+					<p style="line-height:140%;"><b>Output Format:</b>
+					<br><br>For each test case print one integer which denotes the maximum size of the insect after t minutes. As this number can be very large, print its remainder after dividing it by 1000000007.
+					<br><br>
+					</p>
+					
+					<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+					<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+					</p><p style="line-height:140%;"><b>1. 1&lt;= x &lt; y &lt;= 10000000 (10 million)</b><br></p>
+					<p style="line-height:140%;"><b>2. 2*x &lt;= y</b><br></p>				
+					<p style="line-height:140%;"><b>3. 1&lt;= t &lt;= 1000000000000 (1 trillion)</b><br></p>
+					<br>
+					<p></p>
+					
+					<a><b>Sample Input and Output</b></a><a><br><br>
+					<table width="650px" border="1" cellspacing="0" cellpadding="2">
+						<tbody><tr>
+							<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><br>2<br>2 5 2<br>3 7 2<br></td>
+							<td><br>23<br>33<br></td>
+							
+						</tr>
+										
+					</tbody></table>
+					<br><br>
+					<p style="line-height:140%;"><b>Explanation:</b>
+					<br><br>
+					Test Case 1: initially there are insects of size 2 and 5.
+					<br>
+					After 1 minute, there will be insects of sizes : ( 2, 5, 7, 9 ) 
+					<br>
+					Initially, insects of size 5 are the largest. 
+					</p><ol>
+					<li>If it eats insect of size '2' then it will become a new insect of size '7'.</li>
+					<li>If it eats two insects of size 2, then it will become a new insect of size 9 (5 + 2 + 2 = 9).</li>
+					</ol>
+					After 2 minutes, there will be insects of size:  
+					<br>
+					(2, 5, 7, 9, 11, 12, 13, 14, 16, 18, 19, 21, 23)
+					<br><br>So, after 2 minutes, the maximum size of insect is 23.
+					<br><br>
+					<p></p>
+					
+					
+				</a></div><a>
+				<div class="note">
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+					not  use package and namespace in your code. For object oriented
+					languages your code should be written in one class.</i></p>
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+					submitting solutions in C language should not use functions from
+					&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+					gcc</i></p>
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>For C and C++, return type of main() function should be int.</i></p>
+					<br><br><font color="blue"><b>© 2015 Tata Consultancy Services Limited. All Rights Reserved. </b></font>
+					<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+					</p>
+				</div>
+			</a></div><a>
+			<br><br>
+			</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+			<div class="submitsolution">
+				<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+				<div class="fileinputs">
+					<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_D" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+					<div class="fakefile">				
+						<input size="38" name="fake_file_input">
+						<input type="button" value="Browse..." name="Browse">
+					</div>
+				</div>	
+				<div class="filesubmit">	
+					<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+					<input type="image" value="Submit" name="Submit" id="upload" src="./TCS_ CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+					<span></span>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="tabs-5" aria-labelledby="ui-id-5" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="true" aria-hidden="false" style="display: block;">
+			<div class="border">
+				<div class="Section1">	
+					<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+					normal"><span class="problem">Problem : FEN Processor<o:p></o:p></span></b></p>
+					
+					<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+					<br>
+					<b>Background</b><br><br>
+					A Chess board position is accurately captured by Forsyth-Edwards notation and is abbreviated as FEN. A FEN "record" defines a particular game position, all in one text line and using only the ASCII character set. A FEN record contains six fields. A complete description of the FEN format to represent Chess positions can be found at <a href="https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation" target="_blank" style="color:#0000ff; background-color:transparent; text-decoration:none">here</a> 
+					<br><br>
+					For the purpose of this problem only consider first of the six fields of FEN. Before we describe the problem, let us look at how FEN maps to a board position. The following 5 images show board positions and its corresponding FEN representation.
+					<br><br>
+					</p><p style="float:left;">
+					<img src="./TCS_ CodeVita - Coding Arena_files/cv15R2_R1P2_fig1.png" height="250px" width="250px">
+					<br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:10px;"><b>Figure 1.</b></span>
+					</p>
+					<br><br><br><br>
+					<p style="float:right;">
+					</p><table style="float:right;" border="1" cellspacing="0" cellpadding="2" width="400"><tbody><tr><td>This board position depicts initial position before any side has made a move. In FEN format this board position is represented as 
+					<br><br><br>
+					rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR</td></tr></tbody></table><br><br><br><br><br><br>
+					<p></p>
+					<br><br><br><br><br><br><br><br><br>
+					Let's say, White plays e4. Then the board position looks like shown below
+					<br><br>
+					<p style="float:left;">
+					<img src="./TCS_ CodeVita - Coding Arena_files/cv15R2_R1P2_fig2.png" height="250px" width="250px">
+					<br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:10px;"><b>Figure 2.</b></span>
+					</p>
+					<br><br><br><br>
+					<p style="float:right;">
+					</p><table style="float:right;" border="1" cellspacing="0" cellpadding="2" width="400"><tbody><tr><td>This board position depicts the Chess board after White has played e4. In FEN format this board position is represented as 
+					<br><br><br>
+					rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR</td></tr></tbody></table><br><br><br>
+					<p></p>
+					<br><br><br><br><br><br><br><br><br><br><br><br>					
+					Similarly, 3 more half-moves are depicted in following diagrams
+					<br><br>
+					<p>
+					<img src="./TCS_ CodeVita - Coding Arena_files/cv15R2_R1P2_fig3.png" height="250px" width="230px">&nbsp;
+					<img src="./TCS_ CodeVita - Coding Arena_files/cv15R2_R1P2_fig4.png" height="250px" width="230px">&nbsp;
+					<img src="./TCS_ CodeVita - Coding Arena_files/cv15R2_R1P2_fig5.png" height="250px" width="230px">
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span style="font-size:10px;"><b>Figure 3.</b></span>
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span style="font-size:10px;"><b>Figure 4.</b></span>
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					<span style="font-size:10px;"><b>Figure 5.</b></span>
+					</p>
+					<br><br>
+					The FENs corresponding to Figure 3, 4 and 5 are represented as 
+					<br><br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					3.	rnbqkbnr/pppp1ppp/8/4P3/4P3/8/PPPP1PPP/RNBQKBNR<br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					4.	rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR<br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					5.	rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR
+					<br><br>
+					<b>Wikipedia describes first field of FEN format as follows</b>
+					<br><br>
+					Piece placement (from white's perspective). Each rank is described, starting with rank 8 and ending with rank 1; within each rank, the contents of each square are described from file "a" through file "h". Following the <a href="https://en.wikipedia.org/wiki/Algebraic_chess_notation" target="_blank" style="color:#0000ff; background-color:transparent; text-decoration:none">Standard Algebraic Notation</a> (SAN), each piece is identified by a single letter taken from the standard English names (pawn = "P", knight = "N", bishop = "B", rook = "R", queen = "Q" and king = "K").[1] White pieces are designated using upper-case letters ("PNBRQK") while black pieces use lowercase ("pnbrqk"). Empty squares are noted using digits 1 through 8 (the number of empty squares), and "/" separates ranks
+					<br><br>
+					<b>Statement</b>
+					<br><br>
+					You will be given FENs of successive board positions. Your task is to construct a move list in <a href="https://en.wikipedia.org/wiki/Algebraic_chess_notation" target="_blank" style="color:#0000ff; background-color:transparent; text-decoration:none">standard algebraic format</a> from these FENs. For e.g. the five FENs depicted above will show the following move list
+					<br>
+					1) e4 e5<br>2) f4 exf4
+					<br><br>
+					You will also have to print the total (White + Black) number of captures that have happened in the game.
+					<br><br>
+					Sections below describe the Input and Output specifications followed by examples. Input has to be read from console and output has to be written back to console.
+					<br><br>	
+					<p></p>
+					
+					
+					<p style="line-height:140%;"><b>Input Format:</b>
+					<br><br>
+					</p><ol>
+					<li>Each input will correspond to a one game only i.e. all successive FEN inputs will represent successive board positions that are a part of the same game.</li>
+					<li>Each input will begin with FEN corresponding to <i>Initial Position</i> in chess as depicted in Fig 1.</li>
+					<li>One line will contain only one FEN record</li>
+					<li>There can be arbitrary number of FEN records provided as input</li>
+					<li>Input will be terminated by -1</li>
+					</ol>
+					<br>
+					<p></p>
+					
+					<p style="line-height:140%;"><b>Output Format:</b>
+					<br><br>
+					</p><ol>
+					<li>Each line of output should correspond to a tuple &lt;Move number, White's move, Black's move&gt;</li>
+					<li>Move Number is the move number followed by ')'</li>
+					<li>White's move is move played by white, denoted in Algebraic notation</li>
+					<li>Black's move is move played by black, denoted in Algebraic notation</li>
+					<li>All parts of the tuple should be printed using a single space character as delimiter</li>
+					<li>A capture must be denoted by x. See example output how a move representing a capture is printed.</li>
+					<li>Print the entire Move List represented by input FENs</li>
+					<li>At the end of the Move List, the output must print <b>Number of Captures : &lt;n&gt;</b>, where n corresponds to total number of captures by White and Black together.</li>
+					<li>See example outputs for better understanding</li>
+					</ol>
+					<br>
+					<p></p>
+					
+					
+					<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+					<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+					<br>
+					</p><ol>
+					<li>A check in algebraic notation is depicted by '+' symbol. We don't expect checks to be detected. Hence the output should be printed without '+' symbol. Ditto for double checks.</li>
+					<li>Similarly, a check mate is usually denoted by #. We don't expect check mate to be detected. Hence the output should be printed without '#' symbol.</li>
+					<li>Similarly, castling is usually denoted by o-o (short castle) or o-o-o (long castle). We don't expect castling to be detected. <b>Hence our test cases don't contain FENs which give rise to such positions.</b></li>
+					<li>Algebraic notation provides a way to disambiguate a move. <b>We don't expect disambiguation to be implemented. Hence we have ensured test cases don't have ambiguous move</b>. The following diagram explains the ambiguity and the corresponding disambiguation method.
+					<br>
+					<p style="float:left;">
+					<img src="./TCS_ CodeVita - Coding Arena_files/cv15R2_R1P2_fig6.png" height="250px" width="250px">
+					<br><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:10px;"><b>Figure 6.</b></span>
+					</p>
+					<br><br>
+					<p style="float:right;">
+					</p><table style="float:right;" border="1" cellspacing="0" cellpadding="2" width="400"><tbody><tr><td>The next move by White in this position is Nd2. Now both Knights can move to d2 square. Hence this move is ambiguous until it is explicitly expressed which knight has moved to d2.
+					<br><br><br>
+					The algebraic notation solves this problem by writing the move as
+					<br>Nbd2 - if knight on b-file has moved to d2 or
+					<br>Nfd2 - if knight on f-file has moved to d2
+					<br><br>
+					Generating a move list which can disambiguate move based on FENs is not expected. Hence our test cases donâ€™t contain FENs which give rise to such positions.</td></tr></tbody></table><br><br><br><br><br><br>
+					<br><br><br><br><br><br><br><br><br><br><br>
+					<p></p>					
+					</li>
+					<li>There is no need to handle <a href="https://en.wikipedia.org/wiki/En_passant" target="_blank" style="color:#0000ff; background-color:transparent; text-decoration:none"><i>En Passant</i></a> positions. There are no test cases involving <i>En Passant</i> moves.</li>
+					</ol>
+					<br>
+					<p></p>
+					
+					<a><b>Sample Input and Output</b></a><a><br><br>
+					<table width="650px" border="1" cellspacing="0" cellpadding="2">
+						<tbody><tr>
+							<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+						</tr>
+						<tr>
+							<td style="width:10px;">1</td>
+							<td style="width:300px;"><br>rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR<br>
+							rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR<br>
+							rnbqkbnr/pppp1ppp/8/4P3/4P3/8/PPPP1PPP/RNBQKBNR<br>
+							rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR<br>
+							rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR<br>
+							-1<br><br></td>
+							<td style="width:200px"><br>1) e4 e5<br>2) f4 exf4<br>Number of Captures : 1<br></td>							
+						</tr>
+						<tr>
+							<td style="width:10px;">2</td>
+							<td style="width:300px;"><br>rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR<br>
+							rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR<br>
+							rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR<br>
+							rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R<br>
+							rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R<br>
+							rnbqkb1r/pppp1ppp/5n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R<br>
+							rnbqkb1r/ppp2ppp/3p1n2/4N3/4P3/8/PPPP1PPP/RNBQKB1R<br>
+							rnbqkb1r/ppp2ppp/3p1n2/8/4P3/5N2/PPPP1PPP/RNBQKB1R<br>
+							-1<br><br></td>
+							<td style="width:200px"><br>1) e4 e5<br>2) Nf3 Nf6<br>3) Nxe5 d6<br>4) Nf3 <br>Number of Captures : 1<br></td>					
+						</tr>
+											
+					</tbody></table>
+					<br><br>
+				
+				</a></div><a>
+				<div class="note">
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+					not  use package and namespace in your code. For object oriented
+					languages your code should be written in one class.</i></p>
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+					submitting solutions in C language should not use functions from
+					&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+					gcc</i></p>
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>For C and C++, return type of main() function should be int.</i></p>
+					<br><br><font color="blue"><b>© 2015 Tata Consultancy Services Limited. All Rights Reserved. </b></font>
+					<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+					</p>
+				</div>
+			</a></div><a>
+			<br><br>
+			</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+			<div class="submitsolution">
+				<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+				<div class="fileinputs">
+					<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_E" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+					<div class="fakefile">				
+						<input size="38" name="fake_file_input">
+						<input type="button" value="Browse..." name="Browse">
+					</div>
+				</div>	
+				<div class="filesubmit">	
+					<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+					<input type="image" value="Submit" name="Submit" id="upload" src="./TCS_ CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+					<span></span>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="tabs-6" aria-labelledby="ui-id-6" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+			<div class="border">
+				<div class="Section1">	
+					<p class="MsoNormal" align="center" style="text-align:left"><b style="mso-bidi-font-weight:
+					normal"><span class="problem">Problem : Base Camp<o:p></o:p></span></b></p>
+					
+					<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">Three friends set out to explore a remote area. They choose a safe place and make it their Base Camp. To speed up exploration time they decide to work independently. At any given point, either one or more of them can set out to explore the area. They set a protocol that after exploring the area they must meet back at the Base Camp in the evening and exchange notes. 
+					<br><br>
+					The remote area consists of accessible and inaccessible pieces of land. Being ordinary humans, they must walk only the accessible piece of land. In order to maximize their exploration time, each one is interested in knowing about a shortest path back to the base camp.
+					<br><br>
+					Given that the area under exploration is arranged in form of a rectangular grid, help the explorers to chalk out a shortest path back to the base camp. Properties of a rectangle can be used as heuristic in computing distance between their positions and the Base Camp. Your task is to find out and mark the shortest path for each explorer and print each path as a separate grid.
+					<br><br>
+					The input and output specification sections describe how inputs will be provided on console and how output is expected back on console. 
+					<br><br>
+					</p>
+					
+					
+					<p style="line-height:140%;"><b>Input Format:</b>
+					<br><br>
+					</p><ol>
+					<li>First line of input contains grid dimensions &lt;rows, columns&gt; delimited by space character</li>
+					<li>Next <i>rows</i> number of lines contain <i>column</i> number of characters</li>
+					<li>Valid characters are {s, d, w, -}, where<br>
+					<ol type="a">
+					<li>s represents the location of the explorer</li>
+					<li>d represents the location of the base camp</li>
+					<li>w represents inaccessible region</li>
+					<li>- represents accessible region</li>
+					</ol>
+					</li>
+					<li>End of input is marked by -1 character</li>
+					</ol>
+					<br>
+					<p></p>
+					
+					<p style="line-height:140%;"><b>Output Format:</b>
+					<br><br>
+					</p><ol>
+					<li>Number of grids in the output should be same as number of explorers i.e. 's' characters in the input grid</li>
+					<li>Each output grid should be of the same dimension as the input grid</li>
+					<li>Each output grid should contain path from explorer location s to base camp location d</li>
+					<li>If there are more than one explorers, explorer with smallest &lt;row, column&gt; value should be printed first in the output. Next smallest explorer location should be printed next followed by the last explorer grid.</li>
+					<li>First explorer path should be marked by 'a' character, second by 'b' character and third by 'c' character</li>
+					<li>The 's' character in the grid must be replaced by {a, b or c} whichever is appropriate for the given explorer</li>
+					<li>The 's' character(s) in the grid must be replaced by '-' character for other explorer(s)</li>
+					<li>Output grids must be separated by a blank line</li>
+					<li>See example section for better understanding</li>
+					</ol>
+					<br><br>
+					<p></p>
+					
+					
+					<p class="western" align="JUSTIFY" style="line-height:140%;margin-bottom: 0in;">
+					<font face="Verdana, sans-serif"><b>Constraints:</b></font><br>
+					</p><p style="line-height:140%;"><b>1. It is guaranteed that there will always be exactly one shortest path for one explorer from a given location</b><br></p>
+					<br>
+					<p></p>
+					
+				
+					
+					<a><b>Sample Input and Output</b></a><a><br><br>
+					<table width="550px" border="1" cellspacing="0" cellpadding="2">
+						<tbody><tr>
+							<th style="height:20px">SNo.</th><th style="height:20px">Input</th><th style="height:20px">Output</th>
+						</tr>
+						<tr>
+							<td style="width:10px;">1</td>
+							<td style="width:300px;"><br>4 4<br>w - d -<br>w - w -<br>w - w w<br>s - - s<br>-1<br><br></td>
+							<td style="width:200px"><br>w - d -<br>w a w -<br>w a w w<br>a - - -
+							<br><br>w - d -<br>w b w -<br>w b w w<br>- - b b
+							<br><br></td>							
+						</tr>
+						<tr>
+							<td style="width:10px;">2</td>
+							<td style="width:300px;"><br>4 4<br>s - - s<br>- - - -<br>- - - -<br>s - - d<br>-1<br><br></td>
+							<td style="width:200px"><br>a - - -<br>- a - -<br>- - a -<br>- - - d
+							<br><br>- - - b<br>- - - b<br>- - - b<br>- - - d
+							<br><br>- - - -<br>- - - -<br>- - - -<br>c c c d<br><br></td>							
+						</tr>
+											
+					</tbody></table>
+					<br><br>
+					
+					<p style="line-height:140%;"><b>Explanation for sample input and output 1:</b>
+					<br><br>
+					<img src="./TCS_ CodeVita - Coding Arena_files/cv15R2_R1P1_fig1.png" height="100px" width="100px">
+					<br>
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:10px;"><b>Figure 1.</b></span>
+					<br><br>
+					<img src="./TCS_ CodeVita - Coding Arena_files/cv15R2_R1P1_fig2.png" height="100px" width="100px">
+					<br>
+					<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:10px;"><b>Figure 2.</b></span>
+					<br><br>
+					<font color="red">Note:</font> - The output format shown above is for understanding purpose such that it highlights the shortest path between the explorer and the base camp. The examples in above table depicts output in text format as <u>you will be required to provide</u>. 
+					<br><br>
+					</p>
+					
+				</a></div><a>
+				<div class="note">
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>	Please do
+					not  use package and namespace in your code. For object oriented
+					languages your code should be written in one class.</i></p>
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>Participants
+					submitting solutions in C language should not use functions from
+					&lt;conio.h&gt; / &lt;process.h&gt; as these files do not exist in
+					gcc</i></p>
+					<p class="western" style="margin-top: 0.07in; margin-bottom: 0in; widows: 2; orphans: 2">
+					<font color="#950000"><i><b>Note</b></i></font>:<br><br><i>For C and C++, return type of main() function should be int.</i></p>
+					<br><br><font color="blue"><b>© 2015 Tata Consultancy Services Limited. All Rights Reserved. </b></font>
+					<p class="western" align="JUSTIFY" style="margin-bottom: 0in"><br>
+					</p>
+				</div>
+			</a></div><a>
+			<br><br>
+			</a><a style="color:#950000;font-weight:bold;">Submit Answer</a>
+			<div class="submitsolution">
+				<input type="checkbox" name="confirm">I , <b>AHMED QUADRI</b> confirm  that the answer submitted is my own.<br><br>
+				<div class="fileinputs">
+					<input type="file" class="file_hidden" name="txtUNameMem1" id="Program_F" size="38" onchange="select_file(this.id,this,&#39;STARTED&#39;)">			
+					<div class="fakefile">				
+						<input size="38" name="fake_file_input">
+						<input type="button" value="Browse..." name="Browse">
+					</div>
+				</div>	
+				<div class="filesubmit">	
+					<!--<input type="Submit" value="Submit" name="Submit" id="upload" style="position:absolute;left:10px;">-->
+					<input type="image" value="Submit" name="Submit" id="upload" src="./TCS_ CodeVita - Coding Arena_files/Submit-bttn.jpg" height="20px">
+					<span></span>
+				</div>
+			</div>
+		</div>
+			
+		
+	</div>
+	</div>
+									
+										
+									<!--end of leftupper div-->
+								</td>
+								<td width="15px"></td>
+								<td valign="top">
+									<div class="rightmain">
+										<table width="100%" height="10%" border="0" style="border-collapse:collapse;">
+											<tbody><tr>
+												<td height="5px"></td>
+											</tr>
+											<tr>
+												<td><img border="0" src="./TCS_ CodeVita - Coding Arena_files/Codevita-logo-small.jpg" width="172px" height="45px"></td>
+											</tr>
+											<tr>
+												<td height="23px" width="172px"></td><td>
+											</td></tr>
+											<tr>
+												<td height="22px" style="background-color:gray ">
+														<a class="timenotif"><b>Time Left</b></a>
+												</td>
+											</tr>
+											<tr>
+												<td height="60px" width="172px" style="background-color:#EFEFEF;">
+														<table border="0" cellspacing="0" width="172px">
+														<tbody><tr>
+															<td width="20px"></td>
+															<td width="10%" style="background-color:white;"><a style="font-size:24px;color:#950000;font-weight:bold;" id="hr">01</a></td>
+															<td width="20px"></td>
+															<td width="10%" style="background-color:white;"><a style="font-size:24px;color:#950000;font-weight:bold;" id="min">39</a></td>
+															<td width="20px"></td>
+															<td width="10%" style="background-color:white;"><a style="font-size:24px;color:#950000;font-weight:bold;" id="sec">46</a></td>	
+															<td width="20px"></td>
+														</tr>
+														<tr>
+															<td width="20px"></td>
+															<td align="center"> hr </td>
+															<td width="20px"></td>
+															<td align="center"> min </td>
+															<td width="20px"></td>
+															<td align="center"> sec </td>
+															<td width="20px"></td>
+														</tr>
+													</tbody></table>					
+												</td>																								
+											</tr>
+											<tr>
+												<td height="15px" width="172px"></td><td>
+											</td></tr>
+											<tr>
+											<td style="background-color:#D3D3D3;height:22px">
+												<a href="https://www.tcscodevita.com/CodevitaV4/guidelines.jsp" style="color:#950000;font-weight:bold;margin-left:8px;text-decoration: none;font-size:12px;">Rules &amp; Regulations</a>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<div style="height:100px;position: relative;"></div>	
+												</td>
+											</tr>
+										</tbody></table>	
+									</div>
+								</td>
+								<td width="23px">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div style="height: 90px;"></div>
+								</td>
+							</tr>								
+						</tbody></table>
+						<div class="lower">
+							<table border="0" style="position:relative;border-collapse:collapse;" align="center" width="932px">
+								<tbody><tr>
+									<td height="20px"></td>
+								</tr>
+								<tr>
+									<td><a class="footer">© 2015 Tata Consultancy Services Limited. All Rights Reserved.&nbsp;&nbsp;&nbsp;</a></td>
+									<td><a class="footer">In Association with</a></td>
+									<td><img border="0" src="./TCS_ CodeVita - Coding Arena_files/Campus-Commune-Logo.jpg"></td>
+									<!-- <td ><a class="footer">|</a><a class="footer">&nbsp;Privacy Policy &nbsp;&nbsp;</a></td> -->
+									<td><a class="footer">|</a><a href="https://www.tcscodevita.com/CodevitaV4/privacypolicy.jsp" target="_blank style=" text-decoration:none;="" color:white;"="">&nbsp;Privacy Policy &nbsp;&nbsp;</a></td>
+									<td>
+										<!-- <a href="/CodevitaV4/redirectToTwitter.jsp" target="_blank"><img border="0" src="/CodevitaV4/images/twitter-icn.jpg"></a>
+				<a href="/CodevitaV4/redirectToLinkedIN.jsp" target="_blank"><img border="0" src="/CodevitaV4/images/linked-in-icn.jpg"></a>
+				<a href="/CodevitaV4/redirectToFacebook.jsp" target="_blank"><img border="0" src="/CodevitaV4/images/Facebook-icn.jpg"></a> -->
+				<a href="https://twitter.com/TCS_News" target="_blank"><img border="0" src="./TCS_ CodeVita - Coding Arena_files/twitter-icn.jpg"></a>
+				<a href="http://www.linkedin.com/company/tata-consultancy-services/careers?trk=top_nav_careers" target="_blank"><img border="0" src="./TCS_ CodeVita - Coding Arena_files/linked-in-icn.jpg"></a>
+				<a href="http://www.facebook.com/TataConsultancyServices" target="_blank"><img border="0" src="./TCS_ CodeVita - Coding Arena_files/Facebook-icn.jpg"></a>
+									</td>
+									<td align="right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img border="0" src="./TCS_ CodeVita - Coding Arena_files/TATA-logo.jpg"></td>
+								</tr>
+							</tbody></table>
+						</div> 
+						<img style=" margin-top:-230px;margin-right:23px;" align="right" border="0" src="./TCS_ CodeVita - Coding Arena_files/Mascot-Small.jpg">
+					</div>
+				</td>
+			</tr>
+		</tbody></table>
+		<!--
+		Notification Popup
+		-->
+		<div id="notification_popup_box" class="ui-dialog-content ui-widget-content" style="vertical-align: middle;display:none;">
+			<div style="text-align:right;">
+				<span id="close_icon" onclick="closeNotification()" style="margin-top:-15px;position: absolute;right: 0px;">&nbsp;&nbsp;&nbsp;</span>
+			</div>
+			<div id="notification_popup_text"></div>
+		</div>
+		<input type="hidden" name="selected_problem" value="E">
+		<input type="hidden" id="refreshed" value="yes">
+	
+	<script src="./TCS_ CodeVita - Coding Arena_files/gen_validatorv4.js"></script>
+<script src="./TCS_ CodeVita - Coding Arena_files/ajaxfileupload.js"></script>
+<script src="./TCS_ CodeVita - Coding Arena_files/jquery-ui.min.js"></script>
+<!-- <script src="/CodevitaV4/JS/jquery1.10.js"></script> -->
+<script src="./TCS_ CodeVita - Coding Arena_files/problemstartjs.js"></script>
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52806117-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+
+</body></html>

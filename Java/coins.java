@@ -15,7 +15,7 @@ class Solution
 		{
 			n[i]=Integer.parseInt(s);
 			i++;
-			//System.out.println(dividor(++n));
+			System.out.println(dividor(++n[i-1]));
 		}
 		max=n[0];
 		for(int j=1;j<i;j++)

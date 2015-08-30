@@ -1,56 +1,3 @@
-./f.e
-gcc foll.c -o ./f.e
-./f.e
-gcc foll.c -o ./f.e
-./f.e
-gcc oper.c -o ./o.e
-gcc oper.c -o ./o.e
-gcc oper.c -o ./o.e
-./o.e
-gcc dj.c -o ./d.e
-gcc dj.c -o ./d.e
-gcc dj.c -o ./d.e
-./d.e
-./d.e
-./d.e
-./d.e
-gcc shiftrp.c -o s.e
-gcc shiftrp.c -o s.e
-gcc shiftrp.c -o s.e
-gcc shiftrp.c -o s.e
-gcc shiftrp.c -o s.e
-gcc shiftrp.c -o s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-./s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc oper.c -o o.e
-./o.e
-gcc operp.c -o o.e
-./o.e
-gcc operp.c -o o.e
-./o.e
 gcc operp.c -o o.e
 ./o.e
 gcc operp.c -o o.e
@@ -498,3 +445,56 @@ exit
 gcc issue.c -o f.e
 gcc issue.c -o f.e
 ./f.e
+cd MockVita
+gcc brackets.c -o b.e
+./b.e
+gcc brackets.c -o b.e
+./b.e
+./b.e
+gcc brackets.c -o b.e
+./b.e
+gcc brackets.c -o b.e
+gcc brackets.c -o b.e
+./b.e
+gcc brackets.c -o b.e
+./b.e
+./b.e
+gcc brackets.c -o b.e
+./b.e
+gcc brackets.c -o b.e
+./b.e
+gcc brackets.c -o b.e
+./b.e
+gcc brackets.c -o b.e
+./b.e
+gcc brackets.c -o b.e
+./b.e
+gcc brackets.c -o b.e
+./b.e
+cd MockVIta/
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+./c.e
+gcc comm.c -o c.e
+./c.e
+gcc comm.c -o c.e
+./c.e
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+gcc comm.c -o c.e
+./c.e
+
+./c.e
+cd Algorithms/
+gcc sumofsubset.c -o s.e
+./s.e
+wget  --random-wait  -r  -p  -e  robots=off  -U  mozilla  www.pornhub.com

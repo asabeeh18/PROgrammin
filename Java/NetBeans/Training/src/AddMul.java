@@ -1,107 +1,154 @@
 //http://www.codechef.com/JULY15/problems/ADDMUL
-
+import java.util.*;
 class AddMul
 {
-    static final int M=1000000007;
-	public static void main(String ar[]) throws Exception
+	static int qs,qe,n,v;
+	static int[] st,add,mul;
+	static int getMid(int s, int e) {  return s + (e -s)/2;  }
+	
+	static void lazyAdd()
 	{
-		
-		java.io.BufferedReader r=new java.io.BufferedReader(new java.io.InputStreamReader(System.in));
-		//int t=Integer.parseInt(r.readLine());
-		String s=r.readLine();
-		String ss[]=s.split(" ");
-		int n=Integer.parseInt(ss[0]);
-		int q=Integer.parseInt(ss[1]);
-		
-		int[] a=new int[n],lastUpdated=new int[n];
-		int[][] quer=new int[q][4],operstack=new int[q][2];	//oper l r v
-		int ST=-1;
-		
-		s=r.readLine();
-		ss=s.split(" ");
-		for(int i=0;i<n;i++)
-		a[i]=Integer.parseInt(ss[i]);
-		
-		for(int i=0;i<q;i++)
+		// Check for erroneous input values
+		if (qs < 0 || qe > n-1 || qs > qe)
 		{
-			s=r.readLine();
-			ss=s.split(" ");
-			int oper=Integer.parseInt(ss[0]);
-			if(oper!=4)
-			{
-				quer[i][0]=oper;
-				quer[i][1]=Integer.parseInt(ss[1])-1;
-				quer[i][2]=Integer.parseInt(ss[2])-1;
-				quer[i][3]=Integer.parseInt(ss[3]);
-			}				
-			else	//display
-			{
-				int sum=0;
-				q--; //danger
-				i--;
-				for(int j=Integer.parseInt(ss[1])-1;j<=Integer.parseInt(ss[2])-1;j++)
-				{
-					int x=a[j];
-					//int k=lastUpdated[j];
-					for(int k=i;k>=lastUpdated[j];k--)	//bottom up
-					{
-						if(quer[k][0]==3 && j>=quer[k][1] && j<=quer[k][2]) //test phase:critical range check //(=)
-						{
-							x=quer[k][3];
-//									a[j]=x;
-//							lastUpdated[j]=k+1;	//1-indexing inside lastUpdated, lastUpdated[0] is unint, lastUpdated[1] is quer[1]
-//								sum+=x;
-							break;
-						}
-						else if(j>=quer[k][1] && j<=quer[k][2])
-						{
-							/*if(quer[k][0]==1)
-								{
-								x=(x+quer[k][3])%M;
-								}
-								else if(quer[k][0]==2)
-								{
-								x=(x+quer[k][3])%M;
-								}
-								else
-								{
-								System.out.println("ERROR!!");
-								}
-							*/
-							operstack[++ST][0]=quer[k][0];
-							operstack[ST][1]=quer[k][3];
-						}
-					}
-					a[j]=popStack(operstack,ST,x);
-					ST=-1;
-					//a[j]=x;
-					sum+=a[j];
-					lastUpdated[j]=i+1;
-				}
-				System.out.println(sum);
-			}
+			System.out.println("Invalid Input");
 		}
+		
+		st[0]=st[0]+lazyAddUtil( 0, n-1, 0);
 	}
 	
-	public static int popStack(int stack[][],int n,int x)
+	static int lazyAddUtil( int ss, int se, int index)
 	{
-		int count=0;
-		//int cue=stack[n];
-		for(int i=n;i>=0;i--)
+		if (qs <= ss && qe >= se)
+                {
+                    add[index]=0;
+                    st[index]+=v*(se-ss+1);
+                    return st[index/2]+v*(se-ss+1);
+                }
+		
+		// If segment of this node is outside the given range
+		if (se < qs || ss > qe)
+        return 0;
+		
+		// If a part of this segment overlaps with the given range
+		int mid = getMid(ss, se);
+		st[index]=lazyAddUtil( ss, mid, 2*index+1)+
+		lazyAddUtil(mid+1, se, 2*index+2);
+		return st[index];
+	}
+	
+	
+	static int getSumUtil( int ss, int se, int index)
+	{
+		if (qs <= ss && qe >= se)
+        return st[index];//+add[index];
+		
+		/* 
+		if(mul[index]!=1)
+		{	mul[2*index+1]=mul[index];
+		mul[2*index+2]=mul[index];
+		mul[index]=1;
+		}
+		 */
+		 
+		// If segment of this node is outside the given range
+		if (se < qs || ss > qe)
+        return 0;
+		if(add[index]!=0)
 		{
-			if(stack[i][0]==1)
+			//st[index]=st[index]+add[index]*(se-ss+1);
+			add[2*index+1]=add[index];
+			add[2*index+2]=add[index];
+			add[index]=0;
+		}
+		// If a part of this segment overlaps with the given range
+		int mid = getMid(ss, se);
+		return getSumUtil( ss, mid, 2*index+1) +
+		getSumUtil(mid+1, se, 2*index+2);
+	}
+	
+	static int getSum()
+	{
+		// Check for erroneous input values
+		if (qs < 0 || qe > n-1 || qs > qe)
+		{
+			System.out.println("Invalid Input");
+			return -1;
+		}
+		
+		return getSumUtil( 0, n-1, 0);
+	}
+	
+	static int constructSTUtil(int arr[], int ss, int se, int si)
+	{
+		// If there is one element in array, store it in current node of
+		// segment tree and return
+		if (ss == se)
+		{
+			st[si] = arr[ss];
+			return arr[ss];
+		}
+		
+		// If there are more than one elements, then recur for left and
+		// right subtrees and store the sum of values in this node
+		int mid = getMid(ss, se);
+		st[si] =  constructSTUtil(arr, ss, mid, si*2+1) +
+		constructSTUtil(arr, mid+1, se, si*2+2);
+		return st[si];
+	}
+	
+
+	static void constructST(int arr[])
+	{
+		// Allocate memory for segment tree
+		int x = (int)(Math.ceil(Math.log(n)/Math.log(2))); //Height of segment tree
+		int max_size = 2*(int)Math.pow(2, x) - 1; //Maximum size of segment tree
+		st = new int[max_size];
+		add= new int[max_size];
+		mul= new int[max_size];
+		Arrays.fill(mul,1);
+		// Fill the allocated memory st
+		constructSTUtil(arr, 0, n-1, 0);
+		
+		// Return the constructed segment tree
+		
+	}
+	public static void main(String ar[])
+	{
+		Scanner r=new Scanner(System.in);
+		n=r.nextInt();
+		int q=r.nextInt();
+		int arr[]=new int[n];
+		for(int i=0;i<n;i++)
+			arr[i]=r.nextInt();
+		constructST(arr);
+		int ch; //x,y is qs qe
+		while(q-->0)
+		{
+			ch=r.nextInt();
+			qs=r.nextInt();
+			qe=r.nextInt();
+			if(ch==1)
 			{
-				x=(x+stack[i][1])%M;
+				v=r.nextInt();
+				lazyAdd();
 			}
-			else if(stack[i][0]==2)
+			else if(ch==2)
 			{
-				x=(x*stack[i][1])%M;
+				v=r.nextInt();
+				//lazyMul();
+				//also mul d num in lasyadd tree
 			}
-			else
+			else if(ch==3)
 			{
-				System.out.println("ERROR!!");
+				//lazyMul(0);
+				v=r.nextInt();
+				lazyAdd();
+			}
+			else if(ch==4)
+			{
+				System.out.println(getSum());
 			}
 		}
-		return x;
 	}
 }
