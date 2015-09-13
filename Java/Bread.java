@@ -8,9 +8,10 @@ class Solution
 		String s;
 		while(t-->0)
 		{
-			int bread=0,rem=0,pack;
 			s=r.readLine();
 			String ss[]=s.split(" ");
+			
+			int bread=0,rem=0,pack;
 			int n=Integer.parseInt(ss[0]);
 			int k=Integer.parseInt(ss[1]);
 			//int[] a=new int[n];
@@ -43,7 +44,7 @@ class Solution
 					//System.out.println(bread);
 				}
 			}
-			System.out.println(bread);
+		System.out.println(bread);
 		}
-	}
-}
+		}
+		}		

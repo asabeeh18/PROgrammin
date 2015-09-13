@@ -1,7 +1,5 @@
 gcc operp.c -o o.e
 ./o.e
-gcc operp.c -o o.e
-./o.e
 ./o.e
 gcc operp.c -o o.e
 ./o.e
@@ -498,3 +496,5 @@ cd Algorithms/
 gcc sumofsubset.c -o s.e
 ./s.e
 wget  --random-wait  -r  -p  -e  robots=off  -U  mozilla  www.pornhub.com
+cmake
+maven
