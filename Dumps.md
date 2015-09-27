@@ -66,3 +66,7 @@ Projects
 - Instructions listing of 8085 (XII std project (lost))(c++)
 - public ftp server for home( Dynamic IP ... on hold)
 - Hatt , Compiler 
+
+Others
+- VPN
+- FTP

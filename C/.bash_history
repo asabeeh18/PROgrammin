@@ -1,126 +1,3 @@
-gcc operp.c -o o.e
-./o.e
-./o.e
-gcc operp.c -o o.e
-./o.e
-gcc operp.c -o o.e
-./o.e
-./o.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftp.c -o s.e
-gcc shiftp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc operp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-gcc -version
-gcc --help
-gcc --version
-sudo
-apt-get
-gcc shiftrp.c -o s.e
-gcc st.c -o s.e
-./s.e
-gcc st.c -o s.e
-gcc st.c -o s.e
-./s.e
-gcc mnt.c -o m.e
-./m.e
-gcc mnt.c -o m.e
-./m.e
-gcc mnt.c -o m.e
-./m.e
-gcc mnt.c -o m.e
-./m.e
-gcc mnt.c -o m.e
-gcc mnt.c -o m.e
-./m.e
-./m.e
-./m.e
-gcc mnt.c -o m.e
-./m.e
-gcc mnt.c -o m.e
-./m.e
-cd ..
-cd Compiler/
-cd lex.c -o l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-./l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-gcc lex.c -o l.e
-./l.e
-./l.e
-gcc lex.c -o l.e
-./l.e
-cd Compiler
-cd ..
-cd Compiler
-gcc st.c -o ./s.e
-gcc st.c -o s.e
-./s.e
-gcc st.c -o s.e
-./s.e
-cd..
 cd ..
 cd Comp
 cd Compiler/iler
@@ -498,3 +375,126 @@ gcc sumofsubset.c -o s.e
 wget  --random-wait  -r  -p  -e  robots=off  -U  mozilla  www.pornhub.com
 cmake
 maven
+python
+pwd
+cd ..
+mkdir Data\ Analysis
+cd Data\ Analysis/
+python
+exit
+cd ..
+pwd
+cd Data\ Analysis/
+python
+uname -a
+python
+pip
+pip install pandas
+python
+exit
+cd
+pwd
+cd ../../../D:
+cd ../../../
+cd d
+cd patty-dataset-freebase.tar/patty-dataset-freebase/
+grep -ir "" wikipedia-instances.txt | more
+grep -ir "3410" wikipedia-instances.txt | more
+grep -ir "3410" wikipedia-instances.txt | more
+exit
+cd ../../d/
+cd ../../../d/
+ls
+cd ../g/
+ls
+cd data2
+ls
+cd WikiDataNew/Wiki2011/
+ls
+ls
+ls
+ls --color scheme
+rxvt.exe -title Shell -e 'c:\cygwin\bin\bash.exe' --login -i
+ls --color=auto
+ls
+ls --color
+ls
+ls -color
+info ls
+info ls
+nano ~/.bashrc
+vi ~/.bashrc
+vi ~/.bashrc
+vi ~/.bashrc
+vi ~/.bashrc
+vi ~/.bashrc
+vi ~/.bashrc
+ls
+exit
+ls
+cd ../../../../g
+cd ../../../g
+cd data2/WikiDataNew/Wiki2011/
+ls
+ls --color
+ls -color
+source ~/.bashrc
+ls
+ls -color=always
+ls --color=always
+vim ~/.bashrc
+vi ~/.bashrc
+ls
+source ~/.bashrc
+vi ~/.bashrc
+source ~/.bashrc
+
+vi ~/.bashrc
+source ~/.bashrc
+ls
+cd WikiDiskDump/
+ls
+cd wiki/
+ls
+cd edgeP
+vi edgeP
+grep -ir "" edgeP
+grep -ir " " edgeP
+grep -ir " " edge
+grep -ir " " 
+cd ../../..
+cd Wiki2011/
+ls
+vi wiki_linksUnResolved_tokenPositions.txt 
+grep -ir "" FullLuceneIndex_WithSnowballAnalyzer/wiki/_p.prx | more
+
+grep -ir "" infoboxEndOffsets | more
+less infoboxEndOffsets 
+vi infoboxEndOffsets  | more
+less infoboxEndOffsets clear
+cd /cygdrive/g/data2/WikiDataNew/Wiki2011/WikiDiskDump/yago/
+less /cygdrive/g/data2/WikiDataNew/Wiki2011/WikiDiskDump/yago/adjCategory 
+less /cygdrive/g/data2/WikiDataNew/Wiki2011/WikiDiskDump/yago/adjCategory 
+cd ../..
+less wiki_linksResolved_tokenPositions_sorted.txt 
+zcat
+info zcat
+cd ../../../d/
+ls
+cd ../h
+ls
+zcat Stage1_Articles.tgz | tar -xO | head -n10000
+$?
+echo $?
+zcat Stage1_Articles.tgz | tar -xO | head -n10000;2C
+zcat Stage1_Articles.tgz | tar -xO
+zcat Stage1_Articles.tgz 
+zcat Stage1_Articles.tgz 
+;2C
+file Stage1_Articles.tgz
+tar -xO Stage1_Articles.tgz
+tar -xO Stage1_Articles.tgz | head -n10000
+tar -xO Stage1_Articles.tgz | head -n10
+tar -xO Stage1_Articles.tgz | head -n10
+tar -xvfO Stage1_Articles.tgz | head -n10
+tar -xvf Stage1_Articles.tgz | head -n10

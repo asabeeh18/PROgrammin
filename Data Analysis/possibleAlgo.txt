@@ -1,0 +1,24 @@
+load training data set
+for parameters pclass,sex,age-group,(secondaries:sib,parch,ticket fare)
+	//calculate d survival % for each categiry(survived/total)
+	3 different loops for pclass,sex,age-group
+	
+		
+		
+		
+		sum total survival rates of each category is the weight
+		
+		1/sum of weights of all categories is universal multiplier
+		
+		weights*universal multiplier is the probablity
+		
+		
+ OR
+	3 2darrays + 1 1darray in each combination left
+		apply similar weight division this tym only 2 weigth 1 for combo 1 for leftover
+		
+ OR
+	1 3d array as given in tut
+	
+ OR
+	Use all 3 of these give each o/p a weight and calculate res.

@@ -1,2 +1,5 @@
 BoldAsFont=no
 Font=Source Code Pro
+Term=vt220
+Transparency=high
+OpaqueWhenFocused=yes
