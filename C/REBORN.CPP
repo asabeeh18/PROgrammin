@@ -1,6 +1,4 @@
-#include<iostream.h>
-#include<conio.h>
-#include<fstream.h>
+
 #include<stdlib.h>
 void main()
 {
@@ -25,5 +23,5 @@ void main()
     cout<<".jpg\n";
    }
   }
-  getch();
+
  }

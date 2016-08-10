@@ -1,3 +1,4 @@
+//this code marks the worst/most wasted  time of my life
 //NFA wid abselon to dfa table
 // 'o' is abselon
 import java.util.*;

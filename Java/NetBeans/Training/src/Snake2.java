@@ -6,59 +6,54 @@ import java.util.Arrays;
 
 class Snake2 {
 
-    static int[][] a;
-    //static long[][] box;
-    static long exitMax[];
-	//box array can be reduced to 3 1d arrays
-    // doing with 1 1d array and 1 2d array ;
-    static boolean[] entry, entryOld;
-
     public static void main(String ar[]) throws IOException
     {
         BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
-        String s[] = r.readLine().split(" ");
-        int n = Integer.parseInt(s[0]);
-        int m = Integer.parseInt(s[1]);
-        a = new int[n+1][m+1];	//fake last row is -infinite row
-      //  box = new int[m+1][n+1];
-        exitMax = new long[n+1];
-        entry = new boolean[n+2];
-        
-        boolean[] entryNext=new boolean[n+2];
+        String inputString[] = r.readLine().split(" ");
+        int n = Integer.parseInt(inputString[0]);
+        int m = Integer.parseInt(inputString[1]);
+
+        int[][] maze = new int[n + 1][m + 1];	//fake last row is -infinite row
+        long[] exitMax = new long[n + 1];
+        boolean[] canEnter = new boolean[n + 2];    //ONLY READ. write at end of loop
+        boolean[] entryHorizontal = new boolean[n + 2];
+        boolean canEnterNext = true;    //Early Terminator
         //init
-        Arrays.fill(entry, true);
-        // v seems a bit useless now 
-        Arrays.fill(a[n], Integer.MIN_VALUE);
+        Arrays.fill(canEnter, true);
+        // seems a bit useless now 
+        Arrays.fill(maze[n], Integer.MIN_VALUE);
         for (int i = 1; i <= n; i++)
         {
-            s = r.readLine().split(" ");
+            inputString = r.readLine().split(" ");
             for (int j = 1; j <= m; j++)
             {
-                a[i][j] = Integer.parseInt(s[j-1]);
+                maze[i][j] = Integer.parseInt(inputString[j - 1]);
             }
         }
 
         //start
-        for (int i = 1; i <= m; i++)
+        for (int i = 1; i <= m && canEnterNext; i++)
         {
+            canEnterNext = false;
             long[] up = new long[n + 1], down = new long[n + 1];
-            boolean entryNew[] = new boolean[n + 2];
+            boolean[] entryVertical = new boolean[n + 2];
             //down
-            boolean teleport=false;
+            boolean teleport = false;
             for (int j = 1; j <= n; j++)
             {
-                if (a[j][i] != -1 && (entry[j] | entryNew[j]))
+                if (maze[j][i] != -1 && (canEnter[j] | entryVertical[j]))
                 {
-                    down[j] = Math.max(down[j - 1] + a[j][i], exitMax[j] + a[j][i]);
-                    entryNew[j + 1] = true;
-                    entryNext[j] = true;
+                    down[j] = Math.max(down[j - 1] + maze[j][i], exitMax[j] + maze[j][i]);
+                    entryVertical[j + 1] = true;
+                    entryHorizontal[j] = true;
+                    canEnterNext = true;
                 } else
                 {
-                    entryNext[j] = false|entryNext[j];
-                    entryNew[j + 1] = false | entry[j + 1];
+                    entryHorizontal[j] = false | entryHorizontal[j];
+                    entryVertical[j + 1] = false | canEnter[j + 1];
                     continue;
                 }
-                if (j == n && (entry[j] | entryNew[j]) && a[j][i] != -1)
+                if (j == n && (canEnter[j] | entryVertical[j]) && maze[j][i] != -1)
                 {
                     teleport = true;
                     break;
@@ -69,11 +64,11 @@ class Snake2 {
             if (teleport)
             {
                 int j = 1;
-                
-                while (j <= n && a[j][i] != -1 )
+
+                while (j <= n && maze[j][i] != -1)
                 {
-                    tele[j] = tele[j - 1] + a[j][i];
-                    entryNext[j] = true;
+                    tele[j] = tele[j - 1] + maze[j][i];
+                    entryHorizontal[j] = true;
                     j++;
                 }
             }
@@ -81,21 +76,22 @@ class Snake2 {
 
             //up
             teleport = false;
-            entryNew = new boolean[n + 1];
+            entryVertical = new boolean[n + 1];
             for (int j = n - 1; j >= 0; j--)
             {
-                if (a[j+1][i] != -1 && (entry[j+1] | entryNew[j+1]))
+                if (maze[j + 1][i] != -1 && (canEnter[j + 1] | entryVertical[j + 1]))
                 {
-                    up[j] = Math.max(up[j + 1] + a[j+1][i], exitMax[j + 1] + a[j+1][i]);
-                    entryNew[j] = true;
-                    entryNext[j+1] = true;
+                    up[j] = Math.max(up[j + 1] + maze[j + 1][i], exitMax[j + 1] + maze[j + 1][i]);
+                    entryVertical[j] = true;
+                    entryHorizontal[j + 1] = true;
+                    canEnterNext = true;
                 } else
                 {
-                    entryNext[j+1] = false|entryNext[j+1];
-                    entryNew[j] = false | entry[j];
+                    entryHorizontal[j + 1] = false | entryHorizontal[j + 1];
+                    entryVertical[j] = false | canEnter[j];
                     continue;
                 }
-                if (j == 0 && (entry[j + 1] | entryNew[j]) && a[j+1][i] != -1)
+                if (j == 0 && (canEnter[j + 1] | entryVertical[j]) && maze[j + 1][i] != -1)
                 {
                     teleport = true;
                     break;
@@ -106,17 +102,18 @@ class Snake2 {
             if (teleport)
             {
                 int j = n - 1;
-                
-                while ( j >= 0 && a[j+1][i] != -1 )
+
+                while (j >= 0 && maze[j + 1][i] != -1)
                 {
-                    tele[j] = tele[j + 1] + a[j][i];
-                    entryNext[j+1] = true;
+                    tele[j] = tele[j + 1] + maze[j][i];
+                    entryHorizontal[j + 1] = true;
                     j--;
                 }
             }
+            //for the next iteration
             System.arraycopy(returnMax(up, tele), 0, up, 1, up.length - 1);
-            System.arraycopy(entryNext,0,entry,0,entry.length);
-            Arrays.fill(entryNext, false);
+            System.arraycopy(entryHorizontal, 0, canEnter, 0, canEnter.length);
+            Arrays.fill(entryHorizontal, false);
             exitMax = returnMax(up, down);
         }
 
@@ -124,7 +121,7 @@ class Snake2 {
         long max = -1;
         for (int i = 0; i < exitMax.length; i++)
         {
-            if (exitMax[i] > max && entry[i])
+            if (exitMax[i] > max && canEnter[i])
             {
                 max = exitMax[i];
             }
@@ -133,16 +130,14 @@ class Snake2 {
     }
 
     //Go up AND down while adding points
-    public static long[] returnMax(long a[],long b[])
+    public static long[] returnMax(long a[], long b[])
     {
-        if(a.length!=b.length)
-            throw new NegativeArraySizeException("Size Mismatch");
-        //int c[]=new int[a.length];
-        for(int i=0;i<a.length;i++)
+        for (int i = 0; i < a.length; i++)
         {
-            if(b[i]>a[i])
-                a[i]=b[i];
-            
+            if (b[i] > a[i])
+            {
+                a[i] = b[i];
+            }
         }
         return a;
     }

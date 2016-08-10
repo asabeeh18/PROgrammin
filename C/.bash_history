@@ -1,500 +1,500 @@
+echo $(4+2)
+echo $((3*(4+2)))
+echo $((11/2))
+echo $((11/2.0))
+echo $((11.0/2))
+exit
+cd ../../..
+cd h
+cd patty-dataset-freebase.tar/patty-dataset-freebase/
+head -n100 wikipedia-instances.txt 
+grep -ir "630799" .
+cd ../Java
+grep -ir "Comparator"
+vi Kruskal.java
+wget www.google.com out.html
+wget www.google.com -o out.html
+wget www.google.com -O out.html
+dig
 cd ..
-cd Comp
-cd Compiler/iler
-cd Compiler
-gcc foll.c -o f.e
-./f.e
-./f.e
-./f.e
-gcc dead.c -o d.e
-gcc dead.c -o d.e
-gcc dead.c -o d.e
-gcc dead.c -o d.e
-gcc dead.c -o d.e
+cd Java
+ls
+grep -ir "ScriptEngine"
+cd ..
+cd ..
+ls -1
+ls -d -1
+ls -1d
+ls -1 -d
+ls -1 -d */
+echo */
+tar
+tar --usage
+tar --help
+tar --help | more
+cd ../g/Game\ Setups/Hitman.Absolution-SKIDROW/New\ folder/Mother/
+pwd
+./zipAll.sh
+./zipAll.sh
+./zipAll.sh
+./zipAll.sh
+./zipAll.sh
+./zipAll.sh
+./zipAll.sh
+./zipAll.sh
+tar -zcxf Abno\ Madams\ 2/.zip Abno\ Madams\ 2/
+tar -zcvf Abno\ Madams\ 2/.zip Abno\ Madams\ 2/
+./zipAll.sh
+cd ../../..
+cd h
+ls
+tar -tzf Stage1_Articles.tgz | wc -l
+tar -tf Stage1_Articles.tgz | wc -l
+tar -tvf Stage1_Articles.tgz | wc -l
+tar -zxvf Stage1_Articles.tgz 232190
+tar -xvf Stage1_Articles.tgz 232190
+tar tf Stage1_Articles.tgz | grep 232190
+tar -xvf Stage1_Articles.tgz ./232190
+tar -xvf Stage1_Articles.tgz Stage1_Articles/232190
+cd ../../../h/WikiBanksERQ/src/java/
+grep -r . "public static void main("
+grep -r "public static void main(" .
+grep -r "public static void main(" .
+cd ../../../h
+split -b 100m Stage1_Articles.tgz "Stage1.tar.part-"
+ln 
+ln --help
+info coreutils 'ln invocation'
+info coreutils ln
+rsync
+touch ftp://192.168.0.5:3721/abtv
+touch ftp://192.168.0.5:3721/abexit~#tv
+exit
+vi run.c
+gcc -o run.c 
+gcc run.c 
+./a.out
+ls
+file -f *.out
+file -f out
+file out
+ls *out
+gcc -o run.c a.e
+gcc run.c -o a.e
+./a.e
+vi run.c
+exit
+cd ../../h
+cd ../../
+../
+cd ../h
+split -b 5120m "Stage1_Articles.tgz" "Stage1_Articles.tgz.part-"
+cd ../../../g
+cd Fallout\ 4/
+grep -ir "Language" *.ini
+grep -ir "Language" *.ini
+cd ../../../
+cd h
+cd DBpedia\ DataSet/
+head -n50 infobox-properties_en.ttl
+grep -ir "Geographic Names Information System" ./infobox-properties_en.ttl | more
+grep -ir "GNIS" ./infobox-properties_en.ttl | more
+grep -ir "GNIS>" ./infobox-properties_en.ttl | more
+qqq
+grep -ir "Geographic_Names_Information_System" ./infobox-properties_en.ttl | more
+q
+cd ../../../
+cd  h/Softwares/hadoop-2.7.1.tar/hadoop-2.7.1/share/hadoop
+grep -ir "
+Ahmed@Yin ~
+$ cd ../../../
 
-./d.e
-gcc dead.c -o d.e
-./d.e
-./d.e
-cd ..
-cd COm
-cd Compiler/College\ Final
-cd ..
-gcc loop.c -o l.e
-gcc loop.c -o l.e
-gcc loop.c -o l.e
-gcc loop.c -o l.e
-gcc loop.c -o l.e
-gcc loop.c -o l.e
-gcc loop.c -o l.e
-./l.e
-./l.e
-gcc mnt.c -o m.e
-./m.e
-gcc mnt.c -o m.e
-./m.e
-gcc mnt.c -o m.e
-./m.e
-./m.e
-gcc mnt.c -o m.e
-./m.e
-gcc mnt.c -o m.e
-./m.e
-gcc mnt.c -o m.e
-./m.e
-gcc mnt.c -o m.e
-./m.e
-./s.e
-gcc loop.c -o l.e
-./l.e
-gcc loop.c -o l.e
-./l.e
-vi loopOpt.txt 
-vi loopInterm.txt 
-cd ..
-cd Compiler
-gcc foll.c -o f.e
-./f.e
-wget
-wget --help
-wget www.google.com -o w.txt
-./f.e
-gcc foll.c -o f.e
-cd ..
-cd Compiler/
-gcc foll.c -o f.e
-vi foll.c
-cd ..
-cd Compiler/
-gcc foll.c -o f.e
-./f.e
-wget --help
-wget www.google.com -O w1.txt
-vi w1.txt 
-wget www.google.com -O w1.txt -b
-gcc shiftrp.c -o s.e
-./s.e
-gcc shiftrp.c -o s.e
-./s.e
-cd ../Compiler/
-gcc shiftrp.c -o s.e
-gcc shiftrp.c -o s.e
-./s.e
+Ahmed@Yin /cygdrive
+$ cd  h/Softwares/hadoop-2.7.1.tar/hadoop-2.7.1/share/hadoop
+
+Ahmed@Yin /cygdrive/h/Softwares/hadoop-2.7.1.tar/hadoop-2.7.1/share/hadoop
+$ grep -ir "
+grep -ir "org.apache.hadoop.conf" .
+grep -ir "org.apache.hadoop.conf" . | more
+cd ../../../h
+cd Stage1_Subset/
+cd Stage1_Articles/
+grep -i "REDIRECT" .
+grep -ir REDIRECT .
+grep -ir "REDIRECT" .
+grep -ir "REDIRECT" . | more
+vi 11441973
+ls | more
 exit
-gcc palinness.c -o p.e
-gcc palinness.c -o p.e
-./p.e
-./p.e
-gcc palinness.c -o p.e
-./p.e
-gcc palinness.c -o p.e
-./p.e
-gcc palinness.c -o p.e
-./p.e
-gcc letcode.c -o p.e
-gcc letcode.c -o p.e
-gcc letcode.c -o p.e
-./p.e
-./p.e
-./p.e
-./p.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-./s.e
-./s.e
-./s.e
-./s.e
-gcc letcode.c -o s.e
-gcc letcode.c -o s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-./s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-./s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-./s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-gcc letcode.c -o s.e
-./s.e
-gcc letcode.c -o s.e
-./s.e
-cd ..
-git status
-git add -A
-git
-git init
-git status
-it -c gc.reflogExpire=0 -c gc.reflogExpireUnreachable=0 -c gc.rerereresolved=0     -c gc.rerereunresolved=0 -c gc.pruneExpire=now gc "$@"
-git -c gc.reflogExpire=0 -c gc.reflogExpireUnreachable=0 -c gc.rerereresolved=0     -c gc.rerereunresolved=0 -c gc.pruneExpire=now gc "$@"
-git remote rm origin
-rm -rf .git/refs/original/ .git/refs/remotes/ .git/*_HEAD .git/logs/
-git for-each-ref --format="%(refname)" refs/original/ | xargs -n1 --no-run-if-empty git update-ref -d
-#git for-each-ref --format="%(refname)" refs/original/ | xargs -n1 --no-run-if-empty git update-ref -d
-#git for-each-ref --format="%(refname)" refs/original/ | xargs -n1 --no-run-if-empty git update-ref -d
-git for-each-ref --format="%(refname)" refs/original/ | xargs -n1 --no-run-if-empty git update-ref -d
-git -c gc.reflogExpire=0 -c gc.reflogExpireUnreachable=0 -c gc.rerereresolved=0     -c gc.rerereunresolved=0 -c gc.pruneExpire=now gc "$@"
-git gc --prune=now
-git reflog expire --expire-unreachable=now --all
-git gc --prune=now
-cd ..
-git add -A
-$?
-git commit -m "YO"
-pyhotn -V
-python -V
-uname -a
+cd ../../../h/NBProject/identifying-relations-for-erq/Splitter/
+ls
+cd ../../../../../
+cd cygdrive/h/Stage1_Subset/
+ls
+man cp
+cp -rv Stage1_Articles/ ../NBProject/identifying-relations-for-erq/Splitter/Stag
+cd ../../../h/Stage1_Subset/Partaa/Index
+grep -r "SS" .
 exit
-python3
-python get-pip.py 
-python3 get-pip.py 
-pip3 install hovercraft
-$?
-echo $?
-apt-cyg install gcc-g++
-lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+cd ../../../h
+head -n20 Stage1_Articles-list.txt 
+ls -1 | wc -1
+ls -1 | wc -l
+ls
+ls -1 | wc -l
+cd ../../../h/DBpedia\ DataSet/Stage1_Articles/
+ls -1 | wc -l
+ls -1 | wc -l
+ls -1 | wc -1
+wc --help
+ls -1 | wc -l
+ls -l | wc -l
+ls -l
+cd Stage1_Articles/
+ls
+ls -l | wc -l
+cd ../../../h/DBpedia\ DataSet/Stage1_Articles/Stage1_Articles/
+ls
+ls | more
+cd ../../../h/DBpedia\ DataSet/Stage1_Articles/
+cd content/
+head -n20 0
+head -n1 0
+head -n1 0 | more
+cd ../infobox/
+head -n1 0 | more
+head -n4 0 | more
+exit
+cd ../../../h/DBpedia\ DataSet/Stage1_Articles/content/
+tail -n1 0
+tail -n1 6609
+tail -n1 257257
+tail -n1 285543
+ls
+man ls
+ls -ls
+ls -l
+ls -s
+ls -1s
+ls -1s | awk '$1>1199489'
+ls -1s | awk '$0>1199489'
+ls -1s | awk '$0<0'
+ls -1s | awk '$2<81920'
+man awk
+cd ..
+ls -1s
+ls -1s | awk '$2<81920'
+ls -1s | awk '$1<81920'
+cd content/
+ls -1s | grep 1047289
+ls -1s | awk '$1<99'
+ls -1s | awk '$1<99' | tail -n1 | more
+ls -1s | awk '$1<99'
+ls -1s | awk '$1<99' | tail -n1 $2
+ls -1s | awk '$1<99'
+man ls
+ls -1s | awk '$1<99'
+ls -1s | as=$(awk '$1<99') | tail -
+ls -1s | awk '$1<99'
+ls -1s | as=$(awk '$1<99') | echo $as
+aa=$(ls -1s | awk '$1<99')
+aa
+$aa
+
+awk $aa>99
+awk $aa%2>99
+ls -1s | awk '$1<99'
+tail -n1 1047289
+tail -n1 1139486
+tail -n1 1158025
+tail -n1 1180341
+tail -n1 358761
+tail -n1 513736
+cd ../../../h
+cd "DBpedia DataSet/Stage1_Articles/0 to 14L/content_1"
+head -n2 0 | more
+cd ../../../h/DBpedia\ DataSet/Stage1_Articles/14Lto/content/
+cd content_11
+tail -n1 6888340 
+cd ../../../Stage1_Articles/
+ls -1
+cd ../../../../
+cd h
+vi Stage1_Articles-list.txt 
+exit
+cd ../../../g
+ls
+cd ../h/DBpedia\ DataSet/Stage1_Articles/
+ls
+cd content_4
+ls
+
+ls | tail -n1
+cd ../Stage1_Articles/
+ls | tail -n1
+a
+cd ../../../h/DBpedia\ DataSet/
+cd long-abstracts_en.ttl/
+ls
+head -n1 long-abstracts_en.ttl 
+head -n2 long-abstracts_en.ttl 
+head -n5 long-abstracts_en.ttl 
+cd ../mappingbased-properties_en\[INFOBOX\].ttl/
+ls
+head -n5 mappingbased-properties_en\[INFOBOX\].ttl 
+tail -n5 mappingbased-properties_en\[INFOBOX\].ttl
+count ls
+ls  | i++
+$i=0
+i=0
+ls  | $i++
+ls  | $i=$i+1
+ls  | ($i=($i+1))
+$i+1
+echo $i+1
+echo ($i+1)
+echo ($i)+1
+echo $($i+1)
+tail -n5 mappingbased-properties_en\[INFOBOX\].ttl
+exit
+cd ../../../h/DBpedia\ DataSet/
+ls
+cd mappingbased-properties_en\[INFOBOX\].ttl/
+head -n3 mappingbased-properties_en\[INFOBOX\].ttl 
+cd ../
+exit
+cd ../../../h/DBpedia\ DataSet/mappingbased-properties_en\[INFOBOX\].ttl/
+head -n5 mappingbased-properties_en\[INFOBOX\].ttl 
+exit
+cd ../../../h/DBpedia\ DataSet/dbpedia-neo4j-master/
+./sbt assembly
+ping www.google.com
+ping www.mangastream.com
+ping www.mangastream.com
 lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
 install apt-cyg /bin
-apt-cyg install gcc-g++
-apt-cyg install libxml2-dev
-gem
-pip install lxml
-pip3 install lxml
-pip3 install lxmlip install --global-option build_ext --global-option --compiler=mingw32 hovercraft
-gcc coins.c -o c.e
-gcc coins.c -o c.e
-./c.e
-gcc devjerry.c -o d.e
-gcc devjerry.c -o d.e
-gcc devjerry.c -o d.e
-./d.e
-gcc devjerry.c -o d.e
-./d.e
-gcc devjerry.c -o d.e
-./d.e
-gcc devjerry.c -o d.e
-./d.e
-gcc devjerry.c -o d.e
-./d.e
-./d.e
-gcc devjerry.c -o d.e
-./d.e
-gcc devjerry.c -o d.e
-./d.e
-./d.e
-./d.e
-gcc devjerry.c -o d.e
-./d.e
-gcc devjerry.c -o d.e -02
-gcc -o2 devjerry.c -o d.e
-gcc -O2 devjerry.c -o d.e
-man gcc
-gcc -O2 timer.c -o t.e
-./t.e
-gcc MST1.c -o m.e
-gcc MST1.c -o m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-3
-./m.e
-3
-gcc MST1.c -o m.e
-gcc MST1.c -o m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-./m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-gcc --V
-gcc -V
-gcc -v
-gcc MST1.c -o m.e
-./m.e
-gcc MST1.c -o m.e
-./m.e
-3
-gcc MST1.c -o m.e
-3
-./m.e
-gcc -O2 MST1.c -o m.e
-./m.e
-2
-2
-./m.e
-gcc coins.c -o c.e
-./c.e
-gcc coins.c -o c.e
-gcc coins.c -o c.e
-./c.e
-gcc coins.c -o c.e
-./c.e
-./c.e
-./c.e
-gcc noerr.c -o n.e
-gcc noerr.c -o n.e
-exit
-cat <
-cat /
-cat /
-cat 
-echo $?
-exit
-gcc issue.c -o f.e
-gcc issue.c -o f.e
-./f.e
-cd MockVita
-gcc brackets.c -o b.e
-./b.e
-gcc brackets.c -o b.e
-./b.e
-./b.e
-gcc brackets.c -o b.e
-./b.e
-gcc brackets.c -o b.e
-gcc brackets.c -o b.e
-./b.e
-gcc brackets.c -o b.e
-./b.e
-./b.e
-gcc brackets.c -o b.e
-./b.e
-gcc brackets.c -o b.e
-./b.e
-gcc brackets.c -o b.e
-./b.e
-gcc brackets.c -o b.e
-./b.e
-gcc brackets.c -o b.e
-./b.e
-gcc brackets.c -o b.e
-./b.e
-cd MockVIta/
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-./c.e
-gcc comm.c -o c.e
-./c.e
-gcc comm.c -o c.e
-./c.e
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-gcc comm.c -o c.e
-./c.e
-
-./c.e
-cd Algorithms/
-gcc sumofsubset.c -o s.e
-./s.e
-wget  --random-wait  -r  -p  -e  robots=off  -U  mozilla  www.pornhub.com
-cmake
-maven
-python
-pwd
-cd ..
-mkdir Data\ Analysis
-cd Data\ Analysis/
-python
-exit
-cd ..
-pwd
-cd Data\ Analysis/
-python
+apt-cyg install curl
+bash
+bash -version
 uname -a
-python
-pip
-pip install pandas
-python
+apt-cyg install curl
+bash -version
 exit
-cd
+bash -version
+exit
+bash -version
+exit
+man strcpy
 pwd
-cd ../../../D:
-cd ../../../
-cd d
-cd patty-dataset-freebase.tar/patty-dataset-freebase/
-grep -ir "" wikipedia-instances.txt | more
-grep -ir "3410" wikipedia-instances.txt | more
-grep -ir "3410" wikipedia-instances.txt | more
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+gcc date.c -o a.e
+gcc date.c -o a.e
+./a.e
+gcc bubbs.c -o a.e
+./a.e
+vi ints-outs
+./a.e
+gcc bubbs.c -o a.e
+./a.e
+vi ints-outs
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+./a.e
+gcc date.c -o a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc date.c -o a.e
+./a.e
+gcc dateU.c -o a.e
+ps -xal
+man ps
+ps
+ps --help
+send
+recv
 exit
-cd ../../d/
-cd ../../../d/
-ls
-cd ../g/
-ls
-cd data2
-ls
-cd WikiDataNew/Wiki2011/
-ls
-ls
-ls
-ls --color scheme
-rxvt.exe -title Shell -e 'c:\cygwin\bin\bash.exe' --login -i
-ls --color=auto
-ls
-ls --color
-ls
-ls -color
-info ls
-info ls
-nano ~/.bashrc
-vi ~/.bashrc
-vi ~/.bashrc
-vi ~/.bashrc
-vi ~/.bashrc
-vi ~/.bashrc
-vi ~/.bashrc
-ls
+gcc pipi.c -o p.e
+gcc pipi.c -o p.e
+gcc pipi.c -o p.e
+gcc pipi.c -o p.e
+./p.e
+gcc pipi.c -o p.e
+./p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+./p.e
+./p.e
+./p.e
+./p.e
+./p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e
+gcc pip3.c -o p.e -lm
+gcc pip3.c -o p.e -lr
+gcc pip3.c -o p.e -lr
 exit
+gcc -g debug.c
+gdb a.out
 ls
-cd ../../../../g
-cd ../../../g
-cd data2/WikiDataNew/Wiki2011/
 ls
-ls --color
-ls -color
-source ~/.bashrc
-ls
-ls -color=always
-ls --color=always
-vim ~/.bashrc
-vi ~/.bashrc
-ls
-source ~/.bashrc
-vi ~/.bashrc
-source ~/.bashrc
-
-vi ~/.bashrc
-source ~/.bashrc
-ls
-cd WikiDiskDump/
-ls
-cd wiki/
-ls
-cd edgeP
-vi edgeP
-grep -ir "" edgeP
-grep -ir " " edgeP
-grep -ir " " edge
-grep -ir " " 
-cd ../../..
-cd Wiki2011/
-ls
-vi wiki_linksUnResolved_tokenPositions.txt 
-grep -ir "" FullLuceneIndex_WithSnowballAnalyzer/wiki/_p.prx | more
-
-grep -ir "" infoboxEndOffsets | more
-less infoboxEndOffsets 
-vi infoboxEndOffsets  | more
-less infoboxEndOffsets clear
-cd /cygdrive/g/data2/WikiDataNew/Wiki2011/WikiDiskDump/yago/
-less /cygdrive/g/data2/WikiDataNew/Wiki2011/WikiDiskDump/yago/adjCategory 
-less /cygdrive/g/data2/WikiDataNew/Wiki2011/WikiDiskDump/yago/adjCategory 
-cd ../..
-less wiki_linksResolved_tokenPositions_sorted.txt 
-zcat
-info zcat
-cd ../../../d/
-ls
-cd ../h
-ls
-zcat Stage1_Articles.tgz | tar -xO | head -n10000
-$?
-echo $?
-zcat Stage1_Articles.tgz | tar -xO | head -n10000;2C
-zcat Stage1_Articles.tgz | tar -xO
-zcat Stage1_Articles.tgz 
-zcat Stage1_Articles.tgz 
-;2C
-file Stage1_Articles.tgz
-tar -xO Stage1_Articles.tgz
-tar -xO Stage1_Articles.tgz | head -n10000
-tar -xO Stage1_Articles.tgz | head -n10
-tar -xO Stage1_Articles.tgz | head -n10
-tar -xvfO Stage1_Articles.tgz | head -n10
-tar -xvf Stage1_Articles.tgz | head -n10
+gcc -g debug.c d.e
+gcc -g debug.c -o d.e
+gdb d.e
+gdb d.e
+gcc queue.c -o q.e
+gcc queue.c -o q.e
+gcc queue.c -o q.e
+gcc queue.c -o q.e
+gcc queue.c -o q.e
+gcc queue.c -o q.e
+gcc queue.c -o q.e
+./q.e
+./q.e
+gcc queue.c -o q.e
+./q.e
+gcc queue.c -o q.e
+./q.e
+gcc queue.c -o q.e
+./q.e
+gcc STACK.c -o s.e
+gcc STACK.c -o s.e
+./s.e
+man make
+ftp
+ftp 172.31.128.67
+mosix
+cd ..
+gcc mergeLL.c -o m.e
+gcc mergeLL.c -o m.e
+gcc mergeLL.c -o m.e
+gcc mergeLL.c -o m.e
+gcc mergeLL.c -o m.e
+gcc mergeLL.c -o m.e
+./m.e
+gcc -g mergeLL.c -o m.e
+gdb m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gdb m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gdb m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gdb m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gdb m.e
+./m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gdb m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gdb m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+./m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+gcc -g mergeLL.c -o m.e
+./m.e
+fto
+ftp
+ftp 172.31.128.67
+ftp 172.31.128.67
+ftp 172.31.128.67
+pwd
+mkdir cygwin
+cd cygwin/
+wget -m http://ftp.iitm.ac.in/cygwin/x86_64/
+export http_proxy=http://edcguest:edcguest@172.31.102.14:3128/
+wget -m http://ftp.iitm.ac.in/cygwin/x86_64/
+c
+d

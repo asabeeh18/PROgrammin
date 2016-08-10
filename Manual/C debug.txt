@@ -1,0 +1,14 @@
+gcc -g file.c -o output.file
+gdb output.file
+/*Command will start
+Add breakpoint with
+break number
+*/
+break 10
+run
+/* the code stops at breakpoint*/
+p var
+
+n //next(ignores insiside func content)
+c //continue
+s //step does not ignore func

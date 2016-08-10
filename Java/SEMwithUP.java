@@ -1,3 +1,4 @@
+//Definitely not my code.... probably using eval func to evaluate mathe* exp courtesy of Jigar -_-
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptEngine;
 import java.util.*;

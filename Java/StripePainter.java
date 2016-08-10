@@ -1,3 +1,4 @@
+//i dont think this is my code :/
 import java.util.Arrays;
 class StripePainter
 {

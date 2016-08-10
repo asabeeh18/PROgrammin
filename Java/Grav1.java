@@ -7,7 +7,7 @@ class Grav
 	}
 	public static void main(String ar[]) throws Exception
 	{
-		final int inf=100000009;
+		final int inf=Integer.MAX_VALUE;
 		java.io.BufferedReader r=new java.io.BufferedReader(new java.io.InputStreamReader(System.in));
 		int t=Integer.parseInt(r.readLine());
 		//r.nextLine();

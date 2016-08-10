@@ -1,0 +1,40 @@
+
+--2016-08-08 23:48:26--  (try: 2)  http://ftp.iitm.ac.in/cygwin/x86_64/release/aspell-he/
+Connecting to 172.31.102.14:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 1760 (1.7K) [text/html]
+Saving to: ‘ftp.iitm.ac.in/cygwin/x86_64/release/aspell-he/index.html’
+
+
+
+Last-modified header missing -- time-stamps turned off.
+2016-08-08 23:48:47 (3.14 MB/s) - ‘ftp.iitm.ac.in/cygwin/x86_64/release/aspell-he/index.html’ saved [1760/1760]
+
+converted 'http://ftp.iitm.ac.in/cygwin/x86_64/release/aspell-hi/' (ISO-8859-1) -> 'http://ftp.iitm.ac.in/cygwin/x86_64/release/aspell-hi/' (UTF-8)
+--2016-08-08 23:48:47--  http://ftp.iitm.ac.in/cygwin/x86_64/release/aspell-hi/
+Connecting to 172.31.102.14:3128... failed: Connection timed out.
+Retrying.
+
+--2016-08-08 23:49:09--  (try: 2)  http://ftp.iitm.ac.in/cygwin/x86_64/release/aspell-hi/
+Connecting to 172.31.102.14:3128... failed: Connection timed out.
+Retrying.
+
+--2016-08-08 23:49:32--  (try: 3)  http://ftp.iitm.ac.in/cygwin/x86_64/release/aspell-hi/
+Connecting to 172.31.102.14:3128... connected.
+Proxy request sent, awaiting response... 200 ‘wget-log’
+Length: 1764 (1.7K) [text/html]
+Saving to: ‘ftp.iitm.ac.in/cygwin/x86_64/release/aspell-hi/index.html’
+
+     0K .                                                     100% 9.72M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2016-08-08 23:49:40 (9.72 MB/s) - ‘ftp.iitm.ac.in/cygwin/x86_64/release/aspell-hi/index.html’ saved [1764/1764]
+
+converted 'http://ftp.iitm.ac.in/cygwin/x86_64/release/aspell-it/' (ISO-8859-1) -> 'http://ftp.iitm.ac.in/cygwin/x86_64/release/aspell-it/' (UTF-8)
+--2016-08-08 23:49:40--  http://ftp.iitm.ac.in/cygwin/x86_64/release/aspell-it/
+Connecting to 172.31.102.14:3128... connected.
+Proxy request sent, awaiting response... 200 OK
+Length: 1796 (1.8K) [text/html]
+Saving to: ‘ftp.iitm.ac.in/cygwin/x86_64/release/aspell-it/index.html’
+
+     0K .

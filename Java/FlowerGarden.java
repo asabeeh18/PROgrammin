@@ -48,7 +48,7 @@ public class FlowerGarden
 		int[] a={1,2,3,4,5,6},b={1,3,1,3,1,3},c={2,4,2,4,2,4};
 		System.out.println(getOrdering(a,b,c));
 	}
-        public static int[] rot(int a[],int i,int j)
+    public static int[] rot(int a[],int i,int j)
 	{
 		int x=a[j];
 		//int temp=a[i];

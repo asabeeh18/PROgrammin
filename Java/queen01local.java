@@ -1,3 +1,4 @@
+//10/20/2015: Compiler errors in code
 //Queen Problem
 import java.util.*;
 class Queen

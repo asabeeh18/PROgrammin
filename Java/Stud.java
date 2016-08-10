@@ -48,4 +48,4 @@ class A3Q5
 		Student.sort(s);	
 		Student.display(s);
 	}
-}	
+}

@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=6112BF26
+eax=00000000 ebx=00000022 ecx=20000038 edx=00000000 esi=0061AC20 edi=FFFFFFFF
+ebp=0061D544 esp=0061A6F0 program=F:\PROgrammin\C\a.e, pid 9160, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0061D544  6112BF26 (61188D40, 61188DB0, 00000000, 00000000)

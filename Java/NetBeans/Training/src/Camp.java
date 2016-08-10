@@ -8,7 +8,13 @@ class Camp
         static int status=0;
 	public static void main(String ar[])
 	{
-		Scanner r=new Scanner(System.in);
+        //int x=Integer.parseInt("123.43");
+        Stack<Stack<Stack>> s=new Stack<>();
+        s.add(s);
+        
+//this becomes a mess?
+        System.out.println(s.peek().peek().size()+"");
+        Scanner r=new Scanner(System.in);
 		int h=r.nextInt();
 		int w=r.nextInt();
 		r.nextLine();

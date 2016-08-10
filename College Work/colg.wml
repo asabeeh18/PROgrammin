@@ -1,0 +1,25 @@
+
+<!DOCTYPE wml>
+<wml>
+	<card title="ENGINEERING COLLEGE">
+		<p align="center"><big>VIDYALANKAR INSTITUTE OF TECHNOLOGY</big></p>
+	</card>
+	<card>
+		<ul>
+			<p><li>Computer Science</li>
+				<p><img src="av.png"></img></p>
+			</p>
+			<p><li>Information TECHNOLOGY</li></p>
+			<p><img src="av.png"></img></p>
+			<p><li>Electronics and Telecommunications</li></p>
+			<p><img src="av.png"></img></p>
+			<p><li>Mechanical</li></p>
+			<p><img src="av.png"></img></p>
+		</ul>
+		
+	</card>
+	<card>
+		<p>Contact Us: 9876534</p>
+		<p align="right">Made by -Heien Reigns </p>
+	</card>
+</wml>

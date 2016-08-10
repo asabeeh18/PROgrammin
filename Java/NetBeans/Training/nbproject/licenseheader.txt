@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Source:
+${licensePrefix}Status/Result: ${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>
