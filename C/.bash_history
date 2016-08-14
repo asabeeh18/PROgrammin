@@ -1,6 +1,3 @@
-echo $(4+2)
-echo $((3*(4+2)))
-echo $((11/2))
 echo $((11/2.0))
 echo $((11.0/2))
 exit
@@ -498,3 +495,6 @@ export http_proxy=http://edcguest:edcguest@172.31.102.14:3128/
 wget -m http://ftp.iitm.ac.in/cygwin/x86_64/
 c
 d
+which cat
+man which
+man sort
