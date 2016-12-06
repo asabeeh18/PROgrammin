@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1475494246 source:f:\programmin\c\tutorial\bplus.c
+	<stdio.h>
+	<malloc.h>
+
+1446667744 source:f:\programmin\c\tutorial\main.c
+	<stdio.h>
+	<stdlib.h>
+

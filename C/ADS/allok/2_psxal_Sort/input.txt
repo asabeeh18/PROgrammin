@@ -1,0 +1,241 @@
+4     0     1     0  20   0   2900  1420 ?      Ss   ?          0:01 /sbin/init
+1     0     2     0  20   0      0     0 ?      S    ?          0:00 [kthreadd]
+1     0     3     2 -100  -      0     0 ?      S    ?          0:00 [migration/0]
+1     0     4     2  20   0      0     0 ?      S    ?          0:01 [ksoftirqd/0]
+1     0     5     2 -100  -      0     0 ?      S    ?          0:00 [migration/0]
+5     0     6     2 -100  -      0     0 ?      S    ?          0:00 [watchdog/0]
+1     0     7     2 -100  -      0     0 ?      S    ?          0:01 [migration/1]
+1     0     8     2 -100  -      0     0 ?      S    ?          0:00 [migration/1]
+1     0     9     2  20   0      0     0 ?      S    ?          0:00 [ksoftirqd/1]
+5     0    10     2 -100  -      0     0 ?      S    ?          0:00 [watchdog/1]
+1     0    11     2 -100  -      0     0 ?      S    ?          0:00 [migration/2]
+1     0    12     2 -100  -      0     0 ?      S    ?          0:00 [migration/2]
+1     0    13     2  20   0      0     0 ?      S    ?          0:00 [ksoftirqd/2]
+5     0    14     2 -100  -      0     0 ?      S    ?          0:00 [watchdog/2]
+1     0    15     2 -100  -      0     0 ?      S    ?          0:00 [migration/3]
+1     0    16     2 -100  -      0     0 ?      S    ?          0:00 [migration/3]
+1     0    17     2  20   0      0     0 ?      S    ?          0:00 [ksoftirqd/3]
+5     0    18     2 -100  -      0     0 ?      S    ?          0:00 [watchdog/3]
+1     0    19     2  20   0      0     0 ?      S    ?          0:00 [events/0]
+1     0    20     2  20   0      0     0 ?      S    ?          0:02 [events/1]
+1     0    21     2  20   0      0     0 ?      S    ?          0:00 [events/2]
+1     0    22     2  20   0      0     0 ?      S    ?          0:00 [events/3]
+1     0    23     2  20   0      0     0 ?      S    ?          0:00 [cgroup]
+1     0    24     2  20   0      0     0 ?      S    ?          0:00 [khelper]
+1     0    25     2  20   0      0     0 ?      S    ?          0:00 [netns]
+1     0    26     2  20   0      0     0 ?      S    ?          0:00 [async/mgr]
+1     0    27     2  20   0      0     0 ?      S    ?          0:00 [pm]
+1     0    28     2  20   0      0     0 ?      S    ?          0:00 [sync_supers]
+1     0    29     2  20   0      0     0 ?      S    ?          0:00 [bdi-default]
+1     0    30     2  20   0      0     0 ?      S    ?          0:00 [kintegrityd/0]
+1     0    31     2  20   0      0     0 ?      S    ?          0:00 [kintegrityd/1]
+1     0    32     2  20   0      0     0 ?      S    ?          0:00 [kintegrityd/2]
+1     0    33     2  20   0      0     0 ?      S    ?          0:00 [kintegrityd/3]
+1     0    34     2  20   0      0     0 ?      S    ?          0:00 [kblockd/0]
+1     0    35     2  20   0      0     0 ?      S    ?          0:00 [kblockd/1]
+1     0    36     2  20   0      0     0 ?      S    ?          0:00 [kblockd/2]
+1     0    37     2  20   0      0     0 ?      S    ?          0:00 [kblockd/3]
+1     0    38     2  20   0      0     0 ?      S    ?          0:00 [kacpid]
+1     0    39     2  20   0      0     0 ?      S    ?          0:00 [kacpi_notify]
+1     0    40     2  20   0      0     0 ?      S    ?          0:00 [kacpi_hotplug]
+1     0    41     2  20   0      0     0 ?      S    ?          0:00 [ata_aux]
+1     0    42     2  20   0      0     0 ?      S    ?          0:01 [ata_sff/0]
+1     0    43     2  20   0      0     0 ?      S    ?          0:00 [ata_sff/1]
+1     0    44     2  20   0      0     0 ?      S    ?          0:00 [ata_sff/2]
+1     0    45     2  20   0      0     0 ?      S    ?          0:00 [ata_sff/3]
+1     0    46     2  20   0      0     0 ?      S    ?          0:00 [ksuspend_usbd]
+5     0    47     2  20   0      0     0 ?      S    ?          0:00 [khubd]
+1     0    48     2  20   0      0     0 ?      S    ?          0:00 [kseriod]
+1     0    49     2  20   0      0     0 ?      S    ?          0:00 [md/0]
+1     0    50     2  20   0      0     0 ?      S    ?          0:00 [md/1]
+1     0    51     2  20   0      0     0 ?      S    ?          0:00 [md/2]
+1     0    52     2  20   0      0     0 ?      S    ?          0:00 [md/3]
+1     0    53     2  20   0      0     0 ?      S    ?          0:00 [md_misc/0]
+1     0    54     2  20   0      0     0 ?      S    ?          0:00 [md_misc/1]
+1     0    55     2  20   0      0     0 ?      S    ?          0:00 [md_misc/2]
+1     0    56     2  20   0      0     0 ?      S    ?          0:00 [md_misc/3]
+1     0    57     2  20   0      0     0 ?      S    ?          0:00 [linkwatch]
+1     0    58     2  20   0      0     0 ?      S    ?          0:00 [khungtaskd]
+1     0    59     2  20   0      0     0 ?      S    ?          0:00 [kswapd0]
+1     0    60     2  25   5      0     0 ?      SN   ?          0:00 [ksmd]
+1     0    61     2  20   0      0     0 ?      S    ?          0:00 [aio/0]
+1     0    62     2  20   0      0     0 ?      S    ?          0:00 [aio/1]
+1     0    63     2  20   0      0     0 ?      S    ?          0:00 [aio/2]
+1     0    64     2  20   0      0     0 ?      S    ?          0:00 [aio/3]
+1     0    65     2  20   0      0     0 ?      S    ?          0:00 [crypto/0]
+1     0    66     2  20   0      0     0 ?      S    ?          0:00 [crypto/1]
+1     0    67     2  20   0      0     0 ?      S    ?          0:00 [crypto/2]
+1     0    68     2  20   0      0     0 ?      S    ?          0:00 [crypto/3]
+1     0    73     2  20   0      0     0 ?      S    ?          0:00 [kthrotld/0]
+1     0    74     2  20   0      0     0 ?      S    ?          0:00 [kthrotld/1]
+1     0    75     2  20   0      0     0 ?      S    ?          0:00 [kthrotld/2]
+1     0    76     2  20   0      0     0 ?      S    ?          0:00 [kthrotld/3]
+1     0    78     2  20   0      0     0 ?      S    ?          0:00 [kpsmoused]
+1     0    79     2  20   0      0     0 ?      S    ?          0:00 [usbhid_resumer]
+1     0   110     2  20   0      0     0 ?      S    ?          0:00 [kstriped]
+1     0   138     2  20   0      0     0 ?      S    ?          0:00 [ttm_swap]
+1     0   139     2  15  -5      0     0 ?      S<   ?          0:00 [kslowd000]
+1     0   140     2  15  -5      0     0 ?      S<   ?          0:00 [kslowd001]
+1     0   213     2  20   0      0     0 ?      S    ?          0:00 [scsi_eh_0]
+1     0   214     2  20   0      0     0 ?      S    ?          0:00 [scsi_eh_1]
+1     0   288     2  20   0      0     0 ?      S    ?          0:05 [scsi_eh_2]
+1     0   289     2  20   0      0     0 ?      S    ?          0:00 [scsi_eh_3]
+1     0   290     2  20   0      0     0 ?      S    ?          0:00 [scsi_eh_4]
+1     0   291     2  20   0      0     0 ?      S    ?          0:00 [scsi_eh_5]
+1     0   388     2  20   0      0     0 ?      S    ?          0:00 [kdmflush]
+1     0   390     2  20   0      0     0 ?      S    ?          0:00 [kdmflush]
+1     0   407     2  20   0      0     0 ?      S    ?          0:00 [jbd2/dm-0-8]
+1     0   408     2  20   0      0     0 ?      S    ?          0:00 [ext4-dio-unwrit]
+1     0   441     2  20   0      0     0 ?      S    ?          0:00 [flush-253:0]
+5     0   507     1  16  -4   3020  1316 ?      S<s  ?          0:00 /sbin/udevd -d
+1     0   556     2  20   0      0     0 ?      S    ?          0:00 [hd-audio0]
+1     0   559     2  20   0      0     0 ?      S    ?          0:00 [hd-audio1]
+1     0  1477     2  20   0      0     0 ?      S    ?          0:00 [kdmflush]
+1     0  1541     2  20   0      0     0 ?      S    ?          0:00 [jbd2/sda5-8]
+1     0  1542     2  20   0      0     0 ?      S    ?          0:00 [ext4-dio-unwrit]
+1     0  1543     2  20   0      0     0 ?      S    ?          0:00 [jbd2/dm-2-8]
+1     0  1544     2  20   0      0     0 ?      S    ?          0:00 [ext4-dio-unwrit]
+1     0  1637     2  20   0      0     0 ?      S    ?          0:00 [kauditd]
+5     0  1899     1  16  -4  12932   828 ?      S<sl ?          0:00 auditd
+4     0  1901  1899  12  -8  14352   832 ?      S<sl ?          0:00 /sbin/audispd
+4     0  1902  1901  16  -4   2796  1044 ?      S<   ?          0:00 /usr/sbin/sedispatch
+5     0  1919     1  20   0   2056   504 ?      Ss   ?          0:00 /sbin/portreserve
+5     0  1926     1  20   0  36996  1440 ?      Sl   ?          0:00 /sbin/rsyslogd -i /var/run/syslogd.pid -c 5
+1     0  1960     2  20   0      0     0 ?      S    ?          0:04 [kondemand/0]
+1     0  1961     2  20   0      0     0 ?      S    ?          0:10 [kondemand/1]
+1     0  1962     2  20   0      0     0 ?      S    ?          0:01 [kondemand/2]
+1     0  1963     2  20   0      0     0 ?      S    ?          0:01 [kondemand/3]
+5     0  1984     1  20   0   2268   592 ?      Ss   ?          0:00 irqbalance --pid=/var/run/irqbalance.pid
+5    32  2003     1  20   0   2576   804 ?      Ss   ?          0:00 rpcbind
+1     0  2017     1  20   0   4676  1116 ?      Ss   ?          0:00 /usr/sbin/cgdcbxd
+5     0  2129     1  20   0   2980   692 ?      Ss   ?          0:00 lldpad -d
+1     0  2140     2  20   0      0     0 ?      S    ?          0:00 [scsi_tgtd/0]
+1     0  2141     2  20   0      0     0 ?      S    ?          0:00 [scsi_tgtd/1]
+1     0  2142     2  20   0      0     0 ?      S    ?          0:00 [scsi_tgtd/2]
+1     0  2143     2  20   0      0     0 ?      S    ?          0:00 [scsi_tgtd/3]
+1     0  2145     2  20   0      0     0 ?      S    ?          0:00 [fc_exch_workque]
+1     0  2146     2  20   0      0     0 ?      S    ?          0:00 [fc_rport_eq]
+1     0  2149     2  20   0      0     0 ?      S    ?          0:00 [fcoe_work/0]
+1     0  2150     2  20   0      0     0 ?      S    ?          0:00 [fcoe_work/1]
+1     0  2151     2  20   0      0     0 ?      S    ?          0:00 [fcoe_work/2]
+1     0  2152     2  20   0      0     0 ?      S    ?          0:00 [fcoe_work/3]
+1     0  2153     2   0 -20      0     0 ?      S<   ?          0:00 [fcoethread/0]
+1     0  2154     2   0 -20      0     0 ?      S<   ?          0:00 [fcoethread/1]
+1     0  2155     2   0 -20      0     0 ?      S<   ?          0:00 [fcoethread/2]
+1     0  2156     2   0 -20      0     0 ?      S<   ?          0:00 [fcoethread/3]
+1     0  2157     2  20   0      0     0 ?      S    ?          0:00 [cnic_wq]
+1     0  2158     2  20   0      0     0 ?      S    ?          0:00 [bnx2fc]
+1     0  2159     2   0 -20      0     0 ?      S<   ?          0:00 [bnx2fc_l2_threa]
+1     0  2160     2   0 -20      0     0 ?      S<   ?          0:00 [bnx2fc_thread/0]
+1     0  2161     2   0 -20      0     0 ?      S<   ?          0:00 [bnx2fc_thread/1]
+1     0  2162     2   0 -20      0     0 ?      S<   ?          0:00 [bnx2fc_thread/2]
+1     0  2163     2   0 -20      0     0 ?      S<   ?          0:00 [bnx2fc_thread/3]
+5     0  2166     1  20   0   2200   380 ?      Ss   ?          0:00 /usr/sbin/fcoemon --syslog
+1     0  2179     2  20   0      0     0 ?      S    ?          0:00 [target_completi]
+1     0  2180     2  20   0      0     0 ?      S    ?          0:00 [target_completi]
+1     0  2181     2  20   0      0     0 ?      S    ?          0:00 [target_completi]
+1     0  2182     2  20   0      0     0 ?      S    ?          0:00 [target_completi]
+1     0  2183     2  20   0      0     0 ?      S    ?          0:00 [tmr/0]
+1     0  2184     2  20   0      0     0 ?      S    ?          0:00 [tmr/1]
+1     0  2185     2  20   0      0     0 ?      S    ?          0:00 [tmr/2]
+1     0  2186     2  20   0      0     0 ?      S    ?          0:00 [tmr/3]
+5    81  2210     1  20   0  13844  1812 ?      Ssl  ?          0:00 dbus-daemon --system
+5     0  2221     1  20   0  22112  4484 ?      Ss   ?          0:00 NetworkManager --pid-file=/var/run/NetworkManager/NetworkManager.pid
+4     0  2225     1  20   0   4864  2444 ?      S    ?          0:00 /usr/sbin/modem-manager
+5    29  2242     1  20   0   2840  1284 ?      Ss   ?          0:00 rpc.statd
+1     0  2244     1  20   0   7596   648 ?      Ss   ?          0:00 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -B -u -f /var/log/wpa_supplicant.log -P /var/run/wpa_supplicant.pid
+4     0  2270     1  20   0  11820  2900 ?      Ss   ?          0:00 cupsd -C /etc/cups/cupsd.conf
+1     0  2304     1  20   0   2020   612 ?      Ss   ?          0:00 /usr/sbin/acpid
+5    68  2313     1  20   0  17764  4880 ?      Ssl  ?          0:00 hald
+0     0  2314  2313  20   0   4052  1128 ?      S    ?          0:00 hald-runner
+0     0  2399  2314  20   0   4124  1164 ?      S    ?          0:02 hald-addon-input: Listening on /dev/input/event4 /dev/input/event3 /dev/input/event0 /dev/input/event1
+0     0  2400  2314  20   0   4124  1060 ?      S    ?          0:04 hald-addon-storage: polling /dev/sr0 (every 2 sec)
+4    68  2407  2314  20   0   3712  1060 ?      S    ?          0:00 hald-addon-acpi: listening on acpid socket /var/run/acpid.socket
+1     0  2438     1  20   0  36124  1852 ?      Ssl  ?          0:00 pcscd
+5     0  2454     1  20   0  32080  1596 ?      Ssl  ?          0:00 automount --pid-file /var/run/autofs.pid
+5     0  2490     1  20   0   8596  1024 ?      Ss   ?          0:00 /usr/sbin/sshd
+1     0  2499     1  20   0   2896   924 ?      Ss   ?          0:00 xinetd -stayalive -pidfile /var/run/xinetd.pid
+1   494  2509     1  20   0   4072   176 ?      Ss   ?          0:00 uuidd
+5     0  2571     1  20   0  13932  2192 ?      Ss   ?          0:00 /usr/sbin/abrtd
+5     0  2580     1  20   0   2260   428 ?      Ss   ?          0:00 /usr/sbin/gpm -m /dev/input/mice -t exps2
+1     0  2610     1  20   0   5636  1292 ?      Ss   ?          0:00 crond
+5     0  2621     1  20   0   2620   472 ?      Ss   ?          0:00 /usr/sbin/atd
+1     0  2645     1  20   0 136712  5452 ?      Sl   ?          0:00 libvirtd --daemon
+5     0  2728     1  20   0  23524  8828 ?      Ssl  ?          0:00 /usr/sbin/cimserver
+5    99  2780     1  20   0   2648   560 ?      S    ?          0:00 /usr/sbin/dnsmasq --strict-order --local=// --domain-needed --pid-file=/var/run/libvirt/network/default.pid --conf-file= --except-interface lo --bind-interfaces --listen-address 192.168.122.1 --dhcp-range 192.168.122.2,192.168.122.254 --dhcp-leasefile=/var/lib/libvirt/dnsmasq/default.leases --dhcp-lease-max=253 --dhcp-no-override --dhcp-hostsfile=/var/lib/libvirt/dnsmasq/default.hostsfile --addn-hosts=/var/lib/libvirt/dnsmasq/default.addnhosts
+1     0  2841     1  20   0   8428   576 ?      Ss   ?          0:00 /usr/sbin/certmonger -S -p /var/run/certmonger.pid
+1    51  2898     1  20   0  12216  1784 ?      Ss   ?          0:00 sendmail: Queue runner@01:00:00 for /var/spool/clientmqueue
+5     0  2900     1  20   0  12344  2176 ?      Ss   ?          0:00 sendmail: accepting connections
+5     0  2973     1  20   0  59872 18160 ?      Ss   ?          0:00 /opt/lampp/bin/httpd -k start -E /opt/lampp/logs/error_log -DSSL -DPHP
+4     0  2987     1  20   0  16616  2092 ?      Ssl  ?          0:00 /usr/sbin/gdm-binary -nodaemon
+4     0  2992     1  20   0   2008   464 ?      Ss+  tty2       0:00 /sbin/mingetty /dev/tty2
+4     0  2994     1  20   0   2008   468 ?      Ss+  tty3       0:00 /sbin/mingetty /dev/tty3
+4     0  2996     1  20   0   2008   468 ?      Ss+  tty4       0:00 /sbin/mingetty /dev/tty4
+4     0  2998     1  20   0   2008   464 ?      Ss+  tty5       0:00 /sbin/mingetty /dev/tty5
+4     0  3000     1  20   0   2008   472 ?      Ss+  tty6       0:00 /sbin/mingetty /dev/tty6
+5     0  3007   507  18  -2   4436  2024 ?      S<   ?          0:00 /sbin/udevd -d
+5     0  3008   507  18  -2   4436  2032 ?      S<   ?          0:00 /sbin/udevd -d
+4     0  3038  2987  20   0  20452  3556 ?      Sl   ?          0:00 /usr/libexec/gdm-simple-slave --display-id /org/gnome/DisplayManager/Display1
+4     0  3041  3038  20   0  44456 29024 ?      Ss+  tty1       3:25 /usr/bin/Xorg :0 -br -verbose -audit 4 -auth /var/run/gdm/auth-for-gdm-t9mPFR/database -nolisten tcp vt1
+5     2  3043  2973  20   0  57312 13636 ?      S    ?          0:00 /opt/lampp/bin/httpd -k start -E /opt/lampp/logs/error_log -DSSL -DPHP
+5     2  3044  2973  20   0  59872 15252 ?      S    ?          0:00 /opt/lampp/bin/httpd -k start -E /opt/lampp/logs/error_log -DSSL -DPHP
+5     2  3045  2973  20   0  59872 15240 ?      S    ?          0:00 /opt/lampp/bin/httpd -k start -E /opt/lampp/logs/error_log -DSSL -DPHP
+5     2  3046  2973  20   0  59872 15240 ?      S    ?          0:00 /opt/lampp/bin/httpd -k start -E /opt/lampp/logs/error_log -DSSL -DPHP
+5     2  3047  2973  20   0  59872 15240 ?      S    ?          0:00 /opt/lampp/bin/httpd -k start -E /opt/lampp/logs/error_log -DSSL -DPHP
+5     2  3048  2973  20   0  59872 15240 ?      S    ?          0:00 /opt/lampp/bin/httpd -k start -E /opt/lampp/logs/error_log -DSSL -DPHP
+4     0  3076     1  20   0  27848  2960 ?      Sl   ?          0:00 /usr/sbin/console-kit-daemon --no-daemon
+1    42  3146     1  20   0   3628   620 ?      S    ?          0:00 /usr/bin/dbus-launch --exit-with-session
+4     0  3160     1  20   0   6616  2536 ?      S    ?          0:00 /usr/libexec/devkit-power-daemon
+4     0  3203     1  20   0   7484  4004 ?      S    ?          0:00 /usr/libexec/polkit-1/polkitd
+4   499  3215     1  21   1  25104  1176 ?      SNl  ?          0:00 /usr/libexec/rtkit-daemon
+4     0  3222  3038  20   0  19108  3116 ?      Sl   ?          0:00 pam: gdm-password
+1   501  3232     1  20   0  50848  3468 -      Sl   ?          0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+4   501  3242  3222  20   0  30836  6640 -      Ssl  ?          0:00 gnome-session
+1   501  3250     1  20   0   3628   620 -      S    ?          0:00 dbus-launch --sh-syntax --exit-with-session
+1   501  3251     1  20   0  13772  1576 -      Ssl  ?          0:00 /bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+1   501  3319     1  20   0  23140  6864 -      Ss   ?          0:00 /usr/bin/seahorse-agent --variables
+0   501  3322     1  20   0   7860  2140 -      S    ?          0:00 /usr/libexec/gvfsd
+0   501  3331     1  20   0   9044  4496 -      S    ?          0:00 /usr/libexec/gconfd-2
+1   501  3370     1  20   0 126472 10252 -      Ssl  ?          0:03 /usr/libexec/gnome-settings-daemon
+1   501  3373     1  20   0  28068  8052 -      Ss   ?          0:00 seahorse-daemon
+0   501  3389  3242  20   0 103264 11560 -      Sl   ?          0:11 metacity
+0   501  3390  3242  20   0 170232 19236 -      Sl   ?          0:05 gnome-panel
+1   501  3394     1   9 -11 113536  4864 -      S<sl ?          0:00 /usr/bin/pulseaudio --start --log-target=syslog
+0   501  3398  3394  20   0  11676  2496 -      S    ?          0:00 /usr/libexec/pulse/gconf-helper
+0   501  3399  3242  20   0 202628 28984 -      Sl   ?          0:05 nautilus
+0   501  3401     1  20   0   8688  3120 -      S    ?          0:00 /usr/libexec/gvfs-gdu-volume-monitor
+4     0  3403     1  20   0  16896  2936 ?      Sl   ?          0:00 /usr/libexec/udisks-daemon
+1     0  3404  3403  20   0   6372   612 ?      S    ?          0:02 udisks-daemon: polling /dev/sr0
+0   501  3405  3242  20   0   6724  4056 -      S    ?          0:00 /usr/sbin/restorecond -u
+0   501  3414  3242  20   0  19712  5712 -      S    ?          0:00 /usr/libexec/polkit-gnome-authentication-agent-1
+0   501  3418     1  20   0   8764  2080 -      S    ?          0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+0   501  3422  3242  20   0  55352  7568 -      S    ?          0:00 bluetooth-applet
+0   501  3425     1  20   0  21868  1952 -      Sl   ?          0:00 /usr/libexec/gvfs-afc-volume-monitor
+0   501  3426  3242  20   0  20808  6800 -      S    ?          0:00 /usr/libexec/gdu-notification-daemon
+0   501  3429     1  20   0  16896  4160 -      S    ?          0:00 /usr/libexec/im-settings-daemon
+0   501  3430  3242  20   0  21928  7020 -      S    ?          0:00 /usr/bin/seapplet
+0   501  3431  3242  20   0 126948 10644 -      S    ?          0:00 gnome-volume-control-applet
+0   501  3433  3242  20   0  48404  9788 -      Sl   ?          0:00 /usr/libexec/evolution/2.32/evolution-alarm-notify
+1   501  3479     1  20   0  21284  2916 -      Sl   ?          0:03 ./escd --key_Inserted="/usr/bin/esc" --on_Signal="/usr/bin/esc"
+0   501  3480  3242  20   0  21160  6188 -      S    ?          0:00 /usr/libexec/vino-server
+0   501  3485     1  20   0  47020  3020 -      Ssl  ?          0:00 /usr/libexec/bonobo-activation-server --ac-activate --ior-output-fd=20
+0   501  3490     1  20   0 144396 13456 -      Sl   ?          0:10 /usr/libexec/wnck-applet --oaf-activate-iid=OAFIID:GNOME_Wncklet_Factory --oaf-ior-fd=18
+0   501  3533     1  20   0  38084 14144 -      S    ?          0:00 /usr/libexec/clock-applet --oaf-activate-iid=OAFIID:GNOME_ClockApplet_Factory --oaf-ior-fd=21
+0   501  3535  3242  20   0  27536  7200 -      S    ?          0:00 abrt-applet
+0   501  3618     1  20   0   6256  2236 -      S    ?          0:00 /usr/libexec/gconf-im-settings-daemon
+0   501  3619  3242  20   0  94800  9684 -      S    ?          0:00 nm-applet --sm-disable
+0   501  3621  3242  20   0  21044  6512 -      S    ?          0:00 gnome-power-manager
+0   501  3622  3242  20   0 144548 14540 -      Sl   ?          0:00 gpk-update-icon
+0   501  3623  3242  20   0  32380 14516 -      S    ?          0:00 python /usr/share/system-config-printer/applet.py
+1   501  3630     1  20   0  21004  2236 -      Ss   ?          0:00 gnome-screensaver
+0   501  3635     1  20   0  93252 10060 -      Sl   ?          0:00 /usr/libexec/e-calendar-factory
+0   501  3640     1  20   0   8352  2964 -      S    ?          0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+0   501  3659     1  20   0   7892  2120 -      S    ?          0:00 /usr/libexec/gvfsd-burn --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+0   501  3668     1  20   0   8248  2104 -      S    ?          0:00 /usr/libexec/gvfsd-metadata
+0   501  3735     1  20   0 185500 21536 -      Sl   ?          1:40 gedit
+0   501  3743     1  20   0 174068 16664 -      Sl   ?          0:26 gnome-terminal
+0   501  3745  3743  20   0   2076   616 ?      S    ?          0:00 gnome-pty-helper
+0   501  3746  3743  20   0   5400  1828 -      Ss   pts/0      0:00 bash
+0   501  3750  3746  20   0   4084   456 -      T    pts/0      0:00 cat
+1     0  5754     2  20   0      0     0 ?      S    ?          0:00 [flush-253:2]
+0   501  5908  3746  20   0   4884   948 -      R+   pts/0      0:00 ps xal

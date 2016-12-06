@@ -1,0 +1,17 @@
+mkdir RCS
+ci -u foo.sh
+ls -og
+# get to where you're going
+cd /path/to/workingdirectory
+
+# check out and lock your file
+co -l workfile
+
+# use editor of choice to work on file
+$EDITOR workfile
+
+# see what's changed in your latest version
+rcsdiff workfile
+
+# check in the new version of your file
+ci -u workfile

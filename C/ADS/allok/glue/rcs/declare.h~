@@ -1,0 +1,5 @@
+void bubble();
+void bucket();
+void heap();
+void insertion();
+void selection();

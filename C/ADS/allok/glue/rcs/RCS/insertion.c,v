@@ -1,0 +1,68 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2016.10.18.11.54.14;	author user;	state Exp;
+branches;
+next	;
+
+
+desc
+@Makefile Working
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/*
+Ahmed Sabeeh
+2016CS16
+*/
+/*
+INSERTION
+*/
+
+
+#include <stdio.h>
+ 
+int insertion()
+{
+  int n, array[1000], c, d, t;
+ 
+  printf("Enter number of elements\n");
+  scanf("%d", &n);
+ 
+  printf("Enter %d integers\n", n);
+ 
+  for (c = 0; c < n; c++) {
+    scanf("%d", &array[c]);
+  }
+ 
+  for (c = 1 ; c <= n - 1; c++) {
+    d = c;
+ 
+    while ( d > 0 && array[d] < array[d-1]) {
+      t          = array[d];
+      array[d]   = array[d-1];
+      array[d-1] = t;
+ 
+      d--;
+    }
+  }
+ 
+  printf("Sorted list in ascending order:\n");
+ 
+  for (c = 0; c <= n - 1; c++) {
+    printf("%d\n", array[c]);
+  }
+ 
+  return 0;
+}
+@

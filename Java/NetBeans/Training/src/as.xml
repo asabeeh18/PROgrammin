@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE youtube SYSTEM "y.dtd">
+<youtube>
+<channel>
+
+		<cid>1</cid>
+
+		<cname>shuntz</cname>
+
+		<category>educational</category>
+
+	</channel>
+<channel>
+		<cid>2</cid>
+		<cname>sony</cname>
+		<category>music</category>
+	</channel>
+<user>
+		<uid>2</uid>
+		<uname>Chiranjiv Ganatra</uname>
+		<dob>16-4-1995</dob>
+		<country>India</country>
+		<password>vit123</password>
+	</user>
+
+	<user>
+
+		<uid>1</uid>
+
+		<uname>Aditya Awalkar</uname>
+
+		<dob>10-2-1995</dob>
+
+		<country>India</country>
+
+		<password>vit123</password>
+
+	</user>
+</youtube>

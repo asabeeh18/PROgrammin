@@ -1,0 +1,11 @@
+<!ELEMENT youtube (channel+ , user+ )>
+<!ELEMENT  channel  (cid,cname,category)*>
+<!ELEMENT  user  (uid,uname,dob,country,password)*>
+<!ELEMENT  cid (#PCDATA)>
+<!ELEMENT  cname (#PCDATA)>
+<!ELEMENT  category (#PCDATA)>
+<!ELEMENT  uid (#PCDATA)>
+<!ELEMENT  uname (#PCDATA)>
+<!ELEMENT  dob (#PCDATA)>
+<!ELEMENT  country (#PCDATA)>
+<!ELEMENT  password (#PCDATA)>

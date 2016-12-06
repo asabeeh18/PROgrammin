@@ -1,215 +1,3 @@
-echo $((11/2.0))
-echo $((11.0/2))
-exit
-cd ../../..
-cd h
-cd patty-dataset-freebase.tar/patty-dataset-freebase/
-head -n100 wikipedia-instances.txt 
-grep -ir "630799" .
-cd ../Java
-grep -ir "Comparator"
-vi Kruskal.java
-wget www.google.com out.html
-wget www.google.com -o out.html
-wget www.google.com -O out.html
-dig
-cd ..
-cd Java
-ls
-grep -ir "ScriptEngine"
-cd ..
-cd ..
-ls -1
-ls -d -1
-ls -1d
-ls -1 -d
-ls -1 -d */
-echo */
-tar
-tar --usage
-tar --help
-tar --help | more
-cd ../g/Game\ Setups/Hitman.Absolution-SKIDROW/New\ folder/Mother/
-pwd
-./zipAll.sh
-./zipAll.sh
-./zipAll.sh
-./zipAll.sh
-./zipAll.sh
-./zipAll.sh
-./zipAll.sh
-./zipAll.sh
-tar -zcxf Abno\ Madams\ 2/.zip Abno\ Madams\ 2/
-tar -zcvf Abno\ Madams\ 2/.zip Abno\ Madams\ 2/
-./zipAll.sh
-cd ../../..
-cd h
-ls
-tar -tzf Stage1_Articles.tgz | wc -l
-tar -tf Stage1_Articles.tgz | wc -l
-tar -tvf Stage1_Articles.tgz | wc -l
-tar -zxvf Stage1_Articles.tgz 232190
-tar -xvf Stage1_Articles.tgz 232190
-tar tf Stage1_Articles.tgz | grep 232190
-tar -xvf Stage1_Articles.tgz ./232190
-tar -xvf Stage1_Articles.tgz Stage1_Articles/232190
-cd ../../../h/WikiBanksERQ/src/java/
-grep -r . "public static void main("
-grep -r "public static void main(" .
-grep -r "public static void main(" .
-cd ../../../h
-split -b 100m Stage1_Articles.tgz "Stage1.tar.part-"
-ln 
-ln --help
-info coreutils 'ln invocation'
-info coreutils ln
-rsync
-touch ftp://192.168.0.5:3721/abtv
-touch ftp://192.168.0.5:3721/abexit~#tv
-exit
-vi run.c
-gcc -o run.c 
-gcc run.c 
-./a.out
-ls
-file -f *.out
-file -f out
-file out
-ls *out
-gcc -o run.c a.e
-gcc run.c -o a.e
-./a.e
-vi run.c
-exit
-cd ../../h
-cd ../../
-../
-cd ../h
-split -b 5120m "Stage1_Articles.tgz" "Stage1_Articles.tgz.part-"
-cd ../../../g
-cd Fallout\ 4/
-grep -ir "Language" *.ini
-grep -ir "Language" *.ini
-cd ../../../
-cd h
-cd DBpedia\ DataSet/
-head -n50 infobox-properties_en.ttl
-grep -ir "Geographic Names Information System" ./infobox-properties_en.ttl | more
-grep -ir "GNIS" ./infobox-properties_en.ttl | more
-grep -ir "GNIS>" ./infobox-properties_en.ttl | more
-qqq
-grep -ir "Geographic_Names_Information_System" ./infobox-properties_en.ttl | more
-q
-cd ../../../
-cd  h/Softwares/hadoop-2.7.1.tar/hadoop-2.7.1/share/hadoop
-grep -ir "
-Ahmed@Yin ~
-$ cd ../../../
-
-Ahmed@Yin /cygdrive
-$ cd  h/Softwares/hadoop-2.7.1.tar/hadoop-2.7.1/share/hadoop
-
-Ahmed@Yin /cygdrive/h/Softwares/hadoop-2.7.1.tar/hadoop-2.7.1/share/hadoop
-$ grep -ir "
-grep -ir "org.apache.hadoop.conf" .
-grep -ir "org.apache.hadoop.conf" . | more
-cd ../../../h
-cd Stage1_Subset/
-cd Stage1_Articles/
-grep -i "REDIRECT" .
-grep -ir REDIRECT .
-grep -ir "REDIRECT" .
-grep -ir "REDIRECT" . | more
-vi 11441973
-ls | more
-exit
-cd ../../../h/NBProject/identifying-relations-for-erq/Splitter/
-ls
-cd ../../../../../
-cd cygdrive/h/Stage1_Subset/
-ls
-man cp
-cp -rv Stage1_Articles/ ../NBProject/identifying-relations-for-erq/Splitter/Stag
-cd ../../../h/Stage1_Subset/Partaa/Index
-grep -r "SS" .
-exit
-cd ../../../h
-head -n20 Stage1_Articles-list.txt 
-ls -1 | wc -1
-ls -1 | wc -l
-ls
-ls -1 | wc -l
-cd ../../../h/DBpedia\ DataSet/Stage1_Articles/
-ls -1 | wc -l
-ls -1 | wc -l
-ls -1 | wc -1
-wc --help
-ls -1 | wc -l
-ls -l | wc -l
-ls -l
-cd Stage1_Articles/
-ls
-ls -l | wc -l
-cd ../../../h/DBpedia\ DataSet/Stage1_Articles/Stage1_Articles/
-ls
-ls | more
-cd ../../../h/DBpedia\ DataSet/Stage1_Articles/
-cd content/
-head -n20 0
-head -n1 0
-head -n1 0 | more
-cd ../infobox/
-head -n1 0 | more
-head -n4 0 | more
-exit
-cd ../../../h/DBpedia\ DataSet/Stage1_Articles/content/
-tail -n1 0
-tail -n1 6609
-tail -n1 257257
-tail -n1 285543
-ls
-man ls
-ls -ls
-ls -l
-ls -s
-ls -1s
-ls -1s | awk '$1>1199489'
-ls -1s | awk '$0>1199489'
-ls -1s | awk '$0<0'
-ls -1s | awk '$2<81920'
-man awk
-cd ..
-ls -1s
-ls -1s | awk '$2<81920'
-ls -1s | awk '$1<81920'
-cd content/
-ls -1s | grep 1047289
-ls -1s | awk '$1<99'
-ls -1s | awk '$1<99' | tail -n1 | more
-ls -1s | awk '$1<99'
-ls -1s | awk '$1<99' | tail -n1 $2
-ls -1s | awk '$1<99'
-man ls
-ls -1s | awk '$1<99'
-ls -1s | as=$(awk '$1<99') | tail -
-ls -1s | awk '$1<99'
-ls -1s | as=$(awk '$1<99') | echo $as
-aa=$(ls -1s | awk '$1<99')
-aa
-$aa
-
-awk $aa>99
-awk $aa%2>99
-ls -1s | awk '$1<99'
-tail -n1 1047289
-tail -n1 1139486
-tail -n1 1158025
-tail -n1 1180341
-tail -n1 358761
-tail -n1 513736
-cd ../../../h
-cd "DBpedia DataSet/Stage1_Articles/0 to 14L/content_1"
-head -n2 0 | more
 cd ../../../h/DBpedia\ DataSet/Stage1_Articles/14Lto/content/
 cd content_11
 tail -n1 6888340 
@@ -498,3 +286,215 @@ d
 which cat
 man which
 man sort
+rcs
+man rcs
+pwd
+ls
+vi alarm.c
+man co
+co -l alarm.c
+co -l ALgorithm
+co -l ALgorithms
+co -l Algorithms
+co -l Algorithms/
+cd Algorithms/
+mkdir RCS
+man 1 co
+ls
+vi brute.c
+vi brute.c
+vi brute.c
+vi rcsSample
+ls -og
+ci -u sample.c 
+ls -og
+rlog
+rlog ./sample.c 
+vi sample.c 
+vi sample.c 
+ci -u ./sample.c 
+ci -u ./sample.c 
+rcsdiff ./sample.c 
+man man
+man 2']
+man 2
+whatis fifo
+man fifo
+man dup
+wan wait
+man
+man man
+history
+history | more
+sleep 10
+pstree
+time sleep 10
+gcc redStr.c -o r.e
+./r.e
+./r.e
+./r.e
+baab
+./r.e
+gcc redStr.c -o r.e
+./r.e
+./r.e
+gcc redStr.c -o r.e
+./r.e
+./r.e
+exit
+mvn
+cd ../
+cd ../../c/Users/Ahmed/Downloads/clue-master/clue-master/bin
+./clue.sh my-idx
+java -version
+$JAVA_HOME
+echo $JAVA_HOME
+cd ../
+ftp localhost
+ftp localhost
+man select
+man select
+man help
+man ls
+man printf
+apt-get install manpages-dev
+cyg-get install manpages-dev
+man fifo
+git clone git://git.gnome.org/libxml2
+lex
+yacc
+bison
+bison -version
+bison --version
+lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+export http_proxy=http://edcguest:edcguest@172.31.103.29:3128/
+lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+export http_proxy=
+http_proxy
+lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+$?
+echo $?
+install apt-cyg /bin
+echo $?
+apt-cyg install lex
+apt-cyg install bash
+apt-cyg -help
+apt-cyg install bison
+apt-cyg install lex
+lex
+apt-cyg install flex
+man fork
+kill -l
+man 7 signal
+ssh
+ssh 172.31.91.142
+ssh 172.31.91.142
+cd /var
+cd lag
+cd log
+ls
+ssh Yin
+iptables -h
+iptabels -h
+exit
+cd ../../MTech/ADS
+gcc bplus.c -o b.e
+gcc bplus.c -o b.e
+gcc bplus.c -o b.e
+gcc bplus.c -o b.e
+gcc bplus.c -o b.e
+gcc bplus.c -o b.e
+gcc bplus.c -o b.e
+gcc bplus.c -o b.e
+gcc bplus.c -o b.e
+gcc bplus.c -o b.e
+gcc bplus.c -o b.e
+gcc bplus.c -o b.e
+./b.e
+gcc -g bplus.c -o b.e
+gcc bplus.c -o b.e -g
+gcc bplus.c -g -o b.e
+gcc bplus.c -g -o b.e
+gcc bplus.c -g -o b.e
+gcc bplus.c -g -o b.e
+gcc bplus.c -g -o b.e
+./b.e
+gcc bplus.c -g -o b.e
+./b.e
+gcc bplus.c -g -o b.e
+gcc bplus.c -g -o b.e
+gcc bplus.c -g -o b.e
+./b.e
+gcc bplus.c -g -o b.e
+./b.e
+gcc bplus.c -g -o b.e
+./b.e
+gcc bplus.c -g -o b.e
+./b.e
+cd ../../MTech/ADS
+gcc bplus.c -g -o b.e
+gcc bplus.c -g -o b.e
+gcc bplus.c -g -o b.e
+./b.e
+gcc bplus.c -g -o b.e
+./b.e
+gcc bplus.c -g -o b.e
+./b.e
+gcc bplus.c -g -o b.e
+./b.e
+./b.e
+1
+1
+3
+1
+5
+1
+7
+1
+9
+1
+11
+1
+./b.e
+cd ../../MTech/ADS
+gcc bplus.c -g -o b.e
+./b.e
+./b.e
+gcc bplus.c -g -o b.e
+./b.e
+ssh localhost
+ssh localhost
+ssh localhost
+wget
+ssh 172.31.91.142 33
+pwd
+mv .ssh/known_hosts .ssh/known_hosts1
+ssh 172.31.91.142 33
+man ssh
+ssh vulcan:123456@172.31.91.142 33
+ssh vulcan@172.31.91.142 33
+man ssh
+ssh -p 33 vulcan@172.31.91.142 33
+ssh -p 33 vulcan@172.31.91.142 33
+ssh -p 33 vulcan@172.31.91.142
+pwd
+gcc bst1.c -o b.e
+./b.e
+gcc bst1.c -o b.e
+./b.e
+gcc bst1.c -o b.e
+./b.e
+gcc bst1.c -o b.e
+./b.e
+gcc bst1.c -o b.e
+./b.e
+gcc bst1.c -o b.e
+./b.e
+./b.e
+./b.e
+gcc bst1.c -o b.e
+./b.e
+gcc bst1.c -o b.e
+./b.e
+gcc bst1.c -o b.e
+./b.e

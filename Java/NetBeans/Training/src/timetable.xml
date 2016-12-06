@@ -1,0 +1,144 @@
+<?xml-stylesheet type="text/dtd"?>
+<!DOCTYPE TIMETABLE SYSTEM "timetable.dtd">
+<!--XML Schema for Class timetable. Include timetable of all departments -->
+<TIMETABLE>
+    <DEPARTMENT DepartmentName="CSED">
+        <BRANCH BranchName="CSE">
+            <DAY ID="Monday">
+                <LECTURE>
+                    <Professor Name="GF17"/>
+                    <StartTime>0800</StartTime>
+                    <EndTime>1000</EndTime>
+                    <Subject>CS2101</Subject>
+                    <Room>"LH3"</Room>
+                </LECTURE>
+                    
+                <LECTURE>
+                    <Professor Name="Prof. RS Yadav"/>
+                    <StartTime>1100</StartTime>
+                    <EndTime>1300</EndTime>
+                    <Subject>C2116</Subject>
+                    <Room>"LH3"</Room>
+                </LECTURE>
+            </DAY>
+            
+            <DAY ID="Tuesday">
+                <LECTURE>
+                    <Professor Name="Prof. M.M.Gore+GF-16"/>
+                    <StartTime>1000</StartTime>
+                    <EndTime>1300</EndTime>
+                    <Subject>CS2151</Subject>
+                    <Room>"PG LAB"</Room>
+                </LECTURE>
+                    
+                <LECTURE>
+                    <Professor Name="Dr. Mayank Pandey"/>
+                    <StartTime>1000</StartTime>
+                    <EndTime>1300</EndTime>
+                    <Subject>CS2111</Subject>
+                    <Room>"LH3"</Room>
+                </LECTURE>
+                
+                <LECTURE>
+                    <Professor Name="Dr. D.S. Kushwaha"/>
+                    <StartTime>1000</StartTime>
+                    <EndTime>1300</EndTime>
+                    <Subject>CS2112</Subject>
+                    <Room>"LH4"</Room>
+                </LECTURE>
+            </DAY>
+            
+            <DAY ID="Wednesday">
+                <LECTURE>
+                    <Professor Name="Prof. R.S.Yadav"/>
+                    <StartTime>0900</StartTime>
+                    <EndTime>1100</EndTime>
+                    <Subject>CS2116</Subject>
+                    <Room>"LH3"</Room>
+                </LECTURE>
+                
+                <LECTURE>
+                    <Professor Name="Dr. A. K. Singh"/>
+                    <StartTime>0900</StartTime>
+                    <EndTime>1100</EndTime>
+                    <Subject>CS2114</Subject>
+                    <Room>"LH3"</Room>
+                </LECTURE>
+                
+                <LECTURE>
+                    <Professor Name="Dr. D.S. Kushwaha"/>
+                    <StartTime>1000</StartTime>
+                    <EndTime>1300</EndTime>
+                    <Subject>CS2112</Subject>
+                    <Room>"LH4"</Room>
+                </LECTURE>
+                
+                <LECTURE>
+                    <Professor Name="Dr. Mayank Pandey"/>
+                    <StartTime>1000</StartTime>
+                    <EndTime>1300</EndTime>
+                    <Subject>CS2111</Subject>
+                    <Room>"LH3"</Room>
+                </LECTURE>
+                
+            </DAY>
+            
+            <DAY ID="Thursday">
+                <LECTURE>
+                    <Professor Name="Prof. M.M.Gore+GF-16"/>
+                    <StartTime>1000</StartTime>
+                    <EndTime>1300</EndTime>
+                    <Subject>CS2151</Subject>
+                    <Room>"PG LAB"</Room>
+                </LECTURE>
+                
+                <LECTURE>
+                    <Professor Name="Dr. A. K. Singh"/>
+                    <StartTime>1600</StartTime>
+                    <EndTime>1800</EndTime>
+                    <Subject>CS2114</Subject>
+                    <Room>"LH3"</Room>
+                </LECTURE>
+            </DAY>
+            
+            <DAY ID="Friday">
+                <LECTURE>
+                    <Professor Name="GF17"/>
+                    <StartTime>1400</StartTime>
+                    <EndTime>1600</EndTime>
+                    <Subject>CS2101</Subject>
+                    <Room>"LH3"</Room>
+                </LECTURE>
+            </DAY>
+            
+            <LEGEND>
+                <SUBJECT>
+                    <SubjectCode>CS2101</SubjectCode>
+                    <SubjectName>"Topics in Computer Engineering"</SubjectName>
+                </SUBJECT>
+                <SUBJECT>
+                    <SubjectCode>CS2151</SubjectCode>
+                    <SubjectName>"Advance Data Structure and System Programming Lab"</SubjectName>
+                </SUBJECT>
+                <SUBJECT>
+                    <SubjectCode>CS2111</SubjectCode>
+                    <SubjectName>"Advanced Computer Network"</SubjectName>
+                </SUBJECT>
+                <SUBJECT>
+                    <SubjectCode>CS2112</SubjectCode>
+                    <SubjectName>"Distributed Computing"</SubjectName>
+                </SUBJECT>
+                <SUBJECT>
+                    <SubjectCode>CS2114</SubjectCode>
+                    <SubjectName>"Advanced Data Modeling"</SubjectName>
+                </SUBJECT>
+                <SUBJECT>
+                    <SubjectCode>CS2116</SubjectCode>
+                    <SubjectName>"Real Time &amp; Embedded Systems"</SubjectName>
+                </SUBJECT>
+            </LEGEND>
+        </BRANCH>
+    </DEPARTMENT>
+</TIMETABLE>
+        
+

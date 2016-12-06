@@ -21,26 +21,29 @@ class MangaDownloader {
         int err = 0;
         String domain = "http://www.hbrowse.com/";
         Document mainList = null;
-        final String authUser = "edcguest";
-        final String authPassword = "edcguest";
+        System.setProperty("java.net.preferIPv4Stack", "true");
+//        final String authUser = "edcguest";
+//        final String authPassword = "edcguest";
+//
+//        Authenticator.setDefault(
+//                new Authenticator() {
+//                    @Override
+//                    public PasswordAuthentication getPasswordAuthentication()
+//                    {
+//                        return new PasswordAuthentication(
+//                                authUser, authPassword.toCharArray());
+//                    }
+//                }
+//        );
+//
+//        System.setProperty("http.proxyHost", "172.31.103.29");
+//        System.setProperty("http.proxyPort", "3128");
 
-        Authenticator.setDefault(
-                new Authenticator() {
-                    @Override
-                    public PasswordAuthentication getPasswordAuthentication()
-                    {
-                        return new PasswordAuthentication(
-                                authUser, authPassword.toCharArray());
-                    }
-                }
-        );
-
-        System.setProperty("http.proxyHost", "172.31.100.30");
-        System.setProperty("http.proxyPort", "3128");
         try
         {
-            mainList = Jsoup.connect("http://www.hbrowse.com/browse/fetish/assertive_girl/rank/DESCf")
+            mainList = Jsoup.connect("http://www.hbrowse.com/browse/role/tutor/rank/DESC")
                     .cookie("thumbnails", 2 + "")
+                    .timeout(50 * 1000)
                     .get();
             //Adjusting to the new site format
 
@@ -52,7 +55,7 @@ class MangaDownloader {
         //System.out.println(" "+mainList.toString());
         Elements mangaList = mainList.getElementsByClass("browseDescription");
 
-        for (int i = 10; i < 15; i++)
+        for (int i = 0; i < 10; i++)
         {
 
             //PrintWriter writer = new PrintWriter("manga"+i, "UTF-8");
@@ -99,15 +102,19 @@ class MangaDownloader {
                     String finalUrl = imgUrl.delete(index, index + 4).toString();
                     //writer.println(finalUrl);
                     //System.out.println(finalUrl);
-                    try (InputStream in = new URL(finalUrl).openStream())
+                    while (true)
                     {
-                        System.out.println("Downloaded " + j + "c" + k + ".jpg");
-                        Files.copy(in, Paths.get(folder + "/" + j + "c" + k + ".jpg"));
-                    } catch (Exception e)
-                    {
-                        err++;
-                        e.printStackTrace();
-                        System.out.println("HAGA NA---error count: " + err + "-- " + i + " " + j + " " + k);
+                        try (InputStream in = new URL(finalUrl).openStream())
+                        {
+                            System.out.println("Downloaded " + j + "c" + k + ".jpg");
+                            Files.copy(in, Paths.get(folder + "/" + j + "c" + k + ".jpg"));
+                            break;
+                        } catch (Exception e)
+                        {
+                            err++;
+                            e.printStackTrace();
+                            System.out.println("HAGA NA---error count: " + err + "-- " + i + " " + j + " " + k);
+                        }
                     }
 
                     //alert(countChapters+"");

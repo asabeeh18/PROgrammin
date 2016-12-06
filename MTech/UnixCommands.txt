@@ -27,3 +27,5 @@ cat
 touch
 clear
 sort
+rcs
+make

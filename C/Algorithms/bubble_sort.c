@@ -14,5 +14,5 @@ void sort(int [] ser)
 				ser[j+1]=t;
 			}
         }
-    }  
+    }
 }

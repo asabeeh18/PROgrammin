@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT TIMETABLE (DEPARTMENT)>
+<!ELEMENT DEPARTMENT (BRANCH*)>
+<!ATTLIST DEPARTMENT DepartmentName CDATA "">
+<!ELEMENT BRANCH (DAY*,LEGEND)>
+<!ELEMENT LEGEND (SUBJECT*)>
+<!ELEMENT SUBJECT (SubjectCode,SubjectName)>
+<!ELEMENT SubjectCode (#PCDATA)>
+<!ELEMENT SubjectName (#PCDATA)>
+<!ATTLIST BRANCH BranchName CDATA "">
+<!ELEMENT DAY (LECTURE*)>
+<!ATTLIST DAY ID CDATA "">
+<!ELEMENT LECTURE (Professor,StartTime,EndTime,Subject,Room)>
+<!ELEMENT Professor (#PCDATA)>
+<!ATTLIST Professor Name CDATA "">
+<!ELEMENT StartTime (#PCDATA)>
+<!ELEMENT EndTime (#PCDATA)>
+<!ELEMENT Subject (#PCDATA)>
+<!ELEMENT Room (#PCDATA)>
