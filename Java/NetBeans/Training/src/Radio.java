@@ -15,6 +15,7 @@ public class Radio {
         }
         
         Arrays.sort(x);
+        
         int t = k, count = 0;//t is remaining length of radius count is no. of transmitters
         for (int i = 0; i < n; i++)
         {

@@ -1,319 +1,167 @@
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.*;
 
-public class BotCleanPartial {
+public class BotCleanPartial
+{
 
     static boolean visited[][] = new boolean[5][5];
     static ArrayDeque<Integer> dq = new ArrayDeque<>();
-    static char boardReal[][];
-    static BufferedWriter bw;
 
-    static int bfsNearest(int r, int c, char[][] board)
+    static String bfsNearest(int r, int c, String[] board)
     {
-        for (int i = 0; i < 5; i++)
-        {
-            Arrays.fill(visited[i], false);
-        }
-        dq.clear();
-        if (r != 0 && c != 0 && !visited[r - 1][c - 1])
-        {
-            dq.add(((r - 1) * 10 + c - 1));
-        }
-        if (r != 0 && !visited[r - 1][c])
-        {
-            dq.add(((r - 1) * 10 + c));
-        }
-        if (r != 0 && c != 4 && !visited[r - 1][c + 1])
-        {
-            dq.add(((r - 1) * 10 + c + 1));
-        }
-        if (c != 0 && !visited[r][c - 1])
-        {
-            dq.add(r * 10 + c - 1);
-        }
-        if (c != 4 && !visited[r][c + 1])
-        {
-            dq.add(r * 10 + c + 1);
-        }
-        if (r != 0 && c != 0 && !visited[r - 1][c - 1])
-        {
-            dq.add((r - 1) * 10 + c - 1);
-        }
-        if (r != 4 && !visited[r + 1][c])
-        {
-            dq.add((r + 1) * 10 + c);
-        }
-        if (c != 4 && r != 4 && !visited[r + 1][c + 1])
-        {
-            dq.add((r + 1) * 10 + c + 1);
-        }
-
-        while (!dq.isEmpty())
-        {
-            int a = dq.remove();
-            r = a / 10;
-            c = a % 10;
-            visited[r][c] = true;
-            if (board[r][c] == 'd')
-            {
-                return a;
-            }
-            if (r != 0 && c != 0 && !visited[r - 1][c - 1])
-            {
-                dq.add(((r - 1) * 10 + c - 1));
-            }
-            if (r != 0 && !visited[r - 1][c])
-            {
-                dq.add(((r - 1) * 10 + c));
-            }
-            if (r != 0 && c != 4 && !visited[r - 1][c + 1])
-            {
-                dq.add(((r - 1) * 10 + c + 1));
-            }
-            if (c != 0 && !visited[r][c - 1])
-            {
-                dq.add(r * 10 + c - 1);
-            }
-            if (c != 4 && !visited[r][c + 1])
-            {
-                dq.add(r * 10 + c + 1);
-            }
-            if (r != 0 && c != 0 && !visited[r - 1][c - 1])
-            {
-                dq.add((r - 1) * 10 + c - 1);
-            }
-            if (r != 4 && !visited[r + 1][c])
-            {
-                dq.add((r + 1) * 10 + c);
-            }
-            if (c != 4 && r != 4 && !visited[r + 1][c + 1])
-            {
-                dq.add((r + 1) * 10 + c + 1);
-            }
-        }
-        return -1;
-    }
-
-    static void reset(int posr, int posc, char[][] board)
-    {
-        int r, c;
-        //11 13 33 31
+        //std values 1,0 11 12 13 23 33 32 31 30
         int[][] points = new int[][]
         {
             {
+                1, 0
+            },
+            {
                 1, 1
+            },
+            {
+                1, 2
             },
             {
                 1, 3
             },
             {
+                2, 3
+            },
+            {
                 3, 3
+            },
+            {
+                3, 2
             },
             {
                 3, 1
             },
+            {
+                3, 0
+            }
         };
-        double min = Double.MAX_VALUE, dist, xdist, ydist;
-        int index = 0;
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < points.length; i++)
         {
-            xdist = Math.abs(posr - points[i][0]);
-            ydist = Math.abs(posc - points[i][1]);
-            dist = Math.sqrt(xdist * xdist + ydist * ydist);
-            if (min > dist)
+            if (r == points[i][0] && c == points[i][1])
             {
-                min = dist;
-                index = i;
+                break;
             }
-        }
-        r = points[index][0];
-        c = points[index][1];
-        if (posr > r)
-        {
-            System.out.println("UP");
-        } else if (posr < r)
-        {
-            System.out.println("DOWN");
-        } else if (posc < c)
-        {
-            System.out.println("RIGHT");
-        } else if (posc > c)
-        {
-            System.out.println("LEFT");
-        }
-
-    }
-
-    static void next_move(int posr, int posc, char[][] board)
-    {
-        int a = bfsNearest(posr, posc, board);
-        if (a == -1)
-        {
-            boolean flag = false;
-            int index = 0;
-            //define a clockwise path
-            int[][] points = new int[][]
+            //last iteration...reset me
+            if (i == points.length - 1)
             {
+                if ((r == 0 || r == 4) && c == 3)
                 {
-                    1, 1
-                },
+                    //special case of corner
+                    if (board[r].charAt(c + 1) == 'd')
+                    {
+                        return "RIGHT";
+                    }
+                    else
+                    {
+                        if (r == 4)
+                        {
+                            return "UP";
+                        } else
+                        {
+                            return "DOWN";
+                        }
+
+                    }
+                } else
                 {
-                    1, 2
-                },
-                {
-                    1, 3
-                },
-                {
-                    2, 3
-                },
-                {
-                    3, 3
-                },
-                {
-                    3, 2
-                },
-                {
-                    3, 1
-                },
-            };
-            System.err.println("NOT FOUND");
-            
-            //check if bot at one of predefined paths
-            for (int i = 0; i < points[0].length; i++)
-            {
-                if (posr == points[i][0] && posc == points[i][1])
-                {
-                    flag = true;
-                    index = i;
-                    break;
+                    if (r == 4)
+                    {
+                        return "UP";
+                    } else if (r == 0)
+                    {
+                        return "DOWN";
+                    } else if (r == 2 && c < 3)
+                    {
+                        return "UP";
+                    } else //if (c == 4 && r > 0 && r < 4)
+                    {
+                        return "LEFT";
+                    }
                 }
             }
-            if (!flag)
+        }
+        //if r,c != std values
+        //move up/down/left(right edge) to std r,c
+        //if r,c is 0,3 check right before resetting
+        //else
+        //we are in standard position
+        if (c == 3)
+        {
+            //for the turn
+            for (int i = 1; i <= 3; i++)
             {
-                reset(posr, posc, board);
-            } 
-            else
-            {
-                //move clockwise
-                int r = points[index + 1][0];
-                int c = points[index + 1][1];
-                if (posr > r)
+                if (board[i].charAt(c + 1) == 'd')
                 {
-                    System.out.println("UP");
-                } else if (posr < r)
-                {
-                    System.out.println("DOWN");
-                } else if (posc < c)
-                {
-                    System.out.println("RIGHT");
-                } else if (posc > c)
-                {
-                    System.out.println("LEFT");
+                    return "RIGHT";
                 }
             }
-        } 
-        //move towards dirty
+            //diagonals
+            if (r == 1 || r == 3)
+            {
+                if (board[0].charAt(4) == 'd')
+                {
+                    return "UP";
+                }
+                if (board[4].charAt(4) == 'd')
+                {
+                    return "DOWN";
+                }
+            }
+        }
+        if (r != 3 && board[r - 1].charAt(c) == 'd')
+        {
+            return "UP";
+        } else if (board[r + 1].charAt(c) == 'd')
+        {
+            return "DOWN";
+        } //check for dirt nearby:up down right,diagonal(in corners)
+        //move towards dirt
+        //no dirt: GG
         else
         {
-            int r = a / 10, c = a % 10;
-            if (board[posr][posc] == 'd')
+            if (r == 1 || r == 2)
             {
-                System.out.println("CLEAN");
-                board[posr][posc]='-';
-            } else if (posr > r)
+                if (c == 3)
+                {
+                    return "DOWN";
+                }
+                return "RIGHT";
+            } else
             {
-                System.out.println("UP");
-            } else if (posr < r)
-            {
-                System.out.println("DOWN");
-            } else if (posc < c)
-            {
-                System.out.println("RIGHT");
-            } else if (posc > c)
-            {
-                System.out.println("LEFT");
+                return "LEFT";
             }
+
         }
     }
 
-    public static void main(String[] args) throws IOException
+    static void next_move(int posr, int posc, String[] board)
+    {
+        if (board[posr].charAt(posc) == 'd')
+        {
+            System.out.println("CLEAN");
+            return;
+        }
+        System.out.println(bfsNearest(posr, posc, board));
+    }
+
+    public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);
-        
-        //CHeck if old file exists
-        try (BufferedReader br = new BufferedReader(new FileReader(new File("board"))))
-        {
-            String s;
-            boardReal=new char[5][5];
-            for (int i = 0; i < 5; i++)
-            {
-                s=br.readLine();
-                for(int j=0;i<5;j++)
-                {
-                    boardReal[i][j] = s.charAt(j);
-                }
-                
-            }
-            br.close();
-        }
-        //or else create it
-        catch (FileNotFoundException e)
-        {
-            boardReal=new char[5][5];
-            for (int i = 0; i < 5; i++)
-            {
-                for(int j=0;j<5;j++)
-                {
-                    boardReal[i][j] = 'o';
-                }
-                
-            }
-        }
         int[] pos = new int[2];
-        char board[][] = new char[5][5];
+        String board[] = new String[5];
         for (int i = 0; i < 2; i++)
         {
             pos[i] = in.nextInt();
         }
         for (int i = 0; i < 5; i++)
         {
-                String s=in.next();
-                for(int j=0;j<5;j++)
-                {
-                    board[i][j] = s.charAt(j);
-                }
+            board[i] = in.next();
         }
-
-        //put new input in the old i/p collected so far
-        for (int i = 0; i < 5; i++)
-        {
-            for (int j = 0; j < 5; j++)
-            {
-                if (boardReal[i][j]=='o' && board[i][j]!='o')
-                {
-                    boardReal[i][j]=board[i][j];
-                }
-            }
-        }
-
-        //write ti file for next time
-        bw = new BufferedWriter(new FileWriter(new File("boardw")));
-        for(int i=0;i<5;i++)
-        {
-            for(int j=0;j<5;j++)
-            {
-                bw.write(boardReal[i][j]);
-            }
-            bw.write("\n");
-        }
-        bw.close();
-        next_move(pos[0], pos[1], boardReal);
+        next_move(pos[0], pos[1], board);
     }
 }
