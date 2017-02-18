@@ -8,7 +8,7 @@ class Hangover
     {
         Scanner r=new Scanner(System.in);
         double d=r.nextDouble();
-        while((int)d!=0)
+        while(d!=0.0d)
         {
             double sum=0;
             int i=2;
@@ -17,7 +17,7 @@ class Hangover
                 sum+=1.0/i;
                 i++;
             }
-            System.out.println(i+" card(s)");
+            System.out.println((i-2)+" card(s)");
             d=r.nextDouble();
         }
     }
